@@ -206,7 +206,7 @@ class GeoApp(QMainWindow):
             print(f"\n[geocode] Postal code: {address}, coordinates: ({location.latitude}, {location.longitude})")
             return location
         else:
-            # can introduce fallback in the future
+            # can introduce fallback in the future (alternative APIs or geocoding services)
             print(f"\nPostal code: {address}, Latitude and Longitude not found")
             return None
         
