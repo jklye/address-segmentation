@@ -7,6 +7,7 @@ import numpy as np
 import spacy
 
 import folium
+from folium.features import DivIcon
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox, QHBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
@@ -235,6 +236,22 @@ class GeoApp(QMainWindow):
         self.add_polyline_to_map(m, df, latitude, longitude)
 
         return m
+    
+
+    def get_marker_colour(self, num_addresses):
+        """
+        Get the marker color based on the number of addresses at a location.
+
+        Args:
+            num_addresses (int): The number of addresses at the location.
+
+        Returns:
+            str: The marker color.
+        """
+        if num_addresses > 1:
+            return 'darkblue'
+        else:
+            return 'blue'
 
 
     def add_markers_to_map(self, m, df, latitude, longitude):
@@ -247,19 +264,24 @@ class GeoApp(QMainWindow):
             latitude (float): The latitude of the user location.
             longitude (float): The longitude of the user location.
         """
-        address_groups = df.groupby(['latitude', 'longitude'])['address'].apply(list).reset_index()
-        for _, group in address_groups.iterrows():
-            lat, lng = group['latitude'], group['longitude']
-            addresses = group['address']
+        address_groups = df.groupby(['latitude', 'longitude'])
+        for _, group in address_groups:
+            lat, lng = group['latitude'].iloc[0], group['longitude'].iloc[0]
+            addresses = group['address'].tolist()
             popup_content = "<br><br>".join(addresses)
 
             # Calculate the distance from the input location
             distance_from_input = distance.distance((latitude, longitude), (lat, lng)).km
-            popup_content += f"<br><br>Distance from input: {distance_from_input:.2f} km"
+            popup_content += f"<br><br>Distance from input: {distance_from_input:.3f} km"
 
-            folium.Marker(location=[lat, lng],
-                        popup=folium.Popup(popup_content, max_width=250),
-                        icon=folium.Icon(icon='fa-location-dot', color='blue')).add_to(m)
+            marker_colour = self.get_marker_colour(len(addresses))
+
+            folium.Marker(
+                location=[lat, lng],
+                popup=folium.Popup(popup_content, max_width=250),
+                icon=folium.Icon(icon='fa-location-dot', color=marker_colour)
+            ).add_to(m)
+
 
 
     def add_input_marker_to_map(self, m, input_address, latitude, longitude):
@@ -274,7 +296,7 @@ class GeoApp(QMainWindow):
         """
         folium.Marker(location=[latitude, longitude],
                     popup=folium.Popup(input_address, max_width=250),
-                    icon=folium.Icon(icon='fa-location-dot', color='green')).add_to(m)
+                    icon=folium.Icon(icon='fa-location-dot', color='red')).add_to(m)
 
 
     def add_proximity_circle_to_map(self, m, latitude, longitude, proximity_threshold):
@@ -295,37 +317,9 @@ class GeoApp(QMainWindow):
                     fill_opacity=0.2).add_to(m)
 
 
-    def add_nearest_location_marker_to_map(self, m, df, latitude, longitude):
-        """
-        Add a marker for the nearest location to the map.
-
-        Args:
-            m (folium.Map): The Folium map.
-            df (pandas.DataFrame): The filtered locations DataFrame.
-            latitude (float): The latitude of the user location.
-            longitude (float): The longitude of the user location.
-        """
-        nearest_location = df.iloc[0]  # Assuming the DataFrame is sorted by proximity (we sort it in the filter_locations() method)
-        nearest_address = nearest_location['address']
-        nearest_latitude = nearest_location['latitude']
-        nearest_longitude = nearest_location['longitude']
-
-        popup_content = nearest_address
-
-        # Calculate the distance from the input location
-        distance_from_input = distance.distance((latitude, longitude), (nearest_latitude, nearest_longitude)).km
-        popup_content += f"<br><br>*Closest proximity to input*<br>Distance from input: {distance_from_input:.2f} km"
-
-        folium.Marker(
-            location=[nearest_latitude, nearest_longitude],
-            popup=folium.Popup(popup_content, max_width=250),
-            icon=folium.Icon(icon='fa-location-dot', color='red')
-        ).add_to(m)
-
-
     def add_polyline_to_map(self, m, df, latitude, longitude):
         """
-        Add a polyline to the map.
+        Add a polyline to the map, connecting the input location and the location closest to it.
 
         Args:
             m (folium.Map): The Folium map.
@@ -334,16 +328,17 @@ class GeoApp(QMainWindow):
             longitude (float): The longitude of the user location.
         """
         if df is not None and not df.empty:
-            nearest_location = df.iloc[0]  # Assuming the DataFrame is sorted by proximity (we sort it in the filter_locations() method)
-            nearest_latitude = nearest_location['latitude']
-            nearest_longitude = nearest_location['longitude']
+            nearest_locations = df[df['proximity'] == df['proximity'].min()]  # Find all locations with the minimum proximity
+            for _, location in nearest_locations.iterrows():
+                nearest_latitude = location['latitude']
+                nearest_longitude = location['longitude']
 
-            folium.PolyLine(
-                locations=[[latitude, longitude], [nearest_latitude, nearest_longitude]],
-                color='black',
-                weight=2,
-                opacity=1.0
-            ).add_to(m)
+                folium.PolyLine(
+                    locations=[[latitude, longitude], [nearest_latitude, nearest_longitude]],
+                    color='black',
+                    weight=2,
+                    opacity=1.0
+                ).add_to(m)
 
 
     def save_folium_map(self, m, map_filepath):
@@ -381,7 +376,6 @@ class GeoApp(QMainWindow):
 
         # Filtered locations must be non-empty to add nearest location marker and polyline
         if df is not None and not df.empty:
-            self.add_nearest_location_marker_to_map(m, df, latitude, longitude)
             self.add_polyline_to_map(m, df, latitude, longitude)
 
         print("Map generated!\n")

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a8c2a30c7bf3285147d983f8723025e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a8c2a30c7bf3285147d983f8723025e3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a8c2a30c7bf3285147d983f8723025e3 = L.map(
+                "map_a8c2a30c7bf3285147d983f8723025e3",
+                {
+                    center: [1.3002767464285714, 103.84500991071428],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_01eb3e1cdeb84f4a6865530140abef7a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var marker_26fa08722b916a54ae4594138c4f9a5e = L.marker(
+                [1.2841812, 103.8459736],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_34a4ebb90d53bc0cd2bb64353e86d4ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26fa08722b916a54ae4594138c4f9a5e.setIcon(icon_34a4ebb90d53bc0cd2bb64353e86d4ae);
+        
+    
+        var popup_f646ecd9ef7b0930387335c62c3ffc6b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7ea51f0227c4187639972e4492186190 = $(`<div id="html_7ea51f0227c4187639972e4492186190" style="width: 100.0%; height: 100.0%;">532 #05-35 UPP CROSS STREET SINGAPORE 050532<br><br>Distance from input: 1.783 km</div>`)[0];
+                popup_f646ecd9ef7b0930387335c62c3ffc6b.setContent(html_7ea51f0227c4187639972e4492186190);
+            
+        
+
+        marker_26fa08722b916a54ae4594138c4f9a5e.bindPopup(popup_f646ecd9ef7b0930387335c62c3ffc6b)
+        ;
+
+        
+    
+    
+            var marker_5b7e553d09ecb9b77139d91ed7231749 = L.marker(
+                [1.2876157, 103.841401],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_a403ba7427f4c930df606e78ef92b955 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_5b7e553d09ecb9b77139d91ed7231749.setIcon(icon_a403ba7427f4c930df606e78ef92b955);
+        
+    
+        var popup_41870eebb9e019dde8e37bfbe848ccd2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c1c256a2a9600f72fdfb18e359d9d957 = $(`<div id="html_c1c256a2a9600f72fdfb18e359d9d957" style="width: 100.0%; height: 100.0%;">53 CHIN SWEE ROAD #24-53 SINGAPORE 160053<br><br>53 CHIN SWEE ROAD #02-31 SINGAPORE 160053<br><br>Distance from input: 1.456 km</div>`)[0];
+                popup_41870eebb9e019dde8e37bfbe848ccd2.setContent(html_c1c256a2a9600f72fdfb18e359d9d957);
+            
+        
+
+        marker_5b7e553d09ecb9b77139d91ed7231749.bindPopup(popup_41870eebb9e019dde8e37bfbe848ccd2)
+        ;
+
+        
+    
+    
+            var marker_6d9ca672c290f3962625a1ee385c764c = L.marker(
+                [1.2949586333333334, 103.85397338333334],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_56804d9cf35fba7b24a99ff162762ac8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_6d9ca672c290f3962625a1ee385c764c.setIcon(icon_56804d9cf35fba7b24a99ff162762ac8);
+        
+    
+        var popup_32be71972459841ba5cc6581b3aa5529 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4b5a88ea2cbc4c779692819178ca8e9e = $(`<div id="html_4b5a88ea2cbc4c779692819178ca8e9e" style="width: 100.0%; height: 100.0%;">1 #10-31 RAFFLES HOTEL SINGAPORE BEACH ROAD SINGAPORE 189673<br><br>1 RAFFLES HOTEL SINGAPORE BEACH ROAD #12-63 SINGAPORE 189673<br><br>Distance from input: 1.158 km</div>`)[0];
+                popup_32be71972459841ba5cc6581b3aa5529.setContent(html_4b5a88ea2cbc4c779692819178ca8e9e);
+            
+        
+
+        marker_6d9ca672c290f3962625a1ee385c764c.bindPopup(popup_32be71972459841ba5cc6581b3aa5529)
+        ;
+
+        
+    
+    
+            var marker_f5f1c14abb0fb1cd3b998bb6f98504df = L.marker(
+                [1.2968006, 103.8539024],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_887df5bb8dda08302f8c98bf46189ee0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5f1c14abb0fb1cd3b998bb6f98504df.setIcon(icon_887df5bb8dda08302f8c98bf46189ee0);
+        
+    
+        var popup_1f7f9c2c59498d3dd7f1a3e88456f093 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_087c8e77a56f2675f30617800692e26c = $(`<div id="html_087c8e77a56f2675f30617800692e26c" style="width: 100.0%; height: 100.0%;">233 BAIN STREET #05-82 BRAS BASAH COMPLEX SINGAPORE 180233<br><br>Distance from input: 1.062 km</div>`)[0];
+                popup_1f7f9c2c59498d3dd7f1a3e88456f093.setContent(html_087c8e77a56f2675f30617800692e26c);
+            
+        
+
+        marker_f5f1c14abb0fb1cd3b998bb6f98504df.bindPopup(popup_1f7f9c2c59498d3dd7f1a3e88456f093)
+        ;
+
+        
+    
+    
+            var marker_2a3c9a56915c3fae76678f1cdfa14afb = L.marker(
+                [1.2996117, 103.8593225],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_53a273541c17cc0d6ea485c16ce7947d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a3c9a56915c3fae76678f1cdfa14afb.setIcon(icon_53a273541c17cc0d6ea485c16ce7947d);
+        
+    
+        var popup_827e2a87e5bedaf44facd4bfb34dd2c6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d0c7569645acb3246d9ab8140bd1816d = $(`<div id="html_d0c7569645acb3246d9ab8140bd1816d" style="width: 100.0%; height: 100.0%;">15 BEACH CENTRE #19-02 BEACH ROAD SINGAPORE 189677<br><br>Distance from input: 1.595 km</div>`)[0];
+                popup_827e2a87e5bedaf44facd4bfb34dd2c6.setContent(html_d0c7569645acb3246d9ab8140bd1816d);
+            
+        
+
+        marker_2a3c9a56915c3fae76678f1cdfa14afb.bindPopup(popup_827e2a87e5bedaf44facd4bfb34dd2c6)
+        ;
+
+        
+    
+    
+            var marker_35793f58cd10d30ecc41c5e558b328ea = L.marker(
+                [1.3009377, 103.8539811],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_ec925f96edead9129b6e7fd3446a1d12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35793f58cd10d30ecc41c5e558b328ea.setIcon(icon_ec925f96edead9129b6e7fd3446a1d12);
+        
+    
+        var popup_4db3312df1e1f6ea8582e24443429224 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a950643cde99a49fd4f42d12a716d7be = $(`<div id="html_a950643cde99a49fd4f42d12a716d7be" style="width: 100.0%; height: 100.0%;">271 QUEEN STREET #07-40 SINGAPORE 180271<br><br>Distance from input: 1.001 km</div>`)[0];
+                popup_4db3312df1e1f6ea8582e24443429224.setContent(html_a950643cde99a49fd4f42d12a716d7be);
+            
+        
+
+        marker_35793f58cd10d30ecc41c5e558b328ea.bindPopup(popup_4db3312df1e1f6ea8582e24443429224)
+        ;
+
+        
+    
+    
+            var marker_b4f169c245954273cf730a594c14680e = L.marker(
+                [1.3031182333333333, 103.85295795],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_0318bc63969ec30805308a3c3288c5d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4f169c245954273cf730a594c14680e.setIcon(icon_0318bc63969ec30805308a3c3288c5d1);
+        
+    
+        var popup_d447c048b22afd899ca730a39880923f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_52bd40dae4492f6df3158fef86d8e985 = $(`<div id="html_52bd40dae4492f6df3158fef86d8e985" style="width: 100.0%; height: 100.0%;">1 ROCHOR CANAL ROAD SIM LIM SQUARE #3-26 SINGAPORE 188504<br><br>Distance from input: 0.939 km</div>`)[0];
+                popup_d447c048b22afd899ca730a39880923f.setContent(html_52bd40dae4492f6df3158fef86d8e985);
+            
+        
+
+        marker_b4f169c245954273cf730a594c14680e.bindPopup(popup_d447c048b22afd899ca730a39880923f)
+        ;
+
+        
+    
+    
+            var marker_3cade4a872c22510fc83dc8632b51c95 = L.marker(
+                [1.30452585, 103.86089245],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_11a5256e9f2fa740570699d32c4c93ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_3cade4a872c22510fc83dc8632b51c95.setIcon(icon_11a5256e9f2fa740570699d32c4c93ca);
+        
+    
+        var popup_3b70fa1ddb4bba3795f0704b9f57ec59 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7265de64b1dfc00c99ff07e5b5bf381f = $(`<div id="html_7265de64b1dfc00c99ff07e5b5bf381f" style="width: 100.0%; height: 100.0%;">462 CRAWFORD LANE #02-54 PCF SPARKLETOTS PRESCHOOL @ KAMPONG GLAM BLOCK 462 (KN) SINGAPORE 190462<br><br>462 CRAWFORD LANE #13-11 PCF SPARKLETOTS PRESCHOOL @ KAMPONG GLAM BLOCK 462 (KN) SINGAPORE 190462<br><br>462 PCF SPARKLETOTS PRESCHOOL @ KAMPONG GLAM BLOCK 462 (KN) CRAWFORD LANE #08-45 SINGAPORE 190462<br><br>Distance from input: 1.829 km</div>`)[0];
+                popup_3b70fa1ddb4bba3795f0704b9f57ec59.setContent(html_7265de64b1dfc00c99ff07e5b5bf381f);
+            
+        
+
+        marker_3cade4a872c22510fc83dc8632b51c95.bindPopup(popup_3b70fa1ddb4bba3795f0704b9f57ec59)
+        ;
+
+        
+    
+    
+            var marker_6a4a475d2b8546566c235b8ee1ffb249 = L.marker(
+                [1.3059826, 103.8573673],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_60b34cbdc971fdeda342e5a5bb8d9bf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_6a4a475d2b8546566c235b8ee1ffb249.setIcon(icon_60b34cbdc971fdeda342e5a5bb8d9bf0);
+        
+    
+        var popup_fc4632d5010c5d6173d258553f665c00 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1bdbd0b62156f862a6a3e075f1e397de = $(`<div id="html_1bdbd0b62156f862a6a3e075f1e397de" style="width: 100.0%; height: 100.0%;">28 #12-70 KELANTAN ROAD KELANTAN COURT SINGAPORE 200028<br><br>28 #02-43 KELANTAN COURT KELANTAN ROAD SINGAPORE 200028<br><br>Distance from input: 1.513 km</div>`)[0];
+                popup_fc4632d5010c5d6173d258553f665c00.setContent(html_1bdbd0b62156f862a6a3e075f1e397de);
+            
+        
+
+        marker_6a4a475d2b8546566c235b8ee1ffb249.bindPopup(popup_fc4632d5010c5d6173d258553f665c00)
+        ;
+
+        
+    
+    
+            var marker_9326a7533c0fb88f6699023fe4883f7e = L.marker(
+                [1.3063171, 103.8502323],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_886c206727d1af4b9cfe1a319b89edbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9326a7533c0fb88f6699023fe4883f7e.setIcon(icon_886c206727d1af4b9cfe1a319b89edbe);
+        
+    
+        var popup_9ef5534b4da39e1234e881bc000618fb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_27dde5ee02b6088485f864f72b3a55f9 = $(`<div id="html_27dde5ee02b6088485f864f72b3a55f9" style="width: 100.0%; height: 100.0%;">662 #08-21 BUFFALO ROAD UOB ZHUJIAO CENTRE SINGAPORE 210662<br><br>Distance from input: 0.885 km</div>`)[0];
+                popup_9ef5534b4da39e1234e881bc000618fb.setContent(html_27dde5ee02b6088485f864f72b3a55f9);
+            
+        
+
+        marker_9326a7533c0fb88f6699023fe4883f7e.bindPopup(popup_9ef5534b4da39e1234e881bc000618fb)
+        ;
+
+        
+    
+    
+            var marker_9e108c5745529679cf641743d5c8421d = L.marker(
+                [1.3065654, 103.8552914],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_05043bd4d8c1801cef57f13f6cae5031 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e108c5745529679cf641743d5c8421d.setIcon(icon_05043bd4d8c1801cef57f13f6cae5031);
+        
+    
+        var popup_8771669c5d40f22aa854ee83cab02353 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5f8bed595a2b2e9de60bfa6a104ca17c = $(`<div id="html_5f8bed595a2b2e9de60bfa6a104ca17c" style="width: 100.0%; height: 100.0%;">635 ROWELL COURT #09-42 VEERASAMY ROAD SINGAPORE 200635<br><br>Distance from input: 1.339 km</div>`)[0];
+                popup_8771669c5d40f22aa854ee83cab02353.setContent(html_5f8bed595a2b2e9de60bfa6a104ca17c);
+            
+        
+
+        marker_9e108c5745529679cf641743d5c8421d.bindPopup(popup_8771669c5d40f22aa854ee83cab02353)
+        ;
+
+        
+    
+    
+            var marker_74afcf6ea405250c440c6eb3a98b6ba2 = L.marker(
+                [1.3067682, 103.8501502],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_66a1b476974627b88bbae231aa0ae46e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74afcf6ea405250c440c6eb3a98b6ba2.setIcon(icon_66a1b476974627b88bbae231aa0ae46e);
+        
+    
+        var popup_6336d8e377e330b25e65455ebac38c0f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2465fbb9cab6e51082de99e152116ed5 = $(`<div id="html_2465fbb9cab6e51082de99e152116ed5" style="width: 100.0%; height: 100.0%;">661 ZHUJIAO CENTRE (TEKKA MARKET) #12-27 BUFFALO ROAD SINGAPORE 210661<br><br>Distance from input: 0.918 km</div>`)[0];
+                popup_6336d8e377e330b25e65455ebac38c0f.setContent(html_2465fbb9cab6e51082de99e152116ed5);
+            
+        
+
+        marker_74afcf6ea405250c440c6eb3a98b6ba2.bindPopup(popup_6336d8e377e330b25e65455ebac38c0f)
+        ;
+
+        
+    
+    
+            var marker_d4fcc6890bf66f1999204acaa0c2b846 = L.marker(
+                [1.3068515, 103.8298378],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_a4b2b86e8e656a5fe187007cc990cd65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4fcc6890bf66f1999204acaa0c2b846.setIcon(icon_a4b2b86e8e656a5fe187007cc990cd65);
+        
+    
+        var popup_9b26a1b9c8a9c49dc4dca3d7f7f6307c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0aaa8e168c5d06c952746b8f67035309 = $(`<div id="html_0aaa8e168c5d06c952746b8f67035309" style="width: 100.0%; height: 100.0%;">390 PALAIS RENAISSANCE #5-1 ORCHARD ROAD SINGAPORE 238871<br><br>Distance from input: 1.838 km</div>`)[0];
+                popup_9b26a1b9c8a9c49dc4dca3d7f7f6307c.setContent(html_0aaa8e168c5d06c952746b8f67035309);
+            
+        
+
+        marker_d4fcc6890bf66f1999204acaa0c2b846.bindPopup(popup_9b26a1b9c8a9c49dc4dca3d7f7f6307c)
+        ;
+
+        
+    
+    
+            var marker_7e2df0a57ff5a5e42b6209c0f74752a4 = L.marker(
+                [1.30693, 103.8616601],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_7c08111ecbdb695ebbfcb2604a237d8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e2df0a57ff5a5e42b6209c0f74752a4.setIcon(icon_7c08111ecbdb695ebbfcb2604a237d8e);
+        
+    
+        var popup_a0ef58cc956420360d97da060601387e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ec785e418e2a33e0e66f771d74c0d037 = $(`<div id="html_ec785e418e2a33e0e66f771d74c0d037" style="width: 100.0%; height: 100.0%;">815 LAVENDER GARDENS #01-97 JELLICOE ROAD SINGAPORE 200815<br><br>Distance from input: 1.994 km</div>`)[0];
+                popup_a0ef58cc956420360d97da060601387e.setContent(html_ec785e418e2a33e0e66f771d74c0d037);
+            
+        
+
+        marker_7e2df0a57ff5a5e42b6209c0f74752a4.bindPopup(popup_a0ef58cc956420360d97da060601387e)
+        ;
+
+        
+    
+    
+            var marker_375b77173a8bf9a804eb8a9de429c80d = L.marker(
+                [1.3070269, 103.8610373],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_42b451a92b0d3523dae1d2c6898ae542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_375b77173a8bf9a804eb8a9de429c80d.setIcon(icon_42b451a92b0d3523dae1d2c6898ae542);
+        
+    
+        var popup_e2a0a110293e58ed249620a44f7aafe7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_18ea62c378b89b91171aab5ddecf9cb8 = $(`<div id="html_18ea62c378b89b91171aab5ddecf9cb8" style="width: 100.0%; height: 100.0%;">816 LAVENDER GARDENS #08-32 JELLICOE ROAD SINGAPORE 200816<br><br>Distance from input: 1.934 km</div>`)[0];
+                popup_e2a0a110293e58ed249620a44f7aafe7.setContent(html_18ea62c378b89b91171aab5ddecf9cb8);
+            
+        
+
+        marker_375b77173a8bf9a804eb8a9de429c80d.bindPopup(popup_e2a0a110293e58ed249620a44f7aafe7)
+        ;
+
+        
+    
+    
+            var marker_5dab6f0749dd984abcbfe0072ab50bb0 = L.marker(
+                [1.307265525, 103.8337627],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_169231fe7fbc4b2d74df7a725ef66eb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5dab6f0749dd984abcbfe0072ab50bb0.setIcon(icon_169231fe7fbc4b2d74df7a725ef66eb9);
+        
+    
+        var popup_fe89942970bf010d183beb9cc00182f8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_12b04b79fbca2ec7fd7e1e1bb69329ab = $(`<div id="html_12b04b79fbca2ec7fd7e1e1bb69329ab" style="width: 100.0%; height: 100.0%;">14 #6-2 SCOTTS ROAD FAR EAST PLAZA SINGAPORE 228213<br><br>Distance from input: 1.471 km</div>`)[0];
+                popup_fe89942970bf010d183beb9cc00182f8.setContent(html_12b04b79fbca2ec7fd7e1e1bb69329ab);
+            
+        
+
+        marker_5dab6f0749dd984abcbfe0072ab50bb0.bindPopup(popup_fe89942970bf010d183beb9cc00182f8)
+        ;
+
+        
+    
+    
+            var marker_2a7389eda9943b641c1bd6682a557f45 = L.marker(
+                [1.3077529, 103.8552042],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_96f5ad11efaf80202d92679a3e7b1868 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a7389eda9943b641c1bd6682a557f45.setIcon(icon_96f5ad11efaf80202d92679a3e7b1868);
+        
+    
+        var popup_11b009ccfce99e74f5eb5c56130e9105 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_082babf1cb9813c76ef4ff240bcd5c20 = $(`<div id="html_082babf1cb9813c76ef4ff240bcd5c20" style="width: 100.0%; height: 100.0%;">639 #01-03 ROWELL ROAD SINGAPORE 200639<br><br>Distance from input: 1.404 km</div>`)[0];
+                popup_11b009ccfce99e74f5eb5c56130e9105.setContent(html_082babf1cb9813c76ef4ff240bcd5c20);
+            
+        
+
+        marker_2a7389eda9943b641c1bd6682a557f45.bindPopup(popup_11b009ccfce99e74f5eb5c56130e9105)
+        ;
+
+        
+    
+    
+            var marker_2f25cf6da9924ab4d66224fc006fee15 = L.marker(
+                [1.3080364, 103.8606268],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_f4224246cdbe951c697d2a667eb11102 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f25cf6da9924ab4d66224fc006fee15.setIcon(icon_f4224246cdbe951c697d2a667eb11102);
+        
+    
+        var popup_5e47df17d61d2c79c68724a5679758ed = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_05e9d9ebdcc68fef83e28d95dbc15e78 = $(`<div id="html_05e9d9ebdcc68fef83e28d95dbc15e78" style="width: 100.0%; height: 100.0%;">804 KING GEORGE'S AVENUE #05-30 SINGAPORE 200804<br><br>Distance from input: 1.938 km</div>`)[0];
+                popup_5e47df17d61d2c79c68724a5679758ed.setContent(html_05e9d9ebdcc68fef83e28d95dbc15e78);
+            
+        
+
+        marker_2f25cf6da9924ab4d66224fc006fee15.bindPopup(popup_5e47df17d61d2c79c68724a5679758ed)
+        ;
+
+        
+    
+    
+            var marker_0df08a164e5c1f7e7e35de50ff441952 = L.marker(
+                [1.3002767464285714, 103.84500991071428],
+                {}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var icon_d18e5a0fc478d2b25486252bf9fe429f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0df08a164e5c1f7e7e35de50ff441952.setIcon(icon_d18e5a0fc478d2b25486252bf9fe429f);
+        
+    
+        var popup_81a77a4540845be33f134c9cc49217ef = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_767d30e3d97208fdb50f5ee4bad3a52d = $(`<div id="html_767d30e3d97208fdb50f5ee4bad3a52d" style="width: 100.0%; height: 100.0%;">68 Orchard Rd, Singapore 238839</div>`)[0];
+                popup_81a77a4540845be33f134c9cc49217ef.setContent(html_767d30e3d97208fdb50f5ee4bad3a52d);
+            
+        
+
+        marker_0df08a164e5c1f7e7e35de50ff441952.bindPopup(popup_81a77a4540845be33f134c9cc49217ef)
+        ;
+
+        
+    
+    
+            var circle_8d6961c58f59291c74374ef21f454e8d = L.circle(
+                [1.3002767464285714, 103.84500991071428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var poly_line_2c5376b9e28cdd99abee6930c80c7d01 = L.polyline(
+                [[1.3002767464285714, 103.84500991071428], [1.3063171, 103.8502323]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+    
+            var poly_line_d73db215474fbbfea86715868ef39eb7 = L.polyline(
+                [[1.3002767464285714, 103.84500991071428], [1.3063171, 103.8502323]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a8c2a30c7bf3285147d983f8723025e3);
+        
+</script>
+</html>
