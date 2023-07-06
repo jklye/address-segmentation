@@ -50,14 +50,14 @@ class GeoApp(QMainWindow):
         self.input_proximity.setMaximumHeight(30)
         self.input_proximity.setPlaceholderText("E.g. 2")
 
-        self.button_ok = QPushButton("Enter")
-        self.button_ok.setFixedSize(100, 30)
-        self.button_ok.clicked.connect(self.process_user_input)
-
         self.layout.addWidget(self.label_address)
         self.layout.addWidget(self.input_address)
         self.layout.addWidget(self.label_proximity)
         self.layout.addWidget(self.input_proximity)
+
+        self.button_ok = QPushButton("Enter")
+        self.button_ok.setFixedSize(100, 30)
+        self.button_ok.clicked.connect(self.process_user_input)
 
         button_layout = QHBoxLayout()
         button_layout.addStretch()
@@ -72,6 +72,7 @@ class GeoApp(QMainWindow):
         self.central_widget.setLayout(self.layout)
         self.setCentralWidget(self.central_widget)
 
+        # Display GUI in full screen
         self.showMaximized()
 
 
@@ -102,6 +103,7 @@ class GeoApp(QMainWindow):
                 )
 
                 if not filtered_locations.empty:
+                    # Print filtered locations in console
                     self.print_addresses(filtered_locations, proximity_threshold)
                     # Display map with filtered locations
                     self.display_map(
@@ -249,7 +251,7 @@ class GeoApp(QMainWindow):
         for _, group in address_groups.iterrows():
             lat, lng = group['latitude'], group['longitude']
             addresses = group['address']
-            popup_content = "<br>".join(addresses)
+            popup_content = "<br><br>".join(addresses)
 
             # Calculate the distance from the input location
             distance_from_input = distance.distance((latitude, longitude), (lat, lng)).km
@@ -312,7 +314,7 @@ class GeoApp(QMainWindow):
 
         # Calculate the distance from the input location
         distance_from_input = distance.distance((latitude, longitude), (nearest_latitude, nearest_longitude)).km
-        popup_content += f"<br><br>***Closest proximity to input***<br>Distance from input: {distance_from_input:.2f} km"
+        popup_content += f"<br><br>*Closest proximity to input*<br>Distance from input: {distance_from_input:.2f} km"
 
         folium.Marker(
             location=[nearest_latitude, nearest_longitude],
@@ -377,6 +379,7 @@ class GeoApp(QMainWindow):
 
         m = self.create_folium_map(df, input_address, latitude, longitude, proximity_threshold)
 
+        # Filtered locations must be non-empty to add nearest location marker and polyline
         if df is not None and not df.empty:
             self.add_nearest_location_marker_to_map(m, df, latitude, longitude)
             self.add_polyline_to_map(m, df, latitude, longitude)
@@ -487,11 +490,13 @@ class GeoApp(QMainWindow):
         '''
         self.nlp = spacy.load(self.model_path)
 
+
 def main():
     app = QApplication([])
     geo_app = GeoApp()
     geo_app.show()
     app.exec_()
+
 
 if __name__ == "__main__":
     main()
