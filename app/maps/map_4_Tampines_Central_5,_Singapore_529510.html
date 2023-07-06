@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_767fa8ed5afbebba08b433ccb2308d84 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_767fa8ed5afbebba08b433ccb2308d84" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_767fa8ed5afbebba08b433ccb2308d84 = L.map(
+                "map_767fa8ed5afbebba08b433ccb2308d84",
+                {
+                    center: [1.3524829818181818, 103.9448401818182],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e43f81030570f8749a51793f0ed8f849 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var marker_6482495a66759f518a3f9df6eeb8d373 = L.marker(
+                [1.3488868, 103.9467226],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_6231f39b835798fcac45fee9a2f0df9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6482495a66759f518a3f9df6eeb8d373.setIcon(icon_6231f39b835798fcac45fee9a2f0df9a);
+        
+    
+        var popup_83f10ccab57c32660da35ceff61d5508 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0b0a81e9c82481f952348d5c118f2d65 = $(`<div id="html_0b0a81e9c82481f952348d5c118f2d65" style="width: 100.0%; height: 100.0%;">166 #03-10 TAMPINES STREET 12 SINGAPORE 521166<br><br>Distance from input: 0.45 km</div>`)[0];
+                popup_83f10ccab57c32660da35ceff61d5508.setContent(html_0b0a81e9c82481f952348d5c118f2d65);
+            
+        
+
+        marker_6482495a66759f518a3f9df6eeb8d373.bindPopup(popup_83f10ccab57c32660da35ceff61d5508)
+        ;
+
+        
+    
+    
+            var marker_42a807f77c3f5a58d691e0ec476456ca = L.marker(
+                [1.3492309, 103.9421153],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_4efcc73a92b3523c0f70bda3a5a63486 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42a807f77c3f5a58d691e0ec476456ca.setIcon(icon_4efcc73a92b3523c0f70bda3a5a63486);
+        
+    
+        var popup_fa4fe28af5561a654d12eb00b8c27e0e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_617acc38db8faa46b828e5c23b327988 = $(`<div id="html_617acc38db8faa46b828e5c23b327988" style="width: 100.0%; height: 100.0%;">147 #10-27 TAMPINES AVENUE 5 SINGAPORE 521147<br><br>Distance from input: 0.47 km</div>`)[0];
+                popup_fa4fe28af5561a654d12eb00b8c27e0e.setContent(html_617acc38db8faa46b828e5c23b327988);
+            
+        
+
+        marker_42a807f77c3f5a58d691e0ec476456ca.bindPopup(popup_fa4fe28af5561a654d12eb00b8c27e0e)
+        ;
+
+        
+    
+    
+            var marker_f67d6e4cb8c85db9fe4e4f83fedf490a = L.marker(
+                [1.3502778, 103.9411968],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_ee474f512a96b304cb173ecf1c2510da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f67d6e4cb8c85db9fe4e4f83fedf490a.setIcon(icon_ee474f512a96b304cb173ecf1c2510da);
+        
+    
+        var popup_f996db4e860a7bc544d750ed069e9796 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6af18fd8168610c5a0d6e2be53d73fd1 = $(`<div id="html_6af18fd8168610c5a0d6e2be53d73fd1" style="width: 100.0%; height: 100.0%;">943 #26-42 TAMPINES PALMSVILLE TAMPINES AVENUE 5 SINGAPORE 520943<br>943 TAMPINES AVENUE 5 #09-57 TAMPINES PALMSVILLE SINGAPORE 520943<br><br>Distance from input: 0.47 km</div>`)[0];
+                popup_f996db4e860a7bc544d750ed069e9796.setContent(html_6af18fd8168610c5a0d6e2be53d73fd1);
+            
+        
+
+        marker_f67d6e4cb8c85db9fe4e4f83fedf490a.bindPopup(popup_f996db4e860a7bc544d750ed069e9796)
+        ;
+
+        
+    
+    
+            var marker_52ceae0e072572abf483d39f10e777d9 = L.marker(
+                [1.350378, 103.941912],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_d89a84a6b51bc6b52cbdd8b8a30b5f48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52ceae0e072572abf483d39f10e777d9.setIcon(icon_d89a84a6b51bc6b52cbdd8b8a30b5f48);
+        
+    
+        var popup_2472a0fba55ed800c3e77b3e51d44182 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e01c092b4e1504f6dfa9d4506f5f251a = $(`<div id="html_e01c092b4e1504f6dfa9d4506f5f251a" style="width: 100.0%; height: 100.0%;">148 TAMPINES AVENUE 5 #11-40 SINGAPORE 521148<br>148 TAMPINES AVENUE 5 #15-25 SINGAPORE 521148<br><br>Distance from input: 0.40 km</div>`)[0];
+                popup_2472a0fba55ed800c3e77b3e51d44182.setContent(html_e01c092b4e1504f6dfa9d4506f5f251a);
+            
+        
+
+        marker_52ceae0e072572abf483d39f10e777d9.bindPopup(popup_2472a0fba55ed800c3e77b3e51d44182)
+        ;
+
+        
+    
+    
+            var marker_b3dd686c125612e461527332d3243b5b = L.marker(
+                [1.3508668, 103.9488902],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_54298f59f1372f4e69399bc6d127f339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3dd686c125612e461527332d3243b5b.setIcon(icon_54298f59f1372f4e69399bc6d127f339);
+        
+    
+        var popup_728df400b8e5b8d3e3585f3acd1e858f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bba3855f3b9b87b1c781b526301a88b4 = $(`<div id="html_bba3855f3b9b87b1c781b526301a88b4" style="width: 100.0%; height: 100.0%;">267 #18-79 TAMPINES STREET 21 SINGAPORE 520267<br><br>Distance from input: 0.48 km</div>`)[0];
+                popup_728df400b8e5b8d3e3585f3acd1e858f.setContent(html_bba3855f3b9b87b1c781b526301a88b4);
+            
+        
+
+        marker_b3dd686c125612e461527332d3243b5b.bindPopup(popup_728df400b8e5b8d3e3585f3acd1e858f)
+        ;
+
+        
+    
+    
+            var marker_1da68d4923d885085dcc19514be3690c = L.marker(
+                [1.3519822, 103.9481132],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_a07691766d2da36d03f2df013c9af75d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1da68d4923d885085dcc19514be3690c.setIcon(icon_a07691766d2da36d03f2df013c9af75d);
+        
+    
+        var popup_5425d173b37759d5a6486d823e7dc6ba = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a4efea8b4668ee948a7466a58079bdac = $(`<div id="html_a4efea8b4668ee948a7466a58079bdac" style="width: 100.0%; height: 100.0%;">BLOCK 249 TAMPINES STREET 21 #11-80 SINGAPORE 520249<br><br>Distance from input: 0.37 km</div>`)[0];
+                popup_5425d173b37759d5a6486d823e7dc6ba.setContent(html_a4efea8b4668ee948a7466a58079bdac);
+            
+        
+
+        marker_1da68d4923d885085dcc19514be3690c.bindPopup(popup_5425d173b37759d5a6486d823e7dc6ba)
+        ;
+
+        
+    
+    
+            var marker_c83e13056086ed41f4e4f6fab8d18c0b = L.marker(
+                [1.352862, 103.9485368],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_937a0388b975bdd3b2532709fa2143cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c83e13056086ed41f4e4f6fab8d18c0b.setIcon(icon_937a0388b975bdd3b2532709fa2143cb);
+        
+    
+        var popup_f38b7f419cfaac2a9ccbc144f8bf1469 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e7091b706fdf5f35e30904535e75894a = $(`<div id="html_e7091b706fdf5f35e30904535e75894a" style="width: 100.0%; height: 100.0%;">251 #20-73 TAMPINES STREET 21 SINGAPORE 520251<br>251 TAMPINES STREET 21 #04-79 SINGAPORE 520251<br><br>Distance from input: 0.41 km</div>`)[0];
+                popup_f38b7f419cfaac2a9ccbc144f8bf1469.setContent(html_e7091b706fdf5f35e30904535e75894a);
+            
+        
+
+        marker_c83e13056086ed41f4e4f6fab8d18c0b.bindPopup(popup_f38b7f419cfaac2a9ccbc144f8bf1469)
+        ;
+
+        
+    
+    
+            var marker_008efaaa351122bde9dd8ada16bd9770 = L.marker(
+                [1.353095, 103.9477571],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_141ed5467c731eae26b1a6c23eacabb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_008efaaa351122bde9dd8ada16bd9770.setIcon(icon_141ed5467c731eae26b1a6c23eacabb4);
+        
+    
+        var popup_404f79132180494999a4fb25f8770fbd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8a7049080ed6f201592439658a664b30 = $(`<div id="html_8a7049080ed6f201592439658a664b30" style="width: 100.0%; height: 100.0%;">253 BETHESDA COMMUNITY SERVICES SOCIETY (TAMPINES) TAMPINES STREET 21 #06-39 SINGAPORE 521253<br><br>Distance from input: 0.33 km</div>`)[0];
+                popup_404f79132180494999a4fb25f8770fbd.setContent(html_8a7049080ed6f201592439658a664b30);
+            
+        
+
+        marker_008efaaa351122bde9dd8ada16bd9770.bindPopup(popup_404f79132180494999a4fb25f8770fbd)
+        ;
+
+        
+    
+    
+            var marker_52b42939df7e179a624da6cbee5a6b6f = L.marker(
+                [1.3537917, 103.9471214],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_4992edb69c75968c7acd64280ab274bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52b42939df7e179a624da6cbee5a6b6f.setIcon(icon_4992edb69c75968c7acd64280ab274bc);
+        
+    
+        var popup_b09cb4f9085ed0917bd644c7f9ad6fd2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fc20ddf632ffb035bbedf3cd6babedf2 = $(`<div id="html_fc20ddf632ffb035bbedf3cd6babedf2" style="width: 100.0%; height: 100.0%;">BLOCK 244 TAMPINES STREET 21 #07-23 SINGAPORE 521244<br><br>Distance from input: 0.29 km</div>`)[0];
+                popup_b09cb4f9085ed0917bd644c7f9ad6fd2.setContent(html_fc20ddf632ffb035bbedf3cd6babedf2);
+            
+        
+
+        marker_52b42939df7e179a624da6cbee5a6b6f.bindPopup(popup_b09cb4f9085ed0917bd644c7f9ad6fd2)
+        ;
+
+        
+    
+    
+            var marker_b2d6e54b755ceee350a55b9fd1e245a0 = L.marker(
+                [1.3540132, 103.9466484],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_df515113e0f55f994115b4bdd7a406ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2d6e54b755ceee350a55b9fd1e245a0.setIcon(icon_df515113e0f55f994115b4bdd7a406ae);
+        
+    
+        var popup_dd2b60c6f7852a91aee30a93e16195fd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_92f38ccd85d5cf18f211f3d013d30ada = $(`<div id="html_92f38ccd85d5cf18f211f3d013d30ada" style="width: 100.0%; height: 100.0%;">242 #22-09 TAMPINES STREET 21 SINGAPORE 521242<br><br>Distance from input: 0.26 km</div>`)[0];
+                popup_dd2b60c6f7852a91aee30a93e16195fd.setContent(html_92f38ccd85d5cf18f211f3d013d30ada);
+            
+        
+
+        marker_b2d6e54b755ceee350a55b9fd1e245a0.bindPopup(popup_dd2b60c6f7852a91aee30a93e16195fd)
+        ;
+
+        
+    
+    
+            var marker_f382fec723eabda4f0ee16762ad1262e = L.marker(
+                [1.3555256, 103.9455582],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_2a36e9a8e8cfef82d7f05d1153ed1e61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f382fec723eabda4f0ee16762ad1262e.setIcon(icon_2a36e9a8e8cfef82d7f05d1153ed1e61);
+        
+    
+        var popup_5d36233fbf0584bcfd467ccd9e694689 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_734cdf6c82a1aa7e4f6e2a035b57c2eb = $(`<div id="html_734cdf6c82a1aa7e4f6e2a035b57c2eb" style="width: 100.0%; height: 100.0%;">505 TAMPINES CENTRAL 1 TAMPINES HEART #10-74 SINGAPORE 520505<br>505 TAMPINES HEART #13-63 TAMPINES CENTRAL 1 SINGAPORE 520505<br><br>Distance from input: 0.35 km</div>`)[0];
+                popup_5d36233fbf0584bcfd467ccd9e694689.setContent(html_734cdf6c82a1aa7e4f6e2a035b57c2eb);
+            
+        
+
+        marker_f382fec723eabda4f0ee16762ad1262e.bindPopup(popup_5d36233fbf0584bcfd467ccd9e694689)
+        ;
+
+        
+    
+    
+            var marker_5a55867edb902d61542ae9e718f455bc = L.marker(
+                [1.35604265, 103.9453189],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_e42950dc03f70ad4859af5f3a992f6c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a55867edb902d61542ae9e718f455bc.setIcon(icon_e42950dc03f70ad4859af5f3a992f6c1);
+        
+    
+        var popup_f63f023adf2581509f465deabf3eea01 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ee46b0e7e68ec6cf52f57ac3d39cf7a4 = $(`<div id="html_ee46b0e7e68ec6cf52f57ac3d39cf7a4" style="width: 100.0%; height: 100.0%;">503 TAMPINES CENTRAL 1 TAMPINES HEART #08-78 SINGAPORE 520503<br><br>Distance from input: 0.40 km</div>`)[0];
+                popup_f63f023adf2581509f465deabf3eea01.setContent(html_ee46b0e7e68ec6cf52f57ac3d39cf7a4);
+            
+        
+
+        marker_5a55867edb902d61542ae9e718f455bc.bindPopup(popup_f63f023adf2581509f465deabf3eea01)
+        ;
+
+        
+    
+    
+            var marker_12c5b2059e8cc980c905de70383e55bd = L.marker(
+                [1.3524829818181818, 103.9448401818182],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_1f0186e59e4673b4684b06cda3ca09a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12c5b2059e8cc980c905de70383e55bd.setIcon(icon_1f0186e59e4673b4684b06cda3ca09a1);
+        
+    
+        var popup_3a3492f73e995ec7a17a026c8a4cfb34 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_dd90fbd852f7fa13edf4f11cffdff65e = $(`<div id="html_dd90fbd852f7fa13edf4f11cffdff65e" style="width: 100.0%; height: 100.0%;">4 Tampines Central 5, Singapore 529510</div>`)[0];
+                popup_3a3492f73e995ec7a17a026c8a4cfb34.setContent(html_dd90fbd852f7fa13edf4f11cffdff65e);
+            
+        
+
+        marker_12c5b2059e8cc980c905de70383e55bd.bindPopup(popup_3a3492f73e995ec7a17a026c8a4cfb34)
+        ;
+
+        
+    
+    
+            var circle_f759b2f543f026d2189a7776ca8189b9 = L.circle(
+                [1.3524829818181818, 103.9448401818182],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500.0, "stroke": true, "weight": 3}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var poly_line_7da4bc2aef45c85b152f9030a70a9cb3 = L.polyline(
+                [[1.3524829818181818, 103.9448401818182], [1.3540132, 103.9466484]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var marker_dd506d733c5db8f2bfc9215db39af460 = L.marker(
+                [1.3540132, 103.9466484],
+                {}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+    
+            var icon_53190aaa85809bf2a8795c406f0ee359 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd506d733c5db8f2bfc9215db39af460.setIcon(icon_53190aaa85809bf2a8795c406f0ee359);
+        
+    
+        var popup_e4fd24bee1c70c87b51635438f53d994 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_75b0a0033a0d7f24947ed7e41346fdd3 = $(`<div id="html_75b0a0033a0d7f24947ed7e41346fdd3" style="width: 100.0%; height: 100.0%;">242 #22-09 TAMPINES STREET 21 SINGAPORE 521242<br><br>***Closest proximity to input***<br>Distance from input: 0.26 km</div>`)[0];
+                popup_e4fd24bee1c70c87b51635438f53d994.setContent(html_75b0a0033a0d7f24947ed7e41346fdd3);
+            
+        
+
+        marker_dd506d733c5db8f2bfc9215db39af460.bindPopup(popup_e4fd24bee1c70c87b51635438f53d994)
+        ;
+
+        
+    
+    
+            var poly_line_9d00c7466220d9a9e4a9b3329d6a37f9 = L.polyline(
+                [[1.3524829818181818, 103.9448401818182], [1.3540132, 103.9466484]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_767fa8ed5afbebba08b433ccb2308d84);
+        
+</script>
+</html>

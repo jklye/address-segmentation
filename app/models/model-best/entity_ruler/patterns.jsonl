@@ -1,0 +1,3571 @@
+{"label":"STREET","pattern":"SAINT GEORGE'S ROAD"}
+{"label":"STREET","pattern":"SIMEI STREET 1"}
+{"label":"STREET","pattern":"BEDOK NORTH STREET 3"}
+{"label":"STREET","pattern":"JURONG WEST STREET 42"}
+{"label":"STREET","pattern":"TELOK BLANGAH DRIVE"}
+{"label":"STREET","pattern":"TAMPINES AVENUE 4"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 8"}
+{"label":"STREET","pattern":"YISHUN AVENUE 5"}
+{"label":"STREET","pattern":"EUNOS ROAD 5"}
+{"label":"STREET","pattern":"PUNGGOL DRIVE"}
+{"label":"STREET","pattern":"SIN MING AVENUE"}
+{"label":"STREET","pattern":"RIVERVALE DRIVE"}
+{"label":"STREET","pattern":"WOODLANDS RING ROAD"}
+{"label":"STREET","pattern":"JURONG WEST STREET 52"}
+{"label":"STREET","pattern":"BUKIT BATOK WEST AVENUE 6"}
+{"label":"STREET","pattern":"KIM TIAN ROAD"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 5"}
+{"label":"STREET","pattern":"TECK WHYE CRESCENT"}
+{"label":"STREET","pattern":"SEGAR ROAD"}
+{"label":"STREET","pattern":"YISHUN CENTRAL"}
+{"label":"STREET","pattern":"BEDOK RESERVOIR VIEW"}
+{"label":"STREET","pattern":"CLEMENTI AVENUE 6"}
+{"label":"STREET","pattern":"PASIR RIS DRIVE 10"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 40"}
+{"label":"STREET","pattern":"STRATHMORE AVENUE"}
+{"label":"STREET","pattern":"CLEMENTI AVENUE 4"}
+{"label":"STREET","pattern":"JALAN BATU"}
+{"label":"STREET","pattern":"JURONG WEST CENTRAL 1"}
+{"label":"STREET","pattern":"RIVERVALE CRESCENT"}
+{"label":"STREET","pattern":"BEDOK NORTH STREET 1"}
+{"label":"STREET","pattern":"BEDOK NORTH AVENUE 3"}
+{"label":"STREET","pattern":"TAMPINES STREET 82"}
+{"label":"STREET","pattern":"LOMPANG ROAD"}
+{"label":"STREET","pattern":"CLEMENTI WEST STREET 1"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 71"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 4"}
+{"label":"STREET","pattern":"SENJA ROAD"}
+{"label":"STREET","pattern":"TAMPINES STREET 71"}
+{"label":"STREET","pattern":"QUEEN STREET"}
+{"label":"STREET","pattern":"BEDOK NORTH ROAD"}
+{"label":"STREET","pattern":"GHIM MOH ROAD"}
+{"label":"STREET","pattern":"BISHAN STREET 22"}
+{"label":"STREET","pattern":"YUNG HO ROAD"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 3"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 10"}
+{"label":"STREET","pattern":"HAVELOCK ROAD"}
+{"label":"STREET","pattern":"HAIG ROAD"}
+{"label":"STREET","pattern":"MARINE TERRACE"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 1"}
+{"label":"STREET","pattern":"TAMPINES STREET 21"}
+{"label":"STREET","pattern":"JURONG WEST STREET 61"}
+{"label":"STREET","pattern":"BEDOK NORTH AVENUE 2"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 8"}
+{"label":"STREET","pattern":"YISHUN STREET 11"}
+{"label":"STREET","pattern":"BISHAN STREET 12"}
+{"label":"STREET","pattern":"JURONG EAST STREET 13"}
+{"label":"STREET","pattern":"JURONG WEST AVENUE 1"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 52"}
+{"label":"STREET","pattern":"LORONGONG 1 TOA PAYOH"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 5"}
+{"label":"STREET","pattern":"TOH GUAN ROAD"}
+{"label":"STREET","pattern":"TELOK BLANGAH CRESCENT"}
+{"label":"STREET","pattern":"TAH CHING ROAD"}
+{"label":"STREET","pattern":"CHOA CHU KANG STREET 54"}
+{"label":"STREET","pattern":"JELAPANG ROAD"}
+{"label":"STREET","pattern":"SHUNFU ROAD"}
+{"label":"STREET","pattern":"YISHUN AVENUE 11"}
+{"label":"STREET","pattern":"UPP ALJUNIED LANE"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 50"}
+{"label":"STREET","pattern":"HOUGANG STREET 61"}
+{"label":"STREET","pattern":"PASIR RIS STREET 21"}
+{"label":"STREET","pattern":"YISHUN AVENUE 2"}
+{"label":"STREET","pattern":"UPP BOON KENG ROAD"}
+{"label":"STREET","pattern":"BISHAN STREET 24"}
+{"label":"STREET","pattern":"BUKIT BATOK EAST AVENUE 3"}
+{"label":"STREET","pattern":"BEDOK RESERVOIR ROAD"}
+{"label":"STREET","pattern":"JURONG WEST STREET 51"}
+{"label":"STREET","pattern":"DEPOT ROAD"}
+{"label":"STREET","pattern":"CHOA CHU KANG CENTRAL"}
+{"label":"STREET","pattern":"HOUGANG STREET 51"}
+{"label":"STREET","pattern":"MARSILING DRIVE"}
+{"label":"STREET","pattern":"JURONG EAST STREET 21"}
+{"label":"STREET","pattern":"BEDOK SOUTH AVENUE 3"}
+{"label":"STREET","pattern":"JURONG EAST STREET 24"}
+{"label":"STREET","pattern":"KIM KEAT AVENUE"}
+{"label":"STREET","pattern":"TAMPINES AVENUE 5"}
+{"label":"STREET","pattern":"CHOA CHU KANG STREET 52"}
+{"label":"STREET","pattern":"YISHUN AVENUE 6"}
+{"label":"STREET","pattern":"TAMPINES AVENUE 8"}
+{"label":"STREET","pattern":"WOODLANDS STREET 41"}
+{"label":"STREET","pattern":"BUKIT BATOK WEST AVENUE 5"}
+{"label":"STREET","pattern":"PANDAN GARDENS"}
+{"label":"STREET","pattern":"BEDOK CENTRAL"}
+{"label":"STREET","pattern":"HOLLAND AVENUE"}
+{"label":"STREET","pattern":"SERANGOON NORTH AVENUE 1"}
+{"label":"STREET","pattern":"JALAN RAJAH"}
+{"label":"STREET","pattern":"BUKIT PANJANG RING ROAD"}
+{"label":"STREET","pattern":"WHAMPOA DRIVE"}
+{"label":"STREET","pattern":"COMPASSVALE STREET"}
+{"label":"STREET","pattern":"COMPASSVALE ROAD"}
+{"label":"STREET","pattern":"YISHUN STREET 72"}
+{"label":"STREET","pattern":"PUNGGOL WAY"}
+{"label":"STREET","pattern":"BEDOK NORTH STREET 4"}
+{"label":"STREET","pattern":"MARINE CRESCENT"}
+{"label":"STREET","pattern":"TAMPINES STREET 83"}
+{"label":"STREET","pattern":"BEDOK SOUTH ROAD"}
+{"label":"STREET","pattern":"CHULIA STREET"}
+{"label":"STREET","pattern":"SIMS DRIVE"}
+{"label":"STREET","pattern":"CIRCUIT ROAD"}
+{"label":"STREET","pattern":"CANTONMENT ROAD"}
+{"label":"STREET","pattern":"CHOA CHU KANG AVENUE 4"}
+{"label":"STREET","pattern":"ANCHORVALE ROAD"}
+{"label":"STREET","pattern":"WHAMPOA WEST"}
+{"label":"STREET","pattern":"ELIAS ROAD"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 16"}
+{"label":"STREET","pattern":"PUNGGOL CENTRAL"}
+{"label":"STREET","pattern":"GHIM MOH LINK"}
+{"label":"STREET","pattern":"YISHUN STREET 61"}
+{"label":"STREET","pattern":"MARINE DRIVE"}
+{"label":"STREET","pattern":"BISHAN STREET 11"}
+{"label":"STREET","pattern":"TAMPINES STREET 44"}
+{"label":"STREET","pattern":"EUNOS CRESCENT"}
+{"label":"STREET","pattern":"TAMPINES STREET 41"}
+{"label":"STREET","pattern":"CLEMENTI AVENUE 3"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 4"}
+{"label":"STREET","pattern":"UBI AVENUE 1"}
+{"label":"STREET","pattern":"SAINT GEORGE'S LANE"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 31"}
+{"label":"STREET","pattern":"WEST COAST ROAD"}
+{"label":"STREET","pattern":"YISHUN STREET 81"}
+{"label":"STREET","pattern":"DOVER ROAD"}
+{"label":"STREET","pattern":"POTONG PASIR AVENUE 1"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 14"}
+{"label":"STREET","pattern":"TOWNER ROAD"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 10"}
+{"label":"STREET","pattern":"BUKIT BATOK WEST AVENUE 8"}
+{"label":"STREET","pattern":"BOON LAY DRIVE"}
+{"label":"STREET","pattern":"WEST COAST DRIVE"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 32"}
+{"label":"STREET","pattern":"LORONGONG 6 TOA PAYOH"}
+{"label":"STREET","pattern":"TAMPINES STREET 33"}
+{"label":"STREET","pattern":"YISHUN STREET 22"}
+{"label":"STREET","pattern":"YISHUN RING ROAD"}
+{"label":"STREET","pattern":"JALAN BAHAGIA"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 21"}
+{"label":"STREET","pattern":"REDHILL CLOSE"}
+{"label":"STREET","pattern":"WOODLANDS CIRCLE"}
+{"label":"STREET","pattern":"BUKIT BATOK EAST AVENUE 5"}
+{"label":"STREET","pattern":"TAMPINES CENTRAL 7"}
+{"label":"STREET","pattern":"TAMPINES STREET 23"}
+{"label":"STREET","pattern":"JALAN RUMAH TINGGI"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 22"}
+{"label":"STREET","pattern":"ADMIRALTY DRIVE"}
+{"label":"STREET","pattern":"TANGLIN HALT ROAD"}
+{"label":"STREET","pattern":"HOUGANG STREET 11"}
+{"label":"STREET","pattern":"WOODLANDS STREET 31"}
+{"label":"STREET","pattern":"SERANGOON AVENUE 2"}
+{"label":"STREET","pattern":"RIVERVALE WALK"}
+{"label":"STREET","pattern":"EDGEFIELD PLACEAINS"}
+{"label":"STREET","pattern":"JURONG WEST STREET 24"}
+{"label":"STREET","pattern":"SHENTON WAY"}
+{"label":"STREET","pattern":"EAST COAST ROAD"}
+{"label":"STREET","pattern":"HOLLAND DRIVE"}
+{"label":"STREET","pattern":"JURONG WEST STREET 71"}
+{"label":"STREET","pattern":"YISHUN STREET 71"}
+{"label":"STREET","pattern":"PASIR RIS DRIVE 6"}
+{"label":"STREET","pattern":"TAMPINES STREET 22"}
+{"label":"STREET","pattern":"JELLICOE ROAD"}
+{"label":"STREET","pattern":"BANGKIT ROAD"}
+{"label":"STREET","pattern":"CHAI CHEE ROAD"}
+{"label":"STREET","pattern":"FERNVALE LINK"}
+{"label":"STREET","pattern":"CLEMENTI AVENUE 2"}
+{"label":"STREET","pattern":"COMPASSVALE WALK"}
+{"label":"STREET","pattern":"GEYLANG EAST AVENUE 1"}
+{"label":"STREET","pattern":"BOON LAY AVENUE"}
+{"label":"STREET","pattern":"BUKIT BATOK CENTRAL"}
+{"label":"STREET","pattern":"ANCHORVALE LINK"}
+{"label":"STREET","pattern":"CHAI CHEE AVENUE"}
+{"label":"STREET","pattern":"GEYLANG BAHRU"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 60"}
+{"label":"STREET","pattern":"PAYA LEBAR ROAD"}
+{"label":"STREET","pattern":"BUKIT BATOK CRESCENT"}
+{"label":"STREET","pattern":"SEMBAWANG DRIVE"}
+{"label":"STREET","pattern":"YISHUN STREET 51"}
+{"label":"STREET","pattern":"BOON LAY PLACE"}
+{"label":"STREET","pattern":"CLEMENTI WEST STREET 2"}
+{"label":"STREET","pattern":"TOA PAYOH NORTH"}
+{"label":"STREET","pattern":"BUKIT PURMEI ROAD"}
+{"label":"STREET","pattern":"COMMONWEALTH DRIVE"}
+{"label":"STREET","pattern":"QUEEN'S ROAD"}
+{"label":"STREET","pattern":"JALAN BUKIT MERAH"}
+{"label":"STREET","pattern":"SERANGOON AVENUE 3"}
+{"label":"STREET","pattern":"LENGKOK BAHRU"}
+{"label":"STREET","pattern":"HOUGANG STREET 21"}
+{"label":"STREET","pattern":"ADMIRALTY LINK"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 9"}
+{"label":"STREET","pattern":"PASIR RIS STREET 53"}
+{"label":"STREET","pattern":"HOUGANG CENTRAL"}
+{"label":"STREET","pattern":"JURONG WEST STREET 81"}
+{"label":"STREET","pattern":"UPP SERANGOON CRESCENT"}
+{"label":"STREET","pattern":"PASIR RIS STREET 71"}
+{"label":"STREET","pattern":"TAMPINES STREET 81"}
+{"label":"STREET","pattern":"JURONG WEST STREET 92"}
+{"label":"STREET","pattern":"MCNAIR ROAD"}
+{"label":"STREET","pattern":"YISHUN STREET 21"}
+{"label":"STREET","pattern":"CHAI CHEE DRIVE"}
+{"label":"STREET","pattern":"BALAM ROAD"}
+{"label":"STREET","pattern":"TAMPINES STREET 72"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 3"}
+{"label":"STREET","pattern":"COMPASSVALE LANE"}
+{"label":"STREET","pattern":"FERNVALE LANE"}
+{"label":"STREET","pattern":"SIN MING ROAD"}
+{"label":"STREET","pattern":"TECK WHYE AVENUE"}
+{"label":"STREET","pattern":"JURONG WEST STREET 64"}
+{"label":"STREET","pattern":"PUNGGOL FIELD"}
+{"label":"STREET","pattern":"JURONG WEST STREET 73"}
+{"label":"STREET","pattern":"NEW UPPER CHANGI ROAD"}
+{"label":"STREET","pattern":"BEDOK NORTH AVENUE 1"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 6"}
+{"label":"STREET","pattern":"BEDOK NORTH STREET 2"}
+{"label":"STREET","pattern":"BEO CRESCENT"}
+{"label":"STREET","pattern":"MARSILING RISE"}
+{"label":"STREET","pattern":"BUKIT BATOK EAST AVENUE 4"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 1"}
+{"label":"STREET","pattern":"TECK WHYE LANE"}
+{"label":"STREET","pattern":"LORONGONG 5 TOA PAYOH"}
+{"label":"STREET","pattern":"TAMPINES STREET 84"}
+{"label":"STREET","pattern":"BISHAN STREET 13"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 4"}
+{"label":"STREET","pattern":"LORONGONG 2 TOA PAYOH"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 70"}
+{"label":"STREET","pattern":"SAUJANA ROAD"}
+{"label":"STREET","pattern":"JURONG WEST AVENUE 5"}
+{"label":"STREET","pattern":"TAMPINES STREET 42"}
+{"label":"STREET","pattern":"JALAN MEMBINA"}
+{"label":"STREET","pattern":"TELOK BLANGAH WAY"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 34"}
+{"label":"STREET","pattern":"BEDOK SOUTH AVENUE 1"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 32"}
+{"label":"STREET","pattern":"TELOK BLANGAH HEIGHTS"}
+{"label":"STREET","pattern":"TANJONG PAGAR PLACEAZA"}
+{"label":"STREET","pattern":"TAMPINES STREET 12"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 5"}
+{"label":"STREET","pattern":"JURONG WEST STREET 41"}
+{"label":"STREET","pattern":"TAMPINES CENTRAL 1"}
+{"label":"STREET","pattern":"PASIR RIS STREET 11"}
+{"label":"STREET","pattern":"BEDOK NORTH AVENUE 4"}
+{"label":"STREET","pattern":"SIMEI STREET 4"}
+{"label":"STREET","pattern":"WOODLANDS STREET 82"}
+{"label":"STREET","pattern":"CHOA CHU KANG AVENUE 1"}
+{"label":"STREET","pattern":"TAMPINES STREET 43"}
+{"label":"STREET","pattern":"LENGKONG TIGA"}
+{"label":"STREET","pattern":"CLEMENTI STREET 14"}
+{"label":"STREET","pattern":"SERANGOON AVENUE 4"}
+{"label":"STREET","pattern":"TEBAN GARDENS ROAD"}
+{"label":"STREET","pattern":"JURONG EAST STREET 32"}
+{"label":"STREET","pattern":"WOODLANDS STREET 83"}
+{"label":"STREET","pattern":"JELEBU ROAD"}
+{"label":"STREET","pattern":"YISHUN AVENUE 4"}
+{"label":"STREET","pattern":"PASIR RIS STREET 52"}
+{"label":"STREET","pattern":"TAMPINES STREET 91"}
+{"label":"STREET","pattern":"YISHUN AVENUE 9"}
+{"label":"STREET","pattern":"COMPASSVALE BOW"}
+{"label":"STREET","pattern":"PASIR RIS STREET 51"}
+{"label":"STREET","pattern":"MACPHERSON LANE"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 1"}
+{"label":"STREET","pattern":"JURONG WEST STREET 72"}
+{"label":"STREET","pattern":"FERNVALE ROAD"}
+{"label":"STREET","pattern":"WOODLANDS CRESCENT"}
+{"label":"STREET","pattern":"COMMONWEALTH CRESCENT"}
+{"label":"STREET","pattern":"WOODLANDS STREET 32"}
+{"label":"STREET","pattern":"HENDERSON CRESCENT"}
+{"label":"STREET","pattern":"LORONGONG 1A TOA PAYOH"}
+{"label":"STREET","pattern":"PENDING ROAD"}
+{"label":"STREET","pattern":"TAMPINES STREET 34"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 25"}
+{"label":"STREET","pattern":"KANG CHING ROAD"}
+{"label":"STREET","pattern":"PASIR RIS STREET 72"}
+{"label":"STREET","pattern":"MEI LING STREET"}
+{"label":"STREET","pattern":"DOVER CRESCENT"}
+{"label":"STREET","pattern":"SIMEI ROAD"}
+{"label":"STREET","pattern":"JURONG WEST STREET 62"}
+{"label":"STREET","pattern":"PUNGGOL ROAD"}
+{"label":"STREET","pattern":"COMMONWEALTH CLOSE"}
+{"label":"STREET","pattern":"SIMS PLACE"}
+{"label":"STREET","pattern":"CANTONMENT CLOSE"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 75"}
+{"label":"STREET","pattern":"GANGSA ROAD"}
+{"label":"STREET","pattern":"ANCHORVALE STREET"}
+{"label":"STREET","pattern":"HOUGANG STREET 91"}
+{"label":"STREET","pattern":"JURONG WEST STREET 25"}
+{"label":"STREET","pattern":"MARSILING CRESCENT"}
+{"label":"STREET","pattern":"LORONGONG 4 TOA PAYOH"}
+{"label":"STREET","pattern":"PUNGGOL WALK"}
+{"label":"STREET","pattern":"LOWER DELTA ROAD"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 6"}
+{"label":"STREET","pattern":"EDGEDALE PLACEAINS"}
+{"label":"STREET","pattern":"TAMPINES STREET 24"}
+{"label":"STREET","pattern":"CHOA CHU KANG STREET 53"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 6"}
+{"label":"STREET","pattern":"RIVERVALE STREET"}
+{"label":"STREET","pattern":"WOODLANDS STREET 11"}
+{"label":"STREET","pattern":"CHOA CHU KANG CRESCENT"}
+{"label":"STREET","pattern":"CHOA CHU KANG STREET 62"}
+{"label":"STREET","pattern":"SERANGOON CENTRAL"}
+{"label":"STREET","pattern":"BUKIT MERAH VIEW"}
+{"label":"STREET","pattern":"STIRLING ROAD"}
+{"label":"STREET","pattern":"BENDEMEER ROAD"}
+{"label":"STREET","pattern":"ANCHORVALE CRESCENT"}
+{"label":"STREET","pattern":"HOUGANG STREET 22"}
+{"label":"STREET","pattern":"ORCHARD ROAD"}
+{"label":"STREET","pattern":"CHOA CHU KANG AVENUE 2"}
+{"label":"STREET","pattern":"PASIR RIS DRIVE 1"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 3"}
+{"label":"STREET","pattern":"JALAN BUKIT HO SWEE"}
+{"label":"STREET","pattern":"DAKOTA CRESCENT"}
+{"label":"STREET","pattern":"YISHUN AVENUE 7"}
+{"label":"STREET","pattern":"BUANGKOK CRESCENT"}
+{"label":"STREET","pattern":"KALLANG BAHRU"}
+{"label":"STREET","pattern":"CECIL STREET"}
+{"label":"STREET","pattern":"TAMPINES STREET 11"}
+{"label":"STREET","pattern":"BEACH ROAD"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 52"}
+{"label":"STREET","pattern":"JURONG WEST STREET 65"}
+{"label":"STREET","pattern":"BAIN STREET"}
+{"label":"STREET","pattern":"HOLLAND CLOSE"}
+{"label":"STREET","pattern":"BUANGKOK LINK"}
+{"label":"STREET","pattern":"WELLINGTON CIRCLE"}
+{"label":"STREET","pattern":"PAYA LEBAR WAY"}
+{"label":"STREET","pattern":"CHOA CHU KANG AVENUE 3"}
+{"label":"STREET","pattern":"CHOA CHU KANG STREET 51"}
+{"label":"STREET","pattern":"WOODLANDS STREET 13"}
+{"label":"STREET","pattern":"PIPIT ROAD"}
+{"label":"STREET","pattern":"COMPASSVALE CRESCENT"}
+{"label":"STREET","pattern":"TAMPINES AVENUE 7"}
+{"label":"STREET","pattern":"JURONG EAST STREET 31"}
+{"label":"STREET","pattern":"TECK KIM ROAD"}
+{"label":"STREET","pattern":"JURONG EAST AVENUE 1"}
+{"label":"STREET","pattern":"ALJUNIED CRESCENT"}
+{"label":"STREET","pattern":"CLEMENTI AVENUE 5"}
+{"label":"STREET","pattern":"JOO SENG ROAD"}
+{"label":"STREET","pattern":"BOON TIONG ROAD"}
+{"label":"STREET","pattern":"CHOA CHU KANG NORTH 6"}
+{"label":"STREET","pattern":"SERANGOON NORTH AVENUE 4"}
+{"label":"STREET","pattern":"YISHUN AVENUE 3"}
+{"label":"STREET","pattern":"SENGKANG EAST AVENUE"}
+{"label":"STREET","pattern":"SENGKANG EAST ROAD"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 2"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 24"}
+{"label":"STREET","pattern":"DELTA AVENUE"}
+{"label":"STREET","pattern":"UPP SERANGOON ROAD"}
+{"label":"STREET","pattern":"SEMBAWANG VISTA"}
+{"label":"STREET","pattern":"BISHAN STREET 23"}
+{"label":"STREET","pattern":"LORONGONG 8 TOA PAYOH"}
+{"label":"STREET","pattern":"CLEMENTI STREET 13"}
+{"label":"STREET","pattern":"JURONG WEST STREET 91"}
+{"label":"STREET","pattern":"SERANGOON CENTRAL DRIVE"}
+{"label":"STREET","pattern":"BOON KENG ROAD"}
+{"label":"STREET","pattern":"SPOTTISWOODE PARK ROAD"}
+{"label":"STREET","pattern":"CHOA CHU KANG LOOP"}
+{"label":"STREET","pattern":"JALAN TENAGA"}
+{"label":"STREET","pattern":"COMPASSVALE DRIVE"}
+{"label":"STREET","pattern":"SELEGIE ROAD"}
+{"label":"STREET","pattern":"TOA PAYOH CENTRAL"}
+{"label":"STREET","pattern":"LORONGONG AH SOO"}
+{"label":"STREET","pattern":"BEDOK RESERVOIR CRESCENT"}
+{"label":"STREET","pattern":"AH HOOD ROAD"}
+{"label":"STREET","pattern":"LORONGONG 7 TOA PAYOH"}
+{"label":"STREET","pattern":"SENGKANG WEST AVENUE"}
+{"label":"STREET","pattern":"BUKIT BATOK WEST AVENUE 2"}
+{"label":"STREET","pattern":"DAWSON ROAD"}
+{"label":"STREET","pattern":"TAMPINES STREET 45"}
+{"label":"STREET","pattern":"CLARENCE LANE"}
+{"label":"STREET","pattern":"FERNVALE STREET"}
+{"label":"STREET","pattern":"JALAN DUSUN"}
+{"label":"STREET","pattern":"BEDOK SOUTH AVENUE 2"}
+{"label":"STREET","pattern":"UPP SERANGOON VIEW"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 51"}
+{"label":"STREET","pattern":"PANDAN ROAD"}
+{"label":"STREET","pattern":"TELOK BLANGAH RISE"}
+{"label":"STREET","pattern":"DOVER CLOSE EAST"}
+{"label":"STREET","pattern":"WHAMPOA SOUTH"}
+{"label":"STREET","pattern":"PETIR ROAD"}
+{"label":"STREET","pattern":"WHAMPOA ROAD"}
+{"label":"STREET","pattern":"TAMPINES AVENUE 9"}
+{"label":"STREET","pattern":"HOUGANG STREET 92"}
+{"label":"STREET","pattern":"ROWELL ROAD"}
+{"label":"STREET","pattern":"HENDERSON ROAD"}
+{"label":"STREET","pattern":"CASSIA CRESCENT"}
+{"label":"STREET","pattern":"PASIR RIS DRIVE 4"}
+{"label":"STREET","pattern":"MARSILING LANE"}
+{"label":"STREET","pattern":"KRANJI ROAD"}
+{"label":"STREET","pattern":"TOH YI DRIVE"}
+{"label":"STREET","pattern":"COMMONWEALTH AVENUE WEST"}
+{"label":"STREET","pattern":"ANCHORVALE DRIVE"}
+{"label":"STREET","pattern":"TAMPINES STREET 32"}
+{"label":"STREET","pattern":"CRAWFORD LANE"}
+{"label":"STREET","pattern":"EUNOS TECHNOLINK"}
+{"label":"STREET","pattern":"SERANGOON NORTH AVENUE 3"}
+{"label":"STREET","pattern":"SEMBAWANG CRESCENT"}
+{"label":"STREET","pattern":"YUNG SHENG ROAD"}
+{"label":"STREET","pattern":"ZION ROAD"}
+{"label":"STREET","pattern":"SENGKANG WEST WAY"}
+{"label":"STREET","pattern":"HOY FATT ROAD"}
+{"label":"STREET","pattern":"CHAI CHEE STREET"}
+{"label":"STREET","pattern":"CANBERRA ROAD"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 11"}
+{"label":"STREET","pattern":"SEMBAWANG CLOSE"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 33"}
+{"label":"STREET","pattern":"BUANGKOK GREEN"}
+{"label":"STREET","pattern":"PASIR RIS STREET 12"}
+{"label":"STREET","pattern":"SENJA LINK"}
+{"label":"STREET","pattern":"KALLANG AVENUE"}
+{"label":"STREET","pattern":"JALAN TECK WHYE"}
+{"label":"STREET","pattern":"SIMEI LANE"}
+{"label":"STREET","pattern":"WATERLOO STREET"}
+{"label":"STREET","pattern":"TAMPINES STREET 86"}
+{"label":"STREET","pattern":"PARKVIEW SQUARE"}
+{"label":"STREET","pattern":"YUNG LOH ROAD"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 61"}
+{"label":"STREET","pattern":"JALAN TIGA"}
+{"label":"STREET","pattern":"SUMANG WALK"}
+{"label":"STREET","pattern":"JALAN KUKOH"}
+{"label":"STREET","pattern":"JALAN MA'MOR"}
+{"label":"STREET","pattern":"HOUGANG AVENUE 7"}
+{"label":"STREET","pattern":"SENGKANG EAST WAY"}
+{"label":"STREET","pattern":"COMPASSVALE LINK"}
+{"label":"STREET","pattern":"PUNGGOL FIELD WALK"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 53"}
+{"label":"STREET","pattern":"CHOA CHU KANG AVENUE 5"}
+{"label":"STREET","pattern":"WOODLANDS STREET 81"}
+{"label":"STREET","pattern":"INDUS ROAD"}
+{"label":"STREET","pattern":"HO CHING ROAD"}
+{"label":"STREET","pattern":"TAMAN HO SWEE"}
+{"label":"STREET","pattern":"JALAN DAMAI"}
+{"label":"STREET","pattern":"MONTREAL DRIVE"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 73"}
+{"label":"STREET","pattern":"CORPORATION DRIVE"}
+{"label":"STREET","pattern":"SUMANG LINK"}
+{"label":"STREET","pattern":"KING GEORGE'S AVENUE"}
+{"label":"STREET","pattern":"LORONGONG LEW LIAN"}
+{"label":"STREET","pattern":"CLEMENTI AVENUE 1"}
+{"label":"STREET","pattern":"EVERTON PARK"}
+{"label":"STREET","pattern":"SAGO LANE"}
+{"label":"STREET","pattern":"BUKIT BATOK WEST AVENUE 4"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 9"}
+{"label":"STREET","pattern":"KELANTAN ROAD"}
+{"label":"STREET","pattern":"SERANGOON AVENUE 1"}
+{"label":"STREET","pattern":"OLD AIRPORT ROAD"}
+{"label":"STREET","pattern":"TAMPINES AVENUE 1"}
+{"label":"STREET","pattern":"JALAN TENTERAM"}
+{"label":"STREET","pattern":"NORTH LINK"}
+{"label":"STREET","pattern":"YUAN CHING ROAD"}
+{"label":"STREET","pattern":"PASIR RIS DRIVE 3"}
+{"label":"STREET","pattern":"UPP CROSS STREET"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 52"}
+{"label":"STREET","pattern":"BRIGHT HILL DRIVE"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 72"}
+{"label":"STREET","pattern":"KAMPONG ARANG ROAD"}
+{"label":"STREET","pattern":"SERANGOON NORTH AVENUE 2"}
+{"label":"STREET","pattern":"FAJAR ROAD"}
+{"label":"STREET","pattern":"GLOUCESTER ROAD"}
+{"label":"STREET","pattern":"YISHUN AVENUE 1"}
+{"label":"STREET","pattern":"KENT ROAD"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 9"}
+{"label":"STREET","pattern":"KEAT HONG CLOSE"}
+{"label":"STREET","pattern":"PASIR PANJANG ROAD"}
+{"label":"STREET","pattern":"SENGKANG CENTRAL"}
+{"label":"STREET","pattern":"QUEEN'S CLOSE"}
+{"label":"STREET","pattern":"ADMIRALTY STREET"}
+{"label":"STREET","pattern":"KIM PONG ROAD"}
+{"label":"STREET","pattern":"JURONG WEST AVENUE 3"}
+{"label":"STREET","pattern":"LORONGONG 3 TOA PAYOH"}
+{"label":"STREET","pattern":"TOA PAYOH EAST"}
+{"label":"STREET","pattern":"SOUTH BRIDGE ROAD"}
+{"label":"STREET","pattern":"JALAN KLINIK"}
+{"label":"STREET","pattern":"POTONG PASIR AVENUE 3"}
+{"label":"STREET","pattern":"PUNGGOL PLACE"}
+{"label":"STREET","pattern":"CHOA CHU KANG STREET 64"}
+{"label":"STREET","pattern":"ROBINSON ROAD"}
+{"label":"STREET","pattern":"WOODLANDS RISE"}
+{"label":"STREET","pattern":"FARRER PARK ROAD"}
+{"label":"STREET","pattern":"MILLENIA TOWER"}
+{"label":"STREET","pattern":"PASIR RIS STREET 13"}
+{"label":"STREET","pattern":"PINE CLOSE"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 44"}
+{"label":"STREET","pattern":"KIM KEAT LINK"}
+{"label":"STREET","pattern":"REDHILL LANE"}
+{"label":"STREET","pattern":"YISHUN STREET 20"}
+{"label":"STREET","pattern":"HIGH STREET"}
+{"label":"STREET","pattern":"SIMEI STREET 2"}
+{"label":"STREET","pattern":"CHOA CHU KANG NORTH 5"}
+{"label":"STREET","pattern":"CHANGI VILLAGE ROAD"}
+{"label":"STREET","pattern":"NORTH BRIDGE ROAD"}
+{"label":"STREET","pattern":"MONTREAL LINK"}
+{"label":"STREET","pattern":"REDHILL ROAD"}
+{"label":"STREET","pattern":"YISHUN STREET 41"}
+{"label":"STREET","pattern":"TELOK BLANGAH STREET 31"}
+{"label":"STREET","pattern":"YISHUN CENTRAL 1"}
+{"label":"STREET","pattern":"BUKIT MERAH CENTRAL"}
+{"label":"STREET","pattern":"HALL ROAD"}
+{"label":"STREET","pattern":"LIM LIAK STREET"}
+{"label":"STREET","pattern":"JURONG WEST STREET 93"}
+{"label":"STREET","pattern":"YUNG KUANG ROAD"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 42"}
+{"label":"STREET","pattern":"BUKIT BATOK WEST AVENUE 7"}
+{"label":"STREET","pattern":"CANBERRA LINK"}
+{"label":"STREET","pattern":"MOULMEIN ROAD"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 62"}
+{"label":"STREET","pattern":"LORONG LIPUT"}
+{"label":"STREET","pattern":"GENTING LANE"}
+{"label":"STREET","pattern":"KAMPONG KAYU ROAD"}
+{"label":"STREET","pattern":"SUMANG LANE"}
+{"label":"STREET","pattern":"PUNGGOL EAST"}
+{"label":"STREET","pattern":"YUNG AN ROAD"}
+{"label":"STREET","pattern":"CASHEW ROAD"}
+{"label":"STREET","pattern":"JALAN KAYU"}
+{"label":"STREET","pattern":"LORONGONG 3 GEYLANG"}
+{"label":"STREET","pattern":"HOUGANG STREET 31"}
+{"label":"STREET","pattern":"HOUGANG STREET 52"}
+{"label":"STREET","pattern":"WOODLANDS DRIVE 44"}
+{"label":"STREET","pattern":"MARSILING ROAD"}
+{"label":"STREET","pattern":"GEYLANG EAST CENTRAL"}
+{"label":"STREET","pattern":"TAMPINES CENTRAL 8"}
+{"label":"STREET","pattern":"VEERASAMY ROAD"}
+{"label":"STREET","pattern":"CANBERRA STREET"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 11"}
+{"label":"STREET","pattern":"PANDAN CRESCENT"}
+{"label":"STREET","pattern":"DORSET ROAD"}
+{"label":"STREET","pattern":"LAVENDER STREET"}
+{"label":"STREET","pattern":"COMMONWEALTH AVENUE"}
+{"label":"STREET","pattern":"JURONG WEST STREET 74"}
+{"label":"STREET","pattern":"UPPER CROSS STREET"}
+{"label":"STREET","pattern":"CLEMENCEAU AVENUE"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 51"}
+{"label":"STREET","pattern":"CHOA CHU KANG AVENUE 7"}
+{"label":"STREET","pattern":"CANBERRA CRESCENT"}
+{"label":"STREET","pattern":"SILAT AVENUE"}
+{"label":"STREET","pattern":"NEW MKT ROAD"}
+{"label":"STREET","pattern":"SUNGEI KADUT STREET 5"}
+{"label":"STREET","pattern":"KIM CHENG STREET"}
+{"label":"STREET","pattern":"AIRPORT CARGO ROAD"}
+{"label":"STREET","pattern":"QUEENSWAY"}
+{"label":"STREET","pattern":"TANGLIN ROAD"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 31"}
+{"label":"STREET","pattern":"BUFFALO ROAD"}
+{"label":"STREET","pattern":"NTH BRIDGE ROAD"}
+{"label":"STREET","pattern":"LORONGONG LIMAU"}
+{"label":"STREET","pattern":"YUNG PING ROAD"}
+{"label":"STREET","pattern":"KEAT HONG LINK"}
+{"label":"STREET","pattern":"GEYLANG SERAI"}
+{"label":"STREET","pattern":"BOON LAY WAY"}
+{"label":"STREET","pattern":"CAMBRIDGE ROAD"}
+{"label":"STREET","pattern":"SOON LEE ROAD"}
+{"label":"STREET","pattern":"YISHUN STREET 31"}
+{"label":"STREET","pattern":"CHOA CHU KANG DRIVE"}
+{"label":"STREET","pattern":"BEDOK NORTH STREET 5"}
+{"label":"STREET","pattern":"SIMS AVENUE"}
+{"label":"STREET","pattern":"YANG ROAD"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 2"}
+{"label":"STREET","pattern":"YISHUN INDUSTRIAL STREET 1"}
+{"label":"STREET","pattern":"JOO CHIAT ROAD"}
+{"label":"STREET","pattern":"ANCHORVALE LANE"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 21"}
+{"label":"STREET","pattern":"YISHUN STREET 23"}
+{"label":"STREET","pattern":"SIMEI STREET 5"}
+{"label":"STREET","pattern":"BEE ROAD"}
+{"label":"STREET","pattern":"TAO CHING ROAD"}
+{"label":"STREET","pattern":"BALESTIER ROAD"}
+{"label":"STREET","pattern":"EMPRESS ROAD"}
+{"label":"STREET","pattern":"TIONG BAHRU ROAD"}
+{"label":"STREET","pattern":"CHOA CHU KANG NORTH 7"}
+{"label":"STREET","pattern":"PENANG ROAD"}
+{"label":"STREET","pattern":"LORONG 3 TOA PAYOH"}
+{"label":"STREET","pattern":"CANBERRA WALK"}
+{"label":"STREET","pattern":"TESSENSOHN ROAD"}
+{"label":"STREET","pattern":"KIM TIAN PLACE"}
+{"label":"STREET","pattern":"KRETA AYER ROAD"}
+{"label":"STREET","pattern":"ESTATE ROAD 3"}
+{"label":"STREET","pattern":"COLEMAN STREET"}
+{"label":"STREET","pattern":"POTONG PASIR AVENUE 2"}
+{"label":"STREET","pattern":"KAKI BUKIT ROAD 1"}
+{"label":"STREET","pattern":"TELOK KURAU ROAD"}
+{"label":"STREET","pattern":"UBI AVENUE 3"}
+{"label":"STREET","pattern":"ALEXANDRA ROAD"}
+{"label":"STREET","pattern":"KALLANG PUDDING ROAD"}
+{"label":"STREET","pattern":"RACE COURSE ROAD"}
+{"label":"STREET","pattern":"JURONG WEST CENTRAL 3"}
+{"label":"STREET","pattern":"BURN ROAD"}
+{"label":"STREET","pattern":"WALMER DRIVE"}
+{"label":"STREET","pattern":"CLEMENTI STREET 12"}
+{"label":"STREET","pattern":"SENOKO AVENUE"}
+{"label":"STREET","pattern":"UPPER PAYA LEBAR ROAD"}
+{"label":"STREET","pattern":"TUAS BASIN CLOSE"}
+{"label":"STREET","pattern":"OXLEY RISE"}
+{"label":"STREET","pattern":"JURONG WEST STREET 75"}
+{"label":"STREET","pattern":"ROCHOR ROAD"}
+{"label":"STREET","pattern":"BURLINGTON SQUARE"}
+{"label":"STREET","pattern":"LORONG CHUAN"}
+{"label":"STREET","pattern":"JALAN DUA"}
+{"label":"STREET","pattern":"GEYLANG EAST AVENUE 2"}
+{"label":"STREET","pattern":"ALJUNIED ROAD"}
+{"label":"STREET","pattern":"HARBOURFRONT AVENUE"}
+{"label":"STREET","pattern":"UBI AVENUE 4"}
+{"label":"STREET","pattern":"CHANDER ROAD"}
+{"label":"STREET","pattern":"HILLVIEW AVENUE"}
+{"label":"STREET","pattern":"SENANG CRESCENT"}
+{"label":"STREET","pattern":"OWEN ROAD"}
+{"label":"STREET","pattern":"MARINE PARADE CENTRAL"}
+{"label":"STREET","pattern":"MIDDLE ROAD"}
+{"label":"STREET","pattern":"HOUGANG STREET 32"}
+{"label":"STREET","pattern":"TOA PAYOH INDUSTRIAL PARK"}
+{"label":"STREET","pattern":"CHANGI SOUTH STREET 1"}
+{"label":"STREET","pattern":"UBI CRESCENT"}
+{"label":"STREET","pattern":"CHIN SWEE ROAD"}
+{"label":"STREET","pattern":"ANSON ROAD"}
+{"label":"STREET","pattern":"RAFFLES PLACE"}
+{"label":"STREET","pattern":"BUKIT BATOK STREET 23"}
+{"label":"STREET","pattern":"AIRLINE ROAD"}
+{"label":"STREET","pattern":"HOE CHIANG ROAD"}
+{"label":"STREET","pattern":"SOMERSET ROAD"}
+{"label":"STREET","pattern":"KAKI BUKIT ROAD 4"}
+{"label":"STREET","pattern":"AMK TECHLINK"}
+{"label":"STREET","pattern":"KRAMAT LANE"}
+{"label":"STREET","pattern":"TAI SENG AVENUE"}
+{"label":"STREET","pattern":"PASIR RIS STREET 41"}
+{"label":"STREET","pattern":"THE CENTRAL"}
+{"label":"STREET","pattern":"HARPER ROAD"}
+{"label":"STREET","pattern":"PARKWAY PARADE"}
+{"label":"STREET","pattern":"SIMS LANE"}
+{"label":"STREET","pattern":"GUL AVENUE"}
+{"label":"STREET","pattern":"GATEWAY DRIVE"}
+{"label":"STREET","pattern":"HARBOUR LINK"}
+{"label":"STREET","pattern":"GUL CIRCLE"}
+{"label":"STREET","pattern":"SIN MING LANE"}
+{"label":"STREET","pattern":"TAMPINES STREET 93"}
+{"label":"STREET","pattern":"CHUI SWEE ROAD"}
+{"label":"STREET","pattern":"SMITH STREET"}
+{"label":"STREET","pattern":"ONE RAFFLES PLACE"}
+{"label":"STREET","pattern":"KADUT STREET 1"}
+{"label":"STREET","pattern":"HOWARD ROAD"}
+{"label":"STREET","pattern":"VENTURE DRIVE"}
+{"label":"STREET","pattern":"KWONG MIN ROAD"}
+{"label":"STREET","pattern":"TUKANG INNOVATION DRIVE"}
+{"label":"STREET","pattern":"KLANG LANE"}
+{"label":"STREET","pattern":"UBI ROAD 1"}
+{"label":"STREET","pattern":"SOON LEE STREET"}
+{"label":"STREET","pattern":"MAXWELL ROAD"}
+{"label":"STREET","pattern":"CHANGI ROAD"}
+{"label":"STREET","pattern":"CLEMENTI STREET 11"}
+{"label":"STREET","pattern":"CHURCH STREET"}
+{"label":"STREET","pattern":"TAGORE LANE"}
+{"label":"STREET","pattern":"PARK A STREET 93"}
+{"label":"STREET","pattern":"TEMASEK AVENUE"}
+{"label":"STREET","pattern":"LOYANG LANE"}
+{"label":"STREET","pattern":"TANNERY LANE"}
+{"label":"STREET","pattern":"JALAN BERSEH"}
+{"label":"STREET","pattern":"RIVER VALLEY ROAD"}
+{"label":"STREET","pattern":"LIM CHU KANG ROAD"}
+{"label":"STREET","pattern":"SIM LIAN"}
+{"label":"STREET","pattern":"PUNGGOL POINT ROAD"}
+{"label":"STREET","pattern":"FARRER ROAD"}
+{"label":"STREET","pattern":"KADUT LOOP"}
+{"label":"STREET","pattern":"THOMSON ROAD"}
+{"label":"STREET","pattern":"MARKET STREET"}
+{"label":"STREET","pattern":"KALLANG WAY"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 62"}
+{"label":"STREET","pattern":"IRVING ROAD"}
+{"label":"STREET","pattern":"LOBBY B"}
+{"label":"STREET","pattern":"PANDAN LOOP"}
+{"label":"STREET","pattern":"MOUNTBATTEN ROAD"}
+{"label":"STREET","pattern":"FRENCH ROAD"}
+{"label":"STREET","pattern":"CHIN BEE AVENUE"}
+{"label":"STREET","pattern":"TRAS STREET"}
+{"label":"STREET","pattern":"KAMPONG BAHRU ROAD"}
+{"label":"STREET","pattern":"LORONG 6 TOA PAYOH"}
+{"label":"STREET","pattern":"ALBERT STREET"}
+{"label":"STREET","pattern":"SIN MING DRIVE"}
+{"label":"STREET","pattern":"GREENWICH DRIVE"}
+{"label":"STREET","pattern":"HORNE ROAD"}
+{"label":"STREET","pattern":"SENG POH ROAD"}
+{"label":"STREET","pattern":"CHANGI SOUTH STREET 2"}
+{"label":"STREET","pattern":"AYER RAJAH CRESCENT"}
+{"label":"STREET","pattern":"GEYLANG ROAD"}
+{"label":"STREET","pattern":"HILL STREET"}
+{"label":"STREET","pattern":"TUAS CRESCENT"}
+{"label":"STREET","pattern":"WOODLANDS SQUARE"}
+{"label":"STREET","pattern":"MANDAI ESTATE"}
+{"label":"STREET","pattern":"PLAYFAIR ROAD"}
+{"label":"STREET","pattern":"KITCHENER ROAD"}
+{"label":"STREET","pattern":"COMMONWEALTH LANE"}
+{"label":"STREET","pattern":"JURONG PORT ROAD"}
+{"label":"STREET","pattern":"CHAI CHEE LANE"}
+{"label":"STREET","pattern":"DEFU LANE 10"}
+{"label":"STREET","pattern":"BRAS BASAH ROAD"}
+{"label":"STREET","pattern":"WALLICH STREET"}
+{"label":"STREET","pattern":"BISHAN STREET 21"}
+{"label":"STREET","pattern":"CITY WEST"}
+{"label":"STREET","pattern":"SCIENCE PARK DRIVE"}
+{"label":"STREET","pattern":"CHANGI SOUTH STREET 3"}
+{"label":"STREET","pattern":"SCOTTS ROAD"}
+{"label":"STREET","pattern":"TUAS VIEW LANE"}
+{"label":"STREET","pattern":"GENTING LINK"}
+{"label":"STREET","pattern":"BUKIT TIMAH ROAD"}
+{"label":"STREET","pattern":"JUBILEE ROAD"}
+{"label":"STREET","pattern":"PANDAN AVENUE"}
+{"label":"STREET","pattern":"TOH GUAN ROAD EAST"}
+{"label":"STREET","pattern":"BUILDING B"}
+{"label":"STREET","pattern":"MAYFIELD AVENUE"}
+{"label":"STREET","pattern":"GEYLANG EAST AVENUE 3"}
+{"label":"STREET","pattern":"OUTRAM HILL"}
+{"label":"STREET","pattern":"FRASER STREET"}
+{"label":"STREET","pattern":"ALEXANDER ROAD"}
+{"label":"STREET","pattern":"KAKI BUKIT AVENUE 1"}
+{"label":"STREET","pattern":"WOODLANDS LOOP"}
+{"label":"STREET","pattern":"KIM KEAT ROAD"}
+{"label":"STREET","pattern":"BEAULIEU ROAD"}
+{"label":"STREET","pattern":"GKE LOGISTICS"}
+{"label":"STREET","pattern":"JALAN AFIFI"}
+{"label":"STREET","pattern":"PENJURU CLOSE"}
+{"label":"STREET","pattern":"MARTIN ROAD"}
+{"label":"STREET","pattern":"KALLANG PLACE"}
+{"label":"STREET","pattern":"BUKIT MERAH LANE 1"}
+{"label":"STREET","pattern":"BUKIT BATOK WEST AVENUE 9"}
+{"label":"STREET","pattern":"BUROH LANE"}
+{"label":"STREET","pattern":"SELETAR NORTH LINK"}
+{"label":"STREET","pattern":"TEMASEK BOULEVARD"}
+{"label":"STREET","pattern":"UBI ROAD 3"}
+{"label":"STREET","pattern":"PECK SEAH STREET"}
+{"label":"STREET","pattern":"BUKIT BATOK EAST AVENUE 6"}
+{"label":"STREET","pattern":"GAMBAS CRESCENT"}
+{"label":"STREET","pattern":"BATTERY ROAD"}
+{"label":"STREET","pattern":"NEW INDUSTRIAL ROAD"}
+{"label":"STREET","pattern":"INTERNATIONAL ROAD"}
+{"label":"STREET","pattern":"TUAS SOUTH AVENUE 1"}
+{"label":"STREET","pattern":"WOODLANDS CLOSE"}
+{"label":"STREET","pattern":"LITTLE ROAD"}
+{"label":"STREET","pattern":"MOUNT ELIZABETH LINK"}
+{"label":"STREET","pattern":"CROSS STREET"}
+{"label":"STREET","pattern":"VICTORIA STREET"}
+{"label":"STREET","pattern":"EUNOS ROAD 8"}
+{"label":"STREET","pattern":"WEST PARK BIZCENTRAL"}
+{"label":"STREET","pattern":"EUNOS AVENUE 8A"}
+{"label":"STREET","pattern":"QUALITY ROAD"}
+{"label":"STREET","pattern":"SOPHIA ROAD"}
+{"label":"STREET","pattern":"MOH GUAN TERRACE"}
+{"label":"STREET","pattern":"KILLINEY ROAD"}
+{"label":"STREET","pattern":"PEMIMPIN DRIVE"}
+{"label":"STREET","pattern":"LORONG 23 GEYLANG"}
+{"label":"STREET","pattern":"EUNOS AVENUE 7"}
+{"label":"STREET","pattern":"WOODLANDS LINK"}
+{"label":"STREET","pattern":"ROCHOR CANAL ROAD"}
+{"label":"STREET","pattern":"ESTATE ROAD 9"}
+{"label":"STREET","pattern":"UPPER BUKIT TIMAH ROAD"}
+{"label":"STREET","pattern":"CLAYMORE DRIVE"}
+{"label":"STREET","pattern":"TAI SENG DRIVE"}
+{"label":"STREET","pattern":"GEORGE STREET"}
+{"label":"STREET","pattern":"TUAS WEST AVENUE"}
+{"label":"STREET","pattern":"SHORT STREET"}
+{"label":"STREET","pattern":"HARRISON ROAD"}
+{"label":"STREET","pattern":"DEFU LANE 12"}
+{"label":"STREET","pattern":"WOODLANDS SPECTRUM 1"}
+{"label":"STREET","pattern":"FUSIONOPOLIS LINK"}
+{"label":"STREET","pattern":"KIM CHUAN DRIVE"}
+{"label":"STREET","pattern":"WILKIE ROAD"}
+{"label":"STREET","pattern":"LENG KEE ROAD"}
+{"label":"STREET","pattern":"SUNGEI KADUT AVENUE"}
+{"label":"STREET","pattern":"KEE ROAD"}
+{"label":"STREET","pattern":"SEMBAWANG ROAD"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 1"}
+{"label":"STREET","pattern":"JALAN BESAR"}
+{"label":"STREET","pattern":"CHANGI SOUTH LANE"}
+{"label":"STREET","pattern":"KAKI BUKIT ROAD 3"}
+{"label":"STREET","pattern":"SUNGEI KADUT STREET 1"}
+{"label":"STREET","pattern":"TAI SENG STREET"}
+{"label":"STREET","pattern":"SUNGEI KADUT STREET 3"}
+{"label":"STREET","pattern":"HARVEY ROAD"}
+{"label":"STREET","pattern":"TUAS AVENUE 5"}
+{"label":"STREET","pattern":"TUAS AVENUE 11"}
+{"label":"STREET","pattern":"JURONG GATEWAY ROAD"}
+{"label":"STREET","pattern":"MAGAZINE ROAD"}
+{"label":"STREET","pattern":"PARK ROAD"}
+{"label":"STREET","pattern":"FUSIONOPOLIS WALK"}
+{"label":"STREET","pattern":"LOYANG CRESCENT 25B"}
+{"label":"STREET","pattern":"SUNGEI KADUT WAY"}
+{"label":"STREET","pattern":"JALAN KILANG"}
+{"label":"STREET","pattern":"SCIENCE PARK ROAD"}
+{"label":"STREET","pattern":"BUILDING D"}
+{"label":"STREET","pattern":"SENOKO DRIVE"}
+{"label":"STREET","pattern":"UBI LINK"}
+{"label":"STREET","pattern":"HILLVIEW TERRACE"}
+{"label":"STREET","pattern":"TUAS ROAD"}
+{"label":"STREET","pattern":"MARINA VIEW"}
+{"label":"STREET","pattern":"WOODLANDS TERRACE"}
+{"label":"STREET","pattern":"KAKI BUKIT CRESCENT"}
+{"label":"STREET","pattern":"BULIM AVENUE"}
+{"label":"STREET","pattern":"KAKI BUKIT ROAD"}
+{"label":"STREET","pattern":"LORONG 24A GEYLANG"}
+{"label":"STREET","pattern":"NEIL ROAD"}
+{"label":"STREET","pattern":"UBI AVENUE 2"}
+{"label":"STREET","pattern":"SIMS CLOSE"}
+{"label":"STREET","pattern":"SENOKO ROAD"}
+{"label":"STREET","pattern":"WOODLANDS WALK"}
+{"label":"STREET","pattern":"NEW BRIDGE ROAD"}
+{"label":"STREET","pattern":"TAGORE INDUSTRIAL AVENUE"}
+{"label":"STREET","pattern":"TUAS AVENUE 2"}
+{"label":"STREET","pattern":"CHANGI NORTH STREET 1"}
+{"label":"STREET","pattern":"AMOY STREET"}
+{"label":"STREET","pattern":"JALAN TEPONG"}
+{"label":"STREET","pattern":"KAKI BUKIT ROAD 2"}
+{"label":"STREET","pattern":"KEPPEL ROAD"}
+{"label":"STREET","pattern":"PAYA LEBAR LINK"}
+{"label":"STREET","pattern":"UNITED SQUARE"}
+{"label":"STREET","pattern":"JOO KOON WAY"}
+{"label":"STREET","pattern":"93 TOA PAYOH CENTRAL"}
+{"label":"STREET","pattern":"JOO KOON CRESCENT"}
+{"label":"STREET","pattern":"KIAN TECK CRESCENT"}
+{"label":"STREET","pattern":"DEPOT CLOSE"}
+{"label":"STREET","pattern":"PEREIRA ROAD"}
+{"label":"STREET","pattern":"PHILLIP STREET"}
+{"label":"STREET","pattern":"CIRCULAR ROAD"}
+{"label":"STREET","pattern":"MACPHERSON ROAD"}
+{"label":"STREET","pattern":"LORONG 7 TOA PAYOH"}
+{"label":"STREET","pattern":"BURCH LANE"}
+{"label":"STREET","pattern":"KAKI BUKIT PLACE"}
+{"label":"STREET","pattern":"DUNEARN ROAD"}
+{"label":"STREET","pattern":"THIRD HOSPITAL AVENUE"}
+{"label":"STREET","pattern":"HARBOURFRONT TOWER 2"}
+{"label":"STREET","pattern":"CENTRAL LINK"}
+{"label":"STREET","pattern":"TOPS AVENUE 1"}
+{"label":"STREET","pattern":"WEST CAMP ROAD"}
+{"label":"STREET","pattern":"MOHAMED SULTAN ROAD"}
+{"label":"STREET","pattern":"JOO KOON CIRCLE"}
+{"label":"STREET","pattern":"INDUSTRIAL TERRACE"}
+{"label":"STREET","pattern":"OUTRAM ROAD"}
+{"label":"STREET","pattern":"SUNGEI KADUT STREET 6"}
+{"label":"STREET","pattern":"TAMPINES NORTH DRIVE 4"}
+{"label":"STREET","pattern":"GATEWAY WEST"}
+{"label":"STREET","pattern":"SUNVIEW ROAD"}
+{"label":"STREET","pattern":"KAKI BUKIT AVENUE 6"}
+{"label":"STREET","pattern":"PENJURU ROAD"}
+{"label":"STREET","pattern":"FARRER PARK STATION ROAD"}
+{"label":"STREET","pattern":"ENTERPRISE ROAD"}
+{"label":"STREET","pattern":"MACTAGGART ROAD"}
+{"label":"STREET","pattern":"ALPS AVENUE"}
+{"label":"STREET","pattern":"EVANS ROAD"}
+{"label":"STREET","pattern":"TAMPINES STREET 92"}
+{"label":"STREET","pattern":"SEMBAWANG WAY"}
+{"label":"STREET","pattern":"FULLERTON SQUARE"}
+{"label":"STREET","pattern":"ALJUNIED AVENUE 1"}
+{"label":"STREET","pattern":"WOODLANDS 11"}
+{"label":"STREET","pattern":"TUAS AVENUE 9"}
+{"label":"STREET","pattern":"CAPITAL SQUARE THREE"}
+{"label":"STREET","pattern":"KALLANG SECTOR"}
+{"label":"STREET","pattern":"SUNGEI KADUT LOOP"}
+{"label":"STREET","pattern":"TUAS STREET"}
+{"label":"STREET","pattern":"BLOCK B"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 7"}
+{"label":"STREET","pattern":"CAVENAGH ROAD"}
+{"label":"STREET","pattern":"TELETECH PARK"}
+{"label":"STREET","pattern":"KIAN TECK AVENUE"}
+{"label":"STREET","pattern":"CHANGI SOUTH AVENUE 2"}
+{"label":"STREET","pattern":"SUNGEI KADUT CRESCENT"}
+{"label":"STREET","pattern":"NAPIER ROAD"}
+{"label":"STREET","pattern":"PIONEER SECTOR LANE"}
+{"label":"STREET","pattern":"FISHERY PORT ROAD"}
+{"label":"STREET","pattern":"DEFU LANE 9"}
+{"label":"STREET","pattern":"CORPORATION ROAD"}
+{"label":"STREET","pattern":"TOWER 3"}
+{"label":"STREET","pattern":"PENJURU LANE"}
+{"label":"STREET","pattern":"HARBOUR DRIVE"}
+{"label":"STREET","pattern":"CUSCADEN ROAD"}
+{"label":"STREET","pattern":"PIONEER CRESCENT"}
+{"label":"STREET","pattern":"TAGORE 8"}
+{"label":"STREET","pattern":"TAMPINES NORTH DRIVE 1"}
+{"label":"STREET","pattern":"SERANGOON NORTH AVENUE 5"}
+{"label":"STREET","pattern":"TUAS AVENUE 20"}
+{"label":"STREET","pattern":"MARKET STREET 30TH"}
+{"label":"STREET","pattern":"LOYANG WAY"}
+{"label":"STREET","pattern":"JALAN BUROH"}
+{"label":"STREET","pattern":"TUAS SOUTH AVENUE 6"}
+{"label":"STREET","pattern":"UBI ROAD 2"}
+{"label":"STREET","pattern":"BENOI ROAD"}
+{"label":"STREET","pattern":"CHIA PING ROAD"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 8"}
+{"label":"STREET","pattern":"NORTH CANAL ROAD"}
+{"label":"STREET","pattern":"PIONEER ROAD NORTH"}
+{"label":"STREET","pattern":"SUNGEI KADUT STREET 4"}
+{"label":"STREET","pattern":"JOO KOON ROAD"}
+{"label":"STREET","pattern":"CAPITAL SQUARE"}
+{"label":"STREET","pattern":"LOYANG CRESCENT"}
+{"label":"STREET","pattern":"EUNOS AVENUE 3"}
+{"label":"STREET","pattern":"ONE GEORGE STREET"}
+{"label":"STREET","pattern":"BENCOOLEN STREET"}
+{"label":"STREET","pattern":"SENOKO SOUTH ROAD"}
+{"label":"STREET","pattern":"VALLEY ROAD"}
+{"label":"STREET","pattern":"TECHPOINT SINGAPORE 569059"}
+{"label":"STREET","pattern":"TUAS AVENUE 8"}
+{"label":"STREET","pattern":"KALLANG JUNCTION"}
+{"label":"STREET","pattern":"LOYANG STREET"}
+{"label":"STREET","pattern":"GUL STREET 1"}
+{"label":"STREET","pattern":"KUNG CHONG ROAD"}
+{"label":"STREET","pattern":"HUP SENG WAREHOUSES"}
+{"label":"STREET","pattern":"MERCHANT ROAD"}
+{"label":"STREET","pattern":"WOODLANDS TERRACE 6TH"}
+{"label":"STREET","pattern":"TANNERY ROAD"}
+{"label":"STREET","pattern":"PEAH SEAH STREET"}
+{"label":"STREET","pattern":"TUAS BASIN LANE"}
+{"label":"STREET","pattern":"BUROH CRESCENT"}
+{"label":"STREET","pattern":"TAMPINES INDUSTRIAL CRESCENT"}
+{"label":"STREET","pattern":"TAMPINES INDUSTRIAL AVENUE 5"}
+{"label":"STREET","pattern":"SUNGEI KADUT STREET 2"}
+{"label":"STREET","pattern":"OLD HILL STREET"}
+{"label":"STREET","pattern":"SAKRA ROAD"}
+{"label":"STREET","pattern":"TANJONG KATONG ROAD"}
+{"label":"STREET","pattern":"ROXY SQUARE"}
+{"label":"STREET","pattern":"SENOKO WAY"}
+{"label":"STREET","pattern":"VERDE AVENUE"}
+{"label":"STREET","pattern":"JALAN MESIN"}
+{"label":"STREET","pattern":"BUROH STREET"}
+{"label":"STREET","pattern":"TELOK BLANGAH ROAD"}
+{"label":"STREET","pattern":"SIMEI STREET 3"}
+{"label":"STREET","pattern":"JALAN SULTAN"}
+{"label":"STREET","pattern":"CHANGI NORTH STREET 2"}
+{"label":"STREET","pattern":"STAMFORD ROAD"}
+{"label":"STREET","pattern":"TAMPINES INDUSTRIAL DRIVE"}
+{"label":"STREET","pattern":"KELANTAN LANE"}
+{"label":"STREET","pattern":"TAI SENG LINK"}
+{"label":"STREET","pattern":"GRANGE ROAD"}
+{"label":"STREET","pattern":"TECH PARK CRESCENT"}
+{"label":"STREET","pattern":"LORONG 4 TOA PAYOH"}
+{"label":"STREET","pattern":"LIANG SEAH STREET"}
+{"label":"STREET","pattern":"TUAS VIEW SQUARE"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 3"}
+{"label":"STREET","pattern":"VENTURE AVENUE"}
+{"label":"STREET","pattern":"ARUMUGAM ROAD"}
+{"label":"STREET","pattern":"MENCAST CENTRAL"}
+{"label":"STREET","pattern":"CALSHOT ROAD"}
+{"label":"STREET","pattern":"SHAW ROAD"}
+{"label":"STREET","pattern":"KALLANG AVENUE LEVEL 6"}
+{"label":"STREET","pattern":"KALLANG DISTRIPARK"}
+{"label":"STREET","pattern":"ULU PANDAN ROAD"}
+{"label":"STREET","pattern":"SENOKO CRESCENT"}
+{"label":"STREET","pattern":"TOH TUCK LINK"}
+{"label":"STREET","pattern":"FABER AVENUE"}
+{"label":"STREET","pattern":"DEFU AVENUE 2"}
+{"label":"STREET","pattern":"UBI ROAD 4"}
+{"label":"STREET","pattern":"TUAS VIEW WALK 2"}
+{"label":"STREET","pattern":"BROOKE ROAD"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 64"}
+{"label":"STREET","pattern":"ALEXANDRA LANE"}
+{"label":"STREET","pattern":"KA FOODLINK"}
+{"label":"STREET","pattern":"KALLANG SECTOR 9TH"}
+{"label":"STREET","pattern":"HARBOURFRONT PLACE"}
+{"label":"STREET","pattern":"DEFU LANE 1"}
+{"label":"STREET","pattern":"RANGOON ROAD"}
+{"label":"STREET","pattern":"LOYANG DRIVE"}
+{"label":"STREET","pattern":"TUAS WEST ROAD"}
+{"label":"STREET","pattern":"NEWTON ROAD"}
+{"label":"STREET","pattern":"GUL DRIVE"}
+{"label":"STREET","pattern":"GUL CRESCENT"}
+{"label":"STREET","pattern":"BENOI CRESCENT"}
+{"label":"STREET","pattern":"MUTHURAMAN CHETTY ROAD"}
+{"label":"STREET","pattern":"BOON LEAT TERRACE"}
+{"label":"STREET","pattern":"PRINSEP STREET"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 10"}
+{"label":"STREET","pattern":"JALAN KILANG BARAT"}
+{"label":"STREET","pattern":"JOAN ROAD"}
+{"label":"STREET","pattern":"ROBERTS LANE"}
+{"label":"STREET","pattern":"TUAS LINK 1"}
+{"label":"STREET","pattern":"MOUNTBATTEN SQUARE"}
+{"label":"STREET","pattern":"CHANGI BUSINESS PARK CENTRAL 2"}
+{"label":"STREET","pattern":"JACKSON SQUARE"}
+{"label":"STREET","pattern":"KENG CHEOW STREET"}
+{"label":"STREET","pattern":"EUNOS AVENUE 4"}
+{"label":"STREET","pattern":"GUL ROAD"}
+{"label":"STREET","pattern":"HONGKONG STREET"}
+{"label":"STREET","pattern":"BRADDELL ROAD"}
+{"label":"STREET","pattern":"KIAN TECK WAY"}
+{"label":"STREET","pattern":"SENOKO SOUTH"}
+{"label":"STREET","pattern":"HOSPITAL DRIVE"}
+{"label":"STREET","pattern":"TUAS AVENUE 12"}
+{"label":"STREET","pattern":"OLD TOH TUCK ROAD"}
+{"label":"STREET","pattern":"TUAS WEST DRIVE"}
+{"label":"STREET","pattern":"BUILDING D CHANGI"}
+{"label":"STREET","pattern":"NEW BUGIS STREET"}
+{"label":"STREET","pattern":"SIM DRIVE"}
+{"label":"STREET","pattern":"BUILDING LINK"}
+{"label":"STREET","pattern":"MCCALLUM STREET"}
+{"label":"STREET","pattern":"DUXTON ROAD"}
+{"label":"STREET","pattern":"BANYAN DRIVE"}
+{"label":"STREET","pattern":"KIAN TECK LANE"}
+{"label":"STREET","pattern":"SERANGOON ROAD"}
+{"label":"STREET","pattern":"ROCHESTER DRIVE"}
+{"label":"STREET","pattern":"TANAH MERAH COAST ROAD"}
+{"label":"STREET","pattern":"TUAS AVENUE 13"}
+{"label":"STREET","pattern":"ONE SIMS LANE"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 65"}
+{"label":"STREET","pattern":"KAKI BUKIT AVENUE 4"}
+{"label":"STREET","pattern":"DEFU LANE 7"}
+{"label":"STREET","pattern":"PIONEER ROAD"}
+{"label":"STREET","pattern":"GENTING ROAD"}
+{"label":"STREET","pattern":"LOK YANG WAY"}
+{"label":"STREET","pattern":"MEDIA CIRCLE"}
+{"label":"STREET","pattern":"PASSENGER TERMINAL 2"}
+{"label":"STREET","pattern":"WAN LEE ROAD"}
+{"label":"STREET","pattern":"WOODLANDS INDUSTRIAL PARK"}
+{"label":"STREET","pattern":"GUL LANE"}
+{"label":"STREET","pattern":"CUPPAGE ROAD"}
+{"label":"STREET","pattern":"JALAN WAKAFF"}
+{"label":"STREET","pattern":"ESTATE ROAD 4"}
+{"label":"STREET","pattern":"CHANGI NORTH WAY"}
+{"label":"STREET","pattern":"TANJONG PAGAR ROAD"}
+{"label":"STREET","pattern":"PICKERING STREET"}
+{"label":"STREET","pattern":"NORTHSHORE DRIVE"}
+{"label":"STREET","pattern":"CARPENTER STREET"}
+{"label":"STREET","pattern":"CHINA SQUARE CENTRAL"}
+{"label":"STREET","pattern":"CHANGI NORTH CRESCENT"}
+{"label":"STREET","pattern":"CLEMENTI LOOP"}
+{"label":"STREET","pattern":"TOWER 2"}
+{"label":"STREET","pattern":"GOMBAK DRIVE"}
+{"label":"STREET","pattern":"STADIUM WALK"}
+{"label":"STREET","pattern":"NEYTHAL ROAD"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 5"}
+{"label":"STREET","pattern":"ANG MO KIO DRIVE"}
+{"label":"STREET","pattern":"BAYFRONT AVENUE"}
+{"label":"STREET","pattern":"KAKI BUKIT ROAD 6"}
+{"label":"STREET","pattern":"BUKIT PASOH ROAD"}
+{"label":"STREET","pattern":"AMK TECH LINK"}
+{"label":"STREET","pattern":"PIONEER WALK"}
+{"label":"STREET","pattern":"BATTERY ROAD 11TH"}
+{"label":"STREET","pattern":"EUNOS AVENUE 6"}
+{"label":"STREET","pattern":"KIAN TECK ROAD"}
+{"label":"STREET","pattern":"TELOK AYER STREET"}
+{"label":"STREET","pattern":"STARS AVENUE"}
+{"label":"STREET","pattern":"ORCHARD CENTRAL"}
+{"label":"STREET","pattern":"LOYANG WAY 4"}
+{"label":"STREET","pattern":"LORONG 1 TOA PAYOH"}
+{"label":"STREET","pattern":"MOSQUE STREET"}
+{"label":"STREET","pattern":"KADUT DRIVE"}
+{"label":"STREET","pattern":"TOSCA STREET"}
+{"label":"STREET","pattern":"ALJUNIED AVENUE 5"}
+{"label":"STREET","pattern":"UPPER ALJUNIED LINK"}
+{"label":"STREET","pattern":"LOYANG WAY 1"}
+{"label":"STREET","pattern":"TUAS AVENUE 10"}
+{"label":"STREET","pattern":"Q SQUARE"}
+{"label":"STREET","pattern":"SAM LEONG ROAD"}
+{"label":"STREET","pattern":"DOVER DRIVE"}
+{"label":"STREET","pattern":"EXPO DRIVE"}
+{"label":"STREET","pattern":"INNOVATION PLACE"}
+{"label":"STREET","pattern":"CLUB STREET"}
+{"label":"STREET","pattern":"JURONG PIER ROAD"}
+{"label":"STREET","pattern":"HB CENTRAL 2"}
+{"label":"STREET","pattern":"CAVAN ROAD"}
+{"label":"STREET","pattern":"ALIWAL STREET"}
+{"label":"STREET","pattern":"GOODMAN ROAD"}
+{"label":"STREET","pattern":"BUANGKOK VIEW"}
+{"label":"STREET","pattern":"TUAS SOUTH AVENUE 2"}
+{"label":"STREET","pattern":"ADMIRALTY ROAD"}
+{"label":"STREET","pattern":"TUAS BAY WALK"}
+{"label":"STREET","pattern":"KIAN TECK LANE 4TH"}
+{"label":"STREET","pattern":"MALACCA STREET"}
+{"label":"STREET","pattern":"TUAS VIEW CLOSE"}
+{"label":"STREET","pattern":"ERSKINE ROAD"}
+{"label":"STREET","pattern":"JALAN PINANG"}
+{"label":"STREET","pattern":"KIAN TECK DRIVE"}
+{"label":"STREET","pattern":"MARINE PARADE ROAD"}
+{"label":"STREET","pattern":"LIM CHU KANG LANE 3"}
+{"label":"STREET","pattern":"ROBINSON SQUARE"}
+{"label":"STREET","pattern":"HOLLAND ROAD"}
+{"label":"STREET","pattern":"TAGORE DRIVE"}
+{"label":"STREET","pattern":"BALMORAL CRESCENT"}
+{"label":"STREET","pattern":"QUAY SOUTH TOWER"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 10"}
+{"label":"STREET","pattern":"TRACTOR ROAD"}
+{"label":"STREET","pattern":"HUME AVENUE"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 13"}
+{"label":"STREET","pattern":"TUAS VIEW CIRCUIT"}
+{"label":"STREET","pattern":"MARINA SQUARE"}
+{"label":"STREET","pattern":"ANTHONY ROAD"}
+{"label":"STREET","pattern":"MAJU AVENUE"}
+{"label":"STREET","pattern":"CLEMENTI ROAD"}
+{"label":"STREET","pattern":"DEFU SOUTH STREET 1"}
+{"label":"STREET","pattern":"CHANGI FERRY ROAD"}
+{"label":"STREET","pattern":"ARTILLERY AVENUE"}
+{"label":"STREET","pattern":"KALLANG LEVEL 4"}
+{"label":"STREET","pattern":"ADMIRALTY ROAD WEST"}
+{"label":"STREET","pattern":"KANDAHAR STREET"}
+{"label":"STREET","pattern":"SAKRA AVENUE"}
+{"label":"STREET","pattern":"ANG MO KIO AVENUE 12"}
+{"label":"STREET","pattern":"TUAS SOUTH AVENUE"}
+{"label":"STREET","pattern":"TEBAN GARDENS CRESCENT"}
+{"label":"STREET","pattern":"SILOSO ROAD"}
+{"label":"STREET","pattern":"TAMPINES NORTH DRIVE 2"}
+{"label":"STREET","pattern":"SELETAR WEST FARMWAY 2"}
+{"label":"STREET","pattern":"TUAS AVENUE 6"}
+{"label":"STREET","pattern":"KIM SENG PROMENADE"}
+{"label":"STREET","pattern":"SINARAN DRIVE"}
+{"label":"STREET","pattern":"TUAS AVENUE 18"}
+{"label":"STREET","pattern":"COLLEGE ROAD"}
+{"label":"STREET","pattern":"GUL WAY"}
+{"label":"STREET","pattern":"TO 08"}
+{"label":"STREET","pattern":"THIRD CHIN BEE ROAD"}
+{"label":"STREET","pattern":"LENTOR AVENUE"}
+{"label":"STREET","pattern":"PRESTON ROAD"}
+{"label":"STREET","pattern":"713 CHANGI"}
+{"label":"STREET","pattern":"PARK STREET"}
+{"label":"STREET","pattern":"TUAS AVENUE 18A"}
+{"label":"STREET","pattern":"SIMON ROAD"}
+{"label":"STREET","pattern":"HARBOURFRONT WALK"}
+{"label":"STREET","pattern":"INDUSTRIAL PARK STREET 23"}
+{"label":"STREET","pattern":"SUNGEI KADUT DRIVE"}
+{"label":"STREET","pattern":"CLUNY ROAD"}
+{"label":"STREET","pattern":"SINGAPORE CHANGI AIRPORT"}
+{"label":"STREET","pattern":"CHANG CHARN ROAD"}
+{"label":"STREET","pattern":"PLYMOUTH AVENUE"}
+{"label":"STREET","pattern":"TUAS WEST STREET"}
+{"label":"STREET","pattern":"LORONG BAKAR BATU"}
+{"label":"STREET","pattern":"BEE CRESCENT"}
+{"label":"STREET","pattern":"TUAS SOUTH AVENUE 3"}
+{"label":"STREET","pattern":"EUNOS AVENUE 5"}
+{"label":"STREET","pattern":"EUNOS AVENUE 8"}
+{"label":"STREET","pattern":"EMERALD HILL ROAD"}
+{"label":"STREET","pattern":"WOODLEIGH LANE"}
+{"label":"STREET","pattern":"LORONG 19 GEYLANG"}
+{"label":"STREET","pattern":"TUAS AVENUE 1"}
+{"label":"STREET","pattern":"TAMPINES CENTRAL 5"}
+{"label":"STREET","pattern":"BUKIT TIMAH CENTRAL"}
+{"label":"STREET","pattern":"SOLARIS SOUTH TOWER"}
+{"label":"STREET","pattern":"TUAS AVENUE 3"}
+{"label":"STREET","pattern":"KRANJI LINK"}
+{"label":"STREET","pattern":"GANGES AVENUE"}
+{"label":"STREET","pattern":"HANDY ROAD"}
+{"label":"STREET","pattern":"TANJONG PENJURU CRESCENT"}
+{"label":"STREET","pattern":"KENT RIDGE ROAD"}
+{"label":"STREET","pattern":"TANJONG RHU ROAD"}
+{"label":"STREET","pattern":"TURF CLUB ROAD"}
+{"label":"STREET","pattern":"UPPER SERANGOON ROAD"}
+{"label":"STREET","pattern":"DEPOT LANE"}
+{"label":"STREET","pattern":"OLD CHOA CHU KANG ROAD"}
+{"label":"STREET","pattern":"JALAN PEMIMPIN"}
+{"label":"STREET","pattern":"TUAS VIEW PLACE"}
+{"label":"STREET","pattern":"PASIR RIS INDUSTRIAL DRIVE "}
+{"label":"STREET","pattern":"PHOENIX PARK"}
+{"label":"STREET","pattern":"JALAN AHMAD IBRAHIM"}
+{"label":"STREET","pattern":"ORANGE GROVE ROAD"}
+{"label":"STREET","pattern":"EAN KIAM PLACE"}
+{"label":"STREET","pattern":"FUSIONOPOLIS WAY"}
+{"label":"STREET","pattern":"TEMPLE STREET"}
+{"label":"STREET","pattern":"TUAS LANE"}
+{"label":"STREET","pattern":"ALJUNIED AVENUE 3"}
+{"label":"STREET","pattern":"CRAIG ROAD"}
+{"label":"STREET","pattern":"SHIPYARD ROAD"}
+{"label":"STREET","pattern":"TUAS AVENUE 16"}
+{"label":"STREET","pattern":"HENG MUI KENG TERRACE"}
+{"label":"STREET","pattern":"FOCH ROAD"}
+{"label":"STREET","pattern":"DEFU LANE 11"}
+{"label":"STREET","pattern":"WOODLANDS CENTRAL"}
+{"label":"STREET","pattern":"TANJONG KLING ROAD"}
+{"label":"STREET","pattern":"MERBAU ROAD"}
+{"label":"STREET","pattern":"PENJURU CLOSE (GROUND FLOOR)"}
+{"label":"STREET","pattern":"INDUSTRIAL PARK"}
+{"label":"STREET","pattern":"LORONG 8 GEYLANG"}
+{"label":"STREET","pattern":"DEFU LANE 8"}
+{"label":"STREET","pattern":"RAFFLES AVENUE"}
+{"label":"STREET","pattern":"DAIRY FARM LANE"}
+{"label":"STREET","pattern":"JURONG WEST CENTRAL 2"}
+{"label":"STREET","pattern":"LORONG 5 TOA PAYOH"}
+{"label":"STREET","pattern":"SUNGEI TENGAH ROAD"}
+{"label":"STREET","pattern":"RAFFLES LINK"}
+{"label":"STREET","pattern":"CROWHURST DRIVE"}
+{"label":"STREET","pattern":"FERRY ROAD"}
+{"label":"STREET","pattern":"DEFU LANE 4"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 2"}
+{"label":"STREET","pattern":"FAN YOONG ROAD"}
+{"label":"STREET","pattern":"LOWER KENT RIDGE ROAD"}
+{"label":"STREET","pattern":"TOMLINSON ROAD"}
+{"label":"STREET","pattern":"SYED ALWI ROAD"}
+{"label":"STREET","pattern":"TUAS DRIVE 1"}
+{"label":"STREET","pattern":"POOLE ROAD"}
+{"label":"STREET","pattern":"ALJUNIED AVENUE 2"}
+{"label":"STREET","pattern":"ANG MO KIO STREET 63"}
+{"label":"STREET","pattern":"NANYANG AVENUE NANYANG"}
+{"label":"STREET","pattern":"TAGORE INDUSTRIAL AVENUE 2ND"}
+{"label":"STREET","pattern":"HAMILTON ROAD"}
+{"label":"STREET","pattern":"TUAS VIEW CRESCENT"}
+{"label":"STREET","pattern":"KEONG SAIK ROAD"}
+{"label":"STREET","pattern":"FERNWOOD TERRACE"}
+{"label":"STREET","pattern":"LEVEL 3"}
+{"label":"STREET","pattern":"JOO YEE ROAD"}
+{"label":"STREET","pattern":"LOYANG WAY 6"}
+{"label":"STREET","pattern":"TUAS BASIN LINK"}
+{"label":"STREET","pattern":"SECOND HOSPITAL AVENUE"}
+{"label":"STREET","pattern":"MANDAI LINK"}
+{"label":"STREET","pattern":"TUAS SOUTH AVENUE 4"}
+{"label":"STREET","pattern":"DAIRY FARM ROAD"}
+{"label":"STREET","pattern":"GILSTEAD ROAD"}
+{"label":"STREET","pattern":"KADUT WAY"}
+{"label":"STREET","pattern":"SOMME ROAD"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 12"}
+{"label":"STREET","pattern":"ARMENIAN STREET"}
+{"label":"STREET","pattern":"KIM CHUAN TERRACE"}
+{"label":"STREET","pattern":"LORONG 10 GEYLANG"}
+{"label":"STREET","pattern":"JOO CHIAT PLACE"}
+{"label":"STREET","pattern":"CHIN BEE ROAD"}
+{"label":"STREET","pattern":"STANLEY STREET"}
+{"label":"STREET","pattern":"THOMSON HILLS DRIVE"}
+{"label":"STREET","pattern":"ONE RAFFLES LINK"}
+{"label":"STREET","pattern":"CAIRNHILL ROAD"}
+{"label":"STREET","pattern":"WOODLANDS AVENUE 7"}
+{"label":"STREET","pattern":"KIM SENG WALK"}
+{"label":"STREET","pattern":"LIM TECK BOO ROAD"}
+{"label":"STREET","pattern":"TO 06 ADMIRAX"}
+{"label":"STREET","pattern":"TUAS AVENUE 14"}
+{"label":"STREET","pattern":"PAGODA STREET"}
+{"label":"STREET","pattern":"IRVING PLACE"}
+{"label":"STREET","pattern":"MERANTI CRESCENT"}
+{"label":"STREET","pattern":"LIM CHU KANG LANE 6"}
+{"label":"STREET","pattern":"BIRCH ROAD"}
+{"label":"STREET","pattern":"CHENCHARU LINK"}
+{"label":"STREET","pattern":"GUILLEMARD ROAD"}
+{"label":"STREET","pattern":"RIVERSIDE ROAD"}
+{"label":"STREET","pattern":"CHANGI BUSINESS PARK CRESCENT"}
+{"label":"STREET","pattern":"JALAN ANAK"}
+{"label":"STREET","pattern":"TUAS LOOP"}
+{"label":"STREET","pattern":"TUAS SOUTH STREET 15"}
+{"label":"STREET","pattern":"KALLANG BASIN"}
+{"label":"STREET","pattern":"TOPS AVENUE 2"}
+{"label":"STREET","pattern":"RAFFLES BOULEVARD"}
+{"label":"STREET","pattern":"KALLANG WAY 2A"}
+{"label":"STREET","pattern":"DEPTFORD ROAD"}
+{"label":"STREET","pattern":"G ENTERPRISE ROAD"}
+{"label":"STREET","pattern":"TUAS LINK 2"}
+{"label":"STREET","pattern":"TYRWHITT ROAD"}
+{"label":"STREET","pattern":"KAKI BUKIT AVENUE 3"}
+{"label":"STREET","pattern":"CLUB LINK"}
+{"label":"STREET","pattern":"MADRAS STREET"}
+{"label":"STREET","pattern":"LORONG 29 GEYLANG"}
+{"label":"STREET","pattern":"NEW TECH PARK"}
+{"label":"STREET","pattern":"ISTANA ORCHARD ROAD"}
+{"label":"STREET","pattern":"KRANJI WAY"}
+{"label":"STREET","pattern":"AIRPORT ROAD"}
+{"label":"STREET","pattern":"ARAB STREET"}
+{"label":"STREET","pattern":"TUAS BAY DRIVE"}
+{"label":"STREET","pattern":"JALAN"}
+{"label":"STREET","pattern":"DUNLOP STREET"}
+{"label":"STREET","pattern":"TEO HONG ROAD"}
+{"label":"STREET","pattern":"CHANGI COAST WALK"}
+{"label":"STREET","pattern":"BUKIT MERAH LANE 2"}
+{"label":"STREET","pattern":"GUL STREET 3"}
+{"label":"STREET","pattern":"HYBRID PARK"}
+{"label":"STREET","pattern":"GUL LINK"}
+{"label":"STREET","pattern":"DEFU LANE 3"}
+{"label":"STREET","pattern":"GREENWOOD AVENUE"}
+{"label":"STREET","pattern":"TOWER B"}
+{"label":"STREET","pattern":"QUAY LEVEL"}
+{"label":"STREET","pattern":"ALEXANDRA TERRACE"}
+{"label":"STREET","pattern":"SHIPYARD CRESCENT"}
+{"label":"STREET","pattern":"AYER MERBAU ROAD"}
+{"label":"STREET","pattern":"STADIUM DRIVE"}
+{"label":"STREET","pattern":"BUKIT MANIS ROAD"}
+{"label":"STREET","pattern":"SUTTON PLACE"}
+{"label":"STREET","pattern":"PHOENIX TOWER"}
+{"label":"STREET","pattern":"JALAN TUKANG"}
+{"label":"STREET","pattern":"WINSTEDT ROAD"}
+{"label":"STREET","pattern":"LORONG SARINA"}
+{"label":"STREET","pattern":"SOLARIS NORTH TOWER"}
+{"label":"STREET","pattern":"NUCLEOS SOUTH TOWER"}
+{"label":"STREET","pattern":"BEDOK INDUSTRIAL PARK E"}
+{"label":"STREET","pattern":"CUPPAGE TERRACE"}
+{"label":"STREET","pattern":"SCIENCE CENTRE ROAD"}
+{"label":"STREET","pattern":"TUAS SOUTH AVENUE 8"}
+{"label":"STREET","pattern":"EU TONG SEN STREET"}
+{"label":"STREET","pattern":"PENJURU LANE C"}
+{"label":"STREET","pattern":"EUNOS AVENUE 7A"}
+{"label":"STREET","pattern":"UPPER CHANGI ROAD"}
+{"label":"STREET","pattern":"SERAYA AVENUE"}
+{"label":"STREET","pattern":"UNITY STREET"}
+{"label":"STREET","pattern":"LORONG AMPAS"}
+{"label":"STREET","pattern":"SIXTH AVENUE"}
+{"label":"STREET","pattern":"TAMPINES INDUSTRIAL AVENUE 3"}
+{"label":"STREET","pattern":"PASIR RIS CLOSE"}
+{"label":"STREET","pattern":"GUL STREET 4"}
+{"label":"STREET","pattern":"BIOPOLIS ROAD"}
+{"label":"STREET","pattern":"TUAS VIEW CRESCENT (OFF TUAS SOUTH AVENUE 3)"}
+{"label":"STREET","pattern":"JALAN SALANG"}
+{"label":"STREET","pattern":"MAYO STREET"}
+{"label":"STREET","pattern":"BEATTY ROAD"}
+{"label":"STREET","pattern":"EUNOS AVENUE 5A"}
+{"label":"STREET","pattern":"IRRAWADDY ROAD"}
+{"label":"STREET","pattern":"UPPER PICKERING STREET"}
+{"label":"STREET","pattern":"TUAS AVENUE 7"}
+{"label":"STREET","pattern":"SWISS CLUB ROAD"}
+{"label":"STREET","pattern":"TAI SENG"}
+{"label":"STREET","pattern":"BAH SOON PAH ROAD"}
+{"label":"STREET","pattern":"LORONG PENDEK"}
+{"label":"STREET","pattern":"SHERWOOD ROAD"}
+{"label":"STREET","pattern":"PORTSDOWN ROAD"}
+{"label":"STREET","pattern":"AROOZOO AVENUE (NEAR CHARLTON PARK)"}
+{"label":"STREET","pattern":"TUKANG INNOVATION GROVE"}
+{"label":"STREET","pattern":"KERBAU ROAD"}
+{"label":"STREET","pattern":"TURF CLUB AVENUE"}
+{"label":"STREET","pattern":"JALAN EUNOS"}
+{"label":"STREET","pattern":"DICKSON ROAD"}
+{"label":"STREET","pattern":"TUAS LINK 4"}
+{"label":"STREET","pattern":"AYER RAJAH"}
+{"label":"BUILDING","pattern":"SAINT GEORGE'S EAST GARDENS"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHANGI-SIMEI BLOCK 131 (KN)"}
+{"label":"BUILDING","pattern":"KAKI BUKIT VILLE"}
+{"label":"BUILDING","pattern":"HONG KAH COURT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TELOK BLANGAH 44 (CC)"}
+{"label":"BUILDING","pattern":"MY FIRST SKOOL"}
+{"label":"BUILDING","pattern":"CHENG SAN CREST"}
+{"label":"BUILDING","pattern":"NEE SOON CENTRAL VISTA"}
+{"label":"BUILDING","pattern":"nan"}
+{"label":"BUILDING","pattern":"WATERWAY BROOKS"}
+{"label":"BUILDING","pattern":"SIN MING COURT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL EAST 194 (CC)"}
+{"label":"BUILDING","pattern":"WESTWOOD COURT"}
+{"label":"BUILDING","pattern":"TECK WHYE CREST"}
+{"label":"BUILDING","pattern":"SEGAR GARDENS"}
+{"label":"BUILDING","pattern":"YISHUN RIVERGREEN"}
+{"label":"BUILDING","pattern":"LONGVALE"}
+{"label":"BUILDING","pattern":"CLEMENTI VIEW"}
+{"label":"BUILDING","pattern":"HDB PUBLIC SHELTERS"}
+{"label":"BUILDING","pattern":"FORFAR HEIGHTS"}
+{"label":"BUILDING","pattern":"CLEMENTI MEADOWS"}
+{"label":"BUILDING","pattern":"DI TANJONG RHU"}
+{"label":"BUILDING","pattern":"RIVERVALE VIEW"}
+{"label":"BUILDING","pattern":"BEDOK TOWN CENTRE"}
+{"label":"BUILDING","pattern":"TAMPINES ARCADIA"}
+{"label":"BUILDING","pattern":"SAINT LUKE'S ELDERCARE CLEMENTI CENTRE"}
+{"label":"BUILDING","pattern":"KEBUN BARU LINK 1"}
+{"label":"BUILDING","pattern":"TAMPINES COURTVIEW"}
+{"label":"BUILDING","pattern":"CHENG YAN COURT"}
+{"label":"BUILDING","pattern":"GARDEN HILL"}
+{"label":"BUILDING","pattern":"KAMPUNG SENANG STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"GHIM MOH GREEN"}
+{"label":"BUILDING","pattern":"HAVELOCK VIEW"}
+{"label":"BUILDING","pattern":"HAIG VIEW"}
+{"label":"BUILDING","pattern":"RAINBOW VILLE"}
+{"label":"BUILDING","pattern":"CHENG SAN VIEW"}
+{"label":"BUILDING","pattern":"MARINE TERRACE HAVEN"}
+{"label":"BUILDING","pattern":"TECK GHEE VISTA"}
+{"label":"BUILDING","pattern":"TECK GHEE HORIZON"}
+{"label":"BUILDING","pattern":"UOB HOUGANG AVENUE 8"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHONG PANG BLOCK 122 (KN)"}
+{"label":"BUILDING","pattern":"BISHAN VIEW"}
+{"label":"BUILDING","pattern":"JURONG EAST VILLE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TANJONG PAGAR-TIONG BAHRU BLOCK 130 (KN)"}
+{"label":"BUILDING","pattern":"HILLGROVE GARDENS"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TECK GHEE BLOCK 466 (KN)"}
+{"label":"BUILDING","pattern":"ANG MO KIO 61"}
+{"label":"BUILDING","pattern":"TOH GUAN VIEW"}
+{"label":"BUILDING","pattern":"MOUNT FABER VIEW"}
+{"label":"BUILDING","pattern":"KEBUN BARU HEIGHTS"}
+{"label":"BUILDING","pattern":"PANGSHAN VALLEY"}
+{"label":"BUILDING","pattern":"SHUNFU GARDENS"}
+{"label":"BUILDING","pattern":"YISHUN JASMINE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK EAST BLOCK 285C (KN)"}
+{"label":"BUILDING","pattern":"MARINE TERRACE BREEZE"}
+{"label":"BUILDING","pattern":"APPLES & PENCILS EDUCATION PTE LTD"}
+{"label":"BUILDING","pattern":"KHATIB VALE"}
+{"label":"BUILDING","pattern":"NATURA LOFT"}
+{"label":"BUILDING","pattern":"EUNOS RAINBOW"}
+{"label":"BUILDING","pattern":"OCBC JURONG WEST ST 51 - 7 ELEVEN"}
+{"label":"BUILDING","pattern":"DBS BEDOK RESERVOIR ROAD/616"}
+{"label":"BUILDING","pattern":"DEPOT HEIGHTS"}
+{"label":"BUILDING","pattern":"TECK GHEE GRANDEUR"}
+{"label":"BUILDING","pattern":"CHONG PANG GREEN"}
+{"label":"BUILDING","pattern":"MARSILING GREEN"}
+{"label":"BUILDING","pattern":"CHONG BOON VIEW"}
+{"label":"BUILDING","pattern":"CHENG SAN COURT"}
+{"label":"BUILDING","pattern":"YIO CHU KANG VILLE"}
+{"label":"BUILDING","pattern":"SIGLAP LUCKY VALLEY"}
+{"label":"BUILDING","pattern":"OCBC JURONG EAST ST 24 - FAIRPRICE"}
+{"label":"BUILDING","pattern":"KIM KEAT VIEW"}
+{"label":"BUILDING","pattern":"TAMPINES PARKVIEW"}
+{"label":"BUILDING","pattern":"LIMBANG GREEN"}
+{"label":"BUILDING","pattern":"FICUS VALE"}
+{"label":"BUILDING","pattern":"TAMPINES SPRING"}
+{"label":"BUILDING","pattern":"DBS ANG MO KIO AVENUE 1"}
+{"label":"BUILDING","pattern":"GOODVIEW GARDENS"}
+{"label":"BUILDING","pattern":"LINEAR GREEN @ BEDOK"}
+{"label":"BUILDING","pattern":"HWI YOH VILLE"}
+{"label":"BUILDING","pattern":"RAJAH COURT"}
+{"label":"BUILDING","pattern":"HOLLAND VISTA"}
+{"label":"BUILDING","pattern":"WHAMPOA VIEW"}
+{"label":"BUILDING","pattern":"CHENG SAN PLACE"}
+{"label":"BUILDING","pattern":"KAKI BUKIT NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"COMPASSVALE HAVEN"}
+{"label":"BUILDING","pattern":"DBS ANG MO KIO AVENUE 8"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG CENTRAL 259B (CC)"}
+{"label":"BUILDING","pattern":"WATERWAY CASCADIA"}
+{"label":"BUILDING","pattern":"MARSILING ADMIRALTY PARK"}
+{"label":"BUILDING","pattern":"WATERWAY WOODCRESS"}
+{"label":"BUILDING","pattern":"MARINE CRESCENT VILLE"}
+{"label":"BUILDING","pattern":"TAMPINES VILLE"}
+{"label":"BUILDING","pattern":"SIGLAP EAST"}
+{"label":"BUILDING","pattern":"OCBC CENTRE"}
+{"label":"BUILDING","pattern":"THE PINNACLE@DUXTON"}
+{"label":"BUILDING","pattern":"BENDEMEER VILLE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHENG SAN-SELETAR BLOCK 533 (KN)"}
+{"label":"BUILDING","pattern":"ELIAS VIEW"}
+{"label":"BUILDING","pattern":"PUNGGOL BREEZE"}
+{"label":"BUILDING","pattern":"BRIGHT KIDS SCHOOL HOUSE PTE LTD"}
+{"label":"BUILDING","pattern":"LUTHERAN CHILD CARE CENTRE"}
+{"label":"BUILDING","pattern":"GHIM MOH VALLEY"}
+{"label":"BUILDING","pattern":"MARINE DRIVE GARDENS"}
+{"label":"BUILDING","pattern":"BISHAN GREEN"}
+{"label":"BUILDING","pattern":"DBS YISHUN WEST BRANCH"}
+{"label":"BUILDING","pattern":"EUNOS CRESCENT VIEW"}
+{"label":"BUILDING","pattern":"SUN PLAZA GARDENS"}
+{"label":"BUILDING","pattern":"STARS EDUCARE PTE LTD"}
+{"label":"BUILDING","pattern":"HCA - CI YUAN HOUGANG CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KEMBANGAN CHAI CHEE BLOCK 326 (KN)"}
+{"label":"BUILDING","pattern":"MODERN MONTESSORI PRESCHOOL CENTRE"}
+{"label":"BUILDING","pattern":"WEST COAST PRIDE"}
+{"label":"BUILDING","pattern":"HEARTFRIENDS BASC"}
+{"label":"BUILDING","pattern":"WOODLANDS VISTA"}
+{"label":"BUILDING","pattern":"NEE SOON CENTRAL MEADOWS"}
+{"label":"BUILDING","pattern":"CHENG SAN GREEN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK 178 (CC)"}
+{"label":"BUILDING","pattern":"EUNOS SPRING"}
+{"label":"BUILDING","pattern":"TAMPINES PALMSVILLE"}
+{"label":"BUILDING","pattern":"BOON LAY CREST"}
+{"label":"BUILDING","pattern":"YWCA WEST COAST CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"YIO CHU KANG GREEN"}
+{"label":"BUILDING","pattern":"MORAL CHILD DEVELOPMENT CENTRE (CHEE HOON KOG)"}
+{"label":"BUILDING","pattern":"LITTLE PROFESSORS EDUCATION CENTRE @JURONG WEST LLP"}
+{"label":"BUILDING","pattern":"HWI YOH COURT"}
+{"label":"BUILDING","pattern":"OCBC BISHAN STREET 11"}
+{"label":"BUILDING","pattern":"WEST COAST VISTA"}
+{"label":"BUILDING","pattern":"WHAMPOA GARDENS"}
+{"label":"BUILDING","pattern":"TECK GHEE VIEW"}
+{"label":"BUILDING","pattern":"GAN ENG SENG PRIMARY SCHOOL"}
+{"label":"BUILDING","pattern":"GOMBAK GARDENS"}
+{"label":"BUILDING","pattern":"TAMPINES GREENLEAF"}
+{"label":"BUILDING","pattern":"RUMAH TINGGI VIEW"}
+{"label":"BUILDING","pattern":"GUILIN BREEZE"}
+{"label":"BUILDING","pattern":"SKYLINE II @ BUKIT BATOK"}
+{"label":"BUILDING","pattern":"YIO CHU KANG GROVE"}
+{"label":"BUILDING","pattern":"PUNGGOL SPECTRA"}
+{"label":"BUILDING","pattern":"DBS KAMPONG UBI BRANCH"}
+{"label":"BUILDING","pattern":"TANGLIN GROVE"}
+{"label":"BUILDING","pattern":"BEDOK NORTH GREEN"}
+{"label":"BUILDING","pattern":"KIDSKINGDOM PTE. LTD."}
+{"label":"BUILDING","pattern":"CHUAN VILLAGE"}
+{"label":"BUILDING","pattern":"RIVERVALE COURT"}
+{"label":"BUILDING","pattern":"EUNOS VISTA"}
+{"label":"BUILDING","pattern":"TAMPINES VISTA"}
+{"label":"BUILDING","pattern":"SGX CENTRE 2"}
+{"label":"BUILDING","pattern":"KAKI BUKIT GREEN"}
+{"label":"BUILDING","pattern":"RIVERVALE GATEWAY"}
+{"label":"BUILDING","pattern":"LAVENDER GARDENS"}
+{"label":"BUILDING","pattern":"SWEETLANDS CHILDCARE WOODLANDS 608 PTE. LTD."}
+{"label":"BUILDING","pattern":"PING-AN GARDENS"}
+{"label":"BUILDING","pattern":"CORAL VALE"}
+{"label":"BUILDING","pattern":"MARSILING GARDENS"}
+{"label":"BUILDING","pattern":"KAMPONG UBI VIEW"}
+{"label":"BUILDING","pattern":"COMPASSVALE PLAINS"}
+{"label":"BUILDING","pattern":"FROBEL PRESCHOOL WOODLANDS PTE. LTD."}
+{"label":"BUILDING","pattern":"GEYLANG EAST GROVE"}
+{"label":"BUILDING","pattern":"BOON LAY VISTA"}
+{"label":"BUILDING","pattern":"ANCHORVALE COURT"}
+{"label":"BUILDING","pattern":"ANSAR GARDEN"}
+{"label":"BUILDING","pattern":"GEYLANG BAHRU RIVERPOINT"}
+{"label":"BUILDING","pattern":"CITIPOINT@PAYA LEBAR"}
+{"label":"BUILDING","pattern":"WCEGA TOWER"}
+{"label":"BUILDING","pattern":"KHATIB SPRING"}
+{"label":"BUILDING","pattern":"SEMBAWANG RIVERLODGE"}
+{"label":"BUILDING","pattern":"JURONG EAST VIEW"}
+{"label":"BUILDING","pattern":"ACACIA BREEZE @ YISHUN"}
+{"label":"BUILDING","pattern":"BOON LAY PLACE"}
+{"label":"BUILDING","pattern":"LITTLE DOLPHINS PLAYSKOOL"}
+{"label":"BUILDING","pattern":"TOA PAYOH NORTH"}
+{"label":"BUILDING","pattern":"DBS SPF RADIN MAS"}
+{"label":"BUILDING","pattern":"BUKIT PURMEI VILLE"}
+{"label":"BUILDING","pattern":"CHONG PANG VALE"}
+{"label":"BUILDING","pattern":"DBS BEDOK NORTH AVENUE 3"}
+{"label":"BUILDING","pattern":"UOB CLEMENTI MALL"}
+{"label":"BUILDING","pattern":"COMMONWEALTH GREEN"}
+{"label":"BUILDING","pattern":"TREEGROVE@WOODLANDS"}
+{"label":"BUILDING","pattern":"FARRER GARDENS"}
+{"label":"BUILDING","pattern":"DBS JALAN BUKIT MERAH"}
+{"label":"BUILDING","pattern":"MARSILING SAPPHIRE"}
+{"label":"BUILDING","pattern":"BLANGAH COURT"}
+{"label":"BUILDING","pattern":"CHONG BOON RISE"}
+{"label":"BUILDING","pattern":"CHONG PANG VISTA"}
+{"label":"BUILDING","pattern":"ICHIBAN MONTESSORI CHILDCARE CENTRE (SEGAR) PTE. LTD"}
+{"label":"BUILDING","pattern":"OCBC GUARDIAN PHARMACY"}
+{"label":"BUILDING","pattern":"BOON LAY VIEW"}
+{"label":"BUILDING","pattern":"TAMPINES POLYVIEW"}
+{"label":"BUILDING","pattern":"NANYANG EMERALD"}
+{"label":"BUILDING","pattern":"MCNAIR SPRING"}
+{"label":"BUILDING","pattern":"EUNOS HEIGHTS"}
+{"label":"BUILDING","pattern":"SINGAPORE CHUNG HWA MEDICAL INSTITUTION"}
+{"label":"BUILDING","pattern":"MINI WORLD CHILD CARE & DEVELOPMENT CENTRE PTE LTD"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ MACPHERSON BLOCK 31 (KN)"}
+{"label":"BUILDING","pattern":"PCS WOODLANDS CENTRE"}
+{"label":"BUILDING","pattern":"TOWNER HEIGHTS"}
+{"label":"BUILDING","pattern":"COMPASSVALE CREST"}
+{"label":"BUILDING","pattern":"FERN SPRING"}
+{"label":"BUILDING","pattern":"SIN MING VILLE"}
+{"label":"BUILDING","pattern":"TECK WHYE HEIGHTS I"}
+{"label":"BUILDING","pattern":"EDELWEISS@JURONG"}
+{"label":"BUILDING","pattern":"JADE SPRING @ YISHUN"}
+{"label":"BUILDING","pattern":"GEK POH VILLE"}
+{"label":"BUILDING","pattern":"TANGLIN HALT GREEN"}
+{"label":"BUILDING","pattern":"SGM MURNI"}
+{"label":"BUILDING","pattern":"YIO CHU KANG HEIGHTS"}
+{"label":"BUILDING","pattern":"THE BEO CRESCENT"}
+{"label":"BUILDING","pattern":"UOB BUKIT BATOK EAST AVENUE 4"}
+{"label":"BUILDING","pattern":"PUNGGOL GROVE"}
+{"label":"BUILDING","pattern":"CARPE DIEM STARLETS 1 PTE. LTD."}
+{"label":"BUILDING","pattern":"YISHUN PALM SPRING"}
+{"label":"BUILDING","pattern":"GOMBAK VIEW"}
+{"label":"BUILDING","pattern":"SENJA GRAND"}
+{"label":"BUILDING","pattern":"TAMPINES GREEN VALE"}
+{"label":"BUILDING","pattern":"TAMPINES STARLIGHT"}
+{"label":"BUILDING","pattern":"PUNGGOL SAPPHIRE"}
+{"label":"BUILDING","pattern":"CHONG PANG GARDEN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TECK GHEE BLOCK 301 (KN)"}
+{"label":"BUILDING","pattern":"TOTS CLUB PRESCHOOL"}
+{"label":"BUILDING","pattern":"BUKIT PANJANG NEIGHBOURHOOD CENTRE"}
+{"label":"BUILDING","pattern":"MEMBINA 118"}
+{"label":"BUILDING","pattern":"YISHUN GARDENS"}
+{"label":"BUILDING","pattern":"NEW HORIZON CENTRE (BUKIT BATOK)"}
+{"label":"BUILDING","pattern":"DBS MARINE TERRACE"}
+{"label":"BUILDING","pattern":"AMK HEIGHTS"}
+{"label":"BUILDING","pattern":"KAMPUNG GREEN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL@TAMPINES WEST 151 (CC)"}
+{"label":"BUILDING","pattern":"JURONGVILLE @ STREET 41"}
+{"label":"BUILDING","pattern":"TAMPINES HEART"}
+{"label":"BUILDING","pattern":"BUONA VISTA NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHONG PANG 115B (CC)"}
+{"label":"BUILDING","pattern":"PEARL GARDEN"}
+{"label":"BUILDING","pattern":"PING YI GREENS"}
+{"label":"BUILDING","pattern":"MACPHERSON GARDEN"}
+{"label":"BUILDING","pattern":"TECK GHEE HEARTLANDS"}
+{"label":"BUILDING","pattern":"KEMBANGAN GARDENS"}
+{"label":"BUILDING","pattern":"RIVERVALE ARC"}
+{"label":"BUILDING","pattern":"SUNSET WAY RESIDENCE"}
+{"label":"BUILDING","pattern":"DSTAR EDUCENTRE"}
+{"label":"BUILDING","pattern":"RIVERVALE BANK"}
+{"label":"BUILDING","pattern":"ADELFIBEL INFANT AND CHILD DEVELOPMENT CENTRE PTE LTD"}
+{"label":"BUILDING","pattern":"CHAI CHEE NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"JURONGVILLE @ AVENUE 1"}
+{"label":"BUILDING","pattern":"HONG KAH EAST GARDEN"}
+{"label":"BUILDING","pattern":"INSPIRE KIDS INTERNATIONAL (WOODLANDS) LLP"}
+{"label":"BUILDING","pattern":"COMPASSVALE PEARL"}
+{"label":"BUILDING","pattern":"KHATIB EVERGREEN II"}
+{"label":"BUILDING","pattern":"NANYANG SAPPHIRE"}
+{"label":"BUILDING","pattern":"PUNGGOL TOPAZ"}
+{"label":"BUILDING","pattern":"ELIAS PARKS ESTATE"}
+{"label":"BUILDING","pattern":"TAMPINES PALMSPRING"}
+{"label":"BUILDING","pattern":"COMPASSVALE BEACON"}
+{"label":"BUILDING","pattern":"YISHUN SUNSHINE"}
+{"label":"BUILDING","pattern":"THE CORIS"}
+{"label":"BUILDING","pattern":"STAR LEARNERS @ BUKIT BATOK PTE. LTD."}
+{"label":"BUILDING","pattern":"HOUGANG CRIMSON"}
+{"label":"BUILDING","pattern":"STA BASC (BUKIT PANJANG)"}
+{"label":"BUILDING","pattern":"NEE SOON CENTRAL SPRING"}
+{"label":"BUILDING","pattern":"MACPHERSON VIEW"}
+{"label":"BUILDING","pattern":"STARLAND KINDERGARTEN"}
+{"label":"BUILDING","pattern":"FERNVALE VISTA"}
+{"label":"BUILDING","pattern":"CORALINUS"}
+{"label":"BUILDING","pattern":"COMMONWEALTH VIEW"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHENG SAN-SELETAR BLOCK 435 (KN)"}
+{"label":"BUILDING","pattern":"CRESCENT VIEW"}
+{"label":"BUILDING","pattern":"VINE GROVE @ YISHUN"}
+{"label":"BUILDING","pattern":"ANG MO KIO 31"}
+{"label":"BUILDING","pattern":"CLEMENTI CREST"}
+{"label":"BUILDING","pattern":"COMPASSVALE GARDENS"}
+{"label":"BUILDING","pattern":"RESERVOIR RISE"}
+{"label":"BUILDING","pattern":"HENDERSONVILLE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG CENTRAL 298B (CC)"}
+{"label":"BUILDING","pattern":"NATURE VIEW"}
+{"label":"BUILDING","pattern":"FENGSHAN ESTATE"}
+{"label":"BUILDING","pattern":"SIMS VISTA"}
+{"label":"BUILDING","pattern":"MOUNT FABER GREEN"}
+{"label":"BUILDING","pattern":"TOA PAYOH SPRING"}
+{"label":"BUILDING","pattern":"MEILING HEIGHTS"}
+{"label":"BUILDING","pattern":"BEDOK RESERVOIR - PUNGGOL VALE"}
+{"label":"BUILDING","pattern":"DOVER VILLE"}
+{"label":"BUILDING","pattern":"UBI CHILD CARE & DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"KHATIB GARDENS"}
+{"label":"BUILDING","pattern":"PANGSHAN COURT"}
+{"label":"BUILDING","pattern":"PUNGGOL LODGE"}
+{"label":"BUILDING","pattern":"COMMONWEALTH HEIGHTS"}
+{"label":"BUILDING","pattern":"KAMPUNG UBI ESTATE"}
+{"label":"BUILDING","pattern":"FERNVALE RIVERBOW"}
+{"label":"BUILDING","pattern":"CANTONMENT TOWERS"}
+{"label":"BUILDING","pattern":"EXCEL LEARNING CENTER"}
+{"label":"BUILDING","pattern":"CARELAND STUDENT CARE CENTRE (HOUGANG)"}
+{"label":"BUILDING","pattern":"ANCHORVALE HARVEST"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH BLOCK 276D (KN)"}
+{"label":"BUILDING","pattern":"UOB SDB CENTRE - BEDOK"}
+{"label":"BUILDING","pattern":"BALAM GARDENS"}
+{"label":"BUILDING","pattern":"PUNGGOL WAVES"}
+{"label":"BUILDING","pattern":"COMPASSVALE NORTH GATE"}
+{"label":"BUILDING","pattern":"DARDIS CHILD DEVELOPMENT CENTRE PTE.LTD."}
+{"label":"BUILDING","pattern":"THE NAUTILUS @ PUNGGOL"}
+{"label":"BUILDING","pattern":"YISHUN GREENWALK"}
+{"label":"BUILDING","pattern":"GEYLANG BAHRU VILLE"}
+{"label":"BUILDING","pattern":"FERN GROVE @ YISHUN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KEMBANGAN CHAI CHEE BLOCK 59 (KN)"}
+{"label":"BUILDING","pattern":"OLEANDER BREEZE @ YISHUN"}
+{"label":"BUILDING","pattern":"E-BRIDGE PRE-SCHOOL PTE. LTD."}
+{"label":"BUILDING","pattern":"KOLAM AYER NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"SIN MING GARDEN"}
+{"label":"BUILDING","pattern":"RIVERVALE GROVE"}
+{"label":"BUILDING","pattern":"TREELODGE@PUNGGOL"}
+{"label":"BUILDING","pattern":"RIVERVALE PLAINS"}
+{"label":"BUILDING","pattern":"OCBC JALAN BUKIT MERAH - FAIRPRICE"}
+{"label":"BUILDING","pattern":"ANCHORVALE VISTA"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ YEW TEE BLOCK 682 (KN)"}
+{"label":"BUILDING","pattern":"TAMPINES GROVE"}
+{"label":"BUILDING","pattern":"EUNOS TENAGA VILLE"}
+{"label":"BUILDING","pattern":"ARCHERS STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"24 HOUR CLINIC"}
+{"label":"BUILDING","pattern":"SUN PLAZA VIEW"}
+{"label":"BUILDING","pattern":"APEX DAY CARE ACTIVITY CENTRE"}
+{"label":"BUILDING","pattern":"STIRLING RISE"}
+{"label":"BUILDING","pattern":"PCS TAMPINES CENTRE"}
+{"label":"BUILDING","pattern":"TAMPINES LODGE"}
+{"label":"BUILDING","pattern":"ANCHORVALE COVE"}
+{"label":"BUILDING","pattern":"TECK GHEE EVERGREEN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHONG PANG BLOCK 107 (KN)"}
+{"label":"BUILDING","pattern":"HOUGANG HEIGHTS"}
+{"label":"BUILDING","pattern":"HOUGANG SPRING"}
+{"label":"BUILDING","pattern":"NGEE ANN CITY TOWER A"}
+{"label":"BUILDING","pattern":"ANCHORVALE PLACE"}
+{"label":"BUILDING","pattern":"COMPASSVALE LODGE"}
+{"label":"BUILDING","pattern":"SEGAR MEADOWS"}
+{"label":"BUILDING","pattern":"SUNLOVE BUKIT MERAH STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"HOUGANG VIEW"}
+{"label":"BUILDING","pattern":"TREETRAIL@WOODLANDS"}
+{"label":"BUILDING","pattern":"BOUNDARY VILLE"}
+{"label":"BUILDING","pattern":"BUKIT HO SWEE VIEW"}
+{"label":"BUILDING","pattern":"DBS YISHUN AVENUE 7/173"}
+{"label":"BUILDING","pattern":"WATERWAY TERRACES II"}
+{"label":"BUILDING","pattern":"ANG MO KIO VIEW"}
+{"label":"BUILDING","pattern":"HANIS MONTESSORI KINDERGARTEN (TAMPINES)"}
+{"label":"BUILDING","pattern":"WENYA"}
+{"label":"BUILDING","pattern":"OCBC HOUGANG ST 61"}
+{"label":"BUILDING","pattern":"RIVERVALE GARDENS"}
+{"label":"BUILDING","pattern":"KHATIB EVERGREEN I"}
+{"label":"BUILDING","pattern":"ACE ACHIEVERS OUR LEARNING HUB PTE LTD"}
+{"label":"BUILDING","pattern":"YISHUN GLORY"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT TIMAH 305 (CC)"}
+{"label":"BUILDING","pattern":"VISTA 8"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KEBUN BARU 180 (CC)"}
+{"label":"BUILDING","pattern":"EUNOS COURT"}
+{"label":"BUILDING","pattern":"BEDOK SOUTH PARKVIEW"}
+{"label":"BUILDING","pattern":"TIONG BAHRU ORCHID"}
+{"label":"BUILDING","pattern":"IOB BUILDING"}
+{"label":"BUILDING","pattern":"GOLDEN BEACH VISTA"}
+{"label":"BUILDING","pattern":"RIVERVALE DELTA"}
+{"label":"BUILDING","pattern":"BRAS BASAH COMPLEX"}
+{"label":"BUILDING","pattern":"MONTREAL SPRING"}
+{"label":"BUILDING","pattern":"FERNVALE RESIDENCE"}
+{"label":"BUILDING","pattern":"NEE SOON CENTRAL VIEW"}
+{"label":"BUILDING","pattern":"SUN PLAZA GREEN"}
+{"label":"BUILDING","pattern":"COMPASSVALE VISTA"}
+{"label":"BUILDING","pattern":"THE ANG MO KIO FAMILY SERVICE CENTRES"}
+{"label":"BUILDING","pattern":"THE SBL VISION FAMILY SERVICE CENTRE"}
+{"label":"BUILDING","pattern":"MODERN MONTESSORI PRE SCHOOL CENTRE"}
+{"label":"BUILDING","pattern":"COMMONWEALTH 16"}
+{"label":"BUILDING","pattern":"COMPASSVALE CAPE"}
+{"label":"BUILDING","pattern":"UOB WHAMPOA DRIVE"}
+{"label":"BUILDING","pattern":"DISTINCT STUDENT CARE AND ENRICHMENT CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ GAMBAS 446 (CC)"}
+{"label":"BUILDING","pattern":"SAINT LUKE'S ELDERCARE HOUGANG CENTRE"}
+{"label":"BUILDING","pattern":"SAINT LUKE'S ELDERCARE JURONG EAST CENTRE"}
+{"label":"BUILDING","pattern":"GENTING CENTRE"}
+{"label":"BUILDING","pattern":"NURTURE INFANT HOUSE PTE LTD"}
+{"label":"BUILDING","pattern":"REACH FAMILY SERVICE CENTRE"}
+{"label":"BUILDING","pattern":"VISTA 18"}
+{"label":"BUILDING","pattern":"BISHAN SPRING"}
+{"label":"BUILDING","pattern":"BLUE RIVERVIEW"}
+{"label":"BUILDING","pattern":"JOO SENG HEIGHTS"}
+{"label":"BUILDING","pattern":"BOON TIONG ARCADIA"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHONG PANG 288 (CC)"}
+{"label":"BUILDING","pattern":"ANCHORVALE GARDENS"}
+{"label":"BUILDING","pattern":"MACPHERSON RESIDENCY"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KEMBANGAN CHAI CHEE 341 (CC)"}
+{"label":"BUILDING","pattern":"RIVERVALE GREEN"}
+{"label":"BUILDING","pattern":"MEI LING VISTA"}
+{"label":"BUILDING","pattern":"HAPPY TALENT CHILDCARE CENTRE PTE. LTD."}
+{"label":"BUILDING","pattern":"COMPASSVALE ANCILLA"}
+{"label":"BUILDING","pattern":"PANSHAN VIEW"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BISHAN EAST-THOMSON 181 (CC)"}
+{"label":"BUILDING","pattern":"HANIS MONTESSORI KINDERGARTEN (WOODLANDS)"}
+{"label":"BUILDING","pattern":"COMPASSVALE SOUTH GATE"}
+{"label":"BUILDING","pattern":"KAMPONG UBI GREENVILLE"}
+{"label":"BUILDING","pattern":"FERN VIEW"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ NEE SOON CENTRAL BLOCK 738 (KN)"}
+{"label":"BUILDING","pattern":"PANGSHAN GROVE"}
+{"label":"BUILDING","pattern":"ANG MO KIO 22"}
+{"label":"BUILDING","pattern":"SMARTIE COTTAGE"}
+{"label":"BUILDING","pattern":"BLANGAH GARDEN"}
+{"label":"BUILDING","pattern":"SOUTH CENTRAL COMMUNITY FAMILY SERVICE CENTRE"}
+{"label":"BUILDING","pattern":"COMPASSVALE GREEN"}
+{"label":"BUILDING","pattern":"RIVERVALE EDGE"}
+{"label":"BUILDING","pattern":"DBS MARSILING RISE"}
+{"label":"BUILDING","pattern":"DAMAI GROVE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH BLOCK 750 (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ YIO CHU KANG BLOCK 235 (KN)"}
+{"label":"BUILDING","pattern":"THE MEADOWS"}
+{"label":"BUILDING","pattern":"CITY VIEW @ BOON KENG"}
+{"label":"BUILDING","pattern":"MY WORLD PRESCHOOL LTD."}
+{"label":"BUILDING","pattern":"SPOTTISWOODE PARK ESTATE"}
+{"label":"BUILDING","pattern":"SAINT LUKE'S ELDERCARE TELOK BLANGAH CENTRE"}
+{"label":"BUILDING","pattern":"EUNOS DAMAI VILLE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SERANGOON BLOCK 226 (KN)"}
+{"label":"BUILDING","pattern":"SELEGIE HOUSE"}
+{"label":"BUILDING","pattern":"IYAD PERDAUS CHILD DEVELOPMENT"}
+{"label":"BUILDING","pattern":"ANCHORVALE HORIZON"}
+{"label":"BUILDING","pattern":"HONG KAH GREEN"}
+{"label":"BUILDING","pattern":"WHAMPOA VISTA"}
+{"label":"BUILDING","pattern":"APPLELAND MONTESSORI CHILD CARE CENTRE"}
+{"label":"BUILDING","pattern":"CENTRAL HORIZON"}
+{"label":"BUILDING","pattern":"TOTSVILLE MONTESSORI KINDERGARTEN (BISHAN)"}
+{"label":"BUILDING","pattern":"BLANGAH VIEW"}
+{"label":"BUILDING","pattern":"BELVIA"}
+{"label":"BUILDING","pattern":"AH HOOD GARDENS"}
+{"label":"BUILDING","pattern":"BUKIT MERAH VIEW"}
+{"label":"BUILDING","pattern":"SPRING VIEW"}
+{"label":"BUILDING","pattern":"FERNVALE COURT"}
+{"label":"BUILDING","pattern":"HONG KAH VILLE"}
+{"label":"BUILDING","pattern":"SKYTERRACE @ DAWSON"}
+{"label":"BUILDING","pattern":"CHONG BOON CENTRE"}
+{"label":"BUILDING","pattern":"KOVAN GREEN"}
+{"label":"BUILDING","pattern":"FLORAL SPRING @ YISHUN"}
+{"label":"BUILDING","pattern":"CLARENCE VILLE"}
+{"label":"BUILDING","pattern":"DBS NTUC STIRLING ROAD"}
+{"label":"BUILDING","pattern":"KEAT HONG MIRAGE"}
+{"label":"BUILDING","pattern":"GREENLAND CHILDCARE @ FERNVALE PTE LTD"}
+{"label":"BUILDING","pattern":"YWCA PASIR RIS CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"TECK WHYE HEIGHTS II"}
+{"label":"BUILDING","pattern":"TOA PAYOH CENTRAL"}
+{"label":"BUILDING","pattern":"FERNVALE GROVE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ NANYANG 825 (CC)"}
+{"label":"BUILDING","pattern":"FIRST STEP MONTESSORI HOUSE"}
+{"label":"BUILDING","pattern":"JURONG INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"ICHIBAN MONTESSORI CHILDCARE CENTRE (CCK) PTE LTD"}
+{"label":"BUILDING","pattern":"YUHUA PLACE"}
+{"label":"BUILDING","pattern":"DOVER HEIGHTS"}
+{"label":"BUILDING","pattern":"GREENLAND CHILDCARE @ PUNGGOL PTE LTD"}
+{"label":"BUILDING","pattern":"TECK WHYE SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"MARINE DRIVE VIEW"}
+{"label":"BUILDING","pattern":"STIRLING VIEW"}
+{"label":"BUILDING","pattern":"TAMPINES RIA"}
+{"label":"BUILDING","pattern":"DEW SPRING @ YISHUN"}
+{"label":"BUILDING","pattern":"WATERWAY SUNBEAM"}
+{"label":"BUILDING","pattern":"HONG KAH POINT"}
+{"label":"BUILDING","pattern":"CENTRAL 24-HR CLNIC (JURONG WEST)"}
+{"label":"BUILDING","pattern":"UOB TAMPINES ST 81"}
+{"label":"BUILDING","pattern":"CITY VUE @HENDERSON"}
+{"label":"BUILDING","pattern":"YMCA CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BISHAN EAST-THOMSON BLOCK 313 (KN)"}
+{"label":"BUILDING","pattern":"DBS HOUGANG AVENUE 10"}
+{"label":"BUILDING","pattern":"@27 FAMILY SERVICE CENTRE"}
+{"label":"BUILDING","pattern":"INNOVATIVE STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"WHAMPOA SPRING"}
+{"label":"BUILDING","pattern":"TOH YI GARDENS"}
+{"label":"BUILDING","pattern":"ANCHORVALE GROVE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TAMPINES-CHANGKAT BLOCK 318 (KN)"}
+{"label":"BUILDING","pattern":"SENJA PARC VIEW"}
+{"label":"BUILDING","pattern":"FERNVALE LEA"}
+{"label":"BUILDING","pattern":"CRAWFORD COURT"}
+{"label":"BUILDING","pattern":"BEDOK RESERVOIR GARDEN"}
+{"label":"BUILDING","pattern":"COMPASSVALE VIEW"}
+{"label":"BUILDING","pattern":"PUNGGOL VISTA"}
+{"label":"BUILDING","pattern":"DOVER COURT"}
+{"label":"BUILDING","pattern":"KEAT HONG TEMBUSU"}
+{"label":"BUILDING","pattern":"DBS TELOK BLANGAH DRIVE"}
+{"label":"BUILDING","pattern":"PUNGGOL RESIDENCES"}
+{"label":"BUILDING","pattern":"STAR OF THE SEA BASC CENTRE"}
+{"label":"BUILDING","pattern":"CHILD AT STREET 11 LTD"}
+{"label":"BUILDING","pattern":"DBS NTUC BUKIT BATOK EAST AVENUE 8"}
+{"label":"BUILDING","pattern":"TZU CHI GREAT LOVE PRESCHOOL"}
+{"label":"BUILDING","pattern":"SENJA GATEWAY"}
+{"label":"BUILDING","pattern":"SEMBAWANG FIRE POST"}
+{"label":"BUILDING","pattern":"CORPORATION SPRING"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK 205 (CC)"}
+{"label":"BUILDING","pattern":"BRICKWORKS ESTATE"}
+{"label":"BUILDING","pattern":"PING YI GARDENS"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ NEE SOON CENTRAL BLOCK 609 (KN)"}
+{"label":"BUILDING","pattern":"TAMPINES SUNRISE"}
+{"label":"BUILDING","pattern":"CLEMENTI STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ RADIN MAS 18 (DS)"}
+{"label":"BUILDING","pattern":"STAR KIDSCAMPUS"}
+{"label":"BUILDING","pattern":"PPIS FAMILY SERVICE CENTRE (EAST)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHENG SAN-SELETAR 502 (CC)"}
+{"label":"BUILDING","pattern":"BISHAN HEIGHTS"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PAYA LEBAR BLOCK 23 (KN)"}
+{"label":"BUILDING","pattern":"MARINE TERRACE WALK"}
+{"label":"BUILDING","pattern":"SUN TRELLIS"}
+{"label":"BUILDING","pattern":"YWCA MARINE DRIVE CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG CENTRAL 262A (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TAMPINES WEST 942 (CC)"}
+{"label":"BUILDING","pattern":"KIM TIAN VISTA"}
+{"label":"BUILDING","pattern":"BUANGKOK VALE"}
+{"label":"BUILDING","pattern":"KEBUN BARU LINK 2"}
+{"label":"BUILDING","pattern":"CT HUB"}
+{"label":"BUILDING","pattern":"PARC LUMIERE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ MARSILING BLOCK 15 (KN)"}
+{"label":"BUILDING","pattern":"LITTLE STARS ACADEMY (WOODLANDS)"}
+{"label":"BUILDING","pattern":"CHAI CHEE GARDENS"}
+{"label":"BUILDING","pattern":"TAMPINES GREENLACE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PASIR RIS EAST BLOCK 216 (KN)"}
+{"label":"BUILDING","pattern":"FRAGRANT WOODS"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS BISHAN EAST STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ NEE SOON EAST 357 (CC)"}
+{"label":"BUILDING","pattern":"OCBC ANG MO KIO AVE 1 - FAIRPRICE"}
+{"label":"BUILDING","pattern":"YIO CHU KANG VIEW"}
+{"label":"BUILDING","pattern":"LIFE STUDENT CARE (HOUGANG)"}
+{"label":"BUILDING","pattern":"TAMPINES GREENWOOD"}
+{"label":"BUILDING","pattern":"SUN BLISS"}
+{"label":"BUILDING","pattern":"JURONG NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"BOON LAY GREEN"}
+{"label":"BUILDING","pattern":"YIO CHU KANG VISTA"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ NEE SOON EAST BLOCK 312 (KN)"}
+{"label":"BUILDING","pattern":"SWEETLANDS CHILDCARE JW 484 PTE. LTD."}
+{"label":"BUILDING","pattern":"NTUC ELDERCARE CENTRE SILVER CIRCLE (JURONG CENTRAL)"}
+{"label":"BUILDING","pattern":"HONG KAH SOUTH NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"YOUNG TALENTS PRESKOOL PTE LTD"}
+{"label":"BUILDING","pattern":"TEBAN GARDENS"}
+{"label":"BUILDING","pattern":"PUNGGOL OPAL"}
+{"label":"BUILDING","pattern":"KIM TIAN 119"}
+{"label":"BUILDING","pattern":"KEBUN BARU VIEW"}
+{"label":"BUILDING","pattern":"3-IN-1 FAMILY CENTRE"}
+{"label":"BUILDING","pattern":"WOODLANDS DEW"}
+{"label":"BUILDING","pattern":"CHIN SWEE VIEW"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ JURONG CENTRAL 404 (CC)"}
+{"label":"BUILDING","pattern":"SAINT LUKE'S ELDERCARE CHANGKAT CENTRE"}
+{"label":"BUILDING","pattern":"SKYVILLE @ DAWSON"}
+{"label":"BUILDING","pattern":"CHAMPIONS COURT"}
+{"label":"BUILDING","pattern":"HAIG VISTA"}
+{"label":"BUILDING","pattern":"EUNOS GROVE"}
+{"label":"BUILDING","pattern":"AMAR KIDZ @ HOUGANG PTE. LTD."}
+{"label":"BUILDING","pattern":"HARMONY VIEW"}
+{"label":"BUILDING","pattern":"ASPELLA"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ JALAN KAYU BLOCK 556 (KN)"}
+{"label":"BUILDING","pattern":"COMPASSVALE ARCADIA"}
+{"label":"BUILDING","pattern":"MUSTARD SEED CENTRE"}
+{"label":"BUILDING","pattern":"THE ANIMAL DOCTORS"}
+{"label":"BUILDING","pattern":"TAMPINES PALMWALK"}
+{"label":"BUILDING","pattern":"UOB HOUGANG AVENUE 1"}
+{"label":"BUILDING","pattern":"SUNSHINE COURT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL WEST BLOCK 308B (DS)"}
+{"label":"BUILDING","pattern":"INDUS GARDEN"}
+{"label":"BUILDING","pattern":"SEMBAWANG GREEN"}
+{"label":"BUILDING","pattern":"TELOK BLANGAH NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"REDHILL RISE"}
+{"label":"BUILDING","pattern":"GHIM MOH ESTATE POST OFFICE"}
+{"label":"BUILDING","pattern":"EXCEL LEARNING HUB"}
+{"label":"BUILDING","pattern":"SASCO CHILD CARE CENTRE"}
+{"label":"BUILDING","pattern":"GHIM MOH EDGE"}
+{"label":"BUILDING","pattern":"ELITE LEARNING KINDERGARTEN PTE LTD"}
+{"label":"BUILDING","pattern":"NKF DIALYSIS CENTRE ANG MO KIO"}
+{"label":"BUILDING","pattern":"CORAL SPRING"}
+{"label":"BUILDING","pattern":"OCBC BEDOK NORTH ST 4 - FAIRPRICE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TECK GHEE 415 (CC)"}
+{"label":"BUILDING","pattern":"SUNNYTOTS SCHOOLHOUSE"}
+{"label":"BUILDING","pattern":"PUNGGOL PARCVISTA"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KAMPONG GLAM BLOCK 806 (KN)"}
+{"label":"BUILDING","pattern":"ADORA GREEN"}
+{"label":"BUILDING","pattern":"KEBUN BARU PALM VIEW"}
+{"label":"BUILDING","pattern":"COMPASSVALE COURT"}
+{"label":"BUILDING","pattern":"CREATIVELAND CHILDCARE AND DEVELOPMENT CENTRE @ADMIRALTY"}
+{"label":"BUILDING","pattern":"CASA CLEMENTI"}
+{"label":"BUILDING","pattern":"EVERTON PARK"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH 345 (CC)"}
+{"label":"BUILDING","pattern":"CREATIVO LEARNERS STUDENT CARE SERVICES"}
+{"label":"BUILDING","pattern":"KEAT HONG AXIS"}
+{"label":"BUILDING","pattern":"KELANTAN COURT"}
+{"label":"BUILDING","pattern":"ADMIRALTY PLACE"}
+{"label":"BUILDING","pattern":"WOODLANDS MEADOW"}
+{"label":"BUILDING","pattern":"DOVER GARDENS"}
+{"label":"BUILDING","pattern":"TAMPINES GREENTERRACE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHUA CHU KANG 19 (CC)"}
+{"label":"BUILDING","pattern":"TENTERAM PEAK"}
+{"label":"BUILDING","pattern":"CHONG BOON HEIGHTS"}
+{"label":"BUILDING","pattern":"TIONG BAHRU NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"BUILDING"}
+{"label":"BUILDING","pattern":"LAKE VISTA @ YUAN CHING"}
+{"label":"BUILDING","pattern":"OCBC CLEMENTI AVENUE 2 -FAIRPRICE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WHAMPOA BLOCK 112 (KN)"}
+{"label":"BUILDING","pattern":"MEMBINA COURT"}
+{"label":"BUILDING","pattern":"PANSHAN GROVE"}
+{"label":"BUILDING","pattern":"PARK CENTRAL @ AMK"}
+{"label":"BUILDING","pattern":"MORNING STAR COMMUNITY SERVICES - SENGKANG"}
+{"label":"BUILDING","pattern":"BUONA VISTA COURT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TAMPINES CENTRAL 858 (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ NANYANG BLOCK 934 (KN)"}
+{"label":"BUILDING","pattern":"BEACH ROAD GARDENS"}
+{"label":"BUILDING","pattern":"KIM TIAN GREEN"}
+{"label":"BUILDING","pattern":"SINGAPORE BAPTIST CONVENTION GOLDEN AGE HOME"}
+{"label":"BUILDING","pattern":"COMPASSVALE PLACE"}
+{"label":"BUILDING","pattern":"MARINE CRESCENT GARDENS"}
+{"label":"BUILDING","pattern":"CITY VIEW @ CHENG SAN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TAMPINES WEST BLOCK 887 (KN)"}
+{"label":"BUILDING","pattern":"NKF DIALYSIS CENTRE BUKIT BATOK"}
+{"label":"BUILDING","pattern":"KOWABUNGA! EDUCATION CENTRE LLP @ TECK WHYE"}
+{"label":"BUILDING","pattern":"DBS CIRCUIT ROAD"}
+{"label":"BUILDING","pattern":"CLEMENTI NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"AYER RAJAH NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"PALM BREEZE @ YISHUN"}
+{"label":"BUILDING","pattern":"TECK WHYE HEIGHTS III"}
+{"label":"BUILDING","pattern":"FARRER PARK GARDENS"}
+{"label":"BUILDING","pattern":"CHONG PANG VIEW"}
+{"label":"BUILDING","pattern":"VISTA SPRING @ YISHUN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ JURONG CENTRAL 308 (CC)"}
+{"label":"BUILDING","pattern":"OCBC GEYLANG BAHRU"}
+{"label":"BUILDING","pattern":"EASTDALE"}
+{"label":"BUILDING","pattern":"PAPER SCISSORS STONE MONTESSORI KINDERGARTEN (BEDOK RESERVOIR BRANCH)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL@BEDOK RESERVOIR-PUNGGOL 508 (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ JURONG CENTRAL BLOCK 490 (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BISHAN EAST-THOMSON BLOCK 197 (KN)"}
+{"label":"BUILDING","pattern":"SHERWINN EDUCATION CENTRE (TAMPINES ST 33)"}
+{"label":"BUILDING","pattern":"HAPPY STAR LEARNING HUB PTE LTD"}
+{"label":"BUILDING","pattern":"GOMBAK PLACE"}
+{"label":"BUILDING","pattern":"STRAITS VISTA @ MARSILING"}
+{"label":"BUILDING","pattern":"DBS SPF NEE SOON SOUTH"}
+{"label":"BUILDING","pattern":"CHERIE HEARTS JUSTKIDZ PTE. LTD."}
+{"label":"BUILDING","pattern":"FERNVALE RIVERGROVE"}
+{"label":"BUILDING","pattern":"BRIGHT JUNIORS PTE. LTD."}
+{"label":"BUILDING","pattern":"NKF DIALYSIS CENTRE HONG KAH"}
+{"label":"BUILDING","pattern":"THONG KHENG STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"KEAT HONG PRIDE"}
+{"label":"BUILDING","pattern":"CITILINK WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUONA VISTA 4 (DS)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ YUHUA 108 (CC)"}
+{"label":"BUILDING","pattern":"JOO SENG FIRE POST"}
+{"label":"BUILDING","pattern":"WHAMPOA COURT"}
+{"label":"BUILDING","pattern":"YWCA BEDOK SOUTH CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"NEE SOON TOWN COUNCIL (NEE SOON CENTRAL BRANCH)"}
+{"label":"BUILDING","pattern":"ATRINA"}
+{"label":"BUILDING","pattern":"HONG KAH EAST PLACE"}
+{"label":"BUILDING","pattern":"BENDEMEER LIGHT"}
+{"label":"BUILDING","pattern":"TRIVELIS"}
+{"label":"BUILDING","pattern":"SENJA GREEN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT PANJANG BLOCK 226 (KN)"}
+{"label":"BUILDING","pattern":"T-NET CLUB @ BEDOK"}
+{"label":"BUILDING","pattern":"PINE GREEN"}
+{"label":"BUILDING","pattern":"SINGAPORE BUDDHIST FREE CLINIC ANG MO KIO BRANCH CLINIC"}
+{"label":"BUILDING","pattern":"THE PREMIERE @ TAMPINES"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BEDOK BLOCK 30 (KN)"}
+{"label":"BUILDING","pattern":"KIM KEAT PALM"}
+{"label":"BUILDING","pattern":"WAT PATTHAR EDUCARE CENTRE"}
+{"label":"BUILDING","pattern":"PUNGGOL EMERALD"}
+{"label":"BUILDING","pattern":"FOOK HAI BUILDING"}
+{"label":"BUILDING","pattern":"WELLINGTON VIEW"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WHAMPOA BLOCK 85 (KN)"}
+{"label":"BUILDING","pattern":"SKOOL4KIDZ CENTRE"}
+{"label":"BUILDING","pattern":"PUNGGOL CREST"}
+{"label":"BUILDING","pattern":"ROBINSON 112"}
+{"label":"BUILDING","pattern":"WOODLANDS PASTURE I"}
+{"label":"BUILDING","pattern":"FARRER PARK VIEW"}
+{"label":"BUILDING","pattern":"TIONG BAHRU VIEW"}
+{"label":"BUILDING","pattern":"LIPPO CENTRE"}
+{"label":"BUILDING","pattern":"NEE SOON CENTRAL GREEN"}
+{"label":"BUILDING","pattern":"ANIMAL MEDICAL CENTRE (VET@RV)"}
+{"label":"BUILDING","pattern":"DBS NTUC BENDEMEER ROAD/30"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BOON LAY BLOCK 262 (KN)"}
+{"label":"BUILDING","pattern":"TECK GHEE NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL EAST 123A (CC)"}
+{"label":"BUILDING","pattern":"DBS CLEMENTI CENTRAL BRANCH"}
+{"label":"BUILDING","pattern":"THONG CHAI MEDICAL INSTITUTION - ANG MO KIO"}
+{"label":"BUILDING","pattern":"TECK GHEE PARKVIEW"}
+{"label":"BUILDING","pattern":"RIVERVALE PLACE"}
+{"label":"BUILDING","pattern":"BOON LAY GARDENS"}
+{"label":"BUILDING","pattern":"SWEET KIDS CHILDCARE & DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"THE RIVER VISTA @ KALLANG"}
+{"label":"BUILDING","pattern":"SEGAR GROVE"}
+{"label":"BUILDING","pattern":"ADMIRALTY GROVE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ MARSILING BLOCK 302 (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TAMPINES CENTRAL 725 (DS)"}
+{"label":"BUILDING","pattern":"PRO-TEACH BASC AND TUITION CENTRE (YISHUN)"}
+{"label":"BUILDING","pattern":"NILAM HILLVIEW GARDEN ESTATE"}
+{"label":"BUILDING","pattern":"HIGH STREET CENTRE"}
+{"label":"BUILDING","pattern":"PUNGGOL SAILS"}
+{"label":"BUILDING","pattern":"MONTREAL VILLE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ AYER RAJAH 41 (CC)"}
+{"label":"BUILDING","pattern":"SINGAPORE CHILDREN'S SOCIETY STUDENT CARE CENTRE (HENDERSON)"}
+{"label":"BUILDING","pattern":"ORCHID SPRING @ YISHUN"}
+{"label":"BUILDING","pattern":"SIAN CHAY MEDICAL INSTITUTION MARSILING BRANCH"}
+{"label":"BUILDING","pattern":"GRACE EDU HUB PTE LTD"}
+{"label":"BUILDING","pattern":"DBS SPF BOON LAY"}
+{"label":"BUILDING","pattern":"KIDSCAMPUS JURONG WEST LLP"}
+{"label":"BUILDING","pattern":"SHEFFIELD KIDSWORLD (CCK) PTE. LTD."}
+{"label":"BUILDING","pattern":"SAINT LUKE'S ELDERCARE TAMPINES CENTRE"}
+{"label":"BUILDING","pattern":"UOB BUKIT MERAH VIEW"}
+{"label":"BUILDING","pattern":"PU TI CHILD CARE CENTRE"}
+{"label":"BUILDING","pattern":"GEYLANG EAST HOME FOR THE AGED"}
+{"label":"BUILDING","pattern":"FERNVALE PALMS"}
+{"label":"BUILDING","pattern":"TEBAN VIEW"}
+{"label":"BUILDING","pattern":"UOB TAMPINES ST 44"}
+{"label":"BUILDING","pattern":"TELOK BLANGAH TOWERS"}
+{"label":"BUILDING","pattern":"SHOOTING STAR CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"DOVER COMMUNITY CENTRE"}
+{"label":"BUILDING","pattern":"DBS NTUC HOUGANG AVENUE 4"}
+{"label":"BUILDING","pattern":"SUNFLOWER PRESCHOOL @ PUNGGOL FIELD PTE. LTD."}
+{"label":"BUILDING","pattern":"THYE HUA KWAN EDUCARE CENTRE (ANG MO KIO)"}
+{"label":"BUILDING","pattern":"SAINT ANDREW'S CATHEDRAL HOME FOR THE AGED (FEMALES)"}
+{"label":"BUILDING","pattern":"KENT VILLE"}
+{"label":"BUILDING","pattern":"ANCHORVALE ISLES"}
+{"label":"BUILDING","pattern":"YMCA OF SINGAPORE JURONG WEST 1 STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"MERAH HEIGHTS"}
+{"label":"BUILDING","pattern":"COMPASSVALE MAST"}
+{"label":"BUILDING","pattern":"ANG MO KIO GROVE"}
+{"label":"BUILDING","pattern":"CENTRAL 24-HR CLINIC (HOUGANG)"}
+{"label":"BUILDING","pattern":"BOON LAY FIELDS"}
+{"label":"BUILDING","pattern":"TEBAN VISTA"}
+{"label":"BUILDING","pattern":"MARINE PARADE MAHA BODHI STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"FERNVALE FLORA"}
+{"label":"BUILDING","pattern":"WEST RIDGES @ BUKIT BATOK"}
+{"label":"BUILDING","pattern":"THE JTC SUMMIT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TOA PAYOH WEST-BALESTIER BLOCK 205 (KN)"}
+{"label":"BUILDING","pattern":"BETHESDA COMMUNITY SERVICES SOCIETY (TAMPINES)"}
+{"label":"BUILDING","pattern":"MARSILING SPRING"}
+{"label":"BUILDING","pattern":"LIMBANG MEADOWS"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ MACPHERSON BLOCK 54 (KN)"}
+{"label":"BUILDING","pattern":"AMK CENTRAL HEIGHTS"}
+{"label":"BUILDING","pattern":"DBS CHEERS BEDOK NORTH STREET 3"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ FENGSHAN 115 (CC)"}
+{"label":"BUILDING","pattern":"ACEKIDZ @ SG PTE. LTD."}
+{"label":"BUILDING","pattern":"BOON LAY COURT"}
+{"label":"BUILDING","pattern":"STAR LEARNERS @ RIVERVALE PTE LTD"}
+{"label":"BUILDING","pattern":"AMK FSC BASIC (CHENG SAN)"}
+{"label":"BUILDING","pattern":"MOULMEIN VIEW"}
+{"label":"BUILDING","pattern":"CLEMENTI GATEWAY"}
+{"label":"BUILDING","pattern":"RESERVOIR VIEW"}
+{"label":"BUILDING","pattern":"LEJOUR STUDENT CARE"}
+{"label":"BUILDING","pattern":"CARE CORNER FAMILY SERVICE CENTRE (ADMIRALTY)"}
+{"label":"BUILDING","pattern":"STA BASC (YISHUN)"}
+{"label":"BUILDING","pattern":"HOLLAND VILLAGE"}
+{"label":"BUILDING","pattern":"ALS BUILDING"}
+{"label":"BUILDING","pattern":"OCBC JURONG WEST ST 41 - FAIRPRICE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ ADMIRALTY BLOCK 501 (KN)"}
+{"label":"BUILDING","pattern":"TOA PAYOH NORTH POST OFFICE"}
+{"label":"BUILDING","pattern":"MATILDA EDGE"}
+{"label":"BUILDING","pattern":"THE SUNDIAL"}
+{"label":"BUILDING","pattern":"BISHAN NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL@KOLAM AYER BLOCK 8 (DS)"}
+{"label":"BUILDING","pattern":"NKF DIALYSIS CENTRE TAMPINES"}
+{"label":"BUILDING","pattern":"MATILDA PORTICO"}
+{"label":"BUILDING","pattern":"CHENG SAN FAMILY SERVICE CENTRE"}
+{"label":"BUILDING","pattern":"DBS SERANGOON NORTH AVENUE 3"}
+{"label":"BUILDING","pattern":"REDHILL GARDENS"}
+{"label":"BUILDING","pattern":"METROPOLITAN YMCA STUDENT CARE @ PASIR RIS"}
+{"label":"BUILDING","pattern":"TELOK BLANGAH PARCVIEW"}
+{"label":"BUILDING","pattern":"SUNSHINE GARDENS"}
+{"label":"BUILDING","pattern":"JURONG WEST FIRE POST"}
+{"label":"BUILDING","pattern":"FERNVALE CREST"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK EAST BLOCK 289G (KN)"}
+{"label":"BUILDING","pattern":"YISHUN NATURA"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KEBUN BARU 109 (CC)"}
+{"label":"BUILDING","pattern":"FERNVALE LODGE"}
+{"label":"BUILDING","pattern":"MOULMEIN NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WOODLANDS BLOCK 652 (KN)"}
+{"label":"BUILDING","pattern":"DBS TELOK BLANGAH CRESCENT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG SOUTH BLOCK 535 (KN)"}
+{"label":"BUILDING","pattern":"FERNVALE RIDGE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL EAST BLOCK 124A (KN)"}
+{"label":"BUILDING","pattern":"NKF DIALYSIS CENTRE BUKIT PANJANG"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ JURONG SPRING BLOCK 465 (KN)"}
+{"label":"BUILDING","pattern":"WOODLANDS PEAK"}
+{"label":"BUILDING","pattern":"PPIS CHILD DEVELOPMENT CENTRE - BEDOK RESERVOIR"}
+{"label":"BUILDING","pattern":"OCBC JURONG EAST ST 24 - 7 ELEVEN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT PANJANG 412 (CC)"}
+{"label":"BUILDING","pattern":"ANCHORVALE PARKVIEW"}
+{"label":"BUILDING","pattern":"BUANGKOK COURT"}
+{"label":"BUILDING","pattern":"CLEMENTI RIDGES"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ JURONG SPRING 455 (CC)"}
+{"label":"BUILDING","pattern":"RIVERVALE HAVEN"}
+{"label":"BUILDING","pattern":"STRATHMORE GREEN"}
+{"label":"BUILDING","pattern":"LENGKOK BAHRU HEIGHTS"}
+{"label":"BUILDING","pattern":"SEGAR PALMVIEW"}
+{"label":"BUILDING","pattern":"COMPASSVALE HELM"}
+{"label":"BUILDING","pattern":"KEBUN BARU NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"ELIAS KINDERGARTEN"}
+{"label":"BUILDING","pattern":"DBS SEMBAWANG WAY/355"}
+{"label":"BUILDING","pattern":"VET PRACTICE (HOLLAND)"}
+{"label":"BUILDING","pattern":"CENTRALE 8 AT TAMPINES"}
+{"label":"BUILDING","pattern":"JALAN BESAR TOWN COUNCIL (POTONG PASIR OFFICE)"}
+{"label":"BUILDING","pattern":"EASTCROWN @ CANBERRA"}
+{"label":"BUILDING","pattern":"DBS NTUC 612 PUNGGOL DRIVE"}
+{"label":"BUILDING","pattern":"EUNOS NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"PCS HOUGANG CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WEST COAST BLOCK 728 (KN)"}
+{"label":"BUILDING","pattern":"UE TECH PARK"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG CENTRAL BLOCK 231 (KN)"}
+{"label":"BUILDING","pattern":"MARINE PARADE COMMUNITY CLUB"}
+{"label":"BUILDING","pattern":"ST ANDREW'S CATHEDRAL CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"DBS HAVELOCK ROAD"}
+{"label":"BUILDING","pattern":"MORNING STAR COMMUNITY SERVICES (BEDOK NORTH)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHONG PANG 277 (CC)"}
+{"label":"BUILDING","pattern":"PUNGGOL REGALIA"}
+{"label":"BUILDING","pattern":"PEOPLE'S PARK CENTRE"}
+{"label":"BUILDING","pattern":"ACE @ WORK ENRICHMENT PTE LTD"}
+{"label":"BUILDING","pattern":"HEALTHY START CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"FAJAR HILLS"}
+{"label":"BUILDING","pattern":"WOODGROVE COMMUNITY CENTRE"}
+{"label":"BUILDING","pattern":"ENRICHMENT 718 PTE LTD"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TAMPINES CENTRAL 713 (CC)"}
+{"label":"BUILDING","pattern":"ANGSANA BREEZE @ YISHUN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WOODLANDS 677 (CC)"}
+{"label":"BUILDING","pattern":"WHIZ KIDS MONTESSORI @HOUGANG PTE LTD"}
+{"label":"BUILDING","pattern":"TELOK BLANGAH RIDGEVIEW"}
+{"label":"BUILDING","pattern":"MARINE PARADE-FOO HAI ELDERLY LODGE"}
+{"label":"BUILDING","pattern":"UE SQUARE"}
+{"label":"BUILDING","pattern":"THE VERANDAH @ MATILDA"}
+{"label":"BUILDING","pattern":"CECIL COURT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG CENTRAL BLOCK 277B (KN)"}
+{"label":"BUILDING","pattern":"SWEETLANDS CHILDCARE JE 316 PTE. LTD."}
+{"label":"BUILDING","pattern":"RAFFLES HOTEL SINGAPORE"}
+{"label":"BUILDING","pattern":"ANG MO KIO FAMILY SERVICE CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT TIMAH BLOCK 319 (KN)"}
+{"label":"BUILDING","pattern":"KEAT HONG QUAD"}
+{"label":"BUILDING","pattern":"COSTA RIS"}
+{"label":"BUILDING","pattern":"SUNFLOWER PRESCHOOL @ PUNGGOL FIELD WALK PTE. LTD."}
+{"label":"BUILDING","pattern":"PUNGGOL ARCADIA"}
+{"label":"BUILDING","pattern":"HAPPY FAMILY EDU-HUB PTE. LTD."}
+{"label":"BUILDING","pattern":"NOBLELAND ARTS N LEARNING PLACE @CLEMENTI PTE. LTD."}
+{"label":"BUILDING","pattern":"SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH"}
+{"label":"BUILDING","pattern":"OCBC JURONG WEST ST 41"}
+{"label":"BUILDING","pattern":"KINDERCARE @ JOO SENG PTE. LTD."}
+{"label":"BUILDING","pattern":"YISHUN (TOA PAYOH) SEU TECK SEAN TONG - NKF DIALYSIS CENTRE"}
+{"label":"BUILDING","pattern":"SUNGEI KADUT INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"CHANGI CARGO AGENTS MEGAPLEX 1"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG CENTRAL BLOCK 206A (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ NEE SOON SOUTH 781 (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ MARINE PARADE BLOCK 46 (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG WEST BLOCK 436D (KN)"}
+{"label":"BUILDING","pattern":"TANGLIN SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"ZHUJIAO CENTRE (TEKKA MARKET)"}
+{"label":"BUILDING","pattern":"SPRING LODGE"}
+{"label":"BUILDING","pattern":"OCBC YISHUN STREET 72"}
+{"label":"BUILDING","pattern":"CLEMENTI HAVEN"}
+{"label":"BUILDING","pattern":"QUEEN'S VIEW"}
+{"label":"BUILDING","pattern":"CENTRAL 24-HR CLINIC (PASIR RIS)"}
+{"label":"BUILDING","pattern":"MCNAIR TOWERS"}
+{"label":"BUILDING","pattern":"MARINE PARADE ASPIRATION ELDERLY LODGE"}
+{"label":"BUILDING","pattern":"KAHTIB CENTRAL"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHANGI-SIMEI BLOCK 119 (KN)"}
+{"label":"BUILDING","pattern":"OCBC WOODLANDS BRANCH"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WHAMPOA 105 (CC)"}
+{"label":"BUILDING","pattern":"FULL MARKS"}
+{"label":"BUILDING","pattern":"MONTREAL DALE"}
+{"label":"BUILDING","pattern":"COMMONWEALTH 10"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TAMPINES-CHANGKAT BLOCK 358 (KN)"}
+{"label":"BUILDING","pattern":"YWCA BUKIT GOMBAK CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"DBS BEDOK RESERVOIR ROAD"}
+{"label":"BUILDING","pattern":"WESLEY VINEYARD CHILDCARE LTD."}
+{"label":"BUILDING","pattern":"PET CLINIC"}
+{"label":"BUILDING","pattern":"SERANGOON NORTH NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"SRI GEYLANG SERAI"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ RADIN MAS BLOCK 108 (KN)"}
+{"label":"BUILDING","pattern":"ACE @ WORK CHILDCARE PTE LTD"}
+{"label":"BUILDING","pattern":"EDULEARN"}
+{"label":"BUILDING","pattern":"UOB TAMPINES ST 11"}
+{"label":"BUILDING","pattern":"SHAW TOWERS"}
+{"label":"BUILDING","pattern":"TRADEHUB 21"}
+{"label":"BUILDING","pattern":"DBS NTUC YISHUN STREET 81"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ FENGSHAN BLOCK 103 (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL NORTH 622C (CC)"}
+{"label":"BUILDING","pattern":"UOB ZHUJIAO CENTRE"}
+{"label":"BUILDING","pattern":"PRODIGY PRESCHOOL"}
+{"label":"BUILDING","pattern":"YISHUN RIVERWALK"}
+{"label":"BUILDING","pattern":"SEGAR VALE"}
+{"label":"BUILDING","pattern":"NEW LIFE CHILDREN & STUDENT CARE @ TECK WHYE"}
+{"label":"BUILDING","pattern":"GOURMET EAST KITCHEN"}
+{"label":"BUILDING","pattern":"HENDERSON INDUSTRIAL PARK"}
+{"label":"BUILDING","pattern":"FOURTH LOK"}
+{"label":"BUILDING","pattern":"TECK GHEE SQUARE"}
+{"label":"BUILDING","pattern":"THE CLOVER @ KEBUN BARU"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KAMPONG GLAM BLOCK 462 (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK EAST 271 (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ EUNOS 134 (CC)"}
+{"label":"BUILDING","pattern":"PCF TAMPINES EAST 3-IN-1 FAMILY CENTRE (STUDENT CARE)"}
+{"label":"BUILDING","pattern":"THE KIDZ ZONE PTE LTD"}
+{"label":"BUILDING","pattern":"NKF DIALYSIS CENTRE WOODLANDS"}
+{"label":"BUILDING","pattern":"NORTH SPRING BIZHUB"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CHUA CHU KANG BLOCK 10 (KN)"}
+{"label":"BUILDING","pattern":"FERNVALE RIVERWALK"}
+{"label":"BUILDING","pattern":"ACEKIDZ @ WORK PTE. LTD."}
+{"label":"BUILDING","pattern":"WOODLANDS GLEN"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ YEW TEE BLOCK 690D (KN)"}
+{"label":"BUILDING","pattern":"EDGEDALE GREEN"}
+{"label":"BUILDING","pattern":"DORSET VIEW"}
+{"label":"BUILDING","pattern":"BOON LAY MEADOW"}
+{"label":"BUILDING","pattern":"DBS BUKIT PURMEI ROAD"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TELOK BLANGAH BLOCK 2 (KN)"}
+{"label":"BUILDING","pattern":"TRANS CENTRE (BEDOK)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ YUHUA BLOCK 223A (KN)"}
+{"label":"BUILDING","pattern":"SUCCESS EDUCATION PLACE"}
+{"label":"BUILDING","pattern":"SHAW HOUSE"}
+{"label":"BUILDING","pattern":"TEBAN PLACE"}
+{"label":"BUILDING","pattern":"KEAT HONG COLOURS"}
+{"label":"BUILDING","pattern":"UOB TAMPINES AVENUE 4"}
+{"label":"BUILDING","pattern":"SARACA BREEZE @ YISHUN"}
+{"label":"BUILDING","pattern":"CARPE DIEM MI SCHOOLHOUSE PTE. LTD."}
+{"label":"BUILDING","pattern":"RESERVOIR VILLAGE"}
+{"label":"BUILDING","pattern":"KEBUN BARU COURT"}
+{"label":"BUILDING","pattern":"EASTWAVE @ CANBERRA"}
+{"label":"BUILDING","pattern":"YS-ONE"}
+{"label":"BUILDING","pattern":"THE PERIWINKLE"}
+{"label":"BUILDING","pattern":"CHEE HWAN KOG CHILDCARE CENTRE"}
+{"label":"BUILDING","pattern":"INTERNATIONAL BUILDING"}
+{"label":"BUILDING","pattern":"APERIA TOWER 3"}
+{"label":"BUILDING","pattern":"FOURTH CHIN"}
+{"label":"BUILDING","pattern":"WOODLANDS PASTURE II"}
+{"label":"BUILDING","pattern":"HAVEN SCHOOLHOUSE @ BAHAGIA"}
+{"label":"BUILDING","pattern":"GROW & GLOW @ PASIR RIS 51 CENTRE"}
+{"label":"BUILDING","pattern":"YUHUA VILLAGE"}
+{"label":"BUILDING","pattern":"HARMONY CHILD CARE & DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"TAMPINES ALCOVES"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL EAST BLOCK 103 (KN)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG WEST BLOCK 303A (KN)"}
+{"label":"BUILDING","pattern":"TIVELA"}
+{"label":"BUILDING","pattern":"LE SHANTIER"}
+{"label":"BUILDING","pattern":"OCBC ASIA SQUARE TOWER 1"}
+{"label":"BUILDING","pattern":"SINGAPORE BUDDHIST FREE CLINIC JURONG BRANCH CLINIC"}
+{"label":"BUILDING","pattern":"FIRST STEP CHILD CARE AND CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"MOUNTBATTEN CONSTITUENCY OFFICE"}
+{"label":"BUILDING","pattern":"FAITH EDUCARE CENTRE @SENGKANG PTE. LTD."}
+{"label":"BUILDING","pattern":"PCS PASIR RIS 01 SCC"}
+{"label":"BUILDING","pattern":"NEW HORIZON CENTRE (TAMPINES)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL COAST 302C (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ ADMIRALTY 571B (CC)"}
+{"label":"BUILDING","pattern":"CARE CORNER STUDENT CARE CENTRE (ADMIRALTY)"}
+{"label":"BUILDING","pattern":"VISIONCREST COMMERCIAL"}
+{"label":"BUILDING","pattern":"FERNVALE FOLIAGE"}
+{"label":"BUILDING","pattern":"DBS BEDOK CENTRAL BRANCH"}
+{"label":"BUILDING","pattern":"EASTBANK @ CANBERRA"}
+{"label":"BUILDING","pattern":"CARPE DIEM KIDSWORLD PTE. LTD."}
+{"label":"BUILDING","pattern":"JACKSON SQUARE BLOCK D"}
+{"label":"BUILDING","pattern":"CLEMENTI CASCADIA"}
+{"label":"BUILDING","pattern":"EASTLACE @ CANBERRA"}
+{"label":"BUILDING","pattern":"KIM TIAN TOWERS"}
+{"label":"BUILDING","pattern":"MATILDA COURT"}
+{"label":"BUILDING","pattern":"EASTBROOK @ CANBERRA"}
+{"label":"BUILDING","pattern":"MKT"}
+{"label":"BUILDING","pattern":"WATERWAY TERRACES I"}
+{"label":"BUILDING","pattern":"MARSILING INDUSTRIAL"}
+{"label":"BUILDING","pattern":"ADMIRALTY VISTA"}
+{"label":"BUILDING","pattern":"PUNGGOL VUE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WOODGROVE 894D (CC)"}
+{"label":"BUILDING","pattern":"THE ADELPHI"}
+{"label":"BUILDING","pattern":"STAR LEARNERS @ BEDOK PTE. LTD."}
+{"label":"BUILDING","pattern":"SAINT ELMO'S CHILD CARE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BUKIT TIMAH BLOCK 312B (DS)"}
+{"label":"BUILDING","pattern":"UNIHEALTH 24-HR CLINIC"}
+{"label":"BUILDING","pattern":"PICKET FENCE @ TAMPINES PTE. LTD."}
+{"label":"BUILDING","pattern":"PARK GROVE @ YISHUN"}
+{"label":"BUILDING","pattern":"ROBINSON POINT"}
+{"label":"BUILDING","pattern":"CARE CORNER STUDENT CARE CENTRE (WOODLANDS)"}
+{"label":"BUILDING","pattern":"CAPITAL TOWER"}
+{"label":"BUILDING","pattern":"PAYA LEBAR LODGE"}
+{"label":"BUILDING","pattern":"KEAT HONG CREST"}
+{"label":"BUILDING","pattern":"BIG APPLE CHILD CARE AND DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"ENTERPRISE ONE"}
+{"label":"BUILDING","pattern":"STAR LEARNERS @ WOODLANDS CIRCLE PTE. LTD."}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PIONEER BLOCK 654B (KN)"}
+{"label":"BUILDING","pattern":"BRIGHT CENTRE"}
+{"label":"BUILDING","pattern":"VERTEX"}
+{"label":"BUILDING","pattern":"ROWELL COURT"}
+{"label":"BUILDING","pattern":"PSA BUILDING"}
+{"label":"BUILDING","pattern":"THE CRESCENT@KALLANG"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH BLOCK 338 (KN)"}
+{"label":"BUILDING","pattern":"A'POSH BIZHUB"}
+{"label":"BUILDING","pattern":"JURONG WEST BLOSSOM"}
+{"label":"BUILDING","pattern":"BUMBLE BEE CHILD CARE CENTRE"}
+{"label":"BUILDING","pattern":"AGAPE CHILD CARE(SK) PTE. LTD."}
+{"label":"BUILDING","pattern":"DBS JALAN KAYU 447A"}
+{"label":"BUILDING","pattern":"YUNG KUANG COURT"}
+{"label":"BUILDING","pattern":"MOUNT PLEASANT ANIMAL MEDICAL CENTRE"}
+{"label":"BUILDING","pattern":"OCBC BOON LAY SHOPPING CENTRE FAIRPRICE"}
+{"label":"BUILDING","pattern":"FOODAXIS @ SENOKO"}
+{"label":"BUILDING","pattern":"DBS JURONG WEST AVENUE 1"}
+{"label":"BUILDING","pattern":"LAVENDER MEADOWS ACADEMY PTE. LTD."}
+{"label":"BUILDING","pattern":"GLORY JOY CHILD DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"EASTLAWN @ CANBERRA"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ TECK GHEE 310A (CC)"}
+{"label":"BUILDING","pattern":"DBS YISHUN AVENUE 2"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BISHAN NORTH BLOCK 441 (KN)"}
+{"label":"BUILDING","pattern":"HAVELOCK HEIGHTS"}
+{"label":"BUILDING","pattern":"YI GUANG BUILDING"}
+{"label":"BUILDING","pattern":"JUST KIDS @ JURONG WEST PTE. LTD."}
+{"label":"BUILDING","pattern":"CREATIVELAND CHILDCARE AND DEVELOPMENT CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ GEYLANG SERAI BLOCK 14 (KN)"}
+{"label":"BUILDING","pattern":"BUKIT PANJANG SOUTH NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"ORCHARD PARADE HOTEL"}
+{"label":"BUILDING","pattern":"DBS SERANGOON AVENUE 2"}
+{"label":"BUILDING","pattern":"PASIR RIS ONE"}
+{"label":"BUILDING","pattern":"THE OXLEY"}
+{"label":"BUILDING","pattern":"EDVANCE LEARNING CENTRE"}
+{"label":"BUILDING","pattern":"MARINE PARADE FIRE POST"}
+{"label":"BUILDING","pattern":"MITSUBISHI ELECTRIC BUILDING"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PASIR RIS WEST BLOCK 738 (KN)"}
+{"label":"BUILDING","pattern":"DBS HOUGANG AVENUE 5-322"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL WEST BLOCK 271A (KN)"}
+{"label":"BUILDING","pattern":"EVELYN'S SCHOOLHOUSE"}
+{"label":"BUILDING","pattern":"THOMSON COMMUNITY CLUB (TILL 1Q 2022)"}
+{"label":"BUILDING","pattern":"FERNVALE GARDENS"}
+{"label":"BUILDING","pattern":"FH & LOVE STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"MOUNTBATTEN COMMUNITY CLUB (SERVICE COUNTER)"}
+{"label":"BUILDING","pattern":"COMPASSVALE BOARDWALK"}
+{"label":"BUILDING","pattern":"JTC SUMMIT"}
+{"label":"BUILDING","pattern":"JURONG EAST COURT"}
+{"label":"BUILDING","pattern":"PIL BUILDING"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ KEAT HONG 287 (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CANBERRA BLOCK 487 (KN)"}
+{"label":"BUILDING","pattern":"NEW TECH PARK"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PUNGGOL EAST BLOCK 187B (KN)"}
+{"label":"BUILDING","pattern":"BEACH CENTRE"}
+{"label":"BUILDING","pattern":"THE ATRIUM@ORCHARD"}
+{"label":"BUILDING","pattern":"LIPO BUILDING"}
+{"label":"BUILDING","pattern":"EDWARD BOUSTEAD CENTRE"}
+{"label":"BUILDING","pattern":"WATERWAY SUNRAY"}
+{"label":"BUILDING","pattern":"KEWALRAM HILLVIEW"}
+{"label":"BUILDING","pattern":"VERTEX B"}
+{"label":"BUILDING","pattern":"DBS ST GEORGES ROAD"}
+{"label":"BUILDING","pattern":"FRONTIER"}
+{"label":"BUILDING","pattern":"BIZHUB 28"}
+{"label":"BUILDING","pattern":"LITTLE BODHI STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"SEMBAWANG TOWN COUNCIL (YISHUN COLLECTION CENTRE)"}
+{"label":"BUILDING","pattern":"LITTLE CHAMPS SCHOOLHOUSE (MONTESSORI) PTE. LTD."}
+{"label":"BUILDING","pattern":"EUNOS FIRE POST"}
+{"label":"BUILDING","pattern":"BOON LAY GROVE"}
+{"label":"BUILDING","pattern":"SPIRAL BUILDING"}
+{"label":"BUILDING","pattern":"SAINT ELMO'S PTE LTD"}
+{"label":"BUILDING","pattern":"SINGHEALTH POLYCLINICS (MARINE PARADE POLYCLINIC)"}
+{"label":"BUILDING","pattern":"THE SPIRE"}
+{"label":"BUILDING","pattern":"GSM BUILDING"}
+{"label":"BUILDING","pattern":"HOUGANG DEWCOURT"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ PASIR RIS WEST 650 (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ WOODLANDS 824 (CC)"}
+{"label":"BUILDING","pattern":"AGAPE CHILD CARE(JW) PTE. LTD."}
+{"label":"BUILDING","pattern":"PAYA LEBAR SQUARE"}
+{"label":"BUILDING","pattern":"LITTLE EXPLORERS COVE"}
+{"label":"BUILDING","pattern":"SEMBAWANG TOWN COUNCIL (MAIN OFFICE)"}
+{"label":"BUILDING","pattern":"NKF DIALYSIS CENTRE PASIR RIS"}
+{"label":"BUILDING","pattern":"WHISPERING HEARTS CHILD CARE CENTRE"}
+{"label":"BUILDING","pattern":"TAMPINES NORTH NEIGHBOURHOOD POLICE POST"}
+{"label":"BUILDING","pattern":"CHANGI SOUTH INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"PRO-TEACH EDUCATION (KHATIB)"}
+{"label":"BUILDING","pattern":"IMM BUILDING"}
+{"label":"BUILDING","pattern":"UBI TECHPARK"}
+{"label":"BUILDING","pattern":"CES CENTRE"}
+{"label":"BUILDING","pattern":"FAJAR SPRING"}
+{"label":"BUILDING","pattern":"INTERLOCAL CENTRE"}
+{"label":"BUILDING","pattern":"BRIGHT JUNIORS PTE LTD"}
+{"label":"BUILDING","pattern":"CJ KOREA EXPRESS BUILDING"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ CANBERRA BLOCK 468D (KN)"}
+{"label":"BUILDING","pattern":"INTERNATIONAL PLAZA"}
+{"label":"BUILDING","pattern":"ONE RAFFLES PLACE TOWER 2"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING D BOX 540 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"SHUN LI INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"TOWER FIFTEEN"}
+{"label":"BUILDING","pattern":"SKYPEAK @ BUKIT BATOK"}
+{"label":"BUILDING","pattern":"DBS HOUGANG AVENUE 1"}
+{"label":"BUILDING","pattern":"WEST COAST TOWN COUNCIL (CLEMENTI OFFICE)"}
+{"label":"BUILDING","pattern":"SKYTECH"}
+{"label":"BUILDING","pattern":"TRIPLEONE SOMERSET"}
+{"label":"BUILDING","pattern":"SYNERGY@KB"}
+{"label":"BUILDING","pattern":"SPRING HAVEN @ JURONG"}
+{"label":"BUILDING","pattern":"ANG MO KIO INDUSTRIAL PARK 2A"}
+{"label":"BUILDING","pattern":"DBS BEDOK NORTH STREET 4"}
+{"label":"BUILDING","pattern":"MEISSA"}
+{"label":"BUILDING","pattern":"DBS YISHUN RING ROAD 1"}
+{"label":"BUILDING","pattern":"KIDSKINGDOM @ BEDOK RESERVOIR LLP"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG WEST 330A (DS)"}
+{"label":"BUILDING","pattern":"UNITED HOUSE"}
+{"label":"BUILDING","pattern":"EVANGEL STUDENT CARE CENTRE (CANBERRA)"}
+{"label":"BUILDING","pattern":"UE PRINT MEDIA HUB"}
+{"label":"BUILDING","pattern":"TAMPINES GREENFOREST"}
+{"label":"BUILDING","pattern":"DBS JURONG EAST AVENUE 1"}
+{"label":"BUILDING","pattern":"RAFFLES STUDENT CARE CENTRE (HOUGANG GREEN) LLP"}
+{"label":"BUILDING","pattern":"OCBC COMPASSVALE LINK - FAIRPRICE"}
+{"label":"BUILDING","pattern":"EU TONG SEN STREET"}
+{"label":"BUILDING","pattern":"LEONG HUAT BUILDING"}
+{"label":"BUILDING","pattern":"OCBC ANG MO KIO AVE 10"}
+{"label":"BUILDING","pattern":"PRO-TEACH BASC AND TUITION CENTRE (JURONG)"}
+{"label":"BUILDING","pattern":"DAYBREAK FAMILY SERVICE CENTRE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ HENDERSON-DAWSON BLOCK 124A (KN)"}
+{"label":"BUILDING","pattern":"FLAMINGO CHILD CARE CENTRE PTE. LTD."}
+{"label":"BUILDING","pattern":"NOBLELAND ARTS N LEARNING PLACE @WATERWAY PTE. LTD."}
+{"label":"BUILDING","pattern":"SPRINGLEAF TOWER"}
+{"label":"BUILDING","pattern":"PUNGGOL RIPPLES"}
+{"label":"BUILDING","pattern":"WESTGATE TOWER"}
+{"label":"BUILDING","pattern":"EASTECH"}
+{"label":"BUILDING","pattern":"VALIANT INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"NTUC INCOME TAMPINES JUNCTION"}
+{"label":"BUILDING","pattern":"SKYLINE I @ BUKIT BATOK"}
+{"label":"BUILDING","pattern":"COMPLEX"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ SENGKANG SOUTH 452 (DS)"}
+{"label":"BUILDING","pattern":"MIDVIEW CITY"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ JALAN KAYU BLOCK 518 (KN)"}
+{"label":"BUILDING","pattern":"TO 147"}
+{"label":"BUILDING","pattern":"LITTLE PRESCHOOL PTE. LTD"}
+{"label":"BUILDING","pattern":"UOB BEDOK BRANCH"}
+{"label":"BUILDING","pattern":"CES BUILDING"}
+{"label":"BUILDING","pattern":"CHINESE CHRISTIAN MISSION LIMITED"}
+{"label":"BUILDING","pattern":"RAFFLES PLACE"}
+{"label":"BUILDING","pattern":"STAMFORD SCHOLARS BISHAN CENTRE"}
+{"label":"BUILDING","pattern":"SAMWOH CORPORATION HQ"}
+{"label":"BUILDING","pattern":"NEW TECH PARK (LOBBY H)"}
+{"label":"BUILDING","pattern":"BOON KENG FIRE POST"}
+{"label":"BUILDING","pattern":"ANSON HOUSE"}
+{"label":"BUILDING","pattern":"SUNSHINE KIDS CARE CENTRE @ TAMPINES PTE. LTD."}
+{"label":"BUILDING","pattern":"NOVELTY BIZCENTRE"}
+{"label":"BUILDING","pattern":"MEDIA CENTRE"}
+{"label":"BUILDING","pattern":"STAR LEARNERS @ BISHAN PTE. LTD."}
+{"label":"BUILDING","pattern":"ROBINSON CENTRE"}
+{"label":"BUILDING","pattern":"OCBC ANG MO KIO AVE 10 - CHEERS"}
+{"label":"BUILDING","pattern":"HENDERSON BUILDING"}
+{"label":"BUILDING","pattern":"VISION EXCHANGE"}
+{"label":"BUILDING","pattern":"YI GUANG FACTORY BUILDING"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING CBOX 673 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"SBF CENTER"}
+{"label":"BUILDING","pattern":"GENESIS CHILD CARE (TJ) PTE LTD"}
+{"label":"BUILDING","pattern":"KAMPONG UBI INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"SINGAPORE BUDDHIST FREE CLINIC REDHILL BRANCH CLINIC"}
+{"label":"BUILDING","pattern":"DELTA HOUSE"}
+{"label":"BUILDING","pattern":"WHEELOCK PLACE"}
+{"label":"BUILDING","pattern":"PIONEER POINT"}
+{"label":"BUILDING","pattern":"THE URA CENTRE"}
+{"label":"BUILDING","pattern":"AMTECH BUILDING"}
+{"label":"BUILDING","pattern":"ICON@CHANGI"}
+{"label":"BUILDING","pattern":"BETHLEHEM EDUCARE CENTRE"}
+{"label":"BUILDING","pattern":"OCBC CLEMENTI ST 11 - 7 ELEVEN"}
+{"label":"BUILDING","pattern":"PUNGGOL WEST COMMUNITY CENTRE"}
+{"label":"BUILDING","pattern":"SAMSUNG HUB"}
+{"label":"BUILDING","pattern":"9@TAGORE"}
+{"label":"BUILDING","pattern":"AXA TOWER"}
+{"label":"BUILDING","pattern":"ADMIRALTY FLORA"}
+{"label":"BUILDING","pattern":"TAMPINES INDUSTRIAL"}
+{"label":"BUILDING","pattern":"SUNTEC TOWER ONE"}
+{"label":"BUILDING","pattern":"HOESTEEL INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"LIFE STUDENT CARE (SENGKANG)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ BOON LAY 627 (CC)"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ZHENGHUA 550B (CC)"}
+{"label":"BUILDING","pattern":"THE OCTAGON"}
+{"label":"BUILDING","pattern":"ROXY SQUARE SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"BEDOK INDUSTRIAL PARK C"}
+{"label":"BUILDING","pattern":"SENGKANG STUDENT CARE CENTRE"}
+{"label":"BUILDING","pattern":"HAVEN INFANT & TODDLER CENTRE"}
+{"label":"BUILDING","pattern":"OCBC TAMPINES STREET 21"}
+{"label":"BUILDING","pattern":"TANNERY HOUSE"}
+{"label":"BUILDING","pattern":"IMAN KINDERGARTEN (CCK)"}
+{"label":"BUILDING","pattern":"THE LEEFON"}
+{"label":"BUILDING","pattern":"SLF BUILDING"}
+{"label":"BUILDING","pattern":"THE PLAZA"}
+{"label":"BUILDING","pattern":"LINK@AMK"}
+{"label":"BUILDING","pattern":"TAI SENG CENTRE"}
+{"label":"BUILDING","pattern":"HAW PAR TECHNOCENTRE"}
+{"label":"BUILDING","pattern":"PANTECH BUSINESS HUB"}
+{"label":"BUILDING","pattern":"KATONG SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"FRAGRANCE EMPIRE BUILDING"}
+{"label":"BUILDING","pattern":"LUZERNE"}
+{"label":"BUILDING","pattern":"MARSILING HEIGHTS"}
+{"label":"BUILDING","pattern":"100AM"}
+{"label":"BUILDING","pattern":"TRADE ASSOCIATION HUBJURONG TOWN HALL"}
+{"label":"BUILDING","pattern":"COOLKIDZ LEARNING HUB"}
+{"label":"BUILDING","pattern":"EAST TYE SOON BUILDING"}
+{"label":"BUILDING","pattern":"MANHATTAN HOUSE"}
+{"label":"BUILDING","pattern":"DBS PUNGGOL WAY/261"}
+{"label":"BUILDING","pattern":"GROWORLD LEARNING PTE LTD"}
+{"label":"BUILDING","pattern":"UOB SERANGOON AVENUE 2"}
+{"label":"BUILDING","pattern":"KEPPEL DISTRIPARK"}
+{"label":"BUILDING","pattern":"GOLDEN MILE TOWER"}
+{"label":"BUILDING","pattern":"OG ALBERT COMPLEX"}
+{"label":"BUILDING","pattern":"PROHEALTH 24 HR MEDICAL CLINIC"}
+{"label":"BUILDING","pattern":"SIN MING AUTOCITY"}
+{"label":"BUILDING","pattern":"TEEHAI@TAMPINES LOGISPARK"}
+{"label":"BUILDING","pattern":"ALEXANDRA POINT"}
+{"label":"BUILDING","pattern":"FAITH EDUCARE CENTRE @BUANGKOK PTE. LTD."}
+{"label":"BUILDING","pattern":"SCHOOL HOUSE BYTHEGARDEN @ AMK PTE. LTD."}
+{"label":"BUILDING","pattern":"WEST CREST @ BUKIT BATOK"}
+{"label":"BUILDING","pattern":"DAJIN LEARNING CENTRE"}
+{"label":"BUILDING","pattern":"BUILDING A"}
+{"label":"BUILDING","pattern":"TEMASEK TOWER"}
+{"label":"BUILDING","pattern":"AYER RAJAH INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"TANJONG KATONG COMPLEX"}
+{"label":"BUILDING","pattern":"YISHUN SPRING"}
+{"label":"BUILDING","pattern":"PARKLANE SHOPPING MALL"}
+{"label":"BUILDING","pattern":"63@UBI"}
+{"label":"BUILDING","pattern":"CAUSEWAY POINT"}
+{"label":"BUILDING","pattern":"TONG ENG BUILDING"}
+{"label":"BUILDING","pattern":"LIP HING BUILDING"}
+{"label":"BUILDING","pattern":"M-SPACE"}
+{"label":"BUILDING","pattern":"KAPO FACTORY"}
+{"label":"BUILDING","pattern":"CITY SQUARE MALL"}
+{"label":"BUILDING","pattern":"ONE COMMONWEALTH"}
+{"label":"BUILDING","pattern":"OCBC JURONG EAST ST 31 - FAIRPRICE"}
+{"label":"BUILDING","pattern":"JURONG LOGISTICS HUB"}
+{"label":"BUILDING","pattern":"BEDOK INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"THE GLOBE"}
+{"label":"BUILDING","pattern":"KITCHENER COMPLEX"}
+{"label":"BUILDING","pattern":"FORTUNE CENTRE"}
+{"label":"BUILDING","pattern":"MANULIFE CENTRE"}
+{"label":"BUILDING","pattern":"ADVANEX BUILDING"}
+{"label":"BUILDING","pattern":"FENGSHAN GREENVILLE"}
+{"label":"BUILDING","pattern":"CITITECH INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"LUCKY PLAZA"}
+{"label":"BUILDING","pattern":"GREAT WORLD"}
+{"label":"BUILDING","pattern":"OCBC ANG MO KIO AVE 10 - 7 ELEVEN"}
+{"label":"BUILDING","pattern":"TANG LOGISTICS CENTRE"}
+{"label":"BUILDING","pattern":"DBS TECK WHYE LANE 1"}
+{"label":"BUILDING","pattern":"GRAND HYATT"}
+{"label":"BUILDING","pattern":"PERFECT ONE"}
+{"label":"BUILDING","pattern":"JOO SENG GREEN"}
+{"label":"BUILDING","pattern":"BUANGKOK EDGEVIEW"}
+{"label":"BUILDING","pattern":"REX HOUSE"}
+{"label":"BUILDING","pattern":"CENDEX CENTRE"}
+{"label":"BUILDING","pattern":"XEROX TOWER"}
+{"label":"BUILDING","pattern":"KHATIB COURT"}
+{"label":"BUILDING","pattern":"CT HUB 2"}
+{"label":"BUILDING","pattern":"PIXEL RED"}
+{"label":"BUILDING","pattern":"SENKEE LOGISTIC HUB"}
+{"label":"BUILDING","pattern":"ENTERPRISE HUB"}
+{"label":"BUILDING","pattern":"SYNERGY@KAKI BUKIT"}
+{"label":"BUILDING","pattern":"ALJUNIED INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"TONG LEE"}
+{"label":"BUILDING","pattern":"UNITY CENTRE"}
+{"label":"BUILDING","pattern":"MELSSA"}
+{"label":"BUILDING","pattern":"FOOD XCHANGE@ADMIRALTY"}
+{"label":"BUILDING","pattern":"DUO TOWER"}
+{"label":"BUILDING","pattern":"TRADE ASSOCIATION HUB"}
+{"label":"BUILDING","pattern":"FU LU SHOU COMPLEX"}
+{"label":"BUILDING","pattern":"TOWER BLOCK MND COMPLEX"}
+{"label":"BUILDING","pattern":"THE ALEXCIER"}
+{"label":"BUILDING","pattern":"SIMS AVENUE CENTRE"}
+{"label":"BUILDING","pattern":"GUAN HUA WAREHOUSE BUILDING"}
+{"label":"BUILDING","pattern":"LAM SOON INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING C"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING D BOX 519 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"MUN HEAN INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"CROCODILE HOUSE"}
+{"label":"BUILDING","pattern":"TONG LEE BUILDING BLOCK B"}
+{"label":"BUILDING","pattern":"CORPORATION TIARA"}
+{"label":"BUILDING","pattern":"OCBC YISHUN ST 22 - 7 ELEVEN"}
+{"label":"BUILDING","pattern":"GATEWAY EAST"}
+{"label":"BUILDING","pattern":"CERTIS CISCO CENTRE II"}
+{"label":"BUILDING","pattern":"OXLEY BIZHUB 2"}
+{"label":"BUILDING","pattern":"TECHPLACE 1"}
+{"label":"BUILDING","pattern":"SENG KEE BUILDING"}
+{"label":"BUILDING","pattern":"CINTECH III"}
+{"label":"BUILDING","pattern":"GREENTOPS @ SIMS PLACE"}
+{"label":"BUILDING","pattern":"LIAN TONG BUILDING"}
+{"label":"BUILDING","pattern":"LIM KIM HAI BUILDING"}
+{"label":"BUILDING","pattern":"CLEARLAB"}
+{"label":"BUILDING","pattern":"GUOCO TOWER"}
+{"label":"BUILDING","pattern":"GOLDEN WHEEL INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"KEBUN BARU MALL"}
+{"label":"BUILDING","pattern":"WEST VALLEY @ BUKIT BATOK"}
+{"label":"BUILDING","pattern":"JURONG TOWN"}
+{"label":"BUILDING","pattern":"ALPHA INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"COMMONWEALTH CAPITAL BUILDING"}
+{"label":"BUILDING","pattern":"BLOCK B KAPO FACTORY BUILDING"}
+{"label":"BUILDING","pattern":"BEA BUILDING"}
+{"label":"BUILDING","pattern":"SUNTEC TOWER TWO"}
+{"label":"BUILDING","pattern":"DBS NEW UPPER CHANGI ROAD"}
+{"label":"BUILDING","pattern":"SINDO BUILDING"}
+{"label":"BUILDING","pattern":"SGX CENTRE 1"}
+{"label":"BUILDING","pattern":"HENGDA BUILDING"}
+{"label":"BUILDING","pattern":"PERFORMANCE BUILDING"}
+{"label":"BUILDING","pattern":"NEHSONS BUILDING"}
+{"label":"BUILDING","pattern":"SULISAM BUILDING"}
+{"label":"BUILDING","pattern":"PIN ART TRAINING CENTRE PTE LTD"}
+{"label":"BUILDING","pattern":"BANGKOK BANK BUILDING"}
+{"label":"BUILDING","pattern":"313@SOMERSET"}
+{"label":"BUILDING","pattern":"CHENG SAN CENTRE"}
+{"label":"BUILDING","pattern":"BOUSTEAD HOUSE"}
+{"label":"BUILDING","pattern":"PCF SPARKLETOTS PRESCHOOL @ GAMBAS 333D (CC)"}
+{"label":"BUILDING","pattern":"DBS NTUC WOODLANDS AVENUE 1"}
+{"label":"BUILDING","pattern":"ARK@GAMBAS"}
+{"label":"BUILDING","pattern":"KIMLY BUILDING"}
+{"label":"BUILDING","pattern":"KOREA EXPRESS BUILDING"}
+{"label":"BUILDING","pattern":"TECHPLACE I"}
+{"label":"BUILDING","pattern":"THE CONCOURSE"}
+{"label":"BUILDING","pattern":"PRIMZ BIZHUB"}
+{"label":"BUILDING","pattern":"PRESTIGE CENTRE"}
+{"label":"BUILDING","pattern":"DBS NTUC TEBAN GARDENS ROAD"}
+{"label":"BUILDING","pattern":"NGEE ANN CITY"}
+{"label":"BUILDING","pattern":"NATIONAL LIBRARY BUILDING"}
+{"label":"BUILDING","pattern":"SINGAPORE POST CENTRE"}
+{"label":"BUILDING","pattern":"MAPLETREE ANSON"}
+{"label":"BUILDING","pattern":"EUNOS INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"PEACE CENTRE"}
+{"label":"BUILDING","pattern":"AZ@PAYA LEBAR"}
+{"label":"BUILDING","pattern":"WINSLAND HOUSE 1"}
+{"label":"BUILDING","pattern":"LIP HING INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"OUE DOWNTOWN 2"}
+{"label":"BUILDING","pattern":"D'CENTENNIAL"}
+{"label":"BUILDING","pattern":"WOODLANDS EAST INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"FOODXCHANGE@ADMIRALTY"}
+{"label":"BUILDING","pattern":"RADUGA CENTRE"}
+{"label":"BUILDING","pattern":"SINGAPORE HANDICRAFTS BUILDING"}
+{"label":"BUILDING","pattern":"OCBC MARSILING LANE"}
+{"label":"BUILDING","pattern":"SHENTON HOUSE"}
+{"label":"BUILDING","pattern":"UOB BEDOK SOUTH AVENUE 3"}
+{"label":"BUILDING","pattern":"KONG GUAN INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"STARHUB GREEN"}
+{"label":"BUILDING","pattern":"FEI YUE FAMILY SERVICE CENTRE (YEW TEE)"}
+{"label":"BUILDING","pattern":"LIM CHEE GUAN FOOD INDUSTRIES"}
+{"label":"BUILDING","pattern":"SIM LIM SQUARE"}
+{"label":"BUILDING","pattern":"SANKEE LOGISTICS HUB"}
+{"label":"BUILDING","pattern":"ASO BUILDING"}
+{"label":"BUILDING","pattern":"HUDSON INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"BOON SIEW BUILDING"}
+{"label":"BUILDING","pattern":"CEMTEX INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"SHUN LI INDUSTRIAL PARK"}
+{"label":"BUILDING","pattern":"SINGAPORE SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"ORCHARD TOWERS REAR BLOCK APARTMENT"}
+{"label":"BUILDING","pattern":"WINTECH CENTRE"}
+{"label":"BUILDING","pattern":"DEUTSCHE TELEKOM CENTRE"}
+{"label":"BUILDING","pattern":"THE HEEREN"}
+{"label":"BUILDING","pattern":"GOLDEN WALL CENTRE"}
+{"label":"BUILDING","pattern":"HARRISON INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"DEFU INDUSTRIAL PARK E"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING CBOX 1215 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"NOVENA SQUARE OFFICE"}
+{"label":"BUILDING","pattern":"ISCA HOUSE"}
+{"label":"BUILDING","pattern":"GOLDBELL TOWER"}
+{"label":"BUILDING","pattern":"PROPELL BUILDING"}
+{"label":"BUILDING","pattern":"WOODLANDS SECTOR 1"}
+{"label":"BUILDING","pattern":"CITY INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"NEXUS@ONE NORTH"}
+{"label":"BUILDING","pattern":"CENTENNIAL TOWER"}
+{"label":"BUILDING","pattern":"SIIX BUILDING"}
+{"label":"BUILDING","pattern":"WILKIE EDGE"}
+{"label":"BUILDING","pattern":"MAYBANK TOWER"}
+{"label":"BUILDING","pattern":"MAPLE TREE BUSINESS CITY 2"}
+{"label":"BUILDING","pattern":"LENG KEE AUTOPOINT"}
+{"label":"BUILDING","pattern":"MAPLETREE BUSINESS CITY"}
+{"label":"BUILDING","pattern":"VERTEX TOWER B"}
+{"label":"BUILDING","pattern":"KOVAN CITY"}
+{"label":"BUILDING","pattern":"SIS BUILDING"}
+{"label":"BUILDING","pattern":"SIM LIM TOWER"}
+{"label":"BUILDING","pattern":"MAS BUILDING"}
+{"label":"BUILDING","pattern":"BODYNITS BUILDING"}
+{"label":"BUILDING","pattern":"ENTREPRENEUR BUSINESS CENTRE"}
+{"label":"BUILDING","pattern":"SAKAE BUILDING"}
+{"label":"BUILDING","pattern":"MAXWELL HOUSE"}
+{"label":"BUILDING","pattern":"LUXASIA BUILDING"}
+{"label":"BUILDING","pattern":"SUNRAY BUILDING"}
+{"label":"BUILDING","pattern":"OXLEY BIZHUB"}
+{"label":"BUILDING","pattern":"PAYA UBI INDUSTRIAL PARK"}
+{"label":"BUILDING","pattern":"OXLEY BIZHUB (LOBBY 4)"}
+{"label":"BUILDING","pattern":"ONG BROTHERS BUILDING"}
+{"label":"BUILDING","pattern":"BANK OF CHINA BUILDING"}
+{"label":"BUILDING","pattern":"TUAS LOT"}
+{"label":"BUILDING","pattern":"CENTRAL MALL"}
+{"label":"BUILDING","pattern":"THE TREASURY"}
+{"label":"BUILDING","pattern":"ST ENGINEERING HUB"}
+{"label":"BUILDING","pattern":"UB.ONE"}
+{"label":"BUILDING","pattern":"ANG MO KIO INDUSTRIAL PARK 1"}
+{"label":"BUILDING","pattern":"SOLARIS NORTH TOWER"}
+{"label":"BUILDING","pattern":"BLOCK A KAPO FACTORY BUILDING"}
+{"label":"BUILDING","pattern":"LOYANG OFFSHORE SUPPLY BASE"}
+{"label":"BUILDING","pattern":"SCA CREATIVE CENTRE"}
+{"label":"BUILDING","pattern":"FRASERS TOWER"}
+{"label":"BUILDING","pattern":"NEW TECH PARK (LOBBY G)"}
+{"label":"BUILDING","pattern":"TEAMBUILD INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"CHIAT HONG BUILDING"}
+{"label":"BUILDING","pattern":"THE CAPRICORN"}
+{"label":"BUILDING","pattern":"STORE BUILDING"}
+{"label":"BUILDING","pattern":"BUGIS JUNCTION OFFICE TOWER"}
+{"label":"BUILDING","pattern":"CARGO AGENTS"}
+{"label":"BUILDING","pattern":"SIME DARBY BUSINESS CENTRE"}
+{"label":"BUILDING","pattern":"CHALLENGER TECHUB"}
+{"label":"BUILDING","pattern":"HILLVIEW BUILDING"}
+{"label":"BUILDING","pattern":"MODUSLINK"}
+{"label":"BUILDING","pattern":"ASIA SQUARE TOWER TWO"}
+{"label":"BUILDING","pattern":"TCH TECHCENTRE"}
+{"label":"BUILDING","pattern":"BANK OF SINGAPORE CENTRE"}
+{"label":"BUILDING","pattern":"UB POINT"}
+{"label":"BUILDING","pattern":"GTW BUILDING"}
+{"label":"BUILDING","pattern":"SKYTECH BUILDING"}
+{"label":"BUILDING","pattern":"SPRING"}
+{"label":"BUILDING","pattern":"TECHLINK"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING E BOX 898 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"ESSILOR BUILDING"}
+{"label":"BUILDING","pattern":"AUTOMOBILE MEGAMART"}
+{"label":"BUILDING","pattern":"GEMINI@SIMS"}
+{"label":"BUILDING","pattern":"OUE DOWNTOWN 1"}
+{"label":"BUILDING","pattern":"TOH GUAN CENTRE"}
+{"label":"BUILDING","pattern":"EXCALIBUR CENTRE"}
+{"label":"BUILDING","pattern":"CENTRAL PLAZA"}
+{"label":"BUILDING","pattern":"TACAM INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"THE MONTESSORI PLAYROOM KINDERGARTEN"}
+{"label":"BUILDING","pattern":"CHINATOWN POINT"}
+{"label":"BUILDING","pattern":"TAMPINES GREENEDGE"}
+{"label":"BUILDING","pattern":"CHANCERLODGE COMPLEX"}
+{"label":"BUILDING","pattern":"HONG JOO INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"SECOM CENTRE"}
+{"label":"BUILDING","pattern":"SMF BUILDING"}
+{"label":"BUILDING","pattern":"BUSY BEES"}
+{"label":"BUILDING","pattern":"ADMIRAX"}
+{"label":"BUILDING","pattern":"TO 08 HUDSON TECHNOCENTRE"}
+{"label":"BUILDING","pattern":"FU TSU INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"MAXWELL CHAMBERS SUITES"}
+{"label":"BUILDING","pattern":"TONG BUILDING"}
+{"label":"BUILDING","pattern":"JURONG FOODHUB"}
+{"label":"BUILDING","pattern":"GORDON WAREHOUSE BUILDING"}
+{"label":"BUILDING","pattern":"TANJONG PAGAR COMPLEX"}
+{"label":"BUILDING","pattern":"BCA BUILDING"}
+{"label":"BUILDING","pattern":"EUNOS TECHNOLINK"}
+{"label":"BUILDING","pattern":"GB BUILDING"}
+{"label":"BUILDING","pattern":"PAYA LEBAR QUARTER (PLQ 1)"}
+{"label":"BUILDING","pattern":"TOA PAYOH COMMUNITY BUILDING"}
+{"label":"BUILDING","pattern":"PALAIS RENAISSANCE"}
+{"label":"BUILDING","pattern":"TUNG ANN ASSOCIATION BUILDING"}
+{"label":"BUILDING","pattern":"WESTGATE"}
+{"label":"BUILDING","pattern":"SHAW CENTRE"}
+{"label":"BUILDING","pattern":"UBI TECHPARK (LOBBY D)"}
+{"label":"BUILDING","pattern":"TANGLIN HALT INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"PENINSULA PLAZA"}
+{"label":"BUILDING","pattern":"THE ATRIUM@ORCHARD TOWER TWO"}
+{"label":"BUILDING","pattern":"ENTERPRISE CENTRE"}
+{"label":"BUILDING","pattern":"EVERICH INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"RUBY INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"WOODLANDS EAST INDUSTRIAL PARK"}
+{"label":"BUILDING","pattern":"ASIAWIDE INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"NORTHSTAR@AMK"}
+{"label":"BUILDING","pattern":"ROYAL GROUP BUILDING"}
+{"label":"BUILDING","pattern":"FAR EAST FINANCE BUILDING"}
+{"label":"BUILDING","pattern":"BLOCK F I-LOFTS@CHANGI"}
+{"label":"BUILDING","pattern":"DHL DISTRIBUTION CENTRE"}
+{"label":"BUILDING","pattern":"BETIME BUILDING"}
+{"label":"BUILDING","pattern":"BOSCH BUILDING"}
+{"label":"BUILDING","pattern":"NEW WORLD CENTRE"}
+{"label":"BUILDING","pattern":"UIC BUILDING"}
+{"label":"BUILDING","pattern":"KALLANG BASIN INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"O'CONNOR'S ANNEX BLOCK WBL BUILDING"}
+{"label":"BUILDING","pattern":"WOODLANDS SPECTRUM 11"}
+{"label":"BUILDING","pattern":"SINGAPORE GODOWN"}
+{"label":"BUILDING","pattern":"EUNOS TECHPARK"}
+{"label":"BUILDING","pattern":"SIME DARBY CENTRE"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING E BOX 615 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"HARBOURFRONT PLACE"}
+{"label":"BUILDING","pattern":"PINES INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"DBS NTUC HAVELOCK ROAD"}
+{"label":"BUILDING","pattern":"JTC AVIATION TWOSELETAR"}
+{"label":"BUILDING","pattern":"SIF BUILDING"}
+{"label":"BUILDING","pattern":"KAKI BUKIT"}
+{"label":"BUILDING","pattern":"WINSLAND HOUSE I"}
+{"label":"BUILDING","pattern":"ABI PLAZA"}
+{"label":"BUILDING","pattern":"WOODLANDS SPECTRUM II"}
+{"label":"BUILDING","pattern":"THE SPLENDOUR"}
+{"label":"BUILDING","pattern":"SRI BUILDING"}
+{"label":"BUILDING","pattern":"BALMORAL PLAZA"}
+{"label":"BUILDING","pattern":"GRP BUILDING"}
+{"label":"BUILDING","pattern":"THIRD LOK"}
+{"label":"BUILDING","pattern":"TAN BOON LIAT BUILDING"}
+{"label":"BUILDING","pattern":"CRESCENT@KALLANG"}
+{"label":"BUILDING","pattern":"JTC SPACE @ TAMPINES NORTH"}
+{"label":"BUILDING","pattern":"ORCHARD PLAZA"}
+{"label":"BUILDING","pattern":"GOLD PINE INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"TECHNIQUES CENTRE"}
+{"label":"BUILDING","pattern":"TOWER 3"}
+{"label":"BUILDING","pattern":"CIDECO INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"WATERLOO CENTRE"}
+{"label":"BUILDING","pattern":"ECO-TECH@SUNVIEW"}
+{"label":"BUILDING","pattern":"EASB BUILDING"}
+{"label":"BUILDING","pattern":"NEXUS@ONE-NORTH"}
+{"label":"BUILDING","pattern":"ARK@KB"}
+{"label":"BUILDING","pattern":"TO 95 UBI TECHPARK (LOBBY E)"}
+{"label":"BUILDING","pattern":"FREIGHT LINKS EXPRESS LOGISTICENTRE"}
+{"label":"BUILDING","pattern":"PWC BUILDING"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING EP O BOX 774 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"WOODLANDS HORIZON"}
+{"label":"BUILDING","pattern":"KIAN ANN BUILDING"}
+{"label":"BUILDING","pattern":"KHONG GUAN BISCUIT FACTORY"}
+{"label":"BUILDING","pattern":"INCOME@TAMPINES JUNCTION"}
+{"label":"BUILDING","pattern":"BBR BUILDING"}
+{"label":"BUILDING","pattern":"TAMPINES INDUSTRIAL PARK A TRIVEC CENTRE"}
+{"label":"BUILDING","pattern":"HIAP HOE BUILDING AT ZHONGSHAN PARK"}
+{"label":"BUILDING","pattern":"SHAW TOWER"}
+{"label":"BUILDING","pattern":"HONG HENG MANSIONS"}
+{"label":"BUILDING","pattern":"JAY GEE MELWANI HOUSE"}
+{"label":"BUILDING","pattern":"MAE INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"THE FULLERTON HOTEL"}
+{"label":"BUILDING","pattern":"HAW PAR CENTRE"}
+{"label":"BUILDING","pattern":"CONCORDE SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"NAIGAI NITTO"}
+{"label":"BUILDING","pattern":"GOLDEN MILE COMPLEX"}
+{"label":"BUILDING","pattern":"FRAMEWORK BUILDING"}
+{"label":"BUILDING","pattern":"8@TRADEHUB 21"}
+{"label":"BUILDING","pattern":"TRIVEX"}
+{"label":"BUILDING","pattern":"KOLAM AYER INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"THOMSON V TWO"}
+{"label":"BUILDING","pattern":"CITIMAC INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"CITY CENTRE"}
+{"label":"BUILDING","pattern":"ORCHARD TOWERS"}
+{"label":"BUILDING","pattern":"BH BUILDING"}
+{"label":"BUILDING","pattern":"CRIMSIGN BUILDING"}
+{"label":"BUILDING","pattern":"TTS CENTRE"}
+{"label":"BUILDING","pattern":"WCEGA PLAZA"}
+{"label":"BUILDING","pattern":"TO 10"}
+{"label":"BUILDING","pattern":"EMBASSY OF FINLAND 101"}
+{"label":"BUILDING","pattern":"BLOCK D"}
+{"label":"BUILDING","pattern":"PRESSCRETE BUILDING"}
+{"label":"BUILDING","pattern":"GLENEAGLES HOSPITAL"}
+{"label":"BUILDING","pattern":"MIDVIEW BUILDING"}
+{"label":"BUILDING","pattern":"FAR EAST REFRIGERATION BUILDING"}
+{"label":"BUILDING","pattern":"GOLDEN LANDMARK"}
+{"label":"BUILDING","pattern":"DEFU INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"CONNEXION"}
+{"label":"BUILDING","pattern":"BALESTIER HILL SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"BIZTECH CENTRE"}
+{"label":"BUILDING","pattern":"OXLEY BIZHUB 1"}
+{"label":"BUILDING","pattern":"CORPORATION PLACE"}
+{"label":"BUILDING","pattern":"MARINA BAY FINANCIAL CENTRE"}
+{"label":"BUILDING","pattern":"PSA VISTA"}
+{"label":"BUILDING","pattern":"B CENTRAL"}
+{"label":"BUILDING","pattern":"TECHPARK"}
+{"label":"BUILDING","pattern":"HPL HOUSE"}
+{"label":"BUILDING","pattern":"EAST COAST CENTRE"}
+{"label":"BUILDING","pattern":"HILLVIEW WAREHOUSE"}
+{"label":"BUILDING","pattern":"WEST PARK"}
+{"label":"BUILDING","pattern":"LHK2 BUILDING"}
+{"label":"BUILDING","pattern":"PRUDENTIAL TOWER"}
+{"label":"BUILDING","pattern":"NORTH VIEW BIZHUB"}
+{"label":"BUILDING","pattern":"T-SPACE"}
+{"label":"BUILDING","pattern":"TAN CHONG TOWER"}
+{"label":"BUILDING","pattern":"BAN TECK HAN BUILDING"}
+{"label":"BUILDING","pattern":"APP ENTERPRISE BUILDING"}
+{"label":"BUILDING","pattern":"REDHILL INDUSTRIAL ESTATE FLATTED FACTORY"}
+{"label":"BUILDING","pattern":"TWENTY ANSON"}
+{"label":"BUILDING","pattern":"GENTING BLOCKRUBY INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"AUTOPOINT"}
+{"label":"BUILDING","pattern":"FUJI XEROX TOWERS"}
+{"label":"BUILDING","pattern":"FLOOR CAPITA SPRING"}
+{"label":"BUILDING","pattern":"LOYANG INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"EASTLINK"}
+{"label":"BUILDING","pattern":"GSH PLAZA"}
+{"label":"BUILDING","pattern":"SUNGEI"}
+{"label":"BUILDING","pattern":"AZ @ PAYA LEBAR"}
+{"label":"BUILDING","pattern":"APERIA TOWER 2"}
+{"label":"BUILDING","pattern":"SIGMA CABLE HIGH TECH COMPLEX"}
+{"label":"BUILDING","pattern":"HDB FLORAL SPRING @ YISHUN"}
+{"label":"BUILDING","pattern":"ALFA CENTRE"}
+{"label":"BUILDING","pattern":"PSA HORIZONS"}
+{"label":"BUILDING","pattern":"(OFFICE TOWER 1)"}
+{"label":"BUILDING","pattern":"KEPPEL TOWERS"}
+{"label":"BUILDING","pattern":"TECHPLACE II"}
+{"label":"BUILDING","pattern":"RUBY LAND COMPLEX"}
+{"label":"BUILDING","pattern":"HYFLUX INNOVATION CENTRE"}
+{"label":"BUILDING","pattern":"ROYAL ONE PHILLIP"}
+{"label":"BUILDING","pattern":"GOLDEN WALL FLATTED FACTORY"}
+{"label":"BUILDING","pattern":"WESTECH BUILDING"}
+{"label":"BUILDING","pattern":"FAR EAST SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"OXLEY TOWER"}
+{"label":"BUILDING","pattern":"GORDON INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"PUBLIC MANSION"}
+{"label":"BUILDING","pattern":"VIVA BUSINESS PARK"}
+{"label":"BUILDING","pattern":"THE BENCOOLEN"}
+{"label":"BUILDING","pattern":"SIME DARBY PERFORMANCE CENTRE"}
+{"label":"BUILDING","pattern":"HIAP HOE BUILDING AT ZHONG SHAN PARK"}
+{"label":"BUILDING","pattern":"WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"PIONEER CENTRE"}
+{"label":"BUILDING","pattern":"NEX MALL"}
+{"label":"BUILDING","pattern":"WPP BUILDING"}
+{"label":"BUILDING","pattern":"YI XIU FACTORY BUILDING"}
+{"label":"BUILDING","pattern":"RIVER"}
+{"label":"BUILDING","pattern":"PASIR PANJANG DISTRIPARK"}
+{"label":"BUILDING","pattern":"TO 06 CHINATOWN POINT"}
+{"label":"BUILDING","pattern":"CITY PLAZA"}
+{"label":"BUILDING","pattern":"PENINSULA PLAZA (CITY HALL MRT)"}
+{"label":"BUILDING","pattern":"TAN CHONG MOTOR CENTRE"}
+{"label":"BUILDING","pattern":"VANGUARD CAMPUS"}
+{"label":"BUILDING","pattern":"WEST TERRA @ BUKIT BATOK"}
+{"label":"BUILDING","pattern":"PRECISE ONE"}
+{"label":"BUILDING","pattern":"LUM CHANG BUILDING"}
+{"label":"BUILDING","pattern":"WISMA GULAB"}
+{"label":"BUILDING","pattern":"RIVERSIDE POINT"}
+{"label":"BUILDING","pattern":"FLOOR EAST WING ZAGRO GLOBAL HUB"}
+{"label":"BUILDING","pattern":"TANNERY BLOCKRUBY INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"NANYANG KHEK COMMUNITY GUILD"}
+{"label":"BUILDING","pattern":"RUBY WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"ACE@BUROH"}
+{"label":"BUILDING","pattern":"WINSLAND HOUSE II"}
+{"label":"BUILDING","pattern":"SPACE@TAMPINES"}
+{"label":"BUILDING","pattern":"AZ BUILDING"}
+{"label":"BUILDING","pattern":"POLICE STATION"}
+{"label":"BUILDING","pattern":"CENCON BUILDING"}
+{"label":"BUILDING","pattern":"UE SQUARE SHOPPING MALL"}
+{"label":"BUILDING","pattern":"MEZZANINE FLOOR FREIGHT LINKS EXPRESS LOGISTICENTRE"}
+{"label":"BUILDING","pattern":"PAYA LEBAR QUARTER"}
+{"label":"BUILDING","pattern":"ALLIANCE COLD STORAGE"}
+{"label":"BUILDING","pattern":"SHERATON TOWERS HOTEL"}
+{"label":"BUILDING","pattern":"VILLA VERDE"}
+{"label":"BUILDING","pattern":"STANDARD INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"HISAKA INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"TPI BUILDING"}
+{"label":"BUILDING","pattern":"WEST CONNECT BUILDING"}
+{"label":"BUILDING","pattern":"TELOK BLANGAH HOUSE"}
+{"label":"BUILDING","pattern":"LIAT TOWERS"}
+{"label":"BUILDING","pattern":"EAST HITACHI ELEVATOR BUILDING"}
+{"label":"BUILDING","pattern":"OCBC CLEMENTI WEST ST 2"}
+{"label":"BUILDING","pattern":"REHAU BUILDING"}
+{"label":"BUILDING","pattern":"BARTLEY BIZ CENTRE"}
+{"label":"BUILDING","pattern":"MTOWER"}
+{"label":"BUILDING","pattern":"04/05 IOB BUILDING"}
+{"label":"BUILDING","pattern":"TEXTILE CENTRE"}
+{"label":"BUILDING","pattern":"CAMBRIDGE INDUSTRIAL TRUST"}
+{"label":"BUILDING","pattern":"JACKSON DESIGN HUB"}
+{"label":"BUILDING","pattern":"TONG BUILDING(ROLEX BUILDING, BESIDE PARAGON)"}
+{"label":"BUILDING","pattern":"STAMFORD COURT"}
+{"label":"BUILDING","pattern":"TG BUILDING"}
+{"label":"BUILDING","pattern":"TAN JIN CHWEE INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"REDHILL INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"KIM HOE CENTRE"}
+{"label":"BUILDING","pattern":"EU TONG SENG STREET"}
+{"label":"BUILDING","pattern":"CHARLES & KEITH GROUP HEADQUARTERS"}
+{"label":"BUILDING","pattern":"MAYA PLASTIC BUILDING"}
+{"label":"BUILDING","pattern":"ORCHARD BUILDING"}
+{"label":"BUILDING","pattern":"SGX CENTRE ONE"}
+{"label":"BUILDING","pattern":"WATERWAY POINT (EAST WING)"}
+{"label":"BUILDING","pattern":"DBS JURONG EAST STREET 31 351A"}
+{"label":"BUILDING","pattern":"TAMPINES JUNCTION"}
+{"label":"BUILDING","pattern":"GENMAG BUILDING"}
+{"label":"BUILDING","pattern":"THONG CHAI BUILDING"}
+{"label":"BUILDING","pattern":"ANNEXE BLOCK"}
+{"label":"BUILDING","pattern":"PENJURU TERMINAL"}
+{"label":"BUILDING","pattern":"LHK BUILDING"}
+{"label":"BUILDING","pattern":"BIG BOX"}
+{"label":"BUILDING","pattern":"PRINT MEDIA HUB @ PAYA LEBAR IPARK"}
+{"label":"BUILDING","pattern":"LION BUILDING D"}
+{"label":"BUILDING","pattern":"MOTORWAY BUILDING"}
+{"label":"BUILDING","pattern":"NUMBER ONE BUILDING"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING E"}
+{"label":"BUILDING","pattern":"GOLDHILL CENTRE"}
+{"label":"BUILDING","pattern":"ENGINE OVERHAUL COMPLEX"}
+{"label":"BUILDING","pattern":"AIG BUILDING"}
+{"label":"BUILDING","pattern":"MYP PLAZA"}
+{"label":"BUILDING","pattern":"TEO INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"LOBBY A PICO CREATIVE CENTRE"}
+{"label":"BUILDING","pattern":"TANGLIN MALL"}
+{"label":"BUILDING","pattern":"LOYANG OFFSHORE SUPPLY BASE BLOCK 103"}
+{"label":"BUILDING","pattern":"SINSOV BUILDING"}
+{"label":"BUILDING","pattern":"SOON HOCK HOLDING LOGISTICS BUILDING"}
+{"label":"BUILDING","pattern":"FABER HILLS"}
+{"label":"BUILDING","pattern":"FAR EAST PLAZA"}
+{"label":"BUILDING","pattern":"UBI CENTRE"}
+{"label":"BUILDING","pattern":"COGENT 1 LOGISTICS HUB"}
+{"label":"BUILDING","pattern":"MARITIME HOUSE"}
+{"label":"BUILDING","pattern":"MAPLETREE LOGISTICS"}
+{"label":"BUILDING","pattern":"WUI HONG BUILDING"}
+{"label":"BUILDING","pattern":"TANNERY BLOCK RUBY INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"GOODRICH BUILDING"}
+{"label":"BUILDING","pattern":"UBI TECHPARK (LOBBY C)"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING D BOX 702 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"SINGAPORE BUSINESS FEDERATION CENTRE"}
+{"label":"BUILDING","pattern":"CINTECH ISINGAPORE SCIENCE PARK 1"}
+{"label":"BUILDING","pattern":"SCN CENTRE"}
+{"label":"BUILDING","pattern":"UBIPLEX 1"}
+{"label":"BUILDING","pattern":"KHL INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"MYP CENTRE"}
+{"label":"BUILDING","pattern":"TEE YIH JIA BUILDING"}
+{"label":"BUILDING","pattern":"WING A"}
+{"label":"BUILDING","pattern":"KATONG PLAZA"}
+{"label":"BUILDING","pattern":"ALY BUILDING"}
+{"label":"BUILDING","pattern":"PEI FU INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"KAKI BUKIT ROAD 1"}
+{"label":"BUILDING","pattern":"MI BUILDING"}
+{"label":"BUILDING","pattern":"JURONG ISLAND"}
+{"label":"BUILDING","pattern":"ECON INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"SKYLIGHT BUILDING"}
+{"label":"BUILDING","pattern":"LHK BUILLDING"}
+{"label":"BUILDING","pattern":"KAMPONG AMPAT INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"YENOM INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"OSSIA BUILDING"}
+{"label":"BUILDING","pattern":"CYBER HUB NORTH"}
+{"label":"BUILDING","pattern":"ENTERPRISE 10"}
+{"label":"BUILDING","pattern":"SECOND LOK"}
+{"label":"BUILDING","pattern":"HARBOURFRONT TOWER ONE"}
+{"label":"BUILDING","pattern":"RUBY INDUSTRIAL COMPLEX GENTING BLOCK"}
+{"label":"BUILDING","pattern":"THE FOUNDARY@CLARKE QUAY"}
+{"label":"BUILDING","pattern":"INTERNATIONAL PRESS BUILDING"}
+{"label":"BUILDING","pattern":"ENVIRONMENT BUILDING"}
+{"label":"BUILDING","pattern":"REVENUE HOUSE"}
+{"label":"BUILDING","pattern":"ASCENT"}
+{"label":"BUILDING","pattern":"KRISLITE BUILDING"}
+{"label":"BUILDING","pattern":"D'LITHIUM"}
+{"label":"BUILDING","pattern":"APS BUILDING"}
+{"label":"BUILDING","pattern":"KAMPONG AMPAT"}
+{"label":"BUILDING","pattern":"ROBINSON SUITES"}
+{"label":"BUILDING","pattern":"HARBOURSIDE INDUSTRIAL BUILDING 2"}
+{"label":"BUILDING","pattern":"FOOD XCHANGE @ ADMIRALTY"}
+{"label":"BUILDING","pattern":"GRANDE BUILDING"}
+{"label":"BUILDING","pattern":"SBF CENTRE"}
+{"label":"BUILDING","pattern":"GRP INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"THIRD CHIN"}
+{"label":"BUILDING","pattern":"ELEMENT 14"}
+{"label":"BUILDING","pattern":"SIN THAI HIN BUILDING"}
+{"label":"BUILDING","pattern":"REGENCY HOUSE"}
+{"label":"BUILDING","pattern":"ARK @ GAMBAS"}
+{"label":"BUILDING","pattern":"ONN WAH BUILDING"}
+{"label":"BUILDING","pattern":"CITY WAREHOUSE"}
+{"label":"BUILDING","pattern":"THE ARIES"}
+{"label":"BUILDING","pattern":"CITYLINK WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"TO 18 KALLANG BASIN INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"SHAW HOUSEMEDICAL SUITES@ORCHARD"}
+{"label":"BUILDING","pattern":"TC NISSAN HUB"}
+{"label":"BUILDING","pattern":"THE SIGNATURE"}
+{"label":"BUILDING","pattern":"BOON LAY SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"SANDVIK BUILDING"}
+{"label":"BUILDING","pattern":"UOB PLAZA 1"}
+{"label":"BUILDING","pattern":"UBI TECHPARK (LOBBY A)"}
+{"label":"BUILDING","pattern":"SINGAPORE POOLS BUILDING"}
+{"label":"BUILDING","pattern":"THE NOVELTY HOUSE"}
+{"label":"BUILDING","pattern":"CITY HOUSE"}
+{"label":"BUILDING","pattern":"CITYNEON BUILDING"}
+{"label":"BUILDING","pattern":"NORTH BRIDGE CENTRE"}
+{"label":"BUILDING","pattern":"SINGPOST CENTRE"}
+{"label":"BUILDING","pattern":"SINDO INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"BEDOK INDUSTRIAL PARK C DOU YEE BUILDING"}
+{"label":"BUILDING","pattern":"JIT POH BUILDING"}
+{"label":"BUILDING","pattern":"SHIMEI EAST KITCHEN"}
+{"label":"BUILDING","pattern":"KAKI BUKIT TECHPARK 1"}
+{"label":"BUILDING","pattern":"TAI HONG CENTRE"}
+{"label":"BUILDING","pattern":"ISPACE"}
+{"label":"BUILDING","pattern":"JURONG"}
+{"label":"BUILDING","pattern":"I.BIZ CENTRE"}
+{"label":"BUILDING","pattern":"LW TECHNOCENTRE"}
+{"label":"BUILDING","pattern":"LANTROVISION BUILDING"}
+{"label":"BUILDING","pattern":"BUKIT BATOK INDUSTRIAL PARK A"}
+{"label":"BUILDING","pattern":"BORDEN CENTRE"}
+{"label":"BUILDING","pattern":"CWT COMMODITY HUB"}
+{"label":"BUILDING","pattern":"KECK SENG TOWER"}
+{"label":"BUILDING","pattern":"PAN-I COMPLEX"}
+{"label":"BUILDING","pattern":"ANG MO KIO CENTRAL POST OFFICE"}
+{"label":"BUILDING","pattern":"TOKIO MARINE CENTRE"}
+{"label":"BUILDING","pattern":"AZTECH BUILDING"}
+{"label":"BUILDING","pattern":"JURONG ISLAND MAINTENANCE HUB"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING E BOX 969 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"SPEEDY-TECH INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"CENTRIUM SQUARE"}
+{"label":"BUILDING","pattern":"HB ROBINSON BUILDING"}
+{"label":"BUILDING","pattern":"MEGA@WOODLANDS"}
+{"label":"BUILDING","pattern":"ALLIANCE BUILDING"}
+{"label":"BUILDING","pattern":"PARK AVENUE ROCHESTER"}
+{"label":"BUILDING","pattern":"CHIA KHIM LEE BUILDING"}
+{"label":"BUILDING","pattern":"AXA LIFE BUILDING"}
+{"label":"BUILDING","pattern":"SINGAPORE HANDICRAFT BUILDING"}
+{"label":"BUILDING","pattern":"BYLANDS BUILDING"}
+{"label":"BUILDING","pattern":"TEAMBUILD CENTRE"}
+{"label":"BUILDING","pattern":"CHANGI LODGE 2"}
+{"label":"BUILDING","pattern":"BENDEMEER INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"AXA"}
+{"label":"BUILDING","pattern":"CITIPOINT INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"BCA BRADDELL CAMPUS BLOCK H"}
+{"label":"BUILDING","pattern":"LTC BUILDING A"}
+{"label":"BUILDING","pattern":"THE GATEWAY EAST"}
+{"label":"BUILDING","pattern":"TECHPOINT"}
+{"label":"BUILDING","pattern":"HUP YEW SEN BUILDING"}
+{"label":"BUILDING","pattern":"NOVENA GARDENS"}
+{"label":"BUILDING","pattern":"EON SHENTON"}
+{"label":"BUILDING","pattern":"THE TROPICA"}
+{"label":"BUILDING","pattern":"PRUDENTIAL TOWERS"}
+{"label":"BUILDING","pattern":"OCBC CENTRE EAST"}
+{"label":"BUILDING","pattern":"UBI CAR MALL"}
+{"label":"BUILDING","pattern":"ISETAN OFFICE BUILDING"}
+{"label":"BUILDING","pattern":"6TH FLOOR EAST WING, ZAGRO GLOBAL HUB"}
+{"label":"BUILDING","pattern":"INTINITE STUDIO"}
+{"label":"BUILDING","pattern":"CINTECH I"}
+{"label":"BUILDING","pattern":"SKM INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"TO 09 KALLANG BASIN INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"AIRPORT BOULEVARD"}
+{"label":"BUILDING","pattern":"MDI@FIFTEEN DAVIDSON"}
+{"label":"BUILDING","pattern":"ESR BIZPARK@CHAI CHEE"}
+{"label":"BUILDING","pattern":"BREADTALK IHQ"}
+{"label":"BUILDING","pattern":"WOODLANDS E-TERRACE"}
+{"label":"BUILDING","pattern":"PAYA LEBAR QUARTER - PLQ 3"}
+{"label":"BUILDING","pattern":"TAG.A"}
+{"label":"BUILDING","pattern":"ABV INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"PAYA LEBAR QUARTER 2"}
+{"label":"BUILDING","pattern":"BUKIT BATOK CONNECTION"}
+{"label":"BUILDING","pattern":"EASTECH BUILDING"}
+{"label":"BUILDING","pattern":"LTC"}
+{"label":"BUILDING","pattern":"THYE HONG CENTRE"}
+{"label":"BUILDING","pattern":"FENARA COURT"}
+{"label":"BUILDING","pattern":"NORTHSPRING BIZHUB"}
+{"label":"BUILDING","pattern":"PREMIER @ KAKI BUKIT"}
+{"label":"BUILDING","pattern":"AZTECH ANNEX BUILDING"}
+{"label":"BUILDING","pattern":"UPS HOUSE"}
+{"label":"BUILDING","pattern":"MACTECH INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"GREAT EASTERN CENTRE"}
+{"label":"BUILDING","pattern":"CERTIS CISCO CENTRE"}
+{"label":"BUILDING","pattern":"JACKSON SQUARE BLOCK B"}
+{"label":"BUILDING","pattern":"HUDSON TECHNO CENTRE"}
+{"label":"BUILDING","pattern":"I-LOFTS@CHANGI"}
+{"label":"BUILDING","pattern":"FIFTH LOK"}
+{"label":"BUILDING","pattern":"VALLEY POINT"}
+{"label":"BUILDING","pattern":"CARPENTER HAUS"}
+{"label":"BUILDING","pattern":"SOLSTICE BUSINESS CENTRE"}
+{"label":"BUILDING","pattern":"TONG LEE BUILDING BLOCK A"}
+{"label":"BUILDING","pattern":"LINGJACK INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"OUE DOWNTOWN"}
+{"label":"BUILDING","pattern":"KAKI BUKIT TECHPARK I"}
+{"label":"BUILDING","pattern":"THE CRESCENT @ KALLANG"}
+{"label":"BUILDING","pattern":"UNION ENERGY GROUP BUILDING"}
+{"label":"BUILDING","pattern":"TECHNOPRENEUR CENTRE"}
+{"label":"BUILDING","pattern":"GLENEAGLES MEDICAL CENTRE"}
+{"label":"BUILDING","pattern":"TAG A"}
+{"label":"BUILDING","pattern":"K ECON INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"JTC SPACE@TAMPINES NORTH"}
+{"label":"BUILDING","pattern":"SGX CENTRE"}
+{"label":"BUILDING","pattern":"LOGISHUB@CLEMENTI"}
+{"label":"BUILDING","pattern":"SUNTEC TOWER FOUR"}
+{"label":"BUILDING","pattern":"CONNECTION ONE"}
+{"label":"BUILDING","pattern":"CITYCAB BUILDING"}
+{"label":"BUILDING","pattern":"UE BIZHUB CENTRAL"}
+{"label":"BUILDING","pattern":"FOODAXIS@SENOKO"}
+{"label":"BUILDING","pattern":"GREATLAND INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"ROADMINDEF BUILDING"}
+{"label":"BUILDING","pattern":"LEISURE PARK KALLANG"}
+{"label":"BUILDING","pattern":"TO 14 CT HUB"}
+{"label":"BUILDING","pattern":"TO 14 MIDVIEW BUILDING"}
+{"label":"BUILDING","pattern":"PS 100"}
+{"label":"BUILDING","pattern":"PRIMA TOWER"}
+{"label":"BUILDING","pattern":"TRIVEX SINGAPORE"}
+{"label":"BUILDING","pattern":"GUTHRIE BUILDING"}
+{"label":"BUILDING","pattern":"TO 06 HENG LOONG BUILDING"}
+{"label":"BUILDING","pattern":"GOLDEN AGRI PLAZA"}
+{"label":"BUILDING","pattern":"GOLDEN WHEEL BUILDING"}
+{"label":"BUILDING","pattern":"KOMOCO MOTORS (HYUNDAI)"}
+{"label":"BUILDING","pattern":"APEX@HENDERSON"}
+{"label":"BUILDING","pattern":"KING'S CENTRE"}
+{"label":"BUILDING","pattern":"BAY SANDS"}
+{"label":"BUILDING","pattern":"SEF SPACEHUB"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING D BOX 659 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"BUKIT PASOH SHOP HOUSES"}
+{"label":"BUILDING","pattern":"EUNOS WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"AMEROID PIONEER HUB BUILDING"}
+{"label":"BUILDING","pattern":"FLOOR STRAITS TRADING BUILDING"}
+{"label":"BUILDING","pattern":"SB BUILDING"}
+{"label":"BUILDING","pattern":"SPCS BUILDING"}
+{"label":"BUILDING","pattern":"LENG"}
+{"label":"BUILDING","pattern":"ONE TANNERY"}
+{"label":"BUILDING","pattern":"AIS INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"SINGAPORE HOKKIEN HUAY KUAN BUILDING"}
+{"label":"BUILDING","pattern":"PIONEER JUNCTION"}
+{"label":"BUILDING","pattern":"THE ELITIST"}
+{"label":"BUILDING","pattern":"MSF BUILDING"}
+{"label":"BUILDING","pattern":"BLOCK A TONG LEE BUILDING"}
+{"label":"BUILDING","pattern":"HUDSON TECHNOCENTRE"}
+{"label":"BUILDING","pattern":"MEDIACORP CAMPUS"}
+{"label":"BUILDING","pattern":"WANGI INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"ROXY SQUARE"}
+{"label":"BUILDING","pattern":"JOO SENG WAREHOUSE"}
+{"label":"BUILDING","pattern":"PHILIPS APAC CENTER"}
+{"label":"BUILDING","pattern":"THE GALEN SINGAPORE SCIENCE PARK II"}
+{"label":"BUILDING","pattern":"THONG TECK BUILDING"}
+{"label":"BUILDING","pattern":"HOR KEW BUSINESS CENTRE"}
+{"label":"BUILDING","pattern":"HAW PAR GLASS TOWER"}
+{"label":"BUILDING","pattern":"CEH INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"LKA BUILDING"}
+{"label":"BUILDING","pattern":"UBI TECHPARK (LOBBY B)"}
+{"label":"BUILDING","pattern":"TELETECH PARKSINGAPORE SCIENCE PARK II"}
+{"label":"BUILDING","pattern":"S9"}
+{"label":"BUILDING","pattern":"PHOENIX PARK OFFICE CAMPUS"}
+{"label":"BUILDING","pattern":"JACKSON SQUARE BLOCK A"}
+{"label":"BUILDING","pattern":"KAKI BUKIT TECHPLACE I"}
+{"label":"BUILDING","pattern":"SIA ENGINEERING COMPANY HANGAR"}
+{"label":"BUILDING","pattern":"ROCHE BUILDING"}
+{"label":"BUILDING","pattern":"COPYTRON BUILDING"}
+{"label":"BUILDING","pattern":"VOLKSWAGEN CENTRE"}
+{"label":"BUILDING","pattern":"S9 BUILDING"}
+{"label":"BUILDING","pattern":"SM SUMMIT BUILDING"}
+{"label":"BUILDING","pattern":"ONE RAFFLES PLACE TOWER TWO"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING"}
+{"label":"BUILDING","pattern":"NOVELTY TECHPOINT"}
+{"label":"BUILDING","pattern":"BLOCK A ALEXANDRA TECHNOPARK (LOBBY 1)"}
+{"label":"BUILDING","pattern":"HOLIDAY INN ATRIUM"}
+{"label":"BUILDING","pattern":"WING A HENDERSON INDUSTRIAL PARK"}
+{"label":"BUILDING","pattern":"MANDAI ESTATE"}
+{"label":"BUILDING","pattern":"BALESTIER PLAZA"}
+{"label":"BUILDING","pattern":"EPL BUILDING"}
+{"label":"BUILDING","pattern":"LIBERTY HOUSE"}
+{"label":"BUILDING","pattern":"PRIMZ HUB"}
+{"label":"BUILDING","pattern":"MEP BUILDING"}
+{"label":"BUILDING","pattern":"CHENN LEONN BUILDING"}
+{"label":"BUILDING","pattern":"SGX CENTRE II"}
+{"label":"BUILDING","pattern":"WMX TECHNOLOGIES BUILDING"}
+{"label":"BUILDING","pattern":"ELITE INDUSTRIAL BUILDING 1"}
+{"label":"BUILDING","pattern":"GOLDEN LANDMARK HOTEL"}
+{"label":"BUILDING","pattern":"AIRLINE HOUSE"}
+{"label":"BUILDING","pattern":"PLATINUM 28"}
+{"label":"BUILDING","pattern":"TCH TECH CENTRE"}
+{"label":"BUILDING","pattern":"SURBANA ONE"}
+{"label":"BUILDING","pattern":"SELECT GROUP BUILDING"}
+{"label":"BUILDING","pattern":"SIN AFT 05-J SATS"}
+{"label":"BUILDING","pattern":"LINK BUILDING"}
+{"label":"BUILDING","pattern":"CITY CONVENTION CENTRE"}
+{"label":"BUILDING","pattern":"WEST POINT BIZHUB"}
+{"label":"BUILDING","pattern":"SGX CENTRE I"}
+{"label":"BUILDING","pattern":"WEST SEMBAWANG SHIPYARD"}
+{"label":"BUILDING","pattern":"ROYAL BROTHERS BUILDING"}
+{"label":"BUILDING","pattern":"PEOPLE'S PARK COMPLEX"}
+{"label":"BUILDING","pattern":"FAR EAST SQUARE"}
+{"label":"BUILDING","pattern":"SMART INNOVATION CENTRE"}
+{"label":"BUILDING","pattern":"LHK II BUILDING"}
+{"label":"BUILDING","pattern":"BUGIS JUNCTION TOWER"}
+{"label":"BUILDING","pattern":"TELETECH PARK"}
+{"label":"BUILDING","pattern":"NORTH DAWN LOGISTICS CENTRE"}
+{"label":"BUILDING","pattern":"TO 09 PARKWAY PARADE"}
+{"label":"BUILDING","pattern":"PLOT LCK 92"}
+{"label":"BUILDING","pattern":"OLIVINE BUILDING"}
+{"label":"BUILDING","pattern":"DYNASTY TRAVEL HUB"}
+{"label":"BUILDING","pattern":"SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"TAGORE BUILDING"}
+{"label":"BUILDING","pattern":"ONE RAFFLES"}
+{"label":"BUILDING","pattern":"TIC TECH CENTRE"}
+{"label":"BUILDING","pattern":"PAYA LABAR SQUARE"}
+{"label":"BUILDING","pattern":"THE GATEWAY WEST"}
+{"label":"BUILDING","pattern":"WOODLANDS INDUSTRIAL XCHANGE"}
+{"label":"BUILDING","pattern":"SWEE HIN BUILDING"}
+{"label":"BUILDING","pattern":"HILLVIEW GREEN"}
+{"label":"BUILDING","pattern":"UE BIZHUB CENTRAL (BLOCK B)"}
+{"label":"BUILDING","pattern":"ANNEX BUILDING"}
+{"label":"BUILDING","pattern":"FAR EAST PLAZA SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"4TH & 5TH FLOOR MAPLETREE ANSON"}
+{"label":"BUILDING","pattern":"TO 04 KALLANG BASIN INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"MEIBAN INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"MUN HEAN BUILDING"}
+{"label":"BUILDING","pattern":"TO 21 ONE COMMONWEALTH"}
+{"label":"BUILDING","pattern":"WAREHOUSE"}
+{"label":"BUILDING","pattern":"TIMES CENTRE"}
+{"label":"BUILDING","pattern":"THE SIEMENS CENTRE"}
+{"label":"BUILDING","pattern":"RAFFLES BOULEVARD"}
+{"label":"BUILDING","pattern":"KOMOCO BUILDING"}
+{"label":"BUILDING","pattern":"UBI TECHPARK (LOBBY E)"}
+{"label":"BUILDING","pattern":"SENTOSA"}
+{"label":"BUILDING","pattern":"JALAN LEMBAH"}
+{"label":"BUILDING","pattern":"TAMPINES PLAZA"}
+{"label":"BUILDING","pattern":"FARRER PARK"}
+{"label":"BUILDING","pattern":"THE ARIES SINGAPORE SCIENCE PARK II"}
+{"label":"BUILDING","pattern":"GOLDBELL TOWERS"}
+{"label":"BUILDING","pattern":"STANDARD CHARTERED BANK BUILDING"}
+{"label":"BUILDING","pattern":"YENI INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"DIETHELM KELLER BUILDING"}
+{"label":"BUILDING","pattern":"CFM BUILDING"}
+{"label":"BUILDING","pattern":"HB CENTRE 1"}
+{"label":"BUILDING","pattern":"GREENHUB"}
+{"label":"BUILDING","pattern":"ANN CHUAN COMPLEX"}
+{"label":"BUILDING","pattern":"STARHUB"}
+{"label":"BUILDING","pattern":"SMRT HEADQUARTERS BUILDING"}
+{"label":"BUILDING","pattern":"GKE LOGISTIC HUB"}
+{"label":"BUILDING","pattern":"TOA PAYOH INDUSTRIAL PARK"}
+{"label":"BUILDING","pattern":"LTC BUILDING C"}
+{"label":"BUILDING","pattern":"ANSON CENTRE"}
+{"label":"BUILDING","pattern":"PENINSULA SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"GREAT WORLD CITY"}
+{"label":"BUILDING","pattern":"CYBERHUB NORTH"}
+{"label":"BUILDING","pattern":"MANAGEMENT OFFICE"}
+{"label":"BUILDING","pattern":"LHK 2 BUILDING"}
+{"label":"BUILDING","pattern":"JIAN HUANG BUSINESS CENTRE"}
+{"label":"BUILDING","pattern":"THE ACADEMIA, DISCOVERY TOWER"}
+{"label":"BUILDING","pattern":"TONG XING COMPLEX"}
+{"label":"BUILDING","pattern":"THE CAVENDISH"}
+{"label":"BUILDING","pattern":"WISMA ATRIA"}
+{"label":"BUILDING","pattern":"LENTOR RESIDENCE"}
+{"label":"BUILDING","pattern":"K & L IMM BUILDING"}
+{"label":"BUILDING","pattern":"BALESTIER POINT"}
+{"label":"BUILDING","pattern":"AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"SANMINA BUILDING"}
+{"label":"BUILDING","pattern":"TYE SOON BUILDING"}
+{"label":"BUILDING","pattern":"VIVOCITY"}
+{"label":"BUILDING","pattern":"TT INTERNATIONAL TRADEPARK"}
+{"label":"BUILDING","pattern":"MARINA BAY SANDS"}
+{"label":"BUILDING","pattern":"BUKIT BATOK"}
+{"label":"BUILDING","pattern":"BLOCK 3 LEVEL 2"}
+{"label":"BUILDING","pattern":"KRANJI INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"SINGAPORE BOTANIC GARDENS"}
+{"label":"BUILDING","pattern":"OC BUILDING"}
+{"label":"BUILDING","pattern":"KINGSMEN CREATIVE CENTRE"}
+{"label":"BUILDING","pattern":"UE MEDIA PRINT HUB"}
+{"label":"BUILDING","pattern":"FIRST CENTRE"}
+{"label":"BUILDING","pattern":"WIN5"}
+{"label":"BUILDING","pattern":"JURONG TOWN HALL"}
+{"label":"BUILDING","pattern":"ASCENT SINGAPORE SCIENCE PARK 1"}
+{"label":"BUILDING","pattern":"LEVEL 2M, KEPPEL LOGISTICS BUILDING"}
+{"label":"BUILDING","pattern":"TIONG BAHRU INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"3RD FLOOR"}
+{"label":"BUILDING","pattern":"AIA TOWER"}
+{"label":"BUILDING","pattern":"CHIN"}
+{"label":"BUILDING","pattern":"ABACUS PLAZA"}
+{"label":"BUILDING","pattern":"LIANG COURT COMPLEX"}
+{"label":"BUILDING","pattern":"KERRY LOGISTICS CENTRE"}
+{"label":"BUILDING","pattern":"COMFORT GARDEN"}
+{"label":"BUILDING","pattern":"OFFICE TOWER 2"}
+{"label":"BUILDING","pattern":"INTERNATIONAL FURNITURE CENTRE"}
+{"label":"BUILDING","pattern":"JTC INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"MND BUILDING ANNEXE A"}
+{"label":"BUILDING","pattern":"J'FORTE"}
+{"label":"BUILDING","pattern":"LHK 3 BUILDING"}
+{"label":"BUILDING","pattern":"APERIA TOWER 1"}
+{"label":"BUILDING","pattern":"SINGAPORE MARRIOTT TANG PLAZA HOTEL"}
+{"label":"BUILDING","pattern":"ONE PEMIMPIN"}
+{"label":"BUILDING","pattern":"THE PARAGON (LOBBY C)"}
+{"label":"BUILDING","pattern":"NAN WAH BUILDING"}
+{"label":"BUILDING","pattern":"KEPPEL DIGIHUB"}
+{"label":"BUILDING","pattern":"SOUTH EAST ASIA HOTEL"}
+{"label":"BUILDING","pattern":"SUNSHINE PLAZA"}
+{"label":"BUILDING","pattern":"SUMMIT BUILDING"}
+{"label":"BUILDING","pattern":"CPF TAMPINES BUILDING"}
+{"label":"BUILDING","pattern":"MAE BUILDING"}
+{"label":"BUILDING","pattern":"CSI DISTRIBUTION CENTRE"}
+{"label":"BUILDING","pattern":"YISHUN INDUSTRIAL PARK A"}
+{"label":"BUILDING","pattern":"GENTING WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"NUTZ CENTRE"}
+{"label":"BUILDING","pattern":"SELETAR AIRPORT"}
+{"label":"BUILDING","pattern":"NORTHPOINT BIZHUB"}
+{"label":"BUILDING","pattern":"SINGAPORE"}
+{"label":"BUILDING","pattern":"ORIENTAL AQUARIUM"}
+{"label":"BUILDING","pattern":"BS BENDEMEER CENTRE"}
+{"label":"BUILDING","pattern":"SINGAPORE COMMODITY HUB"}
+{"label":"BUILDING","pattern":"FRONTIER BUILDING"}
+{"label":"BUILDING","pattern":"HARBOURFRONT TOWER 1"}
+{"label":"BUILDING","pattern":"APERIA TOWER TWO"}
+{"label":"BUILDING","pattern":"JEM OFFICE TOWER"}
+{"label":"BUILDING","pattern":"TECH POINT"}
+{"label":"BUILDING","pattern":"ISTANA"}
+{"label":"BUILDING","pattern":"THE CAVENDISH,"}
+{"label":"BUILDING","pattern":"SIN MING AUTO CITY"}
+{"label":"BUILDING","pattern":"PICTURE HOUSE"}
+{"label":"BUILDING","pattern":"ERCI/ TRENT GLOBAL CAMPUS"}
+{"label":"BUILDING","pattern":"CRESCENT @ KALLANG"}
+{"label":"BUILDING","pattern":"PARAGON"}
+{"label":"BUILDING","pattern":"SUITE 405"}
+{"label":"BUILDING","pattern":"NOEL BUILDING"}
+{"label":"BUILDING","pattern":"EU YAN SANG CENTRE"}
+{"label":"BUILDING","pattern":"THE GRANDSTAND"}
+{"label":"BUILDING","pattern":"EMBASSY OF SWITZERLAND 911"}
+{"label":"BUILDING","pattern":"SINDO INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"TT INTERNATIONAL TRADE PARK"}
+{"label":"BUILDING","pattern":"SUNGEI TENGAH LODGE"}
+{"label":"BUILDING","pattern":"SATS AIRFREIGHT TERMINAL 2 CORE C"}
+{"label":"BUILDING","pattern":"THE ANCHORAGE"}
+{"label":"BUILDING","pattern":"JACKIE'S ENTERPRISES BUILDING"}
+{"label":"BUILDING","pattern":"SERANGOON NORTH INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"ORION@PAYA LEBAR"}
+{"label":"BUILDING","pattern":"TOA PAYOH NORTH INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"COMO HOUSE"}
+{"label":"BUILDING","pattern":"FOUR STAR BUILDING"}
+{"label":"BUILDING","pattern":"C&P CHANGI DISTRICENTRE"}
+{"label":"BUILDING","pattern":"MACTECH BUILDING"}
+{"label":"BUILDING","pattern":"CIVIC TERRACE WAREHOUSE"}
+{"label":"BUILDING","pattern":"M.I BUILDING"}
+{"label":"BUILDING","pattern":"COMFORTDELGRO BUILDING"}
+{"label":"BUILDING","pattern":"SYMBIOSIS TOWER"}
+{"label":"BUILDING","pattern":"UTRACO GREENTECH"}
+{"label":"BUILDING","pattern":"LEVEL 7 SAKAE BUILDING"}
+{"label":"BUILDING","pattern":"HOPE TECHNIK BUILDING"}
+{"label":"BUILDING","pattern":"QUEENSWAY SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"GUTHRIE ENGINEERING BUILDING"}
+{"label":"BUILDING","pattern":"NATURAL COOL LIFESTYLE HUB"}
+{"label":"BUILDING","pattern":"UOB ANG MO KIO AVENUE 10"}
+{"label":"BUILDING","pattern":"TA HUB"}
+{"label":"BUILDING","pattern":"FORUM THE SHOPPING MALL"}
+{"label":"BUILDING","pattern":"FIRST EAST CENTRE"}
+{"label":"BUILDING","pattern":"PARAGON MEDICAL SUITES"}
+{"label":"BUILDING","pattern":"PICO CREATIVE CENTRE"}
+{"label":"BUILDING","pattern":"OCBC CENTRE SOUTH"}
+{"label":"BUILDING","pattern":"THE CO@DUXTON"}
+{"label":"BUILDING","pattern":"MACDONALD HOUSE"}
+{"label":"BUILDING","pattern":"MORNINGSTAR CENTRE"}
+{"label":"BUILDING","pattern":"EVER EXPAND BUILDING"}
+{"label":"BUILDING","pattern":"CENTROPOD"}
+{"label":"BUILDING","pattern":"JURONG FOOD HUB"}
+{"label":"BUILDING","pattern":"BLOCK 203 LOYANG OFFSHORE SUPPLY BASE"}
+{"label":"BUILDING","pattern":"CUPPAGE CENTRE"}
+{"label":"BUILDING","pattern":"KOLAM AYER"}
+{"label":"BUILDING","pattern":"ABR BUILDING"}
+{"label":"BUILDING","pattern":"HONG HANG BUILDING"}
+{"label":"BUILDING","pattern":"DP COMPUTERS BUILDING"}
+{"label":"BUILDING","pattern":"MALACCA CENTRE"}
+{"label":"BUILDING","pattern":"DEFU INDUSTRIAL PARK F"}
+{"label":"BUILDING","pattern":"KALLANG BASIN INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"BRIGHTWAY BUILDING"}
+{"label":"BUILDING","pattern":"HAVELOCK II"}
+{"label":"BUILDING","pattern":"LIANG COURT"}
+{"label":"BUILDING","pattern":"NOBLE LOGISTICS"}
+{"label":"BUILDING","pattern":"SUTL HOUSE"}
+{"label":"BUILDING","pattern":"JURONG POINT SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"SUNGEI TENGAH"}
+{"label":"BUILDING","pattern":"CHANGI LOGISTICS CENTRE"}
+{"label":"BUILDING","pattern":"KAKI BUKIT WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"HERITAGE COURT"}
+{"label":"BUILDING","pattern":"UNION BUILDING"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING ECHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"SOUTH LOBBY"}
+{"label":"BUILDING","pattern":"APERIA TOWER"}
+{"label":"BUILDING","pattern":"OAKWELL BUILDING"}
+{"label":"BUILDING","pattern":"CJ KOREAN EXPRESS BUILDING"}
+{"label":"BUILDING","pattern":"CORPORATION PLACE (MAIN LOBBY)"}
+{"label":"BUILDING","pattern":"NEW TECH PARK LOBBY A"}
+{"label":"BUILDING","pattern":"NORDCOM ONE@GAMBAS"}
+{"label":"BUILDING","pattern":"THE ALPHA"}
+{"label":"BUILDING","pattern":"KUM HING COURT"}
+{"label":"BUILDING","pattern":"FULLMARK INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"SECOND CHIN"}
+{"label":"BUILDING","pattern":"DBS ALJUNIED AVENUE 2 /119"}
+{"label":"BUILDING","pattern":"FOOD EMPIRE BUILDING"}
+{"label":"BUILDING","pattern":"S3 SOUTH SPINE"}
+{"label":"BUILDING","pattern":"NORTH EAST BUILDING"}
+{"label":"BUILDING","pattern":"AYER RAJAH COMPLEX"}
+{"label":"BUILDING","pattern":"SANTA UNITED INTERNATIONAL HOLDINGS"}
+{"label":"BUILDING","pattern":"TONG YUAN INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"MAPLETREE BUSINESS CITY II"}
+{"label":"BUILDING","pattern":"TOA PAYOH CENTRAL COMMUNITY BUILDING"}
+{"label":"BUILDING","pattern":"MULTICO BUILDING"}
+{"label":"BUILDING","pattern":"ALPHA BUILDING"}
+{"label":"BUILDING","pattern":"KHENG CHIU BUILDING"}
+{"label":"BUILDING","pattern":"FERNWOOD TOWERS"}
+{"label":"BUILDING","pattern":"AIRPORT P O BOX 1030"}
+{"label":"BUILDING","pattern":"SMU CONCOURSE"}
+{"label":"BUILDING","pattern":"WATERFRONT PLAZA"}
+{"label":"BUILDING","pattern":"PEK CHUAN BUILDING"}
+{"label":"BUILDING","pattern":"MACTAGGART BUILDING"}
+{"label":"BUILDING","pattern":"CHANGI NORTH INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"LIAN HUAT BUILDING"}
+{"label":"BUILDING","pattern":"(SR 26) THE CONNECTION II TOWER 4"}
+{"label":"BUILDING","pattern":"LEVEL 4"}
+{"label":"BUILDING","pattern":"PRIMAX"}
+{"label":"BUILDING","pattern":"LIFELONG LEARNING INSTITUTE"}
+{"label":"BUILDING","pattern":"SP GROUP BUILDING"}
+{"label":"BUILDING","pattern":"WAH LOON BUILDING"}
+{"label":"BUILDING","pattern":"CARGO AGENTS BUILDING CBOX 608 CHANGI AIRFREIGHT CENTRE"}
+{"label":"BUILDING","pattern":"TECK HENG LONG INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"ATT BUILDING"}
+{"label":"BUILDING","pattern":"CITYNEON DESIGN CENTRE"}
+{"label":"BUILDING","pattern":"NEWTON GREEN"}
+{"label":"BUILDING","pattern":"LOYANG ENTERPRISE BUILDING"}
+{"label":"BUILDING","pattern":"MATSUSHITA HOUSE"}
+{"label":"BUILDING","pattern":"TEAM BUILD INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"SINGAPORE ISLAMIC HUB (SIH)"}
+{"label":"BUILDING","pattern":"CONNECTION ONE TOWER 4"}
+{"label":"BUILDING","pattern":"GOLDHILL SHOPPING CENTRE"}
+{"label":"BUILDING","pattern":"CENTRAL SQUARE"}
+{"label":"BUILDING","pattern":"CAPITAL GREEN"}
+{"label":"BUILDING","pattern":"CHIA HONG BUILDING"}
+{"label":"BUILDING","pattern":"CHEVALIER HOUSE"}
+{"label":"BUILDING","pattern":"SIM SIANG CHOON BUILDING"}
+{"label":"BUILDING","pattern":"SENOKO INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"TAI SENG INDUSTRIAL ESTATE"}
+{"label":"BUILDING","pattern":"SICCI BUILDING"}
+{"label":"BUILDING","pattern":"MANDAI CONNECTION"}
+{"label":"BUILDING","pattern":"TSK BUILDING"}
+{"label":"BUILDING","pattern":"FABER HOUSE"}
+{"label":"BUILDING","pattern":"TROPICAL INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"NORTH POINT BIZHUB"}
+{"label":"BUILDING","pattern":"TIONG SENG BUILDING"}
+{"label":"BUILDING","pattern":"OSIM HEADQUARTERS"}
+{"label":"BUILDING","pattern":"TRAVELITE BUILDING"}
+{"label":"BUILDING","pattern":"WIELAND BUILDING"}
+{"label":"BUILDING","pattern":"LEVEL 21 ALEXANDRA POINT"}
+{"label":"BUILDING","pattern":"TAI SENG POINT"}
+{"label":"BUILDING","pattern":"M-CUBE"}
+{"label":"BUILDING","pattern":"K&S CORPORATE HEADQUARTERS"}
+{"label":"BUILDING","pattern":"TONG LEE BUILDING"}
+{"label":"BUILDING","pattern":"(GENERAL OFFICE)"}
+{"label":"BUILDING","pattern":"COURTS MEGASTORE"}
+{"label":"BUILDING","pattern":"WOODLANDS INDUSTRIAL PARK A"}
+{"label":"BUILDING","pattern":"PLAZA 8@CBP"}
+{"label":"BUILDING","pattern":"TRITECH BUILDING"}
+{"label":"BUILDING","pattern":"AIK CHUAN BUILDING"}
+{"label":"BUILDING","pattern":"HSL WATERFRONT@PENJURU"}
+{"label":"BUILDING","pattern":"MARINE PARADE PROMENADE"}
+{"label":"BUILDING","pattern":"DHL AIR EXPRESS CENTRE"}
+{"label":"BUILDING","pattern":"SHERWOOD TOWERS"}
+{"label":"BUILDING","pattern":"AIS BUILDING"}
+{"label":"BUILDING","pattern":"HENG LOONG BUILDING"}
+{"label":"BUILDING","pattern":"LEECO BUILDING"}
+{"label":"BUILDING","pattern":"BLOCK A"}
+{"label":"BUILDING","pattern":"KALLANG PLACE"}
+{"label":"BUILDING","pattern":"EMAS MARINE BASE SINGAPORE"}
+{"label":"BUILDING","pattern":"SECRETARIAT OF HEALTHCARE PROFESSIONAL"}
+{"label":"BUILDING","pattern":"PAN PACIFIC HOTEL"}
+{"label":"BUILDING","pattern":"FONG TAT BUILDING"}
+{"label":"BUILDING","pattern":"WAREHOUSE SB8 SEMBAWANG WHARVES"}
+{"label":"BUILDING","pattern":"ST. MICHAEL'S ESTATE FLATTED FACTORY"}
+{"label":"BUILDING","pattern":"INTREPID WAREHOUSE COMPLEX"}
+{"label":"BUILDING","pattern":"JTC LAUNCHPAD@ONE-NORTH"}
+{"label":"BUILDING","pattern":"JDE BUILDING"}
+{"label":"BUILDING","pattern":"MSL BUILDING"}
+{"label":"BUILDING","pattern":"TOA PAYOH NORTH FLATTED FACTORY"}
+{"label":"BUILDING","pattern":"NANYANG CENTRE"}
+{"label":"BUILDING","pattern":"EMBASSY OF SWITZERLAND1"}
+{"label":"BUILDING","pattern":"TANJONG PAGAR DISTRIPARK"}
+{"label":"BUILDING","pattern":"LIANG HUAT INDUSTRIAL COMPLEX"}
+{"label":"BUILDING","pattern":"LEK SAN BUILDING"}
+{"label":"BUILDING","pattern":"3RD FLOOR OLYMPIA INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"CORNERSTONE BUILDING"}
+{"label":"BUILDING","pattern":"PAYA LEBAR"}
+{"label":"BUILDING","pattern":"HENDERSON"}
+{"label":"BUILDING","pattern":"PHOENIX PARK"}
+{"label":"BUILDING","pattern":"AUSTRALIAN HIGH COMMISSION BUILDING"}
+{"label":"BUILDING","pattern":"TAN TOCK SENG TAN TOCK SENG HOSPITAL"}
+{"label":"BUILDING","pattern":"THE REGENT"}
+{"label":"BUILDING","pattern":"FIRST LOK"}
+{"label":"BUILDING","pattern":"PRIME BUILDING"}
+{"label":"BUILDING","pattern":"SPC BUKIT TIMAH"}
+{"label":"BUILDING","pattern":"HILLCREST PARK"}
+{"label":"BUILDING","pattern":"ALEXANDRA TECHNOPARK"}
+{"label":"BUILDING","pattern":"BLOCK 4"}
+{"label":"BUILDING","pattern":"TANG PLAZA"}
+{"label":"BUILDING","pattern":"KEWALRAM HOUSE"}
+{"label":"BUILDING","pattern":"INCHCAPE CENTRE"}
+{"label":"BUILDING","pattern":"THE SIEMENS CENTER"}
+{"label":"BUILDING","pattern":"FU TSU BUILDING"}
+{"label":"BUILDING","pattern":"VERTEX A"}
+{"label":"BUILDING","pattern":"MARINA BOULEVARD MARINA BAY FINANCIAL CENTRE"}
+{"label":"BUILDING","pattern":"LEVEL 10 PRECISE TREE"}
+{"label":"BUILDING","pattern":"LOYANG CRESCENT LOYANG OFFSHORE SUPPLY BASE BLOCK 104C"}
+{"label":"BUILDING","pattern":"TUAS COVE INDUSTRIAL CENTRE"}
+{"label":"BUILDING","pattern":"ECO-TECH @ SUNVIEW"}
+{"label":"BUILDING","pattern":"EASB INSTITUTE OF MANAGEMENT (BALESTIER CAMPUS)"}
+{"label":"BUILDING","pattern":"CWT COLD HUB LEVEL 3"}
+{"label":"BUILDING","pattern":"STAR BUILDING"}
+{"label":"BUILDING","pattern":"NORTHSTAR @ AMK"}
+{"label":"BUILDING","pattern":"SIXTH LOK"}
+{"label":"BUILDING","pattern":"COLLEGE OF MEDICINE BUILDING"}
+{"label":"BUILDING","pattern":"MANDARIN SELF STORAGE"}
+{"label":"BUILDING","pattern":"UBIPLEX I"}
+{"label":"BUILDING","pattern":"LEVEL 2 HABITAT WAREHOUSE"}
+{"label":"BUILDING","pattern":"SINGAPORE LOGISTIC HUB"}
+{"label":"BUILDING","pattern":"4TH FLOOR OLYMPIA INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"KAWAH BUILDING"}
+{"label":"BUILDING","pattern":"GES BUILDING"}
+{"label":"BUILDING","pattern":"JAY GEE HOUSE"}
+{"label":"BUILDING","pattern":"JTC SPACE ONE @ BUROH STREET"}
+{"label":"BUILDING","pattern":"WOH HUP BUILDING"}
+{"label":"BUILDING","pattern":"HOE LEONG BUILDING"}
+{"label":"BUILDING","pattern":"NORTH LEVEL 2 BLOCK B"}
+{"label":"BUILDING","pattern":"GS BUILDING"}
+{"label":"BUILDING","pattern":"SANWA INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"LEISUREQUEST"}
+{"label":"BUILDING","pattern":"LIAN BENG BUILDING"}
+{"label":"BUILDING","pattern":"TAN HENG LEE BUILDING"}
+{"label":"BUILDING","pattern":"JIT LOGOSTICS CENTRE"}
+{"label":"BUILDING","pattern":"LOGISTICS CENTRE"}
+{"label":"BUILDING","pattern":"NORTH POINT BIZ HUB"}
+{"label":"BUILDING","pattern":"YEE LAN COURT"}
+{"label":"BUILDING","pattern":"FAR EASTERN BANK BUILDING"}
+{"label":"BUILDING","pattern":"MANAGEMENT HOUGANG 1"}
+{"label":"BUILDING","pattern":"MULTRON BUILDING"}
+{"label":"BUILDING","pattern":"RUBY LAND COMPLEX 2"}
+{"label":"BUILDING","pattern":"BONCAF\u00c9 ROASTING HOUSE"}
+{"label":"BUILDING","pattern":"KOH BROTHERS BUILDING"}
+{"label":"BUILDING","pattern":"WEE HUR BUILDING"}
+{"label":"BUILDING","pattern":"ASPIAL ONE"}
+{"label":"BUILDING","pattern":"ANNEX BLOCK"}
+{"label":"BUILDING","pattern":"TANGLIN"}
+{"label":"BUILDING","pattern":"CONNEXIS NORTH TOWER"}
+{"label":"BUILDING","pattern":"ADAPTEC BUILDING"}
+{"label":"BUILDING","pattern":"SINGAPORE RACECOURSE"}
+{"label":"BUILDING","pattern":"LITTLE INDIA CONSERVATION AREA"}
+{"label":"BUILDING","pattern":"LIAN CHONG INDUSTRIAL BUILDING"}
+{"label":"BUILDING","pattern":"CRESCENT GEMALTO BUILDING"}

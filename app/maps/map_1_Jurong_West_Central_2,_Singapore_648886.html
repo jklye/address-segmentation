@@ -1,0 +1,4218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_179f15fe2f8b9b6ef4f5ad4091ed8f53 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_179f15fe2f8b9b6ef4f5ad4091ed8f53" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_179f15fe2f8b9b6ef4f5ad4091ed8f53 = L.map(
+                "map_179f15fe2f8b9b6ef4f5ad4091ed8f53",
+                {
+                    center: [1.3398, 103.70616589047619],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c2fb1ac5d840f09bebeb859772260ede = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var marker_fa1a0402f450d4b2abb143d15cc99626 = L.marker(
+                [1.3320486, 103.7217134],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_40b523a22a226291c023bb4d2d9da56d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa1a0402f450d4b2abb143d15cc99626.setIcon(icon_40b523a22a226291c023bb4d2d9da56d);
+        
+    
+        var popup_e3f79f54fabae957197bcedbc76f506d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c557525fcddd592d192828a3ef2cc23f = $(`<div id="html_c557525fcddd592d192828a3ef2cc23f" style="width: 100.0%; height: 100.0%;">175A #03-04 ACEKIDZ @ SG PTE. LTD. YUNG KUANG ROAD SINGAPORE 611175<br><br>Distance from input: 1.93 km</div>`)[0];
+                popup_e3f79f54fabae957197bcedbc76f506d.setContent(html_c557525fcddd592d192828a3ef2cc23f);
+            
+        
+
+        marker_fa1a0402f450d4b2abb143d15cc99626.bindPopup(popup_e3f79f54fabae957197bcedbc76f506d)
+        ;
+
+        
+    
+    
+            var marker_570875d3dd7cbdf1383037576762500c = L.marker(
+                [1.3327886, 103.7216359],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_294ec007a7b793ad9ac1fdd08daf40a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_570875d3dd7cbdf1383037576762500c.setIcon(icon_294ec007a7b793ad9ac1fdd08daf40a5);
+        
+    
+        var popup_812bbe30a7b7b66bb6af4b596a3d27fe = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8220298153c089127eeadc7b721a9136 = $(`<div id="html_8220298153c089127eeadc7b721a9136" style="width: 100.0%; height: 100.0%;">175C CORPORATION TIARA YUNG KUANG ROAD #05-62 SINGAPORE 613175<br><br>Distance from input: 1.89 km</div>`)[0];
+                popup_812bbe30a7b7b66bb6af4b596a3d27fe.setContent(html_8220298153c089127eeadc7b721a9136);
+            
+        
+
+        marker_570875d3dd7cbdf1383037576762500c.bindPopup(popup_812bbe30a7b7b66bb6af4b596a3d27fe)
+        ;
+
+        
+    
+    
+            var marker_2606fd6a7b0c20abefa5f12472030c6e = L.marker(
+                [1.3333316, 103.7213303],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2198cf1e43f50ad8ccbfe971a8e63be6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2606fd6a7b0c20abefa5f12472030c6e.setIcon(icon_2198cf1e43f50ad8ccbfe971a8e63be6);
+        
+    
+        var popup_7f4ddc2923d342d069de22abb1de237f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c6e75318f9fdec062fba88b883b7f304 = $(`<div id="html_c6e75318f9fdec062fba88b883b7f304" style="width: 100.0%; height: 100.0%;">177 YUNG SHENG ROAD CORPORATION SPRING #13-61 SINGAPORE 610177<br><br>Distance from input: 1.83 km</div>`)[0];
+                popup_7f4ddc2923d342d069de22abb1de237f.setContent(html_c6e75318f9fdec062fba88b883b7f304);
+            
+        
+
+        marker_2606fd6a7b0c20abefa5f12472030c6e.bindPopup(popup_7f4ddc2923d342d069de22abb1de237f)
+        ;
+
+        
+    
+    
+            var marker_82e18ad4f906beb962eec14fa4e595db = L.marker(
+                [1.3333422, 103.7222914],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_15a056d78e454f07b25ead2156013b91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82e18ad4f906beb962eec14fa4e595db.setIcon(icon_15a056d78e454f07b25ead2156013b91);
+        
+    
+        var popup_dcc0190bb54c113a5ca9ef45610d9ac0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6ef3cd69ae66558bc978dffb19eacd9d = $(`<div id="html_6ef3cd69ae66558bc978dffb19eacd9d" style="width: 100.0%; height: 100.0%;">184 YUNG SHENG ROAD CORPORATION SPRING #25-55 SINGAPORE 610184<br>184 #17-97 YUNG SHENG ROAD CORPORATION SPRING SINGAPORE 610184<br><br>Distance from input: 1.93 km</div>`)[0];
+                popup_dcc0190bb54c113a5ca9ef45610d9ac0.setContent(html_6ef3cd69ae66558bc978dffb19eacd9d);
+            
+        
+
+        marker_82e18ad4f906beb962eec14fa4e595db.bindPopup(popup_dcc0190bb54c113a5ca9ef45610d9ac0)
+        ;
+
+        
+    
+    
+            var marker_b26f7493cd5b62fc603290572fd3a879 = L.marker(
+                [1.3337768, 103.7217729],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a59efcde8b23a809cd11c5d9d43cf1d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b26f7493cd5b62fc603290572fd3a879.setIcon(icon_a59efcde8b23a809cd11c5d9d43cf1d7);
+        
+    
+        var popup_64ef72f17e1639eebed8b5bc54865308 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d7b2a40debd5ef35ecb411537bcc5c00 = $(`<div id="html_d7b2a40debd5ef35ecb411537bcc5c00" style="width: 100.0%; height: 100.0%;">181 YUNG SHENG ROAD CORPORATION SPRING #02-91 SINGAPORE 610181<br>181 #21-69 CORPORATION SPRING YUNG SHENG ROAD SINGAPORE 610181<br><br>Distance from input: 1.86 km</div>`)[0];
+                popup_64ef72f17e1639eebed8b5bc54865308.setContent(html_d7b2a40debd5ef35ecb411537bcc5c00);
+            
+        
+
+        marker_b26f7493cd5b62fc603290572fd3a879.bindPopup(popup_64ef72f17e1639eebed8b5bc54865308)
+        ;
+
+        
+    
+    
+            var marker_3ff3d10f8248f9e5af09251383e11ffa = L.marker(
+                [1.3353585, 103.6994143],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_3e4c2e2ddd5b070bb46a8582dc8214ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3ff3d10f8248f9e5af09251383e11ffa.setIcon(icon_3e4c2e2ddd5b070bb46a8582dc8214ce);
+        
+    
+        var popup_d63c98786e7804df6fe1201509b551e6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_34910767e0c939b6207187f56820f18d = $(`<div id="html_34910767e0c939b6207187f56820f18d" style="width: 100.0%; height: 100.0%;">656A #23-91 JURONG WEST STREET 61 SINGAPORE 641656<br><br>Distance from input: 0.90 km</div>`)[0];
+                popup_d63c98786e7804df6fe1201509b551e6.setContent(html_34910767e0c939b6207187f56820f18d);
+            
+        
+
+        marker_3ff3d10f8248f9e5af09251383e11ffa.bindPopup(popup_d63c98786e7804df6fe1201509b551e6)
+        ;
+
+        
+    
+    
+            var marker_390c4359c489725459e411a9b069f794 = L.marker(
+                [1.3355161, 103.6998071],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b8ce66ab1bf72ff16e716e3d8e966e52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_390c4359c489725459e411a9b069f794.setIcon(icon_b8ce66ab1bf72ff16e716e3d8e966e52);
+        
+    
+        var popup_d46cb03f64c63686c9aa61f16a6223fe = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d587828bbc64251da554ca5ae2b6fde5 = $(`<div id="html_d587828bbc64251da554ca5ae2b6fde5" style="width: 100.0%; height: 100.0%;">656D #09-19 JURONG WEST STREET 61 SINGAPORE 644656<br><br>Distance from input: 0.85 km</div>`)[0];
+                popup_d46cb03f64c63686c9aa61f16a6223fe.setContent(html_d587828bbc64251da554ca5ae2b6fde5);
+            
+        
+
+        marker_390c4359c489725459e411a9b069f794.bindPopup(popup_d46cb03f64c63686c9aa61f16a6223fe)
+        ;
+
+        
+    
+    
+            var marker_f4abccfbd4e0010fdfd99cb3580991e3 = L.marker(
+                [1.3359581, 103.6945917],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_7e952f0eed619a959778a94d1d503b53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f4abccfbd4e0010fdfd99cb3580991e3.setIcon(icon_7e952f0eed619a959778a94d1d503b53);
+        
+    
+        var popup_1115e90b56411d87814afe632438678b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_beb07eabf14df9254f0efed6feea5df9 = $(`<div id="html_beb07eabf14df9254f0efed6feea5df9" style="width: 100.0%; height: 100.0%;">989A #24-04 JURONG WEST STREET 93 SINGAPORE 641989<br>989A JURONG WEST STREET 93 #02-19 SINGAPORE 641989<br><br>Distance from input: 1.36 km</div>`)[0];
+                popup_1115e90b56411d87814afe632438678b.setContent(html_beb07eabf14df9254f0efed6feea5df9);
+            
+        
+
+        marker_f4abccfbd4e0010fdfd99cb3580991e3.bindPopup(popup_1115e90b56411d87814afe632438678b)
+        ;
+
+        
+    
+    
+            var marker_a9767253cb3248bf9dd43fd7e4da3637 = L.marker(
+                [1.3359766, 103.6999622],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_c9f4b5350dd38f0ea6813ec3084c01e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9767253cb3248bf9dd43fd7e4da3637.setIcon(icon_c9f4b5350dd38f0ea6813ec3084c01e5);
+        
+    
+        var popup_95fc6c38eb6280b3a10e15b0aaeedd5c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4e5debdd4c7180feb28b08e12b2beffc = $(`<div id="html_4e5debdd4c7180feb28b08e12b2beffc" style="width: 100.0%; height: 100.0%;">656C JURONG WEST STREET 61 #04-33 SINGAPORE 643656<br><br>Distance from input: 0.81 km</div>`)[0];
+                popup_95fc6c38eb6280b3a10e15b0aaeedd5c.setContent(html_4e5debdd4c7180feb28b08e12b2beffc);
+            
+        
+
+        marker_a9767253cb3248bf9dd43fd7e4da3637.bindPopup(popup_95fc6c38eb6280b3a10e15b0aaeedd5c)
+        ;
+
+        
+    
+    
+            var marker_4380bc4c3075f7727f56ee469fb4120b = L.marker(
+                [1.3360455, 103.7231009],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_5c0909c1eef65947cdfc255b2c0689f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4380bc4c3075f7727f56ee469fb4120b.setIcon(icon_5c0909c1eef65947cdfc255b2c0689f2);
+        
+    
+        var popup_f732e5854cec9d06eebd738f8556150e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_196f78b0da51079b2425388847bff6cd = $(`<div id="html_196f78b0da51079b2425388847bff6cd" style="width: 100.0%; height: 100.0%;">325 TAH CHING ROAD #17-66 SINGAPORE 610325<br><br>Distance from input: 1.93 km</div>`)[0];
+                popup_f732e5854cec9d06eebd738f8556150e.setContent(html_196f78b0da51079b2425388847bff6cd);
+            
+        
+
+        marker_4380bc4c3075f7727f56ee469fb4120b.bindPopup(popup_f732e5854cec9d06eebd738f8556150e)
+        ;
+
+        
+    
+    
+            var marker_aa47693fc37667e9f851abe27509eefc = L.marker(
+                [1.3360461, 103.7214142],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_81dda1412a7270cfcc3f46851421caab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa47693fc37667e9f851abe27509eefc.setIcon(icon_81dda1412a7270cfcc3f46851421caab);
+        
+    
+        var popup_8c908eba291f17e16f1e41c3891297f1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1a7a0af484eee58e984112fb1c6a1922 = $(`<div id="html_1a7a0af484eee58e984112fb1c6a1922" style="width: 100.0%; height: 100.0%;">359 #16-17 HDB PUBLIC SHELTERS YUNG AN ROAD SINGAPORE 610359<br><br>Distance from input: 1.75 km</div>`)[0];
+                popup_8c908eba291f17e16f1e41c3891297f1.setContent(html_1a7a0af484eee58e984112fb1c6a1922);
+            
+        
+
+        marker_aa47693fc37667e9f851abe27509eefc.bindPopup(popup_8c908eba291f17e16f1e41c3891297f1)
+        ;
+
+        
+    
+    
+            var marker_50d606ab046bcd9a39c561a16212b5e8 = L.marker(
+                [1.3360593, 103.7205721],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_53e426716939f6284c140fe1e4a7a295 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_50d606ab046bcd9a39c561a16212b5e8.setIcon(icon_53e426716939f6284c140fe1e4a7a295);
+        
+    
+        var popup_5bfffe81c45ff281af612b20f1550d24 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_30f3389b737f7e13dff9d8ef99195329 = $(`<div id="html_30f3389b737f7e13dff9d8ef99195329" style="width: 100.0%; height: 100.0%;">361 YUNG AN ROAD #07-71 SINGAPORE 610361<br><br>Distance from input: 1.66 km</div>`)[0];
+                popup_5bfffe81c45ff281af612b20f1550d24.setContent(html_30f3389b737f7e13dff9d8ef99195329);
+            
+        
+
+        marker_50d606ab046bcd9a39c561a16212b5e8.bindPopup(popup_5bfffe81c45ff281af612b20f1550d24)
+        ;
+
+        
+    
+    
+            var marker_8ad44933090ff4122a1b3604fa82719f = L.marker(
+                [1.336131, 103.697839],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_41320df366400f565c8172d102ba9d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ad44933090ff4122a1b3604fa82719f.setIcon(icon_41320df366400f565c8172d102ba9d68);
+        
+    
+        var popup_c982f695f3ad0c4ae09924141723eba3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5fea6c8d36afcc97c2288de72f4c983f = $(`<div id="html_5fea6c8d36afcc97c2288de72f4c983f" style="width: 100.0%; height: 100.0%;">654B JURONG WEST STREET 61 #01-09 PCF SPARKLETOTS PRESCHOOL @ PIONEER BLOCK 654B (KN) SINGAPORE 642654<br><br>Distance from input: 1.01 km</div>`)[0];
+                popup_c982f695f3ad0c4ae09924141723eba3.setContent(html_5fea6c8d36afcc97c2288de72f4c983f);
+            
+        
+
+        marker_8ad44933090ff4122a1b3604fa82719f.bindPopup(popup_c982f695f3ad0c4ae09924141723eba3)
+        ;
+
+        
+    
+    
+            var marker_8ad8ff36bc37602784395b7b0e35ef2f = L.marker(
+                [1.3364717, 103.7232427],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_1e614e23d20d893c0b503603bc10ef00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ad8ff36bc37602784395b7b0e35ef2f.setIcon(icon_1e614e23d20d893c0b503603bc10ef00);
+        
+    
+        var popup_edc66da797bbacf2efdf81230550c45a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9a26f5a75841f879494eb47ba7a94313 = $(`<div id="html_9a26f5a75841f879494eb47ba7a94313" style="width: 100.0%; height: 100.0%;">324 TAH CHING ROAD #11-10 HDB PUBLIC SHELTERS SINGAPORE 610324<br>324 HDB PUBLIC SHELTERS TAH CHING ROAD #24-68 SINGAPORE 610324<br><br>Distance from input: 1.94 km</div>`)[0];
+                popup_edc66da797bbacf2efdf81230550c45a.setContent(html_9a26f5a75841f879494eb47ba7a94313);
+            
+        
+
+        marker_8ad8ff36bc37602784395b7b0e35ef2f.bindPopup(popup_edc66da797bbacf2efdf81230550c45a)
+        ;
+
+        
+    
+    
+            var marker_02c1e617e73c5258eb6c30a2e859600a = L.marker(
+                [1.3365149, 103.7007495],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_5c2d159f8d20c0c634217a394ff3cc2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02c1e617e73c5258eb6c30a2e859600a.setIcon(icon_5c2d159f8d20c0c634217a394ff3cc2c);
+        
+    
+        var popup_7700ff216fc907c7be484ab3f1e477cd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4fc192835e3cd45043a547d616f5c334 = $(`<div id="html_4fc192835e3cd45043a547d616f5c334" style="width: 100.0%; height: 100.0%;">658B #16-21 JURONG WEST STREET 65 SINGAPORE 642658<br><br>Distance from input: 0.70 km</div>`)[0];
+                popup_7700ff216fc907c7be484ab3f1e477cd.setContent(html_4fc192835e3cd45043a547d616f5c334);
+            
+        
+
+        marker_02c1e617e73c5258eb6c30a2e859600a.bindPopup(popup_7700ff216fc907c7be484ab3f1e477cd)
+        ;
+
+        
+    
+    
+            var marker_3c4f879240f0ac3274bbb43929609280 = L.marker(
+                [1.3365261, 103.695866],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_e38385870f44b2fe69afba355522b887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c4f879240f0ac3274bbb43929609280.setIcon(icon_e38385870f44b2fe69afba355522b887);
+        
+    
+        var popup_72572360a97cbcf8fad7ab37162ea93b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_01dec02e966e4518eae0eab59a4f3bcc = $(`<div id="html_01dec02e966e4518eae0eab59a4f3bcc" style="width: 100.0%; height: 100.0%;">988A JURONG WEST STREET 93 #14-82 SINGAPORE 641988<br><br>Distance from input: 1.20 km</div>`)[0];
+                popup_72572360a97cbcf8fad7ab37162ea93b.setContent(html_01dec02e966e4518eae0eab59a4f3bcc);
+            
+        
+
+        marker_3c4f879240f0ac3274bbb43929609280.bindPopup(popup_72572360a97cbcf8fad7ab37162ea93b)
+        ;
+
+        
+    
+    
+            var marker_7f0e5dc42cbb2509ae3f844b34cf9563 = L.marker(
+                [1.3367203, 103.7236634],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f784d27368e40e01e6e9a9a33dd1d8e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f0e5dc42cbb2509ae3f844b34cf9563.setIcon(icon_f784d27368e40e01e6e9a9a33dd1d8e7);
+        
+    
+        var popup_3716a520dc97df72546481f070f78244 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f71116f5e719fb1b7a29e07201c065db = $(`<div id="html_f71116f5e719fb1b7a29e07201c065db" style="width: 100.0%; height: 100.0%;">323 HDB PUBLIC SHELTERS TAH CHING ROAD #09-11 SINGAPORE 610323<br>323 #25-26 HDB PUBLIC SHELTERS TAH CHING ROAD SINGAPORE 610323<br><br>Distance from input: 1.98 km</div>`)[0];
+                popup_3716a520dc97df72546481f070f78244.setContent(html_f71116f5e719fb1b7a29e07201c065db);
+            
+        
+
+        marker_7f0e5dc42cbb2509ae3f844b34cf9563.bindPopup(popup_3716a520dc97df72546481f070f78244)
+        ;
+
+        
+    
+    
+            var marker_d345b98a52a656081b8b7252cc19f9c2 = L.marker(
+                [1.3369354, 103.7028927],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_ad29c929ec8118d9ca4590c4df75ee60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d345b98a52a656081b8b7252cc19f9c2.setIcon(icon_ad29c929ec8118d9ca4590c4df75ee60);
+        
+    
+        var popup_da3c3fa08e3db8da09d2d1acdaad5ebc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2b471910507823b1be4cd92b386fd480 = $(`<div id="html_2b471910507823b1be4cd92b386fd480" style="width: 100.0%; height: 100.0%;">662A #29-55 JURONG WEST STREET 64 SINGAPORE 641662<br><br>Distance from input: 0.48 km</div>`)[0];
+                popup_da3c3fa08e3db8da09d2d1acdaad5ebc.setContent(html_2b471910507823b1be4cd92b386fd480);
+            
+        
+
+        marker_d345b98a52a656081b8b7252cc19f9c2.bindPopup(popup_da3c3fa08e3db8da09d2d1acdaad5ebc)
+        ;
+
+        
+    
+    
+            var marker_2f5bdce0fd03d5421d097d8a9ef5b92c = L.marker(
+                [1.3371213, 103.7217831],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_9002fc51916a42af43773993a6163cf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f5bdce0fd03d5421d097d8a9ef5b92c.setIcon(icon_9002fc51916a42af43773993a6163cf5);
+        
+    
+        var popup_0c963d30c7aa057a3b47214ae7af1ccc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_52e90659e1779140178481d5de6d38cb = $(`<div id="html_52e90659e1779140178481d5de6d38cb" style="width: 100.0%; height: 100.0%;">337C #12-11 TAH CHING ROAD SINGAPORE 613337<br><br>Distance from input: 1.76 km</div>`)[0];
+                popup_0c963d30c7aa057a3b47214ae7af1ccc.setContent(html_52e90659e1779140178481d5de6d38cb);
+            
+        
+
+        marker_2f5bdce0fd03d5421d097d8a9ef5b92c.bindPopup(popup_0c963d30c7aa057a3b47214ae7af1ccc)
+        ;
+
+        
+    
+    
+            var marker_bfc1464b4613b1b333713b70e612d0e1 = L.marker(
+                [1.3378052, 103.72027955],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_5a2208c33634a20ff41c334bd8e8a28d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfc1464b4613b1b333713b70e612d0e1.setIcon(icon_5a2208c33634a20ff41c334bd8e8a28d);
+        
+    
+        var popup_78aab143b1a70dd5d142f48dd1bcb86b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_73f624bb725eb3d7597d6478f2e1f292 = $(`<div id="html_73f624bb725eb3d7597d6478f2e1f292" style="width: 100.0%; height: 100.0%;">365 CORPORATION DRIVE #01-11 SINGAPORE 610365<br><br>Distance from input: 1.59 km</div>`)[0];
+                popup_78aab143b1a70dd5d142f48dd1bcb86b.setContent(html_73f624bb725eb3d7597d6478f2e1f292);
+            
+        
+
+        marker_bfc1464b4613b1b333713b70e612d0e1.bindPopup(popup_78aab143b1a70dd5d142f48dd1bcb86b)
+        ;
+
+        
+    
+    
+            var marker_6b14c3dbabc333af4062131d737634a9 = L.marker(
+                [1.3380285, 103.7005153],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_89e60f7e31a6d96fa9ac4d294f879a2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b14c3dbabc333af4062131d737634a9.setIcon(icon_89e60f7e31a6d96fa9ac4d294f879a2d);
+        
+    
+        var popup_389037828198936ce5ee1aa3c265ae88 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_66f4ce108228eca397bb9834e1a66e14 = $(`<div id="html_66f4ce108228eca397bb9834e1a66e14" style="width: 100.0%; height: 100.0%;">609 #12-98 JURONG WEST STREET 65 SINGAPORE 640609<br><br>Distance from input: 0.66 km</div>`)[0];
+                popup_389037828198936ce5ee1aa3c265ae88.setContent(html_66f4ce108228eca397bb9834e1a66e14);
+            
+        
+
+        marker_6b14c3dbabc333af4062131d737634a9.bindPopup(popup_389037828198936ce5ee1aa3c265ae88)
+        ;
+
+        
+    
+    
+            var marker_5fcc9c986b0631598362096abe8e6804 = L.marker(
+                [1.3381125, 103.7016066],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b7e7f7860369b88f023428e3e0f6d99c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fcc9c986b0631598362096abe8e6804.setIcon(icon_b7e7f7860369b88f023428e3e0f6d99c);
+        
+    
+        var popup_6306b9de6a2082e0044b3d3d18d2a3a3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_11876e1f07e68296052835f0abb6619c = $(`<div id="html_11876e1f07e68296052835f0abb6619c" style="width: 100.0%; height: 100.0%;">663B #09-40 JURONG WEST STREET 65 SINGAPORE 642663<br><br>Distance from input: 0.54 km</div>`)[0];
+                popup_6306b9de6a2082e0044b3d3d18d2a3a3.setContent(html_11876e1f07e68296052835f0abb6619c);
+            
+        
+
+        marker_5fcc9c986b0631598362096abe8e6804.bindPopup(popup_6306b9de6a2082e0044b3d3d18d2a3a3)
+        ;
+
+        
+    
+    
+            var marker_b8ab9147ac95576a7dddb9f0648300f7 = L.marker(
+                [1.3381878, 103.7010299],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a6893876402dcb33dc2b49947e8c21ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8ab9147ac95576a7dddb9f0648300f7.setIcon(icon_a6893876402dcb33dc2b49947e8c21ef);
+        
+    
+        var popup_3830ad13fc0e5418f969bcec26143eb4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4d0b850b7eb5af9dffcf9d9eea6b1f6a = $(`<div id="html_4d0b850b7eb5af9dffcf9d9eea6b1f6a" style="width: 100.0%; height: 100.0%;">610 SAINT ELMO'S PTE LTD #20-02 JURONG WEST STREET 65 SINGAPORE 640610<br><br>Distance from input: 0.60 km</div>`)[0];
+                popup_3830ad13fc0e5418f969bcec26143eb4.setContent(html_4d0b850b7eb5af9dffcf9d9eea6b1f6a);
+            
+        
+
+        marker_b8ab9147ac95576a7dddb9f0648300f7.bindPopup(popup_3830ad13fc0e5418f969bcec26143eb4)
+        ;
+
+        
+    
+    
+            var marker_153d5b19fbb5ce6ce8d9deb09dfbfe5b = L.marker(
+                [1.3382444, 103.6961616],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_098f462c6516e7e7d6106f300830fa86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_153d5b19fbb5ce6ce8d9deb09dfbfe5b.setIcon(icon_098f462c6516e7e7d6106f300830fa86);
+        
+    
+        var popup_d1b892489ca13a5e5a047ccf8c203339 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a932b60e91cb871f3f1397b08ad32ba7 = $(`<div id="html_a932b60e91cb871f3f1397b08ad32ba7" style="width: 100.0%; height: 100.0%;">650B JURONG WEST STREET 61 #22-82 SINGAPORE 642650<br><br>Distance from input: 1.13 km</div>`)[0];
+                popup_d1b892489ca13a5e5a047ccf8c203339.setContent(html_a932b60e91cb871f3f1397b08ad32ba7);
+            
+        
+
+        marker_153d5b19fbb5ce6ce8d9deb09dfbfe5b.bindPopup(popup_d1b892489ca13a5e5a047ccf8c203339)
+        ;
+
+        
+    
+    
+            var marker_ba94f85c04904e0a98ce1acb89fcff3f = L.marker(
+                [1.3384375, 103.696404],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a15e2ffea15a3535410ec4b2e7ad04ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba94f85c04904e0a98ce1acb89fcff3f.setIcon(icon_a15e2ffea15a3535410ec4b2e7ad04ad);
+        
+    
+        var popup_e7cee6379428f313ba2078f0394a98a8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2669d060bc93074f4796443405733e5b = $(`<div id="html_2669d060bc93074f4796443405733e5b" style="width: 100.0%; height: 100.0%;">650C JURONG WEST STREET 61 #22-24 SINGAPORE 643650<br><br>Distance from input: 1.10 km</div>`)[0];
+                popup_e7cee6379428f313ba2078f0394a98a8.setContent(html_2669d060bc93074f4796443405733e5b);
+            
+        
+
+        marker_ba94f85c04904e0a98ce1acb89fcff3f.bindPopup(popup_e7cee6379428f313ba2078f0394a98a8)
+        ;
+
+        
+    
+    
+            var marker_40cb88a0d9e9dc2bdee001da47bcd28f = L.marker(
+                [1.3385778, 103.7229369],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_dc8cd8be8a74ef26dce1176f4fa51a75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40cb88a0d9e9dc2bdee001da47bcd28f.setIcon(icon_dc8cd8be8a74ef26dce1176f4fa51a75);
+        
+    
+        var popup_799b6cab32d49fb79a3e75e6e3d65cc5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a1b80157aed06ed61ff36cdf93e68075 = $(`<div id="html_a1b80157aed06ed61ff36cdf93e68075" style="width: 100.0%; height: 100.0%;">331 #08-24 TAH CHING ROAD SINGAPORE 611331<br><br>Distance from input: 1.87 km</div>`)[0];
+                popup_799b6cab32d49fb79a3e75e6e3d65cc5.setContent(html_a1b80157aed06ed61ff36cdf93e68075);
+            
+        
+
+        marker_40cb88a0d9e9dc2bdee001da47bcd28f.bindPopup(popup_799b6cab32d49fb79a3e75e6e3d65cc5)
+        ;
+
+        
+    
+    
+            var marker_b521d0eed928f23338246f0b8f856895 = L.marker(
+                [1.3393217, 103.7198149],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_16da8291d5d6b5d13ea4a133f62e06af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b521d0eed928f23338246f0b8f856895.setIcon(icon_16da8291d5d6b5d13ea4a133f62e06af);
+        
+    
+        var popup_c6d90eafb629b1e5f1e9a5b99a5dc6f5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_372cb36ae3f78d78553664a27d66d748 = $(`<div id="html_372cb36ae3f78d78553664a27d66d748" style="width: 100.0%; height: 100.0%;">351 HDB PUBLIC SHELTERS CORPORATION DRIVE #23-09 SINGAPORE 610351<br><br>Distance from input: 1.52 km</div>`)[0];
+                popup_c6d90eafb629b1e5f1e9a5b99a5dc6f5.setContent(html_372cb36ae3f78d78553664a27d66d748);
+            
+        
+
+        marker_b521d0eed928f23338246f0b8f856895.bindPopup(popup_c6d90eafb629b1e5f1e9a5b99a5dc6f5)
+        ;
+
+        
+    
+    
+            var marker_51bdb01d71326f80b8f2d71d4299cab1 = L.marker(
+                [1.3393575, 103.6978372],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_6b20c18754ea670e441f53c4638c6f6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51bdb01d71326f80b8f2d71d4299cab1.setIcon(icon_6b20c18754ea670e441f53c4638c6f6e);
+        
+    
+        var popup_02ac02d08487fb7b0276268851cc1a04 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_344af0b01a03dfe3d7c59aa05f691855 = $(`<div id="html_344af0b01a03dfe3d7c59aa05f691855" style="width: 100.0%; height: 100.0%;">648D JURONG WEST STREET 61 #26-24 SINGAPORE 644648<br><br>Distance from input: 0.93 km</div>`)[0];
+                popup_02ac02d08487fb7b0276268851cc1a04.setContent(html_344af0b01a03dfe3d7c59aa05f691855);
+            
+        
+
+        marker_51bdb01d71326f80b8f2d71d4299cab1.bindPopup(popup_02ac02d08487fb7b0276268851cc1a04)
+        ;
+
+        
+    
+    
+            var marker_81509fd06072584367dffed9e663e242 = L.marker(
+                [1.339478, 103.6893477],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_596af6548423bf0a672f9e01c621a6df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81509fd06072584367dffed9e663e242.setIcon(icon_596af6548423bf0a672f9e01c621a6df);
+        
+    
+        var popup_afdb51baeed6a7f82033f50f0fb8d231 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_02df6402e8b3d5b9a5ad38394fb541e6 = $(`<div id="html_02df6402e8b3d5b9a5ad38394fb541e6" style="width: 100.0%; height: 100.0%;">922 #20-72 JURONG WEST STREET 92 SINGAPORE 640922<br><br>Distance from input: 1.87 km</div>`)[0];
+                popup_afdb51baeed6a7f82033f50f0fb8d231.setContent(html_02df6402e8b3d5b9a5ad38394fb541e6);
+            
+        
+
+        marker_81509fd06072584367dffed9e663e242.bindPopup(popup_afdb51baeed6a7f82033f50f0fb8d231)
+        ;
+
+        
+    
+    
+            var marker_a62425903feea2e1a31f86f027e0eb24 = L.marker(
+                [1.3396034, 103.688918],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_0939ef80e98dceeced225dcf45870ac1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a62425903feea2e1a31f86f027e0eb24.setIcon(icon_0939ef80e98dceeced225dcf45870ac1);
+        
+    
+        var popup_d2e543c14d2ed254d18e82fa5a6366d1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_898b1c21e9ba55fa9239e3a0cae8fe00 = $(`<div id="html_898b1c21e9ba55fa9239e3a0cae8fe00" style="width: 100.0%; height: 100.0%;">921 #08-50 JURONG WEST STREET 92 SINGAPORE 640921<br><br>Distance from input: 1.92 km</div>`)[0];
+                popup_d2e543c14d2ed254d18e82fa5a6366d1.setContent(html_898b1c21e9ba55fa9239e3a0cae8fe00);
+            
+        
+
+        marker_a62425903feea2e1a31f86f027e0eb24.bindPopup(popup_d2e543c14d2ed254d18e82fa5a6366d1)
+        ;
+
+        
+    
+    
+            var marker_4f75504d36e103b0986d82a291bf287b = L.marker(
+                [1.3397239, 103.7208061],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_c430f9deaa861bc1a430d32bf5ba24d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f75504d36e103b0986d82a291bf287b.setIcon(icon_c430f9deaa861bc1a430d32bf5ba24d4);
+        
+    
+        var popup_daad127bdbbab04f47e5f935142eae2a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_95ff0456945d49b5f7c773491f10a407 = $(`<div id="html_95ff0456945d49b5f7c773491f10a407" style="width: 100.0%; height: 100.0%;">353 KANG CHING ROAD #01-06 HDB PUBLIC SHELTERS SINGAPORE 610353<br>353 HDB PUBLIC SHELTERS #08-35 KANG CHING ROAD SINGAPORE 610353<br>353 KANG CHING ROAD HDB PUBLIC SHELTERS #17-88 SINGAPORE 610353<br><br>Distance from input: 1.63 km</div>`)[0];
+                popup_daad127bdbbab04f47e5f935142eae2a.setContent(html_95ff0456945d49b5f7c773491f10a407);
+            
+        
+
+        marker_4f75504d36e103b0986d82a291bf287b.bindPopup(popup_daad127bdbbab04f47e5f935142eae2a)
+        ;
+
+        
+    
+    
+            var marker_e3a303af6a64fa2b2563ed3b7f84bdb6 = L.marker(
+                [1.3397509, 103.6945231],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_9fbe078c6ded7a1bc85bb074de6f9c80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3a303af6a64fa2b2563ed3b7f84bdb6.setIcon(icon_9fbe078c6ded7a1bc85bb074de6f9c80);
+        
+    
+        var popup_c3b1f89c50bf177b0154eed4b4f2512f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_43d8b2332e297c4c17a12f6a33feaab6 = $(`<div id="html_43d8b2332e297c4c17a12f6a33feaab6" style="width: 100.0%; height: 100.0%;">979 JURONG WEST STREET 93 #20-64 SINGAPORE 640979<br><br>Distance from input: 1.30 km</div>`)[0];
+                popup_c3b1f89c50bf177b0154eed4b4f2512f.setContent(html_43d8b2332e297c4c17a12f6a33feaab6);
+            
+        
+
+        marker_e3a303af6a64fa2b2563ed3b7f84bdb6.bindPopup(popup_c3b1f89c50bf177b0154eed4b4f2512f)
+        ;
+
+        
+    
+    
+            var marker_94818f0e754495fe3fabc6e3a7e9935c = L.marker(
+                [1.3398018, 103.7003379],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_871f6ddad01be93ed27e8d527e9bdc8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94818f0e754495fe3fabc6e3a7e9935c.setIcon(icon_871f6ddad01be93ed27e8d527e9bdc8a);
+        
+    
+        var popup_5495d214f24ee8d73928611b493d0250 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_05af36e44574bbf8d58f2a9dfe2afaa4 = $(`<div id="html_05af36e44574bbf8d58f2a9dfe2afaa4" style="width: 100.0%; height: 100.0%;">601 #21-67 JURONG WEST STREET 62 SINGAPORE 640601<br><br>Distance from input: 0.65 km</div>`)[0];
+                popup_5495d214f24ee8d73928611b493d0250.setContent(html_05af36e44574bbf8d58f2a9dfe2afaa4);
+            
+        
+
+        marker_94818f0e754495fe3fabc6e3a7e9935c.bindPopup(popup_5495d214f24ee8d73928611b493d0250)
+        ;
+
+        
+    
+    
+            var marker_9a751a70a9efd9b13ef62bc9ee89e74c = L.marker(
+                [1.3399277, 103.6937116],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_1a22e968d61d3399c7ce7c3ca0b65db9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a751a70a9efd9b13ef62bc9ee89e74c.setIcon(icon_1a22e968d61d3399c7ce7c3ca0b65db9);
+        
+    
+        var popup_91e80c741638b274702dab0f5f6c98a4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0f0edc4f3620e4f6f99b7f436ff9d53c = $(`<div id="html_0f0edc4f3620e4f6f99b7f436ff9d53c" style="width: 100.0%; height: 100.0%;">976 #10-12 JURONG WEST STREET 93 SINGAPORE 640976<br><br>Distance from input: 1.39 km</div>`)[0];
+                popup_91e80c741638b274702dab0f5f6c98a4.setContent(html_0f0edc4f3620e4f6f99b7f436ff9d53c);
+            
+        
+
+        marker_9a751a70a9efd9b13ef62bc9ee89e74c.bindPopup(popup_91e80c741638b274702dab0f5f6c98a4)
+        ;
+
+        
+    
+    
+            var marker_bd6002923c1f37e31453472e4f127e5d = L.marker(
+                [1.3402661, 103.6957608],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_92c42b84103d8e2bcedae4c3931415db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd6002923c1f37e31453472e4f127e5d.setIcon(icon_92c42b84103d8e2bcedae4c3931415db);
+        
+    
+        var popup_3b5fd9d69207d6ccd3d6d2392a081e04 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_453e75c524b2f7f7725924d6f96b6c1c = $(`<div id="html_453e75c524b2f7f7725924d6f96b6c1c" style="width: 100.0%; height: 100.0%;">642 #24-64 JURONG WEST STREET 61 SINGAPORE 640642<br><br>Distance from input: 1.16 km</div>`)[0];
+                popup_3b5fd9d69207d6ccd3d6d2392a081e04.setContent(html_453e75c524b2f7f7725924d6f96b6c1c);
+            
+        
+
+        marker_bd6002923c1f37e31453472e4f127e5d.bindPopup(popup_3b5fd9d69207d6ccd3d6d2392a081e04)
+        ;
+
+        
+    
+    
+            var marker_88806e742c37f8fb367e43ae813a76f2 = L.marker(
+                [1.3404843, 103.7202348],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_193b3bf2ef17aaa9a18aefe13f533514 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88806e742c37f8fb367e43ae813a76f2.setIcon(icon_193b3bf2ef17aaa9a18aefe13f533514);
+        
+    
+        var popup_b5e532492e40959539bc8a40633d42e1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_091369dd15b576d53c53574f8225bba4 = $(`<div id="html_091369dd15b576d53c53574f8225bba4" style="width: 100.0%; height: 100.0%;">347 KANG CHING ROAD #01-97 PRO-TEACH BASC AND TUITION CENTRE (JURONG) SINGAPORE 610347<br><br>Distance from input: 1.57 km</div>`)[0];
+                popup_b5e532492e40959539bc8a40633d42e1.setContent(html_091369dd15b576d53c53574f8225bba4);
+            
+        
+
+        marker_88806e742c37f8fb367e43ae813a76f2.bindPopup(popup_b5e532492e40959539bc8a40633d42e1)
+        ;
+
+        
+    
+    
+            var marker_5bcfb2d3c4a9e0dd18dfc80178a23491 = L.marker(
+                [1.340498, 103.6891964],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_301dc21a0a62a912a6517104dbc6f08b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5bcfb2d3c4a9e0dd18dfc80178a23491.setIcon(icon_301dc21a0a62a912a6517104dbc6f08b);
+        
+    
+        var popup_c4b8306082ca651b33965b8a2502b7c4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_392a3ef6243608d5449069f76bd565bc = $(`<div id="html_392a3ef6243608d5449069f76bd565bc" style="width: 100.0%; height: 100.0%;">926 #25-32 NANYANG EMERALD JURONG WEST STREET 92 SINGAPORE 640926<br><br>Distance from input: 1.89 km</div>`)[0];
+                popup_c4b8306082ca651b33965b8a2502b7c4.setContent(html_392a3ef6243608d5449069f76bd565bc);
+            
+        
+
+        marker_5bcfb2d3c4a9e0dd18dfc80178a23491.bindPopup(popup_c4b8306082ca651b33965b8a2502b7c4)
+        ;
+
+        
+    
+    
+            var marker_3c49747239fa8cf7e79dac751b540a23 = L.marker(
+                [1.3409089, 103.6946484],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a8b9775092ab40ec89b20e88106e6920 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c49747239fa8cf7e79dac751b540a23.setIcon(icon_a8b9775092ab40ec89b20e88106e6920);
+        
+    
+        var popup_fd8c315c5097f89bca7edac9e29deabc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_eddcf6c9e406b0b2eb6737cacd24227e = $(`<div id="html_eddcf6c9e406b0b2eb6737cacd24227e" style="width: 100.0%; height: 100.0%;">705 JURONG WEST STREET 71 HDB PUBLIC SHELTERS #14-36 SINGAPORE 640705<br>705 HDB PUBLIC SHELTERS #19-97 JURONG WEST STREET 71 SINGAPORE 640705<br><br>Distance from input: 1.29 km</div>`)[0];
+                popup_fd8c315c5097f89bca7edac9e29deabc.setContent(html_eddcf6c9e406b0b2eb6737cacd24227e);
+            
+        
+
+        marker_3c49747239fa8cf7e79dac751b540a23.bindPopup(popup_fd8c315c5097f89bca7edac9e29deabc)
+        ;
+
+        
+    
+    
+            var marker_c6b0c26e912cca73016e5044b0965b76 = L.marker(
+                [1.3409155, 103.6892561],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_894a326a098d5fb36e9f2311a7313c54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6b0c26e912cca73016e5044b0965b76.setIcon(icon_894a326a098d5fb36e9f2311a7313c54);
+        
+    
+        var popup_3396eb7deb92de91a8b267edfc88b4e9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_62476c1ee2499c60cc3b691ce19c6ddf = $(`<div id="html_62476c1ee2499c60cc3b691ce19c6ddf" style="width: 100.0%; height: 100.0%;">928 NANYANG EMERALD JURONG WEST STREET 92 #26-95 SINGAPORE 640928<br>928 NANYANG EMERALD #09-21 JURONG WEST STREET 92 SINGAPORE 640928<br>928 NANYANG EMERALD #27-90 JURONG WEST STREET 92 SINGAPORE 640928<br><br>Distance from input: 1.89 km</div>`)[0];
+                popup_3396eb7deb92de91a8b267edfc88b4e9.setContent(html_62476c1ee2499c60cc3b691ce19c6ddf);
+            
+        
+
+        marker_c6b0c26e912cca73016e5044b0965b76.bindPopup(popup_3396eb7deb92de91a8b267edfc88b4e9)
+        ;
+
+        
+    
+    
+            var marker_1a861d1126b3c46ce2c10f791c4e3700 = L.marker(
+                [1.3410727, 103.6997519],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_8698a97477c157567c2b017e377dd5f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a861d1126b3c46ce2c10f791c4e3700.setIcon(icon_8698a97477c157567c2b017e377dd5f5);
+        
+    
+        var popup_e2f371acb3fcb6911479fc1a2313b498 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5d82c19826f8aa6e3c288690d69359d6 = $(`<div id="html_5d82c19826f8aa6e3c288690d69359d6" style="width: 100.0%; height: 100.0%;">621 #25-60 JURONG WEST STREET 65 SINGAPORE 640621<br><br>Distance from input: 0.73 km</div>`)[0];
+                popup_e2f371acb3fcb6911479fc1a2313b498.setContent(html_5d82c19826f8aa6e3c288690d69359d6);
+            
+        
+
+        marker_1a861d1126b3c46ce2c10f791c4e3700.bindPopup(popup_e2f371acb3fcb6911479fc1a2313b498)
+        ;
+
+        
+    
+    
+            var marker_789808c67d8774d4651e04c12e9c2be6 = L.marker(
+                [1.3412453, 103.6892487],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_4bf3ae517ab7352d74df2056b9c42507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_789808c67d8774d4651e04c12e9c2be6.setIcon(icon_4bf3ae517ab7352d74df2056b9c42507);
+        
+    
+        var popup_a64665c98ae8ebe9e57c052e22c27d6c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_15f60c5563dd39df06acaca929e6aeee = $(`<div id="html_15f60c5563dd39df06acaca929e6aeee" style="width: 100.0%; height: 100.0%;">929 NANYANG EMERALD JURONG WEST STREET 92 #21-22 SINGAPORE 640929<br>929 JURONG WEST STREET 92 #07-76 NANYANG EMERALD SINGAPORE 640929<br>929 JURONG WEST STREET 92 #26-34 NANYANG EMERALD SINGAPORE 640929<br>929 JURONG WEST STREET 92 NANYANG EMERALD #28-96 SINGAPORE 640929<br><br>Distance from input: 1.89 km</div>`)[0];
+                popup_a64665c98ae8ebe9e57c052e22c27d6c.setContent(html_15f60c5563dd39df06acaca929e6aeee);
+            
+        
+
+        marker_789808c67d8774d4651e04c12e9c2be6.bindPopup(popup_a64665c98ae8ebe9e57c052e22c27d6c)
+        ;
+
+        
+    
+    
+            var marker_2f6650a0d76da7b917b2753289648b1c = L.marker(
+                [1.3412881, 103.7024705],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a5b9db3859f713b96cee48b8f475ad71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f6650a0d76da7b917b2753289648b1c.setIcon(icon_a5b9db3859f713b96cee48b8f475ad71);
+        
+    
+        var popup_f979eb6ef02f4ecd0f6b3e326fea1a57 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_491ae9b0f11969aa8709959d70bf5db8 = $(`<div id="html_491ae9b0f11969aa8709959d70bf5db8" style="width: 100.0%; height: 100.0%;">667C JURONG WEST STREET 65 #06-46 JUST KIDS @ JURONG WEST PTE. LTD. SINGAPORE 643667<br>BLOCK 667C JURONG WEST STREET 65 JUST KIDS @ JURONG WEST PTE. LTD. #02-32 SINGAPORE 643667<br><br>Distance from input: 0.44 km</div>`)[0];
+                popup_f979eb6ef02f4ecd0f6b3e326fea1a57.setContent(html_491ae9b0f11969aa8709959d70bf5db8);
+            
+        
+
+        marker_2f6650a0d76da7b917b2753289648b1c.bindPopup(popup_f979eb6ef02f4ecd0f6b3e326fea1a57)
+        ;
+
+        
+    
+    
+            var marker_6a7097d73da06d1c2fe9eedeb40f014d = L.marker(
+                [1.34138, 103.69763835],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_18aaf160b64a9038b8745d11b0084e17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a7097d73da06d1c2fe9eedeb40f014d.setIcon(icon_18aaf160b64a9038b8745d11b0084e17);
+        
+    
+        var popup_bae2a18508b88244486a337a55626327 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2650ae9b4d70db9d101912ea39473829 = $(`<div id="html_2650ae9b4d70db9d101912ea39473829" style="width: 100.0%; height: 100.0%;">BLOCK 637 JURONG WEST STREET 61 #02-70 SINGAPORE 640637<br><br>Distance from input: 0.96 km</div>`)[0];
+                popup_bae2a18508b88244486a337a55626327.setContent(html_2650ae9b4d70db9d101912ea39473829);
+            
+        
+
+        marker_6a7097d73da06d1c2fe9eedeb40f014d.bindPopup(popup_bae2a18508b88244486a337a55626327)
+        ;
+
+        
+    
+    
+            var marker_1365666a0a872ef2712a3789c2d6cf83 = L.marker(
+                [1.3415075, 103.699821],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_55d8a48ba53042b282d82aecd3247a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1365666a0a872ef2712a3789c2d6cf83.setIcon(icon_55d8a48ba53042b282d82aecd3247a30);
+        
+    
+        var popup_68f1af165f7d591970d31b48a8844a19 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e1380772b4144a0c86f9663f111585c4 = $(`<div id="html_e1380772b4144a0c86f9663f111585c4" style="width: 100.0%; height: 100.0%;">619 JURONG WEST STREET 65 #02-81 SINGAPORE 640619<br><br>Distance from input: 0.73 km</div>`)[0];
+                popup_68f1af165f7d591970d31b48a8844a19.setContent(html_e1380772b4144a0c86f9663f111585c4);
+            
+        
+
+        marker_1365666a0a872ef2712a3789c2d6cf83.bindPopup(popup_68f1af165f7d591970d31b48a8844a19)
+        ;
+
+        
+    
+    
+            var marker_506c2432109b23d1f4513e1dad987ad9 = L.marker(
+                [1.3415716, 103.7003903],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_935dac557e8cd1e2c43c025e854295ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_506c2432109b23d1f4513e1dad987ad9.setIcon(icon_935dac557e8cd1e2c43c025e854295ac);
+        
+    
+        var popup_8179c246f3631a3481c82a4a1bafe154 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0aef9323897d8287207c94a3751247fc = $(`<div id="html_0aef9323897d8287207c94a3751247fc" style="width: 100.0%; height: 100.0%;">618 #18-46 JURONG WEST STREET 65 SINGAPORE 640618<br><br>Distance from input: 0.67 km</div>`)[0];
+                popup_8179c246f3631a3481c82a4a1bafe154.setContent(html_0aef9323897d8287207c94a3751247fc);
+            
+        
+
+        marker_506c2432109b23d1f4513e1dad987ad9.bindPopup(popup_8179c246f3631a3481c82a4a1bafe154)
+        ;
+
+        
+    
+    
+            var marker_b7378640c318814245e51350e49c60f6 = L.marker(
+                [1.3415839, 103.6920953],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_0fe5ad34669fe26b2da49971fb8619e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7378640c318814245e51350e49c60f6.setIcon(icon_0fe5ad34669fe26b2da49971fb8619e4);
+        
+    
+        var popup_fda80497f717a2aba30b2412dba0c392 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_610d494542afceec93d793244aea0f97 = $(`<div id="html_610d494542afceec93d793244aea0f97" style="width: 100.0%; height: 100.0%;">961 JURONG WEST STREET 92 #29-93 SINGAPORE 640961<br><br>Distance from input: 1.58 km</div>`)[0];
+                popup_fda80497f717a2aba30b2412dba0c392.setContent(html_610d494542afceec93d793244aea0f97);
+            
+        
+
+        marker_b7378640c318814245e51350e49c60f6.bindPopup(popup_fda80497f717a2aba30b2412dba0c392)
+        ;
+
+        
+    
+    
+            var marker_290de6013ff8bb5881d2b5972ef62168 = L.marker(
+                [1.3419189, 103.6989549],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_820e0fbf1781d8a479a77a1e6e4cb642 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_290de6013ff8bb5881d2b5972ef62168.setIcon(icon_820e0fbf1781d8a479a77a1e6e4cb642);
+        
+    
+        var popup_21c88d2657b14b737a1fbf4d1935c226 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a7e2819161abd320c41aff585e767e3d = $(`<div id="html_a7e2819161abd320c41aff585e767e3d" style="width: 100.0%; height: 100.0%;">627 #11-19 JURONG WEST STREET 65 PCF SPARKLETOTS PRESCHOOL @ BOON LAY 627 (CC) SINGAPORE 640627<br><br>Distance from input: 0.84 km</div>`)[0];
+                popup_21c88d2657b14b737a1fbf4d1935c226.setContent(html_a7e2819161abd320c41aff585e767e3d);
+            
+        
+
+        marker_290de6013ff8bb5881d2b5972ef62168.bindPopup(popup_21c88d2657b14b737a1fbf4d1935c226)
+        ;
+
+        
+    
+    
+            var marker_852cb7a5c0926b4795b1ca1010c88caf = L.marker(
+                [1.3423223, 103.6978719],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f2d2fbc228a2fed4d81ba9c59917d9bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_852cb7a5c0926b4795b1ca1010c88caf.setIcon(icon_f2d2fbc228a2fed4d81ba9c59917d9bd);
+        
+    
+        var popup_e7418e6bcaebedde39ae8ee861ba8d36 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5991c0c1de4e33a43cac3ebbf2e5456a = $(`<div id="html_5991c0c1de4e33a43cac3ebbf2e5456a" style="width: 100.0%; height: 100.0%;">636 JURONG WEST STREET 65 #28-78 SINGAPORE 640636<br><br>Distance from input: 0.96 km</div>`)[0];
+                popup_e7418e6bcaebedde39ae8ee861ba8d36.setContent(html_5991c0c1de4e33a43cac3ebbf2e5456a);
+            
+        
+
+        marker_852cb7a5c0926b4795b1ca1010c88caf.bindPopup(popup_e7418e6bcaebedde39ae8ee861ba8d36)
+        ;
+
+        
+    
+    
+            var marker_68bc961085989aa3b3ba2d5db4fa62c2 = L.marker(
+                [1.3425064, 103.6894335],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_282a8b9a2271476c25952aa65e1b11bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_68bc961085989aa3b3ba2d5db4fa62c2.setIcon(icon_282a8b9a2271476c25952aa65e1b11bd);
+        
+    
+        var popup_08caae07b6c9a14cefc5670e8a36b200 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_794e6bc74e4b08043defa11288249957 = $(`<div id="html_794e6bc74e4b08043defa11288249957" style="width: 100.0%; height: 100.0%;">936 #27-38 JURONG WEST STREET 91 SINGAPORE 640936<br>936 #19-42 JURONG WEST STREET 91 SINGAPORE 640936<br><br>Distance from input: 1.89 km</div>`)[0];
+                popup_08caae07b6c9a14cefc5670e8a36b200.setContent(html_794e6bc74e4b08043defa11288249957);
+            
+        
+
+        marker_68bc961085989aa3b3ba2d5db4fa62c2.bindPopup(popup_08caae07b6c9a14cefc5670e8a36b200)
+        ;
+
+        
+    
+    
+            var marker_a00b409d8ef0eec8005a6287247cf317 = L.marker(
+                [1.34269525, 103.69345105],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_9e0df768303c8810c01d3bacecf5fcda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a00b409d8ef0eec8005a6287247cf317.setIcon(icon_9e0df768303c8810c01d3bacecf5fcda);
+        
+    
+        var popup_5d18b4cd227b1dfaffd811ff5fb508f7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d47d3f5b982873a690f409b41b606abb = $(`<div id="html_d47d3f5b982873a690f409b41b606abb" style="width: 100.0%; height: 100.0%;">836 #24-21 JURONG WEST STREET 81 HDB PUBLIC SHELTERS SINGAPORE 640836<br>836 JURONG WEST STREET 81 #18-24 HDB PUBLIC SHELTERS SINGAPORE 640836<br><br>Distance from input: 1.45 km</div>`)[0];
+                popup_5d18b4cd227b1dfaffd811ff5fb508f7.setContent(html_d47d3f5b982873a690f409b41b606abb);
+            
+        
+
+        marker_a00b409d8ef0eec8005a6287247cf317.bindPopup(popup_5d18b4cd227b1dfaffd811ff5fb508f7)
+        ;
+
+        
+    
+    
+            var marker_3df15bfd7a39d9109a3a0f8c47c32514 = L.marker(
+                [1.3427201, 103.6982425],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_0f33ce318fc36550248da51327ac4c71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3df15bfd7a39d9109a3a0f8c47c32514.setIcon(icon_0f33ce318fc36550248da51327ac4c71);
+        
+    
+        var popup_09c608cc0233ef6cd0a5e50b1a955cf8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1c8fa30123bc966b89017ebc4d34e4d0 = $(`<div id="html_1c8fa30123bc966b89017ebc4d34e4d0" style="width: 100.0%; height: 100.0%;">635 #23-16 JURONG WEST STREET 65 SINGAPORE 640635<br><br>Distance from input: 0.94 km</div>`)[0];
+                popup_09c608cc0233ef6cd0a5e50b1a955cf8.setContent(html_1c8fa30123bc966b89017ebc4d34e4d0);
+            
+        
+
+        marker_3df15bfd7a39d9109a3a0f8c47c32514.bindPopup(popup_09c608cc0233ef6cd0a5e50b1a955cf8)
+        ;
+
+        
+    
+    
+            var marker_66332633a978ca9500c87f2485eb1139 = L.marker(
+                [1.342859, 103.7140754],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_e15505a38103f776be99430b8a5e9fcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66332633a978ca9500c87f2485eb1139.setIcon(icon_e15505a38103f776be99430b8a5e9fcb);
+        
+    
+        var popup_d72b638a0047e46579ef876a76b0bcb4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_90d18e91acaa54b879c85f75527d6c31 = $(`<div id="html_90d18e91acaa54b879c85f75527d6c31" style="width: 100.0%; height: 100.0%;">196B BOON LAY FIELDS #24-44 BOON LAY DRIVE SINGAPORE 642196<br><br>Distance from input: 0.94 km</div>`)[0];
+                popup_d72b638a0047e46579ef876a76b0bcb4.setContent(html_90d18e91acaa54b879c85f75527d6c31);
+            
+        
+
+        marker_66332633a978ca9500c87f2485eb1139.bindPopup(popup_d72b638a0047e46579ef876a76b0bcb4)
+        ;
+
+        
+    
+    
+            var marker_5f5c9918303b0a50f763471a3c651f3a = L.marker(
+                [1.3428686, 103.6897919],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_0dd26f041f31d59aa18e7fc22109b945 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f5c9918303b0a50f763471a3c651f3a.setIcon(icon_0dd26f041f31d59aa18e7fc22109b945);
+        
+    
+        var popup_571e96a1631a890d4a1e9cc4c7a28ecc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_88fd7339172fd0658c676c8db43f2604 = $(`<div id="html_88fd7339172fd0658c676c8db43f2604" style="width: 100.0%; height: 100.0%;">938 JURONG WEST STREET 91 #23-60 SINGAPORE 640938<br><br>Distance from input: 1.85 km</div>`)[0];
+                popup_571e96a1631a890d4a1e9cc4c7a28ecc.setContent(html_88fd7339172fd0658c676c8db43f2604);
+            
+        
+
+        marker_5f5c9918303b0a50f763471a3c651f3a.bindPopup(popup_571e96a1631a890d4a1e9cc4c7a28ecc)
+        ;
+
+        
+    
+    
+            var marker_94627a5a47a3cb513d7b06253639732c = L.marker(
+                [1.3428797, 103.7061798],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_c6a61bab29c2b80a384a933b717cc345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94627a5a47a3cb513d7b06253639732c.setIcon(icon_c6a61bab29c2b80a384a933b717cc345);
+        
+    
+        var popup_3db27361a7260004301bdc3a368a0bc1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c61b69a1b0351b90ca10630dc33cce1c = $(`<div id="html_c61b69a1b0351b90ca10630dc33cce1c" style="width: 100.0%; height: 100.0%;">693 JURONG WEST CENTRAL 1 #05-19 SINGAPORE 640693<br><br>Distance from input: 0.34 km</div>`)[0];
+                popup_3db27361a7260004301bdc3a368a0bc1.setContent(html_c61b69a1b0351b90ca10630dc33cce1c);
+            
+        
+
+        marker_94627a5a47a3cb513d7b06253639732c.bindPopup(popup_3db27361a7260004301bdc3a368a0bc1)
+        ;
+
+        
+    
+    
+            var marker_12d640899950c976c8c9ebc36f443c9c = L.marker(
+                [1.3429307, 103.7041064],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b4b810d5b3d5b5a11777f286b1a12d37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12d640899950c976c8c9ebc36f443c9c.setIcon(icon_b4b810d5b3d5b5a11777f286b1a12d37);
+        
+    
+        var popup_fe48389d60a5db34b69b67efb336ee20 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4580f874d2e52ea0db3f92a763ae7b87 = $(`<div id="html_4580f874d2e52ea0db3f92a763ae7b87" style="width: 100.0%; height: 100.0%;">685B JURONG WEST STREET 64 #02-12 SINGAPORE 642685<br><br>Distance from input: 0.42 km</div>`)[0];
+                popup_fe48389d60a5db34b69b67efb336ee20.setContent(html_4580f874d2e52ea0db3f92a763ae7b87);
+            
+        
+
+        marker_12d640899950c976c8c9ebc36f443c9c.bindPopup(popup_fe48389d60a5db34b69b67efb336ee20)
+        ;
+
+        
+    
+    
+            var marker_4552c9cdfa8654b5d114debda6098df8 = L.marker(
+                [1.3429908, 103.6887696],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_8be7a2c88b5668a3491e14e5bd307b09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4552c9cdfa8654b5d114debda6098df8.setIcon(icon_8be7a2c88b5668a3491e14e5bd307b09);
+        
+    
+        var popup_0260872a665ab6fb3f22ecdafb9cbc4c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0a65f4ab2c6db5edf3a5b77fc7f3514f = $(`<div id="html_0a65f4ab2c6db5edf3a5b77fc7f3514f" style="width: 100.0%; height: 100.0%;">939 JURONG WEST STREET 91 #21-48 SINGAPORE 640939<br>939 JURONG WEST STREET 91 #04-27 SINGAPORE 640939<br><br>Distance from input: 1.97 km</div>`)[0];
+                popup_0260872a665ab6fb3f22ecdafb9cbc4c.setContent(html_0a65f4ab2c6db5edf3a5b77fc7f3514f);
+            
+        
+
+        marker_4552c9cdfa8654b5d114debda6098df8.bindPopup(popup_0260872a665ab6fb3f22ecdafb9cbc4c)
+        ;
+
+        
+    
+    
+            var marker_8038b8a54197e13b5a6e196633e8ff21 = L.marker(
+                [1.3430796, 103.6989692],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_981a5ba8d0858f3f461dc150a293a6dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8038b8a54197e13b5a6e196633e8ff21.setIcon(icon_981a5ba8d0858f3f461dc150a293a6dc);
+        
+    
+        var popup_4302f1bd22fca72ca76036c887c641cd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5b4bd1e82cc60aab41a0487d1029cb2c = $(`<div id="html_5b4bd1e82cc60aab41a0487d1029cb2c" style="width: 100.0%; height: 100.0%;">634 JURONG WEST STREET 65 #07-98 SINGAPORE 640634<br><br>Distance from input: 0.88 km</div>`)[0];
+                popup_4302f1bd22fca72ca76036c887c641cd.setContent(html_5b4bd1e82cc60aab41a0487d1029cb2c);
+            
+        
+
+        marker_8038b8a54197e13b5a6e196633e8ff21.bindPopup(popup_4302f1bd22fca72ca76036c887c641cd)
+        ;
+
+        
+    
+    
+            var marker_633f0ea2f2cd299f183b617c15dab63f = L.marker(
+                [1.3431001, 103.6929115],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_1804bdbc81a135a937e116369926333c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_633f0ea2f2cd299f183b617c15dab63f.setIcon(icon_1804bdbc81a135a937e116369926333c);
+        
+    
+        var popup_af9036a68a19c39a0fba5c55bd713089 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_275b93a75918d000f6078defb008d954 = $(`<div id="html_275b93a75918d000f6078defb008d954" style="width: 100.0%; height: 100.0%;">837 KIDSCAMPUS JURONG WEST LLP #17-21 JURONG WEST STREET 81 SINGAPORE 640837<br>837 KIDSCAMPUS JURONG WEST LLP JURONG WEST STREET 81 #12-25 SINGAPORE 640837<br><br>Distance from input: 1.52 km</div>`)[0];
+                popup_af9036a68a19c39a0fba5c55bd713089.setContent(html_275b93a75918d000f6078defb008d954);
+            
+        
+
+        marker_633f0ea2f2cd299f183b617c15dab63f.bindPopup(popup_af9036a68a19c39a0fba5c55bd713089)
+        ;
+
+        
+    
+    
+            var marker_c23c49f593f5bc09f83a66d321776ea2 = L.marker(
+                [1.3431254, 103.6955915],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_618f925de0c90119e3448bef7da6aba4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c23c49f593f5bc09f83a66d321776ea2.setIcon(icon_618f925de0c90119e3448bef7da6aba4);
+        
+    
+        var popup_d76333e403be8a8be9b5500377405bfb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_56e17786f0343e532c86f5dac9b1ca2e = $(`<div id="html_56e17786f0343e532c86f5dac9b1ca2e" style="width: 100.0%; height: 100.0%;">711 JURONG WEST STREET 71 #23-32 HDB PUBLIC SHELTERS SINGAPORE 640711<br>711 HDB PUBLIC SHELTERS #02-92 JURONG WEST STREET 71 SINGAPORE 640711<br><br>Distance from input: 1.23 km</div>`)[0];
+                popup_d76333e403be8a8be9b5500377405bfb.setContent(html_56e17786f0343e532c86f5dac9b1ca2e);
+            
+        
+
+        marker_c23c49f593f5bc09f83a66d321776ea2.bindPopup(popup_d76333e403be8a8be9b5500377405bfb)
+        ;
+
+        
+    
+    
+            var marker_bc76cccc01091364849de1ad00d4cdd1 = L.marker(
+                [1.3432711, 103.7154608],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f8d66e2ab13a67889e781296c8dab6e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc76cccc01091364849de1ad00d4cdd1.setIcon(icon_f8d66e2ab13a67889e781296c8dab6e5);
+        
+    
+        var popup_00e17d56dc3495808b8adf8e56fc1168 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f5f48965af99d8dd5f08706c5bc7acb6 = $(`<div id="html_f5f48965af99d8dd5f08706c5bc7acb6" style="width: 100.0%; height: 100.0%;">201 BOON LAY DRIVE #25-08 BOON LAY GARDENS SINGAPORE 640201<br><br>Distance from input: 1.10 km</div>`)[0];
+                popup_00e17d56dc3495808b8adf8e56fc1168.setContent(html_f5f48965af99d8dd5f08706c5bc7acb6);
+            
+        
+
+        marker_bc76cccc01091364849de1ad00d4cdd1.bindPopup(popup_00e17d56dc3495808b8adf8e56fc1168)
+        ;
+
+        
+    
+    
+            var marker_4faf04dec86e4246fbf4c9890fbe86c0 = L.marker(
+                [1.3432911, 103.6972876],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_216269b75e6d46b79fe85a7925916ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4faf04dec86e4246fbf4c9890fbe86c0.setIcon(icon_216269b75e6d46b79fe85a7925916ebf);
+        
+    
+        var popup_961b78842d31bae8beba65f4bd901a7b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8dfa5ec55680e93492d0e75a669d2f9f = $(`<div id="html_8dfa5ec55680e93492d0e75a669d2f9f" style="width: 100.0%; height: 100.0%;">717 #04-34 NANYANG SAPPHIRE JURONG WEST STREET 71 SINGAPORE 640717<br><br>Distance from input: 1.06 km</div>`)[0];
+                popup_961b78842d31bae8beba65f4bd901a7b.setContent(html_8dfa5ec55680e93492d0e75a669d2f9f);
+            
+        
+
+        marker_4faf04dec86e4246fbf4c9890fbe86c0.bindPopup(popup_961b78842d31bae8beba65f4bd901a7b)
+        ;
+
+        
+    
+    
+            var marker_fa256f153090655bdd573f03bef64c11 = L.marker(
+                [1.3433972, 103.702659],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_e4a757d4d25d0f0985219ce0797427e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa256f153090655bdd573f03bef64c11.setIcon(icon_e4a757d4d25d0f0985219ce0797427e1);
+        
+    
+        var popup_6c429f790138b8f5c695f49502b5ccf5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d8071782b83cf126ee228134eaef8062 = $(`<div id="html_d8071782b83cf126ee228134eaef8062" style="width: 100.0%; height: 100.0%;">669C #16-79 JURONG WEST STREET 64 SINGAPORE 643669<br><br>Distance from input: 0.56 km</div>`)[0];
+                popup_6c429f790138b8f5c695f49502b5ccf5.setContent(html_d8071782b83cf126ee228134eaef8062);
+            
+        
+
+        marker_fa256f153090655bdd573f03bef64c11.bindPopup(popup_6c429f790138b8f5c695f49502b5ccf5)
+        ;
+
+        
+    
+    
+            var marker_4f21526c1d60ce579289ebef4aaea918 = L.marker(
+                [1.3436731, 103.6924615],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_d8af2ed0f00209d4b26e233a90f78d8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f21526c1d60ce579289ebef4aaea918.setIcon(icon_d8af2ed0f00209d4b26e233a90f78d8c);
+        
+    
+        var popup_50ca2bfd16d28d4c24c2d80dc5887b96 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e4c65deba477d3b373c89f511a8b59bd = $(`<div id="html_e4c65deba477d3b373c89f511a8b59bd" style="width: 100.0%; height: 100.0%;">839 #01-76 JURONG WEST STREET 81 SINGAPORE 640839<br><br>Distance from input: 1.58 km</div>`)[0];
+                popup_50ca2bfd16d28d4c24c2d80dc5887b96.setContent(html_e4c65deba477d3b373c89f511a8b59bd);
+            
+        
+
+        marker_4f21526c1d60ce579289ebef4aaea918.bindPopup(popup_50ca2bfd16d28d4c24c2d80dc5887b96)
+        ;
+
+        
+    
+    
+            var marker_8ef993a666a727c62889493c082df9b1 = L.marker(
+                [1.3439563, 103.6977876],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b30ec8dab8e7cb818f42185b90eae491 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ef993a666a727c62889493c082df9b1.setIcon(icon_b30ec8dab8e7cb818f42185b90eae491);
+        
+    
+        var popup_2374056178da629e751c964210ded458 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9817dbdfe8b39357465e96ed00aaafea = $(`<div id="html_9817dbdfe8b39357465e96ed00aaafea" style="width: 100.0%; height: 100.0%;">721 JURONG WEST AVENUE 5 CHERIE HEARTS JUSTKIDZ PTE. LTD. #12-15 SINGAPORE 640721<br>721 JURONG WEST AVENUE 5 #22-37 CHERIE HEARTS JUSTKIDZ PTE. LTD. SINGAPORE 640721<br><br>Distance from input: 1.04 km</div>`)[0];
+                popup_2374056178da629e751c964210ded458.setContent(html_9817dbdfe8b39357465e96ed00aaafea);
+            
+        
+
+        marker_8ef993a666a727c62889493c082df9b1.bindPopup(popup_2374056178da629e751c964210ded458)
+        ;
+
+        
+    
+    
+            var marker_5e0258120f3527a68bb2541b3468df9e = L.marker(
+                [1.3440574, 103.6967515],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_bfed9f8ce5e2c7f59c6bcd7ace5eda31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e0258120f3527a68bb2541b3468df9e.setIcon(icon_bfed9f8ce5e2c7f59c6bcd7ace5eda31);
+        
+    
+        var popup_36a068512ac99f278514cfd9b3af5845 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a22a625d51ad7d236fde0fc2224a626b = $(`<div id="html_a22a625d51ad7d236fde0fc2224a626b" style="width: 100.0%; height: 100.0%;">716 JURONG WEST STREET 71 NANYANG SAPPHIRE #23-33 SINGAPORE 640716<br><br>Distance from input: 1.15 km</div>`)[0];
+                popup_36a068512ac99f278514cfd9b3af5845.setContent(html_a22a625d51ad7d236fde0fc2224a626b);
+            
+        
+
+        marker_5e0258120f3527a68bb2541b3468df9e.bindPopup(popup_36a068512ac99f278514cfd9b3af5845)
+        ;
+
+        
+    
+    
+            var marker_cec14d881649cd77544ad3c513e889a6 = L.marker(
+                [1.3442325, 103.7137955],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_d52d59da717602e457ca5f6fb7e756b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cec14d881649cd77544ad3c513e889a6.setIcon(icon_d52d59da717602e457ca5f6fb7e756b5);
+        
+    
+        var popup_93fd04ffa07a028ebe24a0172e730b72 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_98b1ecd70aa5862dfac40ffd454270ab = $(`<div id="html_98b1ecd70aa5862dfac40ffd454270ab" style="width: 100.0%; height: 100.0%;">197A BOON LAY FIELDS BOON LAY DRIVE #19-25 SINGAPORE 641197<br>197A BOON LAY FIELDS BOON LAY DRIVE #27-76 SINGAPORE 641197<br><br>Distance from input: 0.98 km</div>`)[0];
+                popup_93fd04ffa07a028ebe24a0172e730b72.setContent(html_98b1ecd70aa5862dfac40ffd454270ab);
+            
+        
+
+        marker_cec14d881649cd77544ad3c513e889a6.bindPopup(popup_93fd04ffa07a028ebe24a0172e730b72)
+        ;
+
+        
+    
+    
+            var marker_0a7201a5cef508f29ac0d3a4d14f0bbd = L.marker(
+                [1.3442558, 103.6920421],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_978e90b6f480c610aab2b74367b668ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a7201a5cef508f29ac0d3a4d14f0bbd.setIcon(icon_978e90b6f480c610aab2b74367b668ab);
+        
+    
+        var popup_1c051b236caa33eb098b86110bc3a5e1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_909eec8ad0cf56b6c6958730ae89baf9 = $(`<div id="html_909eec8ad0cf56b6c6958730ae89baf9" style="width: 100.0%; height: 100.0%;">840 HDB PUBLIC SHELTERS #29-22 JURONG WEST STREET 81 SINGAPORE 640840<br><br>Distance from input: 1.65 km</div>`)[0];
+                popup_1c051b236caa33eb098b86110bc3a5e1.setContent(html_909eec8ad0cf56b6c6958730ae89baf9);
+            
+        
+
+        marker_0a7201a5cef508f29ac0d3a4d14f0bbd.bindPopup(popup_1c051b236caa33eb098b86110bc3a5e1)
+        ;
+
+        
+    
+    
+            var marker_4ffd199cfaaeaa55cd28a307e3a8d0a5 = L.marker(
+                [1.3442809, 103.7012354],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f0fc47dc112fff33ffc5cfbe33b99726 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ffd199cfaaeaa55cd28a307e3a8d0a5.setIcon(icon_f0fc47dc112fff33ffc5cfbe33b99726);
+        
+    
+        var popup_2c0d43774aeb454c92716e8670400a0f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_61f38de71938d8c615b641667a703e1a = $(`<div id="html_61f38de71938d8c615b641667a703e1a" style="width: 100.0%; height: 100.0%;">673A #24-77 JURONG WEST STREET 65 SINGAPORE 641673<br>673A JURONG WEST STREET 65 #24-29 SINGAPORE 641673<br>673A JURONG WEST STREET 65 #26-97 SINGAPORE 641673<br><br>Distance from input: 0.74 km</div>`)[0];
+                popup_2c0d43774aeb454c92716e8670400a0f.setContent(html_61f38de71938d8c615b641667a703e1a);
+            
+        
+
+        marker_4ffd199cfaaeaa55cd28a307e3a8d0a5.bindPopup(popup_2c0d43774aeb454c92716e8670400a0f)
+        ;
+
+        
+    
+    
+            var marker_95b19ed28dc2001e8c047e42c3c86fea = L.marker(
+                [1.344339, 103.6975277],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b45c58d8336f96a36d243a137322cc87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95b19ed28dc2001e8c047e42c3c86fea.setIcon(icon_b45c58d8336f96a36d243a137322cc87);
+        
+    
+        var popup_904a060b11a10734f0fde564fbf8a76a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_425d1b271b30eaa5ebb2ce206153b7fb = $(`<div id="html_425d1b271b30eaa5ebb2ce206153b7fb" style="width: 100.0%; height: 100.0%;">720 ELITE LEARNING KINDERGARTEN PTE LTD #29-80 JURONG WEST AVENUE 5 SINGAPORE 640720<br>720 ELITE LEARNING KINDERGARTEN PTE LTD JURONG WEST AVENUE 5 #04-39 SINGAPORE 640720<br>720 JURONG WEST AVENUE 5 ELITE LEARNING KINDERGARTEN PTE LTD #08-91 SINGAPORE 640720<br><br>Distance from input: 1.08 km</div>`)[0];
+                popup_904a060b11a10734f0fde564fbf8a76a.setContent(html_425d1b271b30eaa5ebb2ce206153b7fb);
+            
+        
+
+        marker_95b19ed28dc2001e8c047e42c3c86fea.bindPopup(popup_904a060b11a10734f0fde564fbf8a76a)
+        ;
+
+        
+    
+    
+            var marker_86c8cb766f9cd1cab0bb5330fa7bc6e6 = L.marker(
+                [1.3444772, 103.6934711],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_797712ad6b34fa0fd96bf2d53f824303 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86c8cb766f9cd1cab0bb5330fa7bc6e6.setIcon(icon_797712ad6b34fa0fd96bf2d53f824303);
+        
+    
+        var popup_61764f5c2b026ab2e612c4befdeeeb67 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b0358652a25c55e5fc5c69d85c32694b = $(`<div id="html_b0358652a25c55e5fc5c69d85c32694b" style="width: 100.0%; height: 100.0%;">842 JURONG WEST STREET 81 #24-76 SINGAPORE 640842<br><br>Distance from input: 1.50 km</div>`)[0];
+                popup_61764f5c2b026ab2e612c4befdeeeb67.setContent(html_b0358652a25c55e5fc5c69d85c32694b);
+            
+        
+
+        marker_86c8cb766f9cd1cab0bb5330fa7bc6e6.bindPopup(popup_61764f5c2b026ab2e612c4befdeeeb67)
+        ;
+
+        
+    
+    
+            var marker_e5580ffee9682907d8b5a8775e26ac9a = L.marker(
+                [1.3445383, 103.6896587],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_9def749fe606dba920e7533b98a553f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e5580ffee9682907d8b5a8775e26ac9a.setIcon(icon_9def749fe606dba920e7533b98a553f9);
+        
+    
+        var popup_67ad9cee89b8b606033a87b408e9e165 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c0ff800dd3bee5074dfc29ded984a23c = $(`<div id="html_c0ff800dd3bee5074dfc29ded984a23c" style="width: 100.0%; height: 100.0%;">944 #21-81 JURONG WEST STREET 91 SINGAPORE 640944<br>944 JURONG WEST STREET 91 #01-44 SINGAPORE 640944<br><br>Distance from input: 1.91 km</div>`)[0];
+                popup_67ad9cee89b8b606033a87b408e9e165.setContent(html_c0ff800dd3bee5074dfc29ded984a23c);
+            
+        
+
+        marker_e5580ffee9682907d8b5a8775e26ac9a.bindPopup(popup_67ad9cee89b8b606033a87b408e9e165)
+        ;
+
+        
+    
+    
+            var marker_6c56beab2c1e08b839ba52454f4009f3 = L.marker(
+                [1.3445792, 103.7190293],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_d1fdba7178b5fb7fd6ee8b718e68fb38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c56beab2c1e08b839ba52454f4009f3.setIcon(icon_d1fdba7178b5fb7fd6ee8b718e68fb38);
+        
+    
+        var popup_55cc0c46d26b4c0dedc0c7ffbce5309c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_69bb707d1588144cbbf74c03b89de4e5 = $(`<div id="html_69bb707d1588144cbbf74c03b89de4e5" style="width: 100.0%; height: 100.0%;">517E #10-46 JURONG WEST STREET 52 SINGAPORE 645517<br><br>Distance from input: 1.53 km</div>`)[0];
+                popup_55cc0c46d26b4c0dedc0c7ffbce5309c.setContent(html_69bb707d1588144cbbf74c03b89de4e5);
+            
+        
+
+        marker_6c56beab2c1e08b839ba52454f4009f3.bindPopup(popup_55cc0c46d26b4c0dedc0c7ffbce5309c)
+        ;
+
+        
+    
+    
+            var marker_63c60db17beef444a1bd173484bae8f9 = L.marker(
+                [1.3448442, 103.7157766],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2ed82635fc4e918a55be5a851377b2a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63c60db17beef444a1bd173484bae8f9.setIcon(icon_2ed82635fc4e918a55be5a851377b2a8);
+        
+    
+        var popup_ec5a2a850c86a785a93066348b0caf98 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2c4731efe44992e94164a33e70192d51 = $(`<div id="html_2c4731efe44992e94164a33e70192d51" style="width: 100.0%; height: 100.0%;">205 #14-86 BOON LAY GARDENS BOON LAY DRIVE SINGAPORE 640205<br>205 #03-11 BOON LAY GARDENS BOON LAY DRIVE SINGAPORE 640205<br><br>Distance from input: 1.21 km</div>`)[0];
+                popup_ec5a2a850c86a785a93066348b0caf98.setContent(html_2c4731efe44992e94164a33e70192d51);
+            
+        
+
+        marker_63c60db17beef444a1bd173484bae8f9.bindPopup(popup_ec5a2a850c86a785a93066348b0caf98)
+        ;
+
+        
+    
+    
+            var marker_d99f4b01a246bc946048c6a0bfa05d8f = L.marker(
+                [1.3448879, 103.6916729],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_35c401eb54e33985d5ce748531cb4a5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d99f4b01a246bc946048c6a0bfa05d8f.setIcon(icon_35c401eb54e33985d5ce748531cb4a5f);
+        
+    
+        var popup_2381152381c18ad1d0d8254ed3e26e79 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0b8577fde81309a4b86bb8969099087a = $(`<div id="html_0b8577fde81309a4b86bb8969099087a" style="width: 100.0%; height: 100.0%;">845 JURONG WEST STREET 81 HDB PUBLIC SHELTERS #10-26 SINGAPORE 640845<br>845 HDB PUBLIC SHELTERS #20-13 JURONG WEST STREET 81 SINGAPORE 640845<br><br>Distance from input: 1.71 km</div>`)[0];
+                popup_2381152381c18ad1d0d8254ed3e26e79.setContent(html_0b8577fde81309a4b86bb8969099087a);
+            
+        
+
+        marker_d99f4b01a246bc946048c6a0bfa05d8f.bindPopup(popup_2381152381c18ad1d0d8254ed3e26e79)
+        ;
+
+        
+    
+    
+            var marker_539e548f562cb49f2b14e2310d31d1e9 = L.marker(
+                [1.3449303, 103.7150748],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_7d81e684619731b9fbbb05763ebfdba2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_539e548f562cb49f2b14e2310d31d1e9.setIcon(icon_7d81e684619731b9fbbb05763ebfdba2);
+        
+    
+        var popup_13f6eb651d7c67ce5561fe64e9c15e0a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e404222d4e3988d5c81038be89aabf6b = $(`<div id="html_e404222d4e3988d5c81038be89aabf6b" style="width: 100.0%; height: 100.0%;">206 #18-16 BOON LAY DRIVE BOON LAY GARDENS SINGAPORE 640206<br><br>Distance from input: 1.14 km</div>`)[0];
+                popup_13f6eb651d7c67ce5561fe64e9c15e0a.setContent(html_e404222d4e3988d5c81038be89aabf6b);
+            
+        
+
+        marker_539e548f562cb49f2b14e2310d31d1e9.bindPopup(popup_13f6eb651d7c67ce5561fe64e9c15e0a)
+        ;
+
+        
+    
+    
+            var marker_66d23d10cd2ae103c854d757be3fe5f4 = L.marker(
+                [1.3450526, 103.7074571],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_4b3c1c8e45b2cd20db8ccad1f7b91d07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66d23d10cd2ae103c854d757be3fe5f4.setIcon(icon_4b3c1c8e45b2cd20db8ccad1f7b91d07);
+        
+    
+        var popup_d51b986bf2ff9177efdd220229bebb24 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c351d9e5724c5662494568a0dc80178e = $(`<div id="html_c351d9e5724c5662494568a0dc80178e" style="width: 100.0%; height: 100.0%;">262 BOON LAY DRIVE PCF SPARKLETOTS PRESCHOOL @ BOON LAY BLOCK 262 (KN) #23-57 SINGAPORE 640262<br><br>Distance from input: 0.60 km</div>`)[0];
+                popup_d51b986bf2ff9177efdd220229bebb24.setContent(html_c351d9e5724c5662494568a0dc80178e);
+            
+        
+
+        marker_66d23d10cd2ae103c854d757be3fe5f4.bindPopup(popup_d51b986bf2ff9177efdd220229bebb24)
+        ;
+
+        
+    
+    
+            var marker_644b49e554582b4ac2519b2432e66b5b = L.marker(
+                [1.345054, 103.6924909],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a9d93e7ac0d8b3df7a43f19eeb443f04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_644b49e554582b4ac2519b2432e66b5b.setIcon(icon_a9d93e7ac0d8b3df7a43f19eeb443f04);
+        
+    
+        var popup_469bbfb76564af3f4c3b931ffd752d01 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_637fe1ffcb4fe28623c925f9c6169282 = $(`<div id="html_637fe1ffcb4fe28623c925f9c6169282" style="width: 100.0%; height: 100.0%;">844 JURONG WEST STREET 81 #11-43 SINGAPORE 640844<br><br>Distance from input: 1.63 km</div>`)[0];
+                popup_469bbfb76564af3f4c3b931ffd752d01.setContent(html_637fe1ffcb4fe28623c925f9c6169282);
+            
+        
+
+        marker_644b49e554582b4ac2519b2432e66b5b.bindPopup(popup_469bbfb76564af3f4c3b931ffd752d01)
+        ;
+
+        
+    
+    
+            var marker_fa5199eb00a2c4c5c2eeab4d7fdd2cdf = L.marker(
+                [1.3450541, 103.7180755],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_3a994da03d4aa1801336b46995be3aa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa5199eb00a2c4c5c2eeab4d7fdd2cdf.setIcon(icon_3a994da03d4aa1801336b46995be3aa6);
+        
+    
+        var popup_c37e611a9e65954fc16ce29109189ad7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fd89d2f97a0306a7a6217db0921327af = $(`<div id="html_fd89d2f97a0306a7a6217db0921327af" style="width: 100.0%; height: 100.0%;">518 MY FIRST SKOOL #28-38 JURONG WEST STREET 52 SINGAPORE 640518<br>518 #05-42 JURONG WEST STREET 52 MY FIRST SKOOL SINGAPORE 640518<br>518 MY FIRST SKOOL JURONG WEST STREET 52 #24-07 SINGAPORE 640518<br>518 MY FIRST SKOOL #23-95 JURONG WEST STREET 52 SINGAPORE 640518<br>518 MY FIRST SKOOL JURONG WEST STREET 52 #07-92 SINGAPORE 640518<br><br>Distance from input: 1.45 km</div>`)[0];
+                popup_c37e611a9e65954fc16ce29109189ad7.setContent(html_fd89d2f97a0306a7a6217db0921327af);
+            
+        
+
+        marker_fa5199eb00a2c4c5c2eeab4d7fdd2cdf.bindPopup(popup_c37e611a9e65954fc16ce29109189ad7)
+        ;
+
+        
+    
+    
+            var marker_11215a248251472cfb65b1dbecdae2a6 = L.marker(
+                [1.345082, 103.7019693],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b6ca4ef433330dcaf3ec2fbbbf9b2864 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11215a248251472cfb65b1dbecdae2a6.setIcon(icon_b6ca4ef433330dcaf3ec2fbbbf9b2864);
+        
+    
+        var popup_0b3f012ed21899eafb2a06c03e49ccee = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2f9a62380700832726dcea62c5c5e48b = $(`<div id="html_2f9a62380700832726dcea62c5c5e48b" style="width: 100.0%; height: 100.0%;">674B JURONG WEST STREET 65 #01-73 SINGAPORE 642674<br>674B #18-52 JURONG WEST STREET 65 SINGAPORE 642674<br><br>Distance from input: 0.75 km</div>`)[0];
+                popup_0b3f012ed21899eafb2a06c03e49ccee.setContent(html_2f9a62380700832726dcea62c5c5e48b);
+            
+        
+
+        marker_11215a248251472cfb65b1dbecdae2a6.bindPopup(popup_0b3f012ed21899eafb2a06c03e49ccee)
+        ;
+
+        
+    
+    
+            var marker_5c7d01876413b66f77bfd3dcec006fa1 = L.marker(
+                [1.3451471, 103.7077904],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_74d651d01b5eaf525e4fdd65c37e5082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c7d01876413b66f77bfd3dcec006fa1.setIcon(icon_74d651d01b5eaf525e4fdd65c37e5082);
+        
+    
+        var popup_a1c53fa5a1f9c8ae2ebed30db16a0258 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2b04443c1fdd2d9a56ef62a588c13683 = $(`<div id="html_2b04443c1fdd2d9a56ef62a588c13683" style="width: 100.0%; height: 100.0%;">260 HDB PUBLIC SHELTERS #10-03 BOON LAY DRIVE SINGAPORE 640260<br><br>Distance from input: 0.62 km</div>`)[0];
+                popup_a1c53fa5a1f9c8ae2ebed30db16a0258.setContent(html_2b04443c1fdd2d9a56ef62a588c13683);
+            
+        
+
+        marker_5c7d01876413b66f77bfd3dcec006fa1.bindPopup(popup_a1c53fa5a1f9c8ae2ebed30db16a0258)
+        ;
+
+        
+    
+    
+            var marker_70af0cd4eb1883f9aab22a4089c33305 = L.marker(
+                [1.345172, 103.7107016],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a53790f02ce58e7e4d24f71204d1e75c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70af0cd4eb1883f9aab22a4089c33305.setIcon(icon_a53790f02ce58e7e4d24f71204d1e75c);
+        
+    
+        var popup_a280a9143110d23aebfde64cc06e8aa7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_dccec5f970e11b2055ce8dc4ec548b31 = $(`<div id="html_dccec5f970e11b2055ce8dc4ec548b31" style="width: 100.0%; height: 100.0%;">187 BOON LAY AVENUE #28-61 BOON LAY VISTA SINGAPORE 640187<br>187 BOON LAY VISTA BOON LAY AVENUE #09-25 SINGAPORE 640187<br>187 BOON LAY AVENUE #11-58 BOON LAY VISTA SINGAPORE 640187<br>187 #29-75 BOON LAY AVENUE BOON LAY VISTA SINGAPORE 640187<br>187 BOON LAY AVENUE #05-54 BOON LAY VISTA SINGAPORE 640187<br>187 BOON LAY AVENUE #09-65 BOON LAY VISTA SINGAPORE 640187<br>187 #01-66 BOON LAY AVENUE BOON LAY VISTA SINGAPORE 640187<br>187 #20-66 BOON LAY VISTA BOON LAY AVENUE SINGAPORE 640187<br><br>Distance from input: 0.78 km</div>`)[0];
+                popup_a280a9143110d23aebfde64cc06e8aa7.setContent(html_dccec5f970e11b2055ce8dc4ec548b31);
+            
+        
+
+        marker_70af0cd4eb1883f9aab22a4089c33305.bindPopup(popup_a280a9143110d23aebfde64cc06e8aa7)
+        ;
+
+        
+    
+    
+            var marker_bdce67b0457d7da85748bf8603eb78b5 = L.marker(
+                [1.3451828, 103.6930571],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2e1b57b3fadf59997ee6b138d8456275 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bdce67b0457d7da85748bf8603eb78b5.setIcon(icon_2e1b57b3fadf59997ee6b138d8456275);
+        
+    
+        var popup_11f0bcf21a023f1a127766f94f0459f5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4412cbd5d24e79e19051b090f512cb69 = $(`<div id="html_4412cbd5d24e79e19051b090f512cb69" style="width: 100.0%; height: 100.0%;">828 #23-84 JURONG WEST STREET 81 SINGAPORE 640828<br><br>Distance from input: 1.58 km</div>`)[0];
+                popup_11f0bcf21a023f1a127766f94f0459f5.setContent(html_4412cbd5d24e79e19051b090f512cb69);
+            
+        
+
+        marker_bdce67b0457d7da85748bf8603eb78b5.bindPopup(popup_11f0bcf21a023f1a127766f94f0459f5)
+        ;
+
+        
+    
+    
+            var marker_0161692b64c9bb9598cdd7a7fe4be896 = L.marker(
+                [1.3452767, 103.6960129],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_1b150df302c30dfede06e8883711b81b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0161692b64c9bb9598cdd7a7fe4be896.setIcon(icon_1b150df302c30dfede06e8883711b81b);
+        
+    
+        var popup_e6f51d12a2cf06f14d0d96445d41cc48 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b6ee1a5a030cd69d06239dcb68c2cdb0 = $(`<div id="html_b6ee1a5a030cd69d06239dcb68c2cdb0" style="width: 100.0%; height: 100.0%;">815 HDB PUBLIC SHELTERS #24-87 JURONG WEST STREET 81 SINGAPORE 640815<br><br>Distance from input: 1.28 km</div>`)[0];
+                popup_e6f51d12a2cf06f14d0d96445d41cc48.setContent(html_b6ee1a5a030cd69d06239dcb68c2cdb0);
+            
+        
+
+        marker_0161692b64c9bb9598cdd7a7fe4be896.bindPopup(popup_e6f51d12a2cf06f14d0d96445d41cc48)
+        ;
+
+        
+    
+    
+            var marker_24f0be0b77702c9a8ae9e4a7f0290752 = L.marker(
+                [1.3454528, 103.69764145],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_20dc8f95c39385551a949279a7d32bc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_24f0be0b77702c9a8ae9e4a7f0290752.setIcon(icon_20dc8f95c39385551a949279a7d32bc1);
+        
+    
+        var popup_813bf1da0fb046a648cae997da2caa9b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f4c58d967e11f483bfcca4b30de11eb6 = $(`<div id="html_f4c58d967e11f483bfcca4b30de11eb6" style="width: 100.0%; height: 100.0%;">725 #10-82 HDB PUBLIC SHELTERS JURONG WEST AVENUE 5 SINGAPORE 640725<br>725 #29-34 HDB PUBLIC SHELTERS JURONG WEST AVENUE 5 SINGAPORE 640725<br>725 JURONG WEST AVENUE 5 #23-96 HDB PUBLIC SHELTERS SINGAPORE 640725<br><br>Distance from input: 1.14 km</div>`)[0];
+                popup_813bf1da0fb046a648cae997da2caa9b.setContent(html_f4c58d967e11f483bfcca4b30de11eb6);
+            
+        
+
+        marker_24f0be0b77702c9a8ae9e4a7f0290752.bindPopup(popup_813bf1da0fb046a648cae997da2caa9b)
+        ;
+
+        
+    
+    
+            var marker_c2b5708168a5d11f88b12df365d767f5 = L.marker(
+                [1.3456209, 103.6951182],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_5498f068d45b4b58bd37945de6262aef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c2b5708168a5d11f88b12df365d767f5.setIcon(icon_5498f068d45b4b58bd37945de6262aef);
+        
+    
+        var popup_2c9391f9af89ffa7e0f42d33f76de2e5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9fd86f8386fdc77a2ab37e9f105cfd75 = $(`<div id="html_9fd86f8386fdc77a2ab37e9f105cfd75" style="width: 100.0%; height: 100.0%;">819 JURONG WEST STREET 81 #27-57 SINGAPORE 640819<br><br>Distance from input: 1.39 km</div>`)[0];
+                popup_2c9391f9af89ffa7e0f42d33f76de2e5.setContent(html_9fd86f8386fdc77a2ab37e9f105cfd75);
+            
+        
+
+        marker_c2b5708168a5d11f88b12df365d767f5.bindPopup(popup_2c9391f9af89ffa7e0f42d33f76de2e5)
+        ;
+
+        
+    
+    
+            var marker_af672365dcfc7df93a26390116d907a0 = L.marker(
+                [1.3457117, 103.7117541],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_057b6bdb5155f0cb8a0775b695b2cd99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af672365dcfc7df93a26390116d907a0.setIcon(icon_057b6bdb5155f0cb8a0775b695b2cd99);
+        
+    
+        var popup_32bdc6f1950737ec998e2a7ca843ee46 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5e7d10b994160ca1c8e65b7533b02445 = $(`<div id="html_5e7d10b994160ca1c8e65b7533b02445" style="width: 100.0%; height: 100.0%;">186 #21-09 BOON LAY AVENUE SINGAPORE 640186<br>BLOCK 186 BOON LAY AVENUE #15-62 SINGAPORE 640186<br><br>Distance from input: 0.90 km</div>`)[0];
+                popup_32bdc6f1950737ec998e2a7ca843ee46.setContent(html_5e7d10b994160ca1c8e65b7533b02445);
+            
+        
+
+        marker_af672365dcfc7df93a26390116d907a0.bindPopup(popup_32bdc6f1950737ec998e2a7ca843ee46)
+        ;
+
+        
+    
+    
+            var marker_6619271a5870d843d6398005bc484aa6 = L.marker(
+                [1.3459063, 103.7082],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_c57bc4790444f423e6c41d694c295631 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6619271a5870d843d6398005bc484aa6.setIcon(icon_c57bc4790444f423e6c41d694c295631);
+        
+    
+        var popup_4fec5a5df61aee1580d7f448ae7c09cc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_84a64b1edbff94802e27fdaa52fc8033 = $(`<div id="html_84a64b1edbff94802e27fdaa52fc8033" style="width: 100.0%; height: 100.0%;">257 BOON LAY DRIVE BOON LAY CREST #14-95 SINGAPORE 640257<br><br>Distance from input: 0.71 km</div>`)[0];
+                popup_4fec5a5df61aee1580d7f448ae7c09cc.setContent(html_84a64b1edbff94802e27fdaa52fc8033);
+            
+        
+
+        marker_6619271a5870d843d6398005bc484aa6.bindPopup(popup_4fec5a5df61aee1580d7f448ae7c09cc)
+        ;
+
+        
+    
+    
+            var marker_26937689a16d54965b0dfdebac551ed7 = L.marker(
+                [1.3459202, 103.6960467],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_3090d48edbb330c460621a8208537aaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26937689a16d54965b0dfdebac551ed7.setIcon(icon_3090d48edbb330c460621a8208537aaa);
+        
+    
+        var popup_52d08df276d5232e25a08b754ed1dfae = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a98a0836f3822094aafdee58eb120da3 = $(`<div id="html_a98a0836f3822094aafdee58eb120da3" style="width: 100.0%; height: 100.0%;">813 #18-85 JURONG WEST STREET 81 SINGAPORE 640813<br><br>Distance from input: 1.31 km</div>`)[0];
+                popup_52d08df276d5232e25a08b754ed1dfae.setContent(html_a98a0836f3822094aafdee58eb120da3);
+            
+        
+
+        marker_26937689a16d54965b0dfdebac551ed7.bindPopup(popup_52d08df276d5232e25a08b754ed1dfae)
+        ;
+
+        
+    
+    
+            var marker_9741686aede92c3c3ac27478f8702bbf = L.marker(
+                [1.3459854, 103.6946478],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_8d00b274f844e93f61604d131f08e12a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9741686aede92c3c3ac27478f8702bbf.setIcon(icon_8d00b274f844e93f61604d131f08e12a);
+        
+    
+        var popup_f0fb7cbd3fe3983c80749595cedd1d6a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_63da2f83449861074503fab4a160c9af = $(`<div id="html_63da2f83449861074503fab4a160c9af" style="width: 100.0%; height: 100.0%;">826 JURONG WEST STREET 81 #08-58 SINGAPORE 640826<br><br>Distance from input: 1.45 km</div>`)[0];
+                popup_f0fb7cbd3fe3983c80749595cedd1d6a.setContent(html_63da2f83449861074503fab4a160c9af);
+            
+        
+
+        marker_9741686aede92c3c3ac27478f8702bbf.bindPopup(popup_f0fb7cbd3fe3983c80749595cedd1d6a)
+        ;
+
+        
+    
+    
+            var marker_4e07b41eaab84789b3e4698d911e55a2 = L.marker(
+                [1.3460371, 103.7041539],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_83fd4c9b5a82b6c93a8c816a115880f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e07b41eaab84789b3e4698d911e55a2.setIcon(icon_83fd4c9b5a82b6c93a8c816a115880f1);
+        
+    
+        var popup_7b46444d4b359e5cccfa02069ae27bbf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9f96c8b0016d027503d9f08c75729073 = $(`<div id="html_9f96c8b0016d027503d9f08c75729073" style="width: 100.0%; height: 100.0%;">676B #27-54 EDELWEISS@JURONG JURONG WEST STREET 64 SINGAPORE 642676<br><br>Distance from input: 0.73 km</div>`)[0];
+                popup_7b46444d4b359e5cccfa02069ae27bbf.setContent(html_9f96c8b0016d027503d9f08c75729073);
+            
+        
+
+        marker_4e07b41eaab84789b3e4698d911e55a2.bindPopup(popup_7b46444d4b359e5cccfa02069ae27bbf)
+        ;
+
+        
+    
+    
+            var marker_85aca74e6d3334e73a6a1f09a893cd35 = L.marker(
+                [1.34609575, 103.69765265],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b3c6ba6c5e8a8cde0410378337a9bd3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85aca74e6d3334e73a6a1f09a893cd35.setIcon(icon_b3c6ba6c5e8a8cde0410378337a9bd3c);
+        
+    
+        var popup_02dbcc105f9f41846cb81be622c6d770 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9af31d7315dbfaa29ba0d7b53c7ca41e = $(`<div id="html_9af31d7315dbfaa29ba0d7b53c7ca41e" style="width: 100.0%; height: 100.0%;">728 HDB PUBLIC SHELTERS #20-29 JURONG WEST AVENUE 5 SINGAPORE 640728<br><br>Distance from input: 1.18 km</div>`)[0];
+                popup_02dbcc105f9f41846cb81be622c6d770.setContent(html_9af31d7315dbfaa29ba0d7b53c7ca41e);
+            
+        
+
+        marker_85aca74e6d3334e73a6a1f09a893cd35.bindPopup(popup_02dbcc105f9f41846cb81be622c6d770)
+        ;
+
+        
+    
+    
+            var marker_db9f59e40807ee4c53852873cdf4b8be = L.marker(
+                [1.3461772, 103.7062633],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_e909eb18c7655e13cb5a2ee5bb2fdd84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_db9f59e40807ee4c53852873cdf4b8be.setIcon(icon_e909eb18c7655e13cb5a2ee5bb2fdd84);
+        
+    
+        var popup_019d3e2d5f91d5f98544764f3ff73734 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cd01316caba7fb52a4bbd8d3325c162f = $(`<div id="html_cd01316caba7fb52a4bbd8d3325c162f" style="width: 100.0%; height: 100.0%;">266 BOON LAY CREST #09-17 BOON LAY DRIVE SINGAPORE 640266<br><br>Distance from input: 0.71 km</div>`)[0];
+                popup_019d3e2d5f91d5f98544764f3ff73734.setContent(html_cd01316caba7fb52a4bbd8d3325c162f);
+            
+        
+
+        marker_db9f59e40807ee4c53852873cdf4b8be.bindPopup(popup_019d3e2d5f91d5f98544764f3ff73734)
+        ;
+
+        
+    
+    
+            var marker_8fc833d17fbb70933d7980e2eff18ce3 = L.marker(
+                [1.34622, 103.7000253],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_0f8443d299cb8a1f0cadcff8d952ea6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fc833d17fbb70933d7980e2eff18ce3.setIcon(icon_0f8443d299cb8a1f0cadcff8d952ea6a);
+        
+    
+        var popup_abfbd5e4cbb164d45b7a710a89dffdb4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_af31c4c4a926353044d4f09cca49772a = $(`<div id="html_af31c4c4a926353044d4f09cca49772a" style="width: 100.0%; height: 100.0%;">739 CARPE DIEM KIDSWORLD PTE. LTD. JURONG WEST STREET 73 #10-32 SINGAPORE 640739<br>739 #28-15 CARPE DIEM KIDSWORLD PTE. LTD. JURONG WEST STREET 73 SINGAPORE 640739<br>739 #12-20 JURONG WEST STREET 73 CARPE DIEM KIDSWORLD PTE. LTD. SINGAPORE 640739<br><br>Distance from input: 0.99 km</div>`)[0];
+                popup_abfbd5e4cbb164d45b7a710a89dffdb4.setContent(html_af31c4c4a926353044d4f09cca49772a);
+            
+        
+
+        marker_8fc833d17fbb70933d7980e2eff18ce3.bindPopup(popup_abfbd5e4cbb164d45b7a710a89dffdb4)
+        ;
+
+        
+    
+    
+            var marker_897e42583d1ba4b40036084b9b216b15 = L.marker(
+                [1.346324, 103.6918867],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_7ddab64cbbf0bb916ff31b9a368d4e57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_897e42583d1ba4b40036084b9b216b15.setIcon(icon_7ddab64cbbf0bb916ff31b9a368d4e57);
+        
+    
+        var popup_67eadac60b5f85f7e2e0d03cb628da6d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_36f4303aaf1422a68c508771c659afb8 = $(`<div id="html_36f4303aaf1422a68c508771c659afb8" style="width: 100.0%; height: 100.0%;">850 JURONG WEST STREET 81 #20-03 SINGAPORE 640850<br>850 JURONG WEST STREET 81 #28-73 SINGAPORE 640850<br><br>Distance from input: 1.75 km</div>`)[0];
+                popup_67eadac60b5f85f7e2e0d03cb628da6d.setContent(html_36f4303aaf1422a68c508771c659afb8);
+            
+        
+
+        marker_897e42583d1ba4b40036084b9b216b15.bindPopup(popup_67eadac60b5f85f7e2e0d03cb628da6d)
+        ;
+
+        
+    
+    
+            var marker_80b76012cdf01a3c5d11d37e79a90cda = L.marker(
+                [1.3464979, 103.7153865],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_c0f913dba1214c20caa1fa0b00f45b04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80b76012cdf01a3c5d11d37e79a90cda.setIcon(icon_c0f913dba1214c20caa1fa0b00f45b04);
+        
+    
+        var popup_86af344dd8769284e2c0057b0540e07f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_be620093b61d87131a22fc268d932fcd = $(`<div id="html_be620093b61d87131a22fc268d932fcd" style="width: 100.0%; height: 100.0%;">209 SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH #25-64 BOON LAY PLACE SINGAPORE 640209<br>209 SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH BOON LAY PLACE #28-47 SINGAPORE 640209<br>209 #28-64 BOON LAY PLACE SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH SINGAPORE 640209<br>209 SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH BOON LAY PLACE #26-75 SINGAPORE 640209<br>209 BOON LAY PLACE SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH #08-80 SINGAPORE 640209<br>209 SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH #23-01 BOON LAY PLACE SINGAPORE 640209<br>209 #23-59 BOON LAY PLACE SIAN CHAY MEDICAL INSTITUTION BOON LAY BRANCH SINGAPORE 640209<br><br>Distance from input: 1.27 km</div>`)[0];
+                popup_86af344dd8769284e2c0057b0540e07f.setContent(html_be620093b61d87131a22fc268d932fcd);
+            
+        
+
+        marker_80b76012cdf01a3c5d11d37e79a90cda.bindPopup(popup_86af344dd8769284e2c0057b0540e07f)
+        ;
+
+        
+    
+    
+            var marker_978c7c3527514d28890979f2df2c9089 = L.marker(
+                [1.3465804, 103.7111822],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_ba8e3babdd4d21392a21a69e5f2ae6ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_978c7c3527514d28890979f2df2c9089.setIcon(icon_ba8e3babdd4d21392a21a69e5f2ae6ed);
+        
+    
+        var popup_73929a2d6013e739e5aec7f24ccba468 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c88d8bb778c68ee0aef1614d9cbc059c = $(`<div id="html_c88d8bb778c68ee0aef1614d9cbc059c" style="width: 100.0%; height: 100.0%;">185 BOON LAY AVENUE #27-41 BOON LAY VISTA SINGAPORE 640185<br>185 #17-90 BOON LAY VISTA BOON LAY AVENUE SINGAPORE 640185<br>185 BOON LAY AVENUE BOON LAY VISTA #22-32 SINGAPORE 640185<br><br>Distance from input: 0.93 km</div>`)[0];
+                popup_73929a2d6013e739e5aec7f24ccba468.setContent(html_c88d8bb778c68ee0aef1614d9cbc059c);
+            
+        
+
+        marker_978c7c3527514d28890979f2df2c9089.bindPopup(popup_73929a2d6013e739e5aec7f24ccba468)
+        ;
+
+        
+    
+    
+            var marker_a7df72a586210c436ee0e09e8542cedf = L.marker(
+                [1.346584, 103.7135919],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_7e6de0a4c12c5774da0c1b350b53893d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7df72a586210c436ee0e09e8542cedf.setIcon(icon_7e6de0a4c12c5774da0c1b350b53893d);
+        
+    
+        var popup_5945401e7cc6634931e3451f88b5a30a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_25abd9fe5884ec7376dae187d3c6798c = $(`<div id="html_25abd9fe5884ec7376dae187d3c6798c" style="width: 100.0%; height: 100.0%;">207 #18-19 BOON LAY PLACE BOON LAY PLACE SINGAPORE 640207<br>207 BOON LAY PLACE #02-30 BOON LAY PLACE SINGAPORE 640207<br><br>Distance from input: 1.12 km</div>`)[0];
+                popup_5945401e7cc6634931e3451f88b5a30a.setContent(html_25abd9fe5884ec7376dae187d3c6798c);
+            
+        
+
+        marker_a7df72a586210c436ee0e09e8542cedf.bindPopup(popup_5945401e7cc6634931e3451f88b5a30a)
+        ;
+
+        
+    
+    
+            var marker_189f6c2b1888049ef1877c42003f7f39 = L.marker(
+                [1.3466614, 103.7010324],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_1b9d2833808a101eb80bf280ba035f4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_189f6c2b1888049ef1877c42003f7f39.setIcon(icon_1b9d2833808a101eb80bf280ba035f4d);
+        
+    
+        var popup_af502157fccb3b65421ce6c6328867eb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5b256370941be488d7dcc30e6d998bf1 = $(`<div id="html_5b256370941be488d7dcc30e6d998bf1" style="width: 100.0%; height: 100.0%;">737 JURONG WEST STREET 75 #27-67 SINGAPORE 640737<br><br>Distance from input: 0.95 km</div>`)[0];
+                popup_af502157fccb3b65421ce6c6328867eb.setContent(html_5b256370941be488d7dcc30e6d998bf1);
+            
+        
+
+        marker_189f6c2b1888049ef1877c42003f7f39.bindPopup(popup_af502157fccb3b65421ce6c6328867eb)
+        ;
+
+        
+    
+    
+            var marker_6a93dcd7d79e20fd8190066c11fea908 = L.marker(
+                [1.3467532, 103.7161916],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_ebc31641f206d0e10392fd9f4d3ba919 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a93dcd7d79e20fd8190066c11fea908.setIcon(icon_ebc31641f206d0e10392fd9f4d3ba919);
+        
+    
+        var popup_e586116c8a1f0eb04acc44c042f5cd08 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9080d275a9c14524e6aaf40c371995f5 = $(`<div id="html_9080d275a9c14524e6aaf40c371995f5" style="width: 100.0%; height: 100.0%;">523 JURONG WEST STREET 52 #12-22 SINGAPORE 640523<br><br>Distance from input: 1.36 km</div>`)[0];
+                popup_e586116c8a1f0eb04acc44c042f5cd08.setContent(html_9080d275a9c14524e6aaf40c371995f5);
+            
+        
+
+        marker_6a93dcd7d79e20fd8190066c11fea908.bindPopup(popup_e586116c8a1f0eb04acc44c042f5cd08)
+        ;
+
+        
+    
+    
+            var marker_8f83bd5570255ee497d91a747a02372c = L.marker(
+                [1.3470168, 103.6979547],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_598d38b5b855f7f1c35907b58a6b917d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f83bd5570255ee497d91a747a02372c.setIcon(icon_598d38b5b855f7f1c35907b58a6b917d);
+        
+    
+        var popup_6778c08f5f35fc58947d472b309edbf7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cf7b0ee6dd5bef10422e3c6fd4bc7ce9 = $(`<div id="html_cf7b0ee6dd5bef10422e3c6fd4bc7ce9" style="width: 100.0%; height: 100.0%;">745 #04-15 JURONG WEST STREET 73 GEK POH VILLE SINGAPORE 640745<br><br>Distance from input: 1.21 km</div>`)[0];
+                popup_6778c08f5f35fc58947d472b309edbf7.setContent(html_cf7b0ee6dd5bef10422e3c6fd4bc7ce9);
+            
+        
+
+        marker_8f83bd5570255ee497d91a747a02372c.bindPopup(popup_6778c08f5f35fc58947d472b309edbf7)
+        ;
+
+        
+    
+    
+            var marker_65aed7f881130112f045c685412cffbb = L.marker(
+                [1.3472214, 103.7172775],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f79f40026d58574f9bafe1bc8923c406 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65aed7f881130112f045c685412cffbb.setIcon(icon_f79f40026d58574f9bafe1bc8923c406);
+        
+    
+        var popup_0aafb62aeff7221907ec194698e35462 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5aa11cd1b2495317cd26738c3270b688 = $(`<div id="html_5aa11cd1b2495317cd26738c3270b688" style="width: 100.0%; height: 100.0%;">524 JURONG WEST STREET 52 #28-32 SINGAPORE 640524<br><br>Distance from input: 1.48 km</div>`)[0];
+                popup_0aafb62aeff7221907ec194698e35462.setContent(html_5aa11cd1b2495317cd26738c3270b688);
+            
+        
+
+        marker_65aed7f881130112f045c685412cffbb.bindPopup(popup_0aafb62aeff7221907ec194698e35462)
+        ;
+
+        
+    
+    
+            var marker_f7310b831949dedb30b92d61fcbd5b64 = L.marker(
+                [1.3472427, 103.708209],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a328e25d3abe0144f1a25b0cf796e3a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7310b831949dedb30b92d61fcbd5b64.setIcon(icon_a328e25d3abe0144f1a25b0cf796e3a7);
+        
+    
+        var popup_6b8093e43eec94a77a73131d5aa45875 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3fc525741b30e8c1f1d8d42fa7ddb194 = $(`<div id="html_3fc525741b30e8c1f1d8d42fa7ddb194" style="width: 100.0%; height: 100.0%;">268C BOON LAY COURT #17-90 BOON LAY DRIVE SINGAPORE 643268<br><br>Distance from input: 0.85 km</div>`)[0];
+                popup_6b8093e43eec94a77a73131d5aa45875.setContent(html_3fc525741b30e8c1f1d8d42fa7ddb194);
+            
+        
+
+        marker_f7310b831949dedb30b92d61fcbd5b64.bindPopup(popup_6b8093e43eec94a77a73131d5aa45875)
+        ;
+
+        
+    
+    
+            var marker_8c0549534007c31a8f00fa26d2070e68 = L.marker(
+                [1.3472528, 103.7139141],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a1831055ba3052e30a0356b53a0cad74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c0549534007c31a8f00fa26d2070e68.setIcon(icon_a1831055ba3052e30a0356b53a0cad74);
+        
+    
+        var popup_d42048f6141d8b9de557d0d6feb5bede = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d27137e87969edacde7201c9c855b5ba = $(`<div id="html_d27137e87969edacde7201c9c855b5ba" style="width: 100.0%; height: 100.0%;">208 #21-98 BOON LAY PLACE BOON LAY PLACE SINGAPORE 640208<br>208 #03-97 BOON LAY PLACE BOON LAY PLACE SINGAPORE 640208<br>208 BOON LAY PLACE #26-90 BOON LAY PLACE SINGAPORE 640208<br>208 BOON LAY PLACE #02-83 BOON LAY PLACE SINGAPORE 640208<br>208 BOON LAY PLACE BOON LAY PLACE #10-44 SINGAPORE 640208<br>208 BOON LAY PLACE BOON LAY PLACE #29-88 SINGAPORE 640208<br><br>Distance from input: 1.19 km</div>`)[0];
+                popup_d42048f6141d8b9de557d0d6feb5bede.setContent(html_d27137e87969edacde7201c9c855b5ba);
+            
+        
+
+        marker_8c0549534007c31a8f00fa26d2070e68.bindPopup(popup_d42048f6141d8b9de557d0d6feb5bede)
+        ;
+
+        
+    
+    
+            var marker_154e1912db7f31810398db1d75802df5 = L.marker(
+                [1.3473187, 103.6927093],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2f3e495c24df130d8ac6c4fd9774204c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_154e1912db7f31810398db1d75802df5.setIcon(icon_2f3e495c24df130d8ac6c4fd9774204c);
+        
+    
+        var popup_81cc135220f0b7dba22601e2d58db74f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b9ca99fec6be78bb6013334e51eca648 = $(`<div id="html_b9ca99fec6be78bb6013334e51eca648" style="width: 100.0%; height: 100.0%;">852 JURONG WEST STREET 81 #26-74 SINGAPORE 640852<br><br>Distance from input: 1.71 km</div>`)[0];
+                popup_81cc135220f0b7dba22601e2d58db74f.setContent(html_b9ca99fec6be78bb6013334e51eca648);
+            
+        
+
+        marker_154e1912db7f31810398db1d75802df5.bindPopup(popup_81cc135220f0b7dba22601e2d58db74f)
+        ;
+
+        
+    
+    
+            var marker_47d6df882e2ee4891f76b2e96984f5c7 = L.marker(
+                [1.3473344, 103.6990772],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_3c06ea361f80f3e2759fd3e42e27b756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47d6df882e2ee4891f76b2e96984f5c7.setIcon(icon_3c06ea361f80f3e2759fd3e42e27b756);
+        
+    
+        var popup_3f55d52f3d1cc4f08ca8a8de7cbc15fa = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c4334aad6f388c6e71b90c62854b252e = $(`<div id="html_c4334aad6f388c6e71b90c62854b252e" style="width: 100.0%; height: 100.0%;">743 GEK POH VILLE #15-46 JURONG WEST STREET 73 SINGAPORE 640743<br><br>Distance from input: 1.15 km</div>`)[0];
+                popup_3f55d52f3d1cc4f08ca8a8de7cbc15fa.setContent(html_c4334aad6f388c6e71b90c62854b252e);
+            
+        
+
+        marker_47d6df882e2ee4891f76b2e96984f5c7.bindPopup(popup_3f55d52f3d1cc4f08ca8a8de7cbc15fa)
+        ;
+
+        
+    
+    
+            var marker_8e0db4b8830c1f1ddfdc5c18d0307c8a = L.marker(
+                [1.3474796, 103.697795],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_4b9069814e3639e6e5be7f34dce47128 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e0db4b8830c1f1ddfdc5c18d0307c8a.setIcon(icon_4b9069814e3639e6e5be7f34dce47128);
+        
+    
+        var popup_04adc1c5a5e560bbe9db14578231c816 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3a318b912db4939f7f6f7eb516753eba = $(`<div id="html_3a318b912db4939f7f6f7eb516753eba" style="width: 100.0%; height: 100.0%;">746 #27-93 GEK POH VILLE JURONG WEST STREET 73 SINGAPORE 640746<br>746 #27-40 GEK POH VILLE JURONG WEST STREET 73 SINGAPORE 640746<br><br>Distance from input: 1.26 km</div>`)[0];
+                popup_04adc1c5a5e560bbe9db14578231c816.setContent(html_3a318b912db4939f7f6f7eb516753eba);
+            
+        
+
+        marker_8e0db4b8830c1f1ddfdc5c18d0307c8a.bindPopup(popup_04adc1c5a5e560bbe9db14578231c816)
+        ;
+
+        
+    
+    
+            var marker_9e941027a566ac5aadbe62cd60940c30 = L.marker(
+                [1.3474958, 103.7201522],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_ede8eaf9e398eb925cdf20704f326550 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e941027a566ac5aadbe62cd60940c30.setIcon(icon_ede8eaf9e398eb925cdf20704f326550);
+        
+    
+        var popup_00b83bdfdc07a875c55e3e6c92e76569 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_be3da25f43e09ca53b193d1f953b4768 = $(`<div id="html_be3da25f43e09ca53b193d1f953b4768" style="width: 100.0%; height: 100.0%;">513 #20-56 WESTWOOD COURT JURONG WEST STREET 52 SINGAPORE 640513<br>513 WESTWOOD COURT JURONG WEST STREET 52 #17-05 SINGAPORE 640513<br><br>Distance from input: 1.77 km</div>`)[0];
+                popup_00b83bdfdc07a875c55e3e6c92e76569.setContent(html_be3da25f43e09ca53b193d1f953b4768);
+            
+        
+
+        marker_9e941027a566ac5aadbe62cd60940c30.bindPopup(popup_00b83bdfdc07a875c55e3e6c92e76569)
+        ;
+
+        
+    
+    
+            var marker_043d9dd745282b576b104da5e5a3692d = L.marker(
+                [1.347608, 103.6992667],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_cbfa775cec057ba1287178b00be0a82a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_043d9dd745282b576b104da5e5a3692d.setIcon(icon_cbfa775cec057ba1287178b00be0a82a);
+        
+    
+        var popup_e0c57d7002029de6cd1f936e14e517ae = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_833f7d570f49efcc9fd7b3298011cadd = $(`<div id="html_833f7d570f49efcc9fd7b3298011cadd" style="width: 100.0%; height: 100.0%;">751 #05-66 GEK POH VILLE JURONG WEST STREET 73 SINGAPORE 640751<br><br>Distance from input: 1.16 km</div>`)[0];
+                popup_e0c57d7002029de6cd1f936e14e517ae.setContent(html_833f7d570f49efcc9fd7b3298011cadd);
+            
+        
+
+        marker_043d9dd745282b576b104da5e5a3692d.bindPopup(popup_e0c57d7002029de6cd1f936e14e517ae)
+        ;
+
+        
+    
+    
+            var marker_04c04f1aff31d0a1702c6429233ccb75 = L.marker(
+                [1.3477459, 103.6959742],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_cf61ced83845f4552ae3035921cb5cab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04c04f1aff31d0a1702c6429233ccb75.setIcon(icon_cf61ced83845f4552ae3035921cb5cab);
+        
+    
+        var popup_7aec298edad3b6d2f7ca699abbf27783 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bd02e9cd5c40c9c235c5961382a7bfd3 = $(`<div id="html_bd02e9cd5c40c9c235c5961382a7bfd3" style="width: 100.0%; height: 100.0%;">854 #07-11 HDB PUBLIC SHELTERS JURONG WEST STREET 81 SINGAPORE 640854<br><br>Distance from input: 1.43 km</div>`)[0];
+                popup_7aec298edad3b6d2f7ca699abbf27783.setContent(html_bd02e9cd5c40c9c235c5961382a7bfd3);
+            
+        
+
+        marker_04c04f1aff31d0a1702c6429233ccb75.bindPopup(popup_7aec298edad3b6d2f7ca699abbf27783)
+        ;
+
+        
+    
+    
+            var marker_2948d1520daee80f8adac777c4af2ff5 = L.marker(
+                [1.347792, 103.7160961],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2ace5959ba62728ca019fd6b2004920c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2948d1520daee80f8adac777c4af2ff5.setIcon(icon_2ace5959ba62728ca019fd6b2004920c);
+        
+    
+        var popup_56ef0bc8155c8e41dab7360837923eb2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f592fc6500bbf903dae8d35f2b6ab3dd = $(`<div id="html_f592fc6500bbf903dae8d35f2b6ab3dd" style="width: 100.0%; height: 100.0%;">527 #04-33 JURONG WEST STREET 52 SINGAPORE 640527<br><br>Distance from input: 1.42 km</div>`)[0];
+                popup_56ef0bc8155c8e41dab7360837923eb2.setContent(html_f592fc6500bbf903dae8d35f2b6ab3dd);
+            
+        
+
+        marker_2948d1520daee80f8adac777c4af2ff5.bindPopup(popup_56ef0bc8155c8e41dab7360837923eb2)
+        ;
+
+        
+    
+    
+            var marker_0a9838e8b854fc28b40159a546fdad28 = L.marker(
+                [1.3478514, 103.6995801],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_3a01474e99eaaeff481b512e2bf121bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a9838e8b854fc28b40159a546fdad28.setIcon(icon_3a01474e99eaaeff481b512e2bf121bd);
+        
+    
+        var popup_f830f3d7fbf4b925b1510d9fe4085dc6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_17f6cd0b392fb361353e5d4ed72e167c = $(`<div id="html_17f6cd0b392fb361353e5d4ed72e167c" style="width: 100.0%; height: 100.0%;">750 #16-14 PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH BLOCK 750 (KN) JURONG WEST STREET 73 SINGAPORE 640750<br><br>Distance from input: 1.15 km</div>`)[0];
+                popup_f830f3d7fbf4b925b1510d9fe4085dc6.setContent(html_17f6cd0b392fb361353e5d4ed72e167c);
+            
+        
+
+        marker_0a9838e8b854fc28b40159a546fdad28.bindPopup(popup_f830f3d7fbf4b925b1510d9fe4085dc6)
+        ;
+
+        
+    
+    
+            var marker_a3150e6bb13a24d56a2d9aa6e7235b4b = L.marker(
+                [1.3478831, 103.7132679],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_0f02a30ec0985b456ffce4a1ca535f07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a3150e6bb13a24d56a2d9aa6e7235b4b.setIcon(icon_0f02a30ec0985b456ffce4a1ca535f07);
+        
+    
+        var popup_270a07d64cdeeb16fad49246353a679b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d6f1e21d4b039993a7b20d2ee6b59c66 = $(`<div id="html_d6f1e21d4b039993a7b20d2ee6b59c66" style="width: 100.0%; height: 100.0%;">210 DBS SPF BOON LAY BOON LAY PLACE #06-80 SINGAPORE 640210<br>210 #24-77 DBS SPF BOON LAY BOON LAY PLACE SINGAPORE 640210<br>210 DBS SPF BOON LAY BOON LAY PLACE #29-80 SINGAPORE 640210<br>210 BOON LAY PLACE #03-77 DBS SPF BOON LAY SINGAPORE 640210<br>210 DBS SPF BOON LAY #23-52 BOON LAY PLACE SINGAPORE 640210<br>210 DBS SPF BOON LAY BOON LAY PLACE #13-69 SINGAPORE 640210<br>210 DBS SPF BOON LAY BOON LAY PLACE #03-39 SINGAPORE 640210<br>210 BOON LAY PLACE DBS SPF BOON LAY #21-47 SINGAPORE 640210<br>210 #07-86 BOON LAY PLACE DBS SPF BOON LAY SINGAPORE 640210<br><br>Distance from input: 1.19 km</div>`)[0];
+                popup_270a07d64cdeeb16fad49246353a679b.setContent(html_d6f1e21d4b039993a7b20d2ee6b59c66);
+            
+        
+
+        marker_a3150e6bb13a24d56a2d9aa6e7235b4b.bindPopup(popup_270a07d64cdeeb16fad49246353a679b)
+        ;
+
+        
+    
+    
+            var marker_2bb5f52964f383b192da60af4fc4d92a = L.marker(
+                [1.3479161, 103.7200252],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_14a48267113bb6b63b21c0b9eacc2bb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bb5f52964f383b192da60af4fc4d92a.setIcon(icon_14a48267113bb6b63b21c0b9eacc2bb2);
+        
+    
+        var popup_174b93506183f371921da275964c2b4f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fd5ed914f0bb1370bb68b5aec93617ef = $(`<div id="html_fd5ed914f0bb1370bb68b5aec93617ef" style="width: 100.0%; height: 100.0%;">511 #07-61 ST ANDREW'S CATHEDRAL CHILD DEVELOPMENT CENTRE JURONG WEST STREET 52 SINGAPORE 640511<br>511 ST ANDREW'S CATHEDRAL CHILD DEVELOPMENT CENTRE JURONG WEST STREET 52 #08-23 SINGAPORE 640511<br>511 JURONG WEST STREET 52 ST ANDREW'S CATHEDRAL CHILD DEVELOPMENT CENTRE #16-82 SINGAPORE 640511<br><br>Distance from input: 1.78 km</div>`)[0];
+                popup_174b93506183f371921da275964c2b4f.setContent(html_fd5ed914f0bb1370bb68b5aec93617ef);
+            
+        
+
+        marker_2bb5f52964f383b192da60af4fc4d92a.bindPopup(popup_174b93506183f371921da275964c2b4f)
+        ;
+
+        
+    
+    
+            var marker_5be41e7410c2b06b000e3a7519a4b28c = L.marker(
+                [1.3480975, 103.6978604],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_1f92ae060296ebb0844bca1e2466a581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5be41e7410c2b06b000e3a7519a4b28c.setIcon(icon_1f92ae060296ebb0844bca1e2466a581);
+        
+    
+        var popup_1b601d17fc83cb3cf82517c2a22ea2ef = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_61cfd8a2bdc4163202349f6274b4febd = $(`<div id="html_61cfd8a2bdc4163202349f6274b4febd" style="width: 100.0%; height: 100.0%;">749 HDB PUBLIC SHELTERS #19-40 JURONG WEST STREET 73 SINGAPORE 640749<br><br>Distance from input: 1.30 km</div>`)[0];
+                popup_1b601d17fc83cb3cf82517c2a22ea2ef.setContent(html_61cfd8a2bdc4163202349f6274b4febd);
+            
+        
+
+        marker_5be41e7410c2b06b000e3a7519a4b28c.bindPopup(popup_1b601d17fc83cb3cf82517c2a22ea2ef)
+        ;
+
+        
+    
+    
+            var marker_f094813326a1fad9ebd9cdd33cb60a27 = L.marker(
+                [1.3481197, 103.7074516],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f97bcb7d01b7b66b8f3e9d59c6464cfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f094813326a1fad9ebd9cdd33cb60a27.setIcon(icon_f97bcb7d01b7b66b8f3e9d59c6464cfe);
+        
+    
+        var popup_d78192f91db6874b55b1b3e66d7779d1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c6f62a5afae582853e19679fe6cf5880 = $(`<div id="html_c6f62a5afae582853e19679fe6cf5880" style="width: 100.0%; height: 100.0%;">268A BOON LAY COURT #28-25 BOON LAY DRIVE SINGAPORE 641268<br><br>Distance from input: 0.93 km</div>`)[0];
+                popup_d78192f91db6874b55b1b3e66d7779d1.setContent(html_c6f62a5afae582853e19679fe6cf5880);
+            
+        
+
+        marker_f094813326a1fad9ebd9cdd33cb60a27.bindPopup(popup_d78192f91db6874b55b1b3e66d7779d1)
+        ;
+
+        
+    
+    
+            var marker_d112ca88063e7fd46e6e0e4b3a6b61a6 = L.marker(
+                [1.3483569, 103.7136021],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f3bbb514ca3a0fd71b0840f9d3cd5613 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d112ca88063e7fd46e6e0e4b3a6b61a6.setIcon(icon_f3bbb514ca3a0fd71b0840f9d3cd5613);
+        
+    
+        var popup_daeadca111c5603b2b4ffc2001c547c8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5e0a546f9c403e1d796d796f438b067a = $(`<div id="html_5e0a546f9c403e1d796d796f438b067a" style="width: 100.0%; height: 100.0%;">211 BOON LAY PLACE #10-41 BOON LAY PLACE SINGAPORE 640211<br>211 BOON LAY PLACE #24-88 BOON LAY PLACE SINGAPORE 640211<br>211 BOON LAY PLACE BOON LAY PLACE #07-61 SINGAPORE 640211<br><br>Distance from input: 1.26 km</div>`)[0];
+                popup_daeadca111c5603b2b4ffc2001c547c8.setContent(html_5e0a546f9c403e1d796d796f438b067a);
+            
+        
+
+        marker_d112ca88063e7fd46e6e0e4b3a6b61a6.bindPopup(popup_daeadca111c5603b2b4ffc2001c547c8)
+        ;
+
+        
+    
+    
+            var marker_4959c260bd063ec05a66170dde96a350 = L.marker(
+                [1.348486, 103.7197678],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_66054cb9d09132405920665a3045ab59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4959c260bd063ec05a66170dde96a350.setIcon(icon_66054cb9d09132405920665a3045ab59);
+        
+    
+        var popup_dbb5882a15b1485f0386e3e4bbe5ab5a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_de41d7c0dd7de9ae635294d933bf80b2 = $(`<div id="html_de41d7c0dd7de9ae635294d933bf80b2" style="width: 100.0%; height: 100.0%;">510 JURONG WEST STREET 52 HONG KAH SOUTH NEIGHBOURHOOD POLICE POST #11-83 SINGAPORE 640510<br><br>Distance from input: 1.79 km</div>`)[0];
+                popup_dbb5882a15b1485f0386e3e4bbe5ab5a.setContent(html_de41d7c0dd7de9ae635294d933bf80b2);
+            
+        
+
+        marker_4959c260bd063ec05a66170dde96a350.bindPopup(popup_dbb5882a15b1485f0386e3e4bbe5ab5a)
+        ;
+
+        
+    
+    
+            var marker_352d0ff2c5dd67d115f6b2f611623364 = L.marker(
+                [1.3485713, 103.7079554],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_93f22a09076e8bc6b2460ed88678fb9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_352d0ff2c5dd67d115f6b2f611623364.setIcon(icon_93f22a09076e8bc6b2460ed88678fb9e);
+        
+    
+        var popup_578edbbc4f565cd1ddee48c5ae52d1cd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_20a00fb3331fba609a6b386c205f9aef = $(`<div id="html_20a00fb3331fba609a6b386c205f9aef" style="width: 100.0%; height: 100.0%;">181A #13-55 BOON LAY DRIVE BOON LAY MEADOW SINGAPORE 641181<br><br>Distance from input: 0.99 km</div>`)[0];
+                popup_578edbbc4f565cd1ddee48c5ae52d1cd.setContent(html_20a00fb3331fba609a6b386c205f9aef);
+            
+        
+
+        marker_352d0ff2c5dd67d115f6b2f611623364.bindPopup(popup_578edbbc4f565cd1ddee48c5ae52d1cd)
+        ;
+
+        
+    
+    
+            var marker_5909289a9bdbaec6e68c4bd74f681bad = L.marker(
+                [1.3486601, 103.7204383],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_df885c1a532a0081d1bf87c7f016be40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5909289a9bdbaec6e68c4bd74f681bad.setIcon(icon_df885c1a532a0081d1bf87c7f016be40);
+        
+    
+        var popup_97891a9fe4d6c1f83f6a35085d70953b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e01112a41f3f3bb7c232dc10fdde694e = $(`<div id="html_e01112a41f3f3bb7c232dc10fdde694e" style="width: 100.0%; height: 100.0%;">BLOCK 468 JURONG WEST STREET 41 #10-83 SINGAPORE 640468<br><br>Distance from input: 1.87 km</div>`)[0];
+                popup_97891a9fe4d6c1f83f6a35085d70953b.setContent(html_e01112a41f3f3bb7c232dc10fdde694e);
+            
+        
+
+        marker_5909289a9bdbaec6e68c4bd74f681bad.bindPopup(popup_97891a9fe4d6c1f83f6a35085d70953b)
+        ;
+
+        
+    
+    
+            var marker_29ce7102f719568c07a09bee7035d13d = L.marker(
+                [1.3486882, 103.7123902],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_ac57e6a0fee7f9b6635a1d46b6332fe3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29ce7102f719568c07a09bee7035d13d.setIcon(icon_ac57e6a0fee7f9b6635a1d46b6332fe3);
+        
+    
+        var popup_9dc7320115fe41485ad2fe6f650f1692 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4a6ba387c7cdc49e827540a1cee1e808 = $(`<div id="html_4a6ba387c7cdc49e827540a1cee1e808" style="width: 100.0%; height: 100.0%;">215 #29-25 BOON LAY PLACE BOON LAY PLACE SINGAPORE 640215<br><br>Distance from input: 1.20 km</div>`)[0];
+                popup_9dc7320115fe41485ad2fe6f650f1692.setContent(html_4a6ba387c7cdc49e827540a1cee1e808);
+            
+        
+
+        marker_29ce7102f719568c07a09bee7035d13d.bindPopup(popup_9dc7320115fe41485ad2fe6f650f1692)
+        ;
+
+        
+    
+    
+            var marker_c12e583ca7dcfb4bc49506d53a750462 = L.marker(
+                [1.3486927, 103.7004594],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_6060d5678becc7e27b4c7d5527c4c9c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c12e583ca7dcfb4bc49506d53a750462.setIcon(icon_6060d5678becc7e27b4c7d5527c4c9c4);
+        
+    
+        var popup_b367d553a56b58ed681953c29682366a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ce5a2e3ed7a4bf6994029a7b6386a355 = $(`<div id="html_ce5a2e3ed7a4bf6994029a7b6386a355" style="width: 100.0%; height: 100.0%;">754 #16-53 JURONG WEST STREET 74 SINGAPORE 640754<br><br>Distance from input: 1.17 km</div>`)[0];
+                popup_b367d553a56b58ed681953c29682366a.setContent(html_ce5a2e3ed7a4bf6994029a7b6386a355);
+            
+        
+
+        marker_c12e583ca7dcfb4bc49506d53a750462.bindPopup(popup_b367d553a56b58ed681953c29682366a)
+        ;
+
+        
+    
+    
+            var marker_5e09fb6fc7cdd6ea5e03130d7b9afd00 = L.marker(
+                [1.3487244, 103.7187386],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_f1831d11af3a4d55509bdd0eec7740f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e09fb6fc7cdd6ea5e03130d7b9afd00.setIcon(icon_f1831d11af3a4d55509bdd0eec7740f8);
+        
+    
+        var popup_6e3b1fe0378a853624c47e121c1d371c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e531d13ab221f80ffbf90c3f30dfdf41 = $(`<div id="html_e531d13ab221f80ffbf90c3f30dfdf41" style="width: 100.0%; height: 100.0%;">508 #01-41 JURONG WEST STREET 52 HONG KAH POINT SINGAPORE 640508<br><br>Distance from input: 1.71 km</div>`)[0];
+                popup_6e3b1fe0378a853624c47e121c1d371c.setContent(html_e531d13ab221f80ffbf90c3f30dfdf41);
+            
+        
+
+        marker_5e09fb6fc7cdd6ea5e03130d7b9afd00.bindPopup(popup_6e3b1fe0378a853624c47e121c1d371c)
+        ;
+
+        
+    
+    
+            var marker_16c73791af00798da6387b57d41dc1e2 = L.marker(
+                [1.3489541, 103.6967189],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_774ec658adf831fc69ef69d0bc69d001 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16c73791af00798da6387b57d41dc1e2.setIcon(icon_774ec658adf831fc69ef69d0bc69d001);
+        
+    
+        var popup_16c7ddb3f8235a070a6d3e7a9e1bbcf1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_83446967d3e9d469e44332c5c4395841 = $(`<div id="html_83446967d3e9d469e44332c5c4395841" style="width: 100.0%; height: 100.0%;">860 #18-25 JURONG WEST STREET 81 SINGAPORE 640860<br><br>Distance from input: 1.46 km</div>`)[0];
+                popup_16c7ddb3f8235a070a6d3e7a9e1bbcf1.setContent(html_83446967d3e9d469e44332c5c4395841);
+            
+        
+
+        marker_16c73791af00798da6387b57d41dc1e2.bindPopup(popup_16c7ddb3f8235a070a6d3e7a9e1bbcf1)
+        ;
+
+        
+    
+    
+            var marker_7ff16c3f2ae66b442218a04ff293f515 = L.marker(
+                [1.3489833, 103.7171384],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2d175523dd4f80cafdf46c49cceb87d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ff16c3f2ae66b442218a04ff293f515.setIcon(icon_2d175523dd4f80cafdf46c49cceb87d8);
+        
+    
+        var popup_ae9399b7bc53f3f104ee92d803bfa75b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fa3a805702a3035bb53b53a17d181e83 = $(`<div id="html_fa3a805702a3035bb53b53a17d181e83" style="width: 100.0%; height: 100.0%;">534 JURONG WEST STREET 52 #16-17 SINGAPORE 640534<br>534 JURONG WEST STREET 52 #24-71 SINGAPORE 640534<br>534 JURONG WEST STREET 52 #19-88 SINGAPORE 640534<br><br>Distance from input: 1.59 km</div>`)[0];
+                popup_ae9399b7bc53f3f104ee92d803bfa75b.setContent(html_fa3a805702a3035bb53b53a17d181e83);
+            
+        
+
+        marker_7ff16c3f2ae66b442218a04ff293f515.bindPopup(popup_ae9399b7bc53f3f104ee92d803bfa75b)
+        ;
+
+        
+    
+    
+            var marker_a1d1d2d8c62a38015dd6bb3e2c83208d = L.marker(
+                [1.3491349, 103.7130618],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_4f5a9fd285d0e5fcd12d2b98f86d6272 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1d1d2d8c62a38015dd6bb3e2c83208d.setIcon(icon_4f5a9fd285d0e5fcd12d2b98f86d6272);
+        
+    
+        var popup_b6f75420ae62943d7e203d1e7b3c8c34 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_14e92b43d00a93739aa06f527ace8435 = $(`<div id="html_14e92b43d00a93739aa06f527ace8435" style="width: 100.0%; height: 100.0%;">212 BOON LAY PLACE #11-67 BOON LAY PLACE SINGAPORE 640212<br><br>Distance from input: 1.29 km</div>`)[0];
+                popup_b6f75420ae62943d7e203d1e7b3c8c34.setContent(html_14e92b43d00a93739aa06f527ace8435);
+            
+        
+
+        marker_a1d1d2d8c62a38015dd6bb3e2c83208d.bindPopup(popup_b6f75420ae62943d7e203d1e7b3c8c34)
+        ;
+
+        
+    
+    
+            var marker_21115e66f8989c707968766f6c08c7d4 = L.marker(
+                [1.3494082, 103.7108203],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_d5096107fb267eb80aaf2c9cd64e0542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_21115e66f8989c707968766f6c08c7d4.setIcon(icon_d5096107fb267eb80aaf2c9cd64e0542);
+        
+    
+        var popup_dbe102c03ebee5d1a2aef8c000893326 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b59b805a8094ab38da0450b60e42e5dc = $(`<div id="html_b59b805a8094ab38da0450b60e42e5dc" style="width: 100.0%; height: 100.0%;">219 #27-26 BOON LAY AVENUE BOON LAY VIEW SINGAPORE 640219<br>219 BOON LAY AVENUE #14-60 BOON LAY VIEW SINGAPORE 640219<br>219 #11-74 BOON LAY VIEW BOON LAY AVENUE SINGAPORE 640219<br>219 BOON LAY AVENUE BOON LAY VIEW #09-16 SINGAPORE 640219<br><br>Distance from input: 1.18 km</div>`)[0];
+                popup_dbe102c03ebee5d1a2aef8c000893326.setContent(html_b59b805a8094ab38da0450b60e42e5dc);
+            
+        
+
+        marker_21115e66f8989c707968766f6c08c7d4.bindPopup(popup_dbe102c03ebee5d1a2aef8c000893326)
+        ;
+
+        
+    
+    
+            var marker_1d7cc27d0fad39b3bcc06492a40a0004 = L.marker(
+                [1.349435, 103.712834],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_fe5aa95af36af3c53dfb441a15764c8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d7cc27d0fad39b3bcc06492a40a0004.setIcon(icon_fe5aa95af36af3c53dfb441a15764c8e);
+        
+    
+        var popup_78fb726e7c766770998d24d0fc57045f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a28ca7e926c08fbf449715b293cad78f = $(`<div id="html_a28ca7e926c08fbf449715b293cad78f" style="width: 100.0%; height: 100.0%;">213 #08-94 BOON LAY PLACE BOON LAY PLACE SINGAPORE 640213<br><br>Distance from input: 1.30 km</div>`)[0];
+                popup_78fb726e7c766770998d24d0fc57045f.setContent(html_a28ca7e926c08fbf449715b293cad78f);
+            
+        
+
+        marker_1d7cc27d0fad39b3bcc06492a40a0004.bindPopup(popup_78fb726e7c766770998d24d0fc57045f)
+        ;
+
+        
+    
+    
+            var marker_bfb1d41374ed4f8c096b2ecf21d87dfd = L.marker(
+                [1.3494716, 103.7171591],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_5980b6312ba810bbd3ee0134f58521bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfb1d41374ed4f8c096b2ecf21d87dfd.setIcon(icon_5980b6312ba810bbd3ee0134f58521bf);
+        
+    
+        var popup_9642ac2e0e9d7c6c0d03b4610a025d5d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_664a8463f8ef8c063f87e1b98448db11 = $(`<div id="html_664a8463f8ef8c063f87e1b98448db11" style="width: 100.0%; height: 100.0%;">535 JURONG WEST STREET 52 #20-47 SINGAPORE 640535<br>535 JURONG WEST STREET 52 #25-24 SINGAPORE 640535<br><br>Distance from input: 1.62 km</div>`)[0];
+                popup_9642ac2e0e9d7c6c0d03b4610a025d5d.setContent(html_664a8463f8ef8c063f87e1b98448db11);
+            
+        
+
+        marker_bfb1d41374ed4f8c096b2ecf21d87dfd.bindPopup(popup_9642ac2e0e9d7c6c0d03b4610a025d5d)
+        ;
+
+        
+    
+    
+            var marker_8bf378a3851524fef9030c56945a1c95 = L.marker(
+                [1.3496614, 103.7117445],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_dd556cb0cfd2328165fda44224ab4d58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bf378a3851524fef9030c56945a1c95.setIcon(icon_dd556cb0cfd2328165fda44224ab4d58);
+        
+    
+        var popup_c1493a634e0bd3a8bef441c48dc1c324 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c3defd52576e7431a5a362f9c7972e54 = $(`<div id="html_c3defd52576e7431a5a362f9c7972e54" style="width: 100.0%; height: 100.0%;">216 BOON LAY VIEW #21-20 BOON LAY AVENUE SINGAPORE 640216<br>216 #16-54 BOON LAY VIEW BOON LAY AVENUE SINGAPORE 640216<br><br>Distance from input: 1.25 km</div>`)[0];
+                popup_c1493a634e0bd3a8bef441c48dc1c324.setContent(html_c3defd52576e7431a5a362f9c7972e54);
+            
+        
+
+        marker_8bf378a3851524fef9030c56945a1c95.bindPopup(popup_c1493a634e0bd3a8bef441c48dc1c324)
+        ;
+
+        
+    
+    
+            var marker_82a3fa832e7ea51c0207dfbffee36d11 = L.marker(
+                [1.3497666, 103.7165098],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_95c2117d4107720af95bb24a5a3f81d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82a3fa832e7ea51c0207dfbffee36d11.setIcon(icon_95c2117d4107720af95bb24a5a3f81d8);
+        
+    
+        var popup_2eef3f7b672768428ae4ca1f7b9e4eef = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6af2c68df723ebfd2dd9d8ae4d2adf60 = $(`<div id="html_6af2c68df723ebfd2dd9d8ae4d2adf60" style="width: 100.0%; height: 100.0%;">536 NKF DIALYSIS CENTRE HONG KAH JURONG WEST STREET 52 #05-28 SINGAPORE 640536<br><br>Distance from input: 1.59 km</div>`)[0];
+                popup_2eef3f7b672768428ae4ca1f7b9e4eef.setContent(html_6af2c68df723ebfd2dd9d8ae4d2adf60);
+            
+        
+
+        marker_82a3fa832e7ea51c0207dfbffee36d11.bindPopup(popup_2eef3f7b672768428ae4ca1f7b9e4eef)
+        ;
+
+        
+    
+    
+            var marker_b72a9cb3425e1919a8dd2e1e80714833 = L.marker(
+                [1.349787, 103.6976968],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a2cd84f779ca20d4b2c951132a21694c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b72a9cb3425e1919a8dd2e1e80714833.setIcon(icon_a2cd84f779ca20d4b2c951132a21694c);
+        
+    
+        var popup_a27f3bd706f2276e5483dadf332fd4f9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5f77246ac8d73b8cdcd5e0403646703b = $(`<div id="html_5f77246ac8d73b8cdcd5e0403646703b" style="width: 100.0%; height: 100.0%;">766 JURONG WEST STREET 74 #04-66 SINGAPORE 640766<br><br>Distance from input: 1.45 km</div>`)[0];
+                popup_a27f3bd706f2276e5483dadf332fd4f9.setContent(html_5f77246ac8d73b8cdcd5e0403646703b);
+            
+        
+
+        marker_b72a9cb3425e1919a8dd2e1e80714833.bindPopup(popup_a27f3bd706f2276e5483dadf332fd4f9)
+        ;
+
+        
+    
+    
+            var marker_55533bb51f9072ed6197108dddea7003 = L.marker(
+                [1.3498438, 103.7008485],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_d91b2cd43c155e72a674b1f219e18e03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55533bb51f9072ed6197108dddea7003.setIcon(icon_d91b2cd43c155e72a674b1f219e18e03);
+        
+    
+        var popup_10808a12d018266fd76fed545bd099a6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f04471caa7c205d0aeedd8500c9f300b = $(`<div id="html_f04471caa7c205d0aeedd8500c9f300b" style="width: 100.0%; height: 100.0%;">757 #15-70 JURONG WEST STREET 74 SINGAPORE 640757<br><br>Distance from input: 1.26 km</div>`)[0];
+                popup_10808a12d018266fd76fed545bd099a6.setContent(html_f04471caa7c205d0aeedd8500c9f300b);
+            
+        
+
+        marker_55533bb51f9072ed6197108dddea7003.bindPopup(popup_10808a12d018266fd76fed545bd099a6)
+        ;
+
+        
+    
+    
+            var marker_d510e6ca2766e0b225971895bf8d699a = L.marker(
+                [1.3500622, 103.6983463],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_17c4f39580c10259d37f32fd05eda04c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d510e6ca2766e0b225971895bf8d699a.setIcon(icon_17c4f39580c10259d37f32fd05eda04c);
+        
+    
+        var popup_f6bf46ec6b541b2fcec8e4562e07c403 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_35743512b64c7c45f2e00c340adbadbb = $(`<div id="html_35743512b64c7c45f2e00c340adbadbb" style="width: 100.0%; height: 100.0%;">765 #23-59 JURONG WEST STREET 74 SINGAPORE 640765<br><br>Distance from input: 1.43 km</div>`)[0];
+                popup_f6bf46ec6b541b2fcec8e4562e07c403.setContent(html_35743512b64c7c45f2e00c340adbadbb);
+            
+        
+
+        marker_d510e6ca2766e0b225971895bf8d699a.bindPopup(popup_f6bf46ec6b541b2fcec8e4562e07c403)
+        ;
+
+        
+    
+    
+            var marker_913c629fa99beb71d1df6aebd0cbd695 = L.marker(
+                [1.3500662, 103.7048689],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_3c15cf3d5b827205b8ccdc04e24bcf9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_913c629fa99beb71d1df6aebd0cbd695.setIcon(icon_3c15cf3d5b827205b8ccdc04e24bcf9b);
+        
+    
+        var popup_fc0e826ac0da1dd96521f3c0eeede475 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5163d35acf0bb8ef3dc58c4487f85e7e = $(`<div id="html_5163d35acf0bb8ef3dc58c4487f85e7e" style="width: 100.0%; height: 100.0%;">271D JURONG WEST STREET 24 #12-34 SINGAPORE 644271<br><br>Distance from input: 1.14 km</div>`)[0];
+                popup_fc0e826ac0da1dd96521f3c0eeede475.setContent(html_5163d35acf0bb8ef3dc58c4487f85e7e);
+            
+        
+
+        marker_913c629fa99beb71d1df6aebd0cbd695.bindPopup(popup_fc0e826ac0da1dd96521f3c0eeede475)
+        ;
+
+        
+    
+    
+            var marker_7ac27038b4af819d74867090d81da168 = L.marker(
+                [1.35010264, 103.71914987999999],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b6172ee684192b4ad793139d75afe8fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ac27038b4af819d74867090d81da168.setIcon(icon_b6172ee684192b4ad793139d75afe8fe);
+        
+    
+        var popup_121667f04b718fef97fd6dcefa9dd8cc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1f7fd01f781fe419bc41265a156c3f00 = $(`<div id="html_1f7fd01f781fe419bc41265a156c3f00" style="width: 100.0%; height: 100.0%;">501 JURONG WEST STREET 51 OCBC JURONG WEST ST 51 - 7 ELEVEN #01-06 SINGAPORE 640501<br><br>Distance from input: 1.84 km</div>`)[0];
+                popup_121667f04b718fef97fd6dcefa9dd8cc.setContent(html_1f7fd01f781fe419bc41265a156c3f00);
+            
+        
+
+        marker_7ac27038b4af819d74867090d81da168.bindPopup(popup_121667f04b718fef97fd6dcefa9dd8cc)
+        ;
+
+        
+    
+    
+            var marker_ea7536292b4c7cf32b12672b8b06df43 = L.marker(
+                [1.35062385, 103.71981585],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2b51e070b4de98a5f10e3b34dea9ba18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea7536292b4c7cf32b12672b8b06df43.setIcon(icon_2b51e070b4de98a5f10e3b34dea9ba18);
+        
+    
+        var popup_5eb979d77df82089a9b38806d0da3ab2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bcb15a07c10e12e72243cb91159684e5 = $(`<div id="html_bcb15a07c10e12e72243cb91159684e5" style="width: 100.0%; height: 100.0%;">456 #22-19 JURONG WEST STREET 41 SINGAPORE 640456<br>456 JURONG WEST STREET 41 #03-01 SINGAPORE 640456<br><br>Distance from input: 1.93 km</div>`)[0];
+                popup_5eb979d77df82089a9b38806d0da3ab2.setContent(html_bcb15a07c10e12e72243cb91159684e5);
+            
+        
+
+        marker_ea7536292b4c7cf32b12672b8b06df43.bindPopup(popup_5eb979d77df82089a9b38806d0da3ab2)
+        ;
+
+        
+    
+    
+            var marker_ec78ffa6cb7bcc5003200aa94741b1a0 = L.marker(
+                [1.3514383, 103.703519],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_73f2a4db5ef5a6aa519d24457c3d1779 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec78ffa6cb7bcc5003200aa94741b1a0.setIcon(icon_73f2a4db5ef5a6aa519d24457c3d1779);
+        
+    
+        var popup_59f37a1550cb27d90a390bebdc457dc7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d3f03c7002e44e4ce3da5d14af8f5a10 = $(`<div id="html_d3f03c7002e44e4ce3da5d14af8f5a10" style="width: 100.0%; height: 100.0%;">273A WENYA #28-71 JURONG WEST AVENUE 3 SINGAPORE 641273<br><br>Distance from input: 1.32 km</div>`)[0];
+                popup_59f37a1550cb27d90a390bebdc457dc7.setContent(html_d3f03c7002e44e4ce3da5d14af8f5a10);
+            
+        
+
+        marker_ec78ffa6cb7bcc5003200aa94741b1a0.bindPopup(popup_59f37a1550cb27d90a390bebdc457dc7)
+        ;
+
+        
+    
+    
+            var marker_1c12d2145cc16969197d82f83d521ebf = L.marker(
+                [1.3517478, 103.7037204],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_bc47583d44324727c9534fa54d13bfd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c12d2145cc16969197d82f83d521ebf.setIcon(icon_bc47583d44324727c9534fa54d13bfd7);
+        
+    
+        var popup_b230a607f5157ea9cbc0aebb320ae451 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cfcbfb10988d28fe449dcf19cdab60d1 = $(`<div id="html_cfcbfb10988d28fe449dcf19cdab60d1" style="width: 100.0%; height: 100.0%;">273B #28-95 WENYA JURONG WEST AVENUE 3 SINGAPORE 642273<br><br>Distance from input: 1.35 km</div>`)[0];
+                popup_b230a607f5157ea9cbc0aebb320ae451.setContent(html_cfcbfb10988d28fe449dcf19cdab60d1);
+            
+        
+
+        marker_1c12d2145cc16969197d82f83d521ebf.bindPopup(popup_b230a607f5157ea9cbc0aebb320ae451)
+        ;
+
+        
+    
+    
+            var marker_bc4954c50dcffcac107c74759f9a6ca6 = L.marker(
+                [1.3522527, 103.7181452],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_301c6f13eefafedbf038b121e1cc9df7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc4954c50dcffcac107c74759f9a6ca6.setIcon(icon_301c6f13eefafedbf038b121e1cc9df7);
+        
+    
+        var popup_0b5928a9fbd525425809717e94cc92e5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_872f64fd191954f07903ac43a9073d81 = $(`<div id="html_872f64fd191954f07903ac43a9073d81" style="width: 100.0%; height: 100.0%;">449 #17-86 JURONG WEST STREET 42 SINGAPORE 640449<br><br>Distance from input: 1.92 km</div>`)[0];
+                popup_0b5928a9fbd525425809717e94cc92e5.setContent(html_872f64fd191954f07903ac43a9073d81);
+            
+        
+
+        marker_bc4954c50dcffcac107c74759f9a6ca6.bindPopup(popup_0b5928a9fbd525425809717e94cc92e5)
+        ;
+
+        
+    
+    
+            var marker_09b82504e33e9929ae0a341c4777d8e0 = L.marker(
+                [1.3522693, 103.7030885],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_6261bde48fc3018c4cebb57d388275c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09b82504e33e9929ae0a341c4777d8e0.setIcon(icon_6261bde48fc3018c4cebb57d388275c9);
+        
+    
+        var popup_ce4beaabf0178f34a2e97c0675d86bb0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6ce86df998f5d9499b46eb25f2b969ea = $(`<div id="html_6ce86df998f5d9499b46eb25f2b969ea" style="width: 100.0%; height: 100.0%;">273D #05-28 JURONG WEST AVENUE 3 WENYA SINGAPORE 644273<br>273D #07-24 WENYA JURONG WEST AVENUE 3 SINGAPORE 644273<br><br>Distance from input: 1.42 km</div>`)[0];
+                popup_ce4beaabf0178f34a2e97c0675d86bb0.setContent(html_6ce86df998f5d9499b46eb25f2b969ea);
+            
+        
+
+        marker_09b82504e33e9929ae0a341c4777d8e0.bindPopup(popup_ce4beaabf0178f34a2e97c0675d86bb0)
+        ;
+
+        
+    
+    
+            var marker_b0b70c7ae543c4968b9b54b6c60028fb = L.marker(
+                [1.3523078, 103.7036007],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_50921b3b930662283e49936d47a711ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0b70c7ae543c4968b9b54b6c60028fb.setIcon(icon_50921b3b930662283e49936d47a711ab);
+        
+    
+        var popup_ca806c69dcba9f11f33f60d972ec1592 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5605463b544b0c1aa935769f7ab257a6 = $(`<div id="html_5605463b544b0c1aa935769f7ab257a6" style="width: 100.0%; height: 100.0%;">274A #05-62 WENYA JURONG WEST AVENUE 3 SINGAPORE 641274<br><br>Distance from input: 1.41 km</div>`)[0];
+                popup_ca806c69dcba9f11f33f60d972ec1592.setContent(html_5605463b544b0c1aa935769f7ab257a6);
+            
+        
+
+        marker_b0b70c7ae543c4968b9b54b6c60028fb.bindPopup(popup_ca806c69dcba9f11f33f60d972ec1592)
+        ;
+
+        
+    
+    
+            var marker_c5b37cbda97ad089355278afde96610e = L.marker(
+                [1.3525061, 103.7021252],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_2f133b1028b03ab3f3e26433197ea0cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5b37cbda97ad089355278afde96610e.setIcon(icon_2f133b1028b03ab3f3e26433197ea0cf);
+        
+    
+        var popup_4142f5ab7bc6d9453d2dd54f9657c5c6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d4234f76dffbf47c84a9a05a987da58b = $(`<div id="html_d4234f76dffbf47c84a9a05a987da58b" style="width: 100.0%; height: 100.0%;">275A #04-56 WENYA JURONG WEST STREET 25 SINGAPORE 641275<br><br>Distance from input: 1.48 km</div>`)[0];
+                popup_4142f5ab7bc6d9453d2dd54f9657c5c6.setContent(html_d4234f76dffbf47c84a9a05a987da58b);
+            
+        
+
+        marker_c5b37cbda97ad089355278afde96610e.bindPopup(popup_4142f5ab7bc6d9453d2dd54f9657c5c6)
+        ;
+
+        
+    
+    
+            var marker_e3e560cf1428d97d56415ccf61bdd7e5 = L.marker(
+                [1.3526816, 103.7152247],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_e526a92a0ee5ba3437128b7f24b8aa7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3e560cf1428d97d56415ccf61bdd7e5.setIcon(icon_e526a92a0ee5ba3437128b7f24b8aa7a);
+        
+    
+        var popup_81fdf943758ee07b6325295d42726fee = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fc307f47261bbafbcf985035844c8ba8 = $(`<div id="html_fc307f47261bbafbcf985035844c8ba8" style="width: 100.0%; height: 100.0%;">546 JURONG WEST STREET 42 #03-07 SINGAPORE 640546<br>546 JURONG WEST STREET 42 #18-56 SINGAPORE 640546<br><br>Distance from input: 1.75 km</div>`)[0];
+                popup_81fdf943758ee07b6325295d42726fee.setContent(html_fc307f47261bbafbcf985035844c8ba8);
+            
+        
+
+        marker_e3e560cf1428d97d56415ccf61bdd7e5.bindPopup(popup_81fdf943758ee07b6325295d42726fee)
+        ;
+
+        
+    
+    
+            var marker_421ec8370934a9b5df6159cc848e6e2b = L.marker(
+                [1.3526859, 103.7164129],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_7b98b89a2eee1f63e19b44b15aaa20f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_421ec8370934a9b5df6159cc848e6e2b.setIcon(icon_7b98b89a2eee1f63e19b44b15aaa20f9);
+        
+    
+        var popup_4012c619d34f79a27fc8976424932a24 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_686aba0bb62568984213fbfcfa4da543 = $(`<div id="html_686aba0bb62568984213fbfcfa4da543" style="width: 100.0%; height: 100.0%;">550 #25-15 JURONG WEST STREET 42 SINGAPORE 640550<br><br>Distance from input: 1.83 km</div>`)[0];
+                popup_4012c619d34f79a27fc8976424932a24.setContent(html_686aba0bb62568984213fbfcfa4da543);
+            
+        
+
+        marker_421ec8370934a9b5df6159cc848e6e2b.bindPopup(popup_4012c619d34f79a27fc8976424932a24)
+        ;
+
+        
+    
+    
+            var marker_12c20f768ab95507b63e328b0fc1f8fa = L.marker(
+                [1.3527378, 103.704292],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_982c842314f3798646d6245e96233101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12c20f768ab95507b63e328b0fc1f8fa.setIcon(icon_982c842314f3798646d6245e96233101);
+        
+    
+        var popup_c205ea674dfd234c326bec1ad67a55b8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8adb365fe7dc495e0b365e97eb388f3e = $(`<div id="html_8adb365fe7dc495e0b365e97eb388f3e" style="width: 100.0%; height: 100.0%;">276B JURONG WEST AVENUE 3 WENYA #05-01 SINGAPORE 642276<br><br>Distance from input: 1.45 km</div>`)[0];
+                popup_c205ea674dfd234c326bec1ad67a55b8.setContent(html_8adb365fe7dc495e0b365e97eb388f3e);
+            
+        
+
+        marker_12c20f768ab95507b63e328b0fc1f8fa.bindPopup(popup_c205ea674dfd234c326bec1ad67a55b8)
+        ;
+
+        
+    
+    
+            var marker_47197ec0f17ce22b9c506f6bc8c4bfcf = L.marker(
+                [1.3527947, 103.7023213],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_a11aa050d4dd5eb7e89a3127c929f750 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47197ec0f17ce22b9c506f6bc8c4bfcf.setIcon(icon_a11aa050d4dd5eb7e89a3127c929f750);
+        
+    
+        var popup_1efccbdef3e28be571bb601c4903338b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_46e863d2f2879ed13aa6057f6622ec1b = $(`<div id="html_46e863d2f2879ed13aa6057f6622ec1b" style="width: 100.0%; height: 100.0%;">275B WENYA #15-45 JURONG WEST STREET 25 SINGAPORE 642275<br><br>Distance from input: 1.50 km</div>`)[0];
+                popup_1efccbdef3e28be571bb601c4903338b.setContent(html_46e863d2f2879ed13aa6057f6622ec1b);
+            
+        
+
+        marker_47197ec0f17ce22b9c506f6bc8c4bfcf.bindPopup(popup_1efccbdef3e28be571bb601c4903338b)
+        ;
+
+        
+    
+    
+            var marker_6de9e62a6aeebc86bed520e6baf27efe = L.marker(
+                [1.3528039, 103.7179926],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_085bfa4b8f0f3b39d8d734c07903621d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6de9e62a6aeebc86bed520e6baf27efe.setIcon(icon_085bfa4b8f0f3b39d8d734c07903621d);
+        
+    
+        var popup_0526d6edec3307b72cdfa5e9b932ba9b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2ae8d5da9120a42fb33efd54c75a9024 = $(`<div id="html_2ae8d5da9120a42fb33efd54c75a9024" style="width: 100.0%; height: 100.0%;">552 #16-32 JURONG WEST STREET 42 SINGAPORE 640552<br><br>Distance from input: 1.95 km</div>`)[0];
+                popup_0526d6edec3307b72cdfa5e9b932ba9b.setContent(html_2ae8d5da9120a42fb33efd54c75a9024);
+            
+        
+
+        marker_6de9e62a6aeebc86bed520e6baf27efe.bindPopup(popup_0526d6edec3307b72cdfa5e9b932ba9b)
+        ;
+
+        
+    
+    
+            var marker_679b14413fa765e5579ebd9b5a8224ce = L.marker(
+                [1.3528142, 103.7038009],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_8eaf389a5b6332688f096f6781aac834 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_679b14413fa765e5579ebd9b5a8224ce.setIcon(icon_8eaf389a5b6332688f096f6781aac834);
+        
+    
+        var popup_d33e4d6ae44931fbea8dceb72e5a3145 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_32399409542b5ef38bda6ca6de1294b6 = $(`<div id="html_32399409542b5ef38bda6ca6de1294b6" style="width: 100.0%; height: 100.0%;">274C #26-44 WENYA JURONG WEST STREET 25 SINGAPORE 643274<br>274C #23-86 JURONG WEST STREET 25 WENYA SINGAPORE 643274<br><br>Distance from input: 1.46 km</div>`)[0];
+                popup_d33e4d6ae44931fbea8dceb72e5a3145.setContent(html_32399409542b5ef38bda6ca6de1294b6);
+            
+        
+
+        marker_679b14413fa765e5579ebd9b5a8224ce.bindPopup(popup_d33e4d6ae44931fbea8dceb72e5a3145)
+        ;
+
+        
+    
+    
+            var marker_2a6752c2367303d5996c0541a47ed407 = L.marker(
+                [1.3534262, 103.7158654],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_4613009b5166deb5d76f6c813951a961 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a6752c2367303d5996c0541a47ed407.setIcon(icon_4613009b5166deb5d76f6c813951a961);
+        
+    
+        var popup_de1eb8f8a6e8577b35b7312c387eb2be = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_73a982347beebb6b3c3b58e7abea1a85 = $(`<div id="html_73a982347beebb6b3c3b58e7abea1a85" style="width: 100.0%; height: 100.0%;">548 JURONG WEST STREET 42 #04-34 SINGAPORE 640548<br><br>Distance from input: 1.85 km</div>`)[0];
+                popup_de1eb8f8a6e8577b35b7312c387eb2be.setContent(html_73a982347beebb6b3c3b58e7abea1a85);
+            
+        
+
+        marker_2a6752c2367303d5996c0541a47ed407.bindPopup(popup_de1eb8f8a6e8577b35b7312c387eb2be)
+        ;
+
+        
+    
+    
+            var marker_03ff3567f2c144fa477fe6495647aa67 = L.marker(
+                [1.3535707, 103.702788],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_b4783a0e59c61c9eaa3660e06081a5f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03ff3567f2c144fa477fe6495647aa67.setIcon(icon_b4783a0e59c61c9eaa3660e06081a5f7);
+        
+    
+        var popup_c0fdc1aa7d11cce94f3a43766ff80e32 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f473096ae0fbb2803bf1cbc09ef85e9d = $(`<div id="html_f473096ae0fbb2803bf1cbc09ef85e9d" style="width: 100.0%; height: 100.0%;">275D #02-44 JURONG WEST STREET 25 WENYA SINGAPORE 644275<br><br>Distance from input: 1.57 km</div>`)[0];
+                popup_c0fdc1aa7d11cce94f3a43766ff80e32.setContent(html_f473096ae0fbb2803bf1cbc09ef85e9d);
+            
+        
+
+        marker_03ff3567f2c144fa477fe6495647aa67.bindPopup(popup_c0fdc1aa7d11cce94f3a43766ff80e32)
+        ;
+
+        
+    
+    
+            var marker_60a4f782af523173f1bd9ce5547f0671 = L.marker(
+                [1.3535894, 103.7045367],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_e1b9dd8f4bb3e6d7e98e60cf206e592f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60a4f782af523173f1bd9ce5547f0671.setIcon(icon_e1b9dd8f4bb3e6d7e98e60cf206e592f);
+        
+    
+        var popup_59600b87a96cc32361308cb4255dde38 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f7830d138a0de70daf82ca0cb29291e9 = $(`<div id="html_f7830d138a0de70daf82ca0cb29291e9" style="width: 100.0%; height: 100.0%;">BLOCK 276D JURONG WEST STREET 25 PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH BLOCK 276D (KN) #10-32 SINGAPORE 644276<br>276D JURONG WEST STREET 25 PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH BLOCK 276D (KN) #09-24 SINGAPORE 644276<br>276D PCF SPARKLETOTS PRESCHOOL @ HONG KAH NORTH BLOCK 276D (KN) JURONG WEST STREET 25 #28-34 SINGAPORE 644276<br><br>Distance from input: 1.54 km</div>`)[0];
+                popup_59600b87a96cc32361308cb4255dde38.setContent(html_f7830d138a0de70daf82ca0cb29291e9);
+            
+        
+
+        marker_60a4f782af523173f1bd9ce5547f0671.bindPopup(popup_59600b87a96cc32361308cb4255dde38)
+        ;
+
+        
+    
+    
+            var marker_702ff66ad53e90af8c2281b45e08cf2b = L.marker(
+                [1.3398, 103.70616589047619],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_35ab79604df543c79021bcebe2d4cd29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_702ff66ad53e90af8c2281b45e08cf2b.setIcon(icon_35ab79604df543c79021bcebe2d4cd29);
+        
+    
+        var popup_8696473a677363288ab0a5011cc31aed = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_90e7de009aa6bced53d2a7e817611f31 = $(`<div id="html_90e7de009aa6bced53d2a7e817611f31" style="width: 100.0%; height: 100.0%;">1 Jurong West Central 2, Singapore 648886</div>`)[0];
+                popup_8696473a677363288ab0a5011cc31aed.setContent(html_90e7de009aa6bced53d2a7e817611f31);
+            
+        
+
+        marker_702ff66ad53e90af8c2281b45e08cf2b.bindPopup(popup_8696473a677363288ab0a5011cc31aed)
+        ;
+
+        
+    
+    
+            var circle_fe1342bacd5865dcf5c04556707f305e = L.circle(
+                [1.3398, 103.70616589047619],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000.0, "stroke": true, "weight": 3}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var poly_line_2cf0ff55888248865a9b1dab1c68af54 = L.polyline(
+                [[1.3398, 103.70616589047619], [1.3428797, 103.7061798]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var marker_2f30a6b01acb805f2408bff48c12e0e3 = L.marker(
+                [1.3428797, 103.7061798],
+                {}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+    
+            var icon_324242c0a40e283deae324a14afc231a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f30a6b01acb805f2408bff48c12e0e3.setIcon(icon_324242c0a40e283deae324a14afc231a);
+        
+    
+        var popup_75d639df395dddde28a0733b8c01e63a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d5c333f168b35cb35d98719ed1c53ff9 = $(`<div id="html_d5c333f168b35cb35d98719ed1c53ff9" style="width: 100.0%; height: 100.0%;">693 JURONG WEST CENTRAL 1 #05-19 SINGAPORE 640693<br><br>***Closest proximity to input***<br>Distance from input: 0.34 km</div>`)[0];
+                popup_75d639df395dddde28a0733b8c01e63a.setContent(html_d5c333f168b35cb35d98719ed1c53ff9);
+            
+        
+
+        marker_2f30a6b01acb805f2408bff48c12e0e3.bindPopup(popup_75d639df395dddde28a0733b8c01e63a)
+        ;
+
+        
+    
+    
+            var poly_line_c809edd342c462123be6c93662f12876 = L.polyline(
+                [[1.3398, 103.70616589047619], [1.3428797, 103.7061798]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_179f15fe2f8b9b6ef4f5ad4091ed8f53);
+        
+</script>
+</html>

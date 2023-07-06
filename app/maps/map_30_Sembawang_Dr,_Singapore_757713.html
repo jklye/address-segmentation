@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f63508393a78ab5f3711c05acc49a6b4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f63508393a78ab5f3711c05acc49a6b4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f63508393a78ab5f3711c05acc49a6b4 = L.map(
+                "map_f63508393a78ab5f3711c05acc49a6b4",
+                {
+                    center: [1.4482133333333334, 103.8194978],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fc361f42897e262cf2a000fe967eed64 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var marker_20b80cbf204d74de5d8e3bc09ed9405a = L.marker(
+                [1.4471096, 103.818902],
+                {}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var icon_25255733ec095287b11e67149e799070 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20b80cbf204d74de5d8e3bc09ed9405a.setIcon(icon_25255733ec095287b11e67149e799070);
+        
+    
+        var popup_415028225cbb92c79124a92f55ae0364 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_12f430968a35a474102b2a5f07724120 = $(`<div id="html_12f430968a35a474102b2a5f07724120" style="width: 100.0%; height: 100.0%;">341 SEMBAWANG CLOSE #12-45 SUN TRELLIS SINGAPORE 750341<br><br>Distance from input: 0.14 km</div>`)[0];
+                popup_415028225cbb92c79124a92f55ae0364.setContent(html_12f430968a35a474102b2a5f07724120);
+            
+        
+
+        marker_20b80cbf204d74de5d8e3bc09ed9405a.bindPopup(popup_415028225cbb92c79124a92f55ae0364)
+        ;
+
+        
+    
+    
+            var marker_7cc14b4bcca870533d1680e44a7ac3dc = L.marker(
+                [1.4504148, 103.8137477],
+                {}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var icon_82245267c1d949d633a6b47e09473e5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7cc14b4bcca870533d1680e44a7ac3dc.setIcon(icon_82245267c1d949d633a6b47e09473e5a);
+        
+    
+        var popup_01216a73f1bd5350c25330a36330183b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f48c23964d9c0230778d837685d33a6d = $(`<div id="html_f48c23964d9c0230778d837685d33a6d" style="width: 100.0%; height: 100.0%;">468A BLUE RIVERVIEW #21-43 ADMIRALTY DRIVE SINGAPORE 751468<br><br>Distance from input: 0.68 km</div>`)[0];
+                popup_01216a73f1bd5350c25330a36330183b.setContent(html_f48c23964d9c0230778d837685d33a6d);
+            
+        
+
+        marker_7cc14b4bcca870533d1680e44a7ac3dc.bindPopup(popup_01216a73f1bd5350c25330a36330183b)
+        ;
+
+        
+    
+    
+            var marker_7ff9bd811718c6b47f013f087a375b67 = L.marker(
+                [1.4534998, 103.8219642],
+                {}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var icon_8f1fa6e6b3e0dc42a3f9bb19ae645819 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ff9bd811718c6b47f013f087a375b67.setIcon(icon_8f1fa6e6b3e0dc42a3f9bb19ae645819);
+        
+    
+        var popup_596fce10cdb08f2082c1091971b8fc1d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fd27a0ab2f0b6e83cc900375593912b3 = $(`<div id="html_fd27a0ab2f0b6e83cc900375593912b3" style="width: 100.0%; height: 100.0%;">507A WELLINGTON CIRCLE #20-51 MONTREAL SPRING SINGAPORE 751507<br>507A WELLINGTON CIRCLE #23-93 MONTREAL SPRING SINGAPORE 751507<br>507A #12-58 WELLINGTON CIRCLE MONTREAL SPRING SINGAPORE 751507<br><br>Distance from input: 0.65 km</div>`)[0];
+                popup_596fce10cdb08f2082c1091971b8fc1d.setContent(html_fd27a0ab2f0b6e83cc900375593912b3);
+            
+        
+
+        marker_7ff9bd811718c6b47f013f087a375b67.bindPopup(popup_596fce10cdb08f2082c1091971b8fc1d)
+        ;
+
+        
+    
+    
+            var marker_fd84c020bf16bacd0abe9f3250999c98 = L.marker(
+                [1.4482133333333334, 103.8194978],
+                {}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var icon_4e2dc0f4acae897545435c7670f14cf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd84c020bf16bacd0abe9f3250999c98.setIcon(icon_4e2dc0f4acae897545435c7670f14cf5);
+        
+    
+        var popup_57426e21442cb4ca3de0473685989f4d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6bf24d55f6febda21943f00823d0af28 = $(`<div id="html_6bf24d55f6febda21943f00823d0af28" style="width: 100.0%; height: 100.0%;">30 Sembawang Dr, Singapore 757713</div>`)[0];
+                popup_57426e21442cb4ca3de0473685989f4d.setContent(html_6bf24d55f6febda21943f00823d0af28);
+            
+        
+
+        marker_fd84c020bf16bacd0abe9f3250999c98.bindPopup(popup_57426e21442cb4ca3de0473685989f4d)
+        ;
+
+        
+    
+    
+            var circle_424a71b8f3310046e9b29dab6c04939a = L.circle(
+                [1.4482133333333334, 103.8194978],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var poly_line_a22eae41261bb20f6dede3ef7a991706 = L.polyline(
+                [[1.4482133333333334, 103.8194978], [1.4471096, 103.818902]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var marker_14a4034862695b3efa9e57c981ac6c1c = L.marker(
+                [1.4471096, 103.818902],
+                {}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+    
+            var icon_3b7d4184b3d54d0c2d32be630e6f9fee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14a4034862695b3efa9e57c981ac6c1c.setIcon(icon_3b7d4184b3d54d0c2d32be630e6f9fee);
+        
+    
+        var popup_89aeed96a77e34ade4c7973e46281e66 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c944d8477c8bfa29e20fb8fb3974766c = $(`<div id="html_c944d8477c8bfa29e20fb8fb3974766c" style="width: 100.0%; height: 100.0%;">341 SEMBAWANG CLOSE #12-45 SUN TRELLIS SINGAPORE 750341<br><br>***Closest proximity to input***<br>Distance from input: 0.14 km</div>`)[0];
+                popup_89aeed96a77e34ade4c7973e46281e66.setContent(html_c944d8477c8bfa29e20fb8fb3974766c);
+            
+        
+
+        marker_14a4034862695b3efa9e57c981ac6c1c.bindPopup(popup_89aeed96a77e34ade4c7973e46281e66)
+        ;
+
+        
+    
+    
+            var poly_line_3ddfdc69aec33cbfb940c239dc2d15cc = L.polyline(
+                [[1.4482133333333334, 103.8194978], [1.4471096, 103.818902]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f63508393a78ab5f3711c05acc49a6b4);
+        
+</script>
+</html>
