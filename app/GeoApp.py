@@ -241,6 +241,7 @@ class GeoApp(QMainWindow):
             if location:
                 print(f"\n[geopy___] Postal code: {address}, coordinates: ({location.latitude}, {location.longitude})")
                 return location
+            
         # pgeocode method
         elif geo_service=='pgeocode':   
             ssl._create_default_https_context = ssl._create_unverified_context # workaround to use pgeocode    
@@ -250,8 +251,8 @@ class GeoApp(QMainWindow):
                 print(f"\n[pgeocode] Postal code: {address}, coordinates: ({location2.latitude}, {location2.longitude})")
                 return location2
             
+        # can introduce fallback in the future (alternative APIs or geocoding services) to improve geocoding service in sg context
         else:
-            # can introduce fallback in the future (alternative APIs or geocoding services)
             print(f"\nPostal code: {address}, Latitude and Longitude not found")
             return None
         
@@ -271,7 +272,8 @@ class GeoApp(QMainWindow):
             folium.Map: The created Folium map with relevant components.
         """
         custom_zoom = self.get_zoom_level(proximity_threshold)
-        m = folium.Map(location=[latitude, longitude], zoom_start=custom_zoom)
+        m = folium.Map(location=[latitude, longitude], 
+                       zoom_start=custom_zoom)
 
         if df is not None:
             self.add_markers_to_map(m, df, latitude, longitude)
@@ -323,8 +325,10 @@ class GeoApp(QMainWindow):
 
             folium.Marker(
                 location=[lat, lng],
-                popup=folium.Popup(popup_content, max_width=250),
-                icon=folium.Icon(icon='fa-location-dot', color=marker_colour)
+                popup=folium.Popup(popup_content, 
+                                   max_width=250),
+                icon=folium.Icon(icon='fa-location-dot', 
+                                 color=marker_colour)
             ).add_to(m)
 
 
@@ -339,8 +343,10 @@ class GeoApp(QMainWindow):
             longitude (float): The longitude of the user location.
         """
         folium.Marker(location=[latitude, longitude],
-                    popup=folium.Popup(input_address, max_width=250),
-                    icon=folium.Icon(icon='fa-location-dot', color='red')).add_to(m)
+                    popup=folium.Popup(input_address, 
+                                       max_width=250),
+                    icon=folium.Icon(icon='fa-location-dot', 
+                                     color='red')).add_to(m)
 
 
     def add_proximity_circle_to_map(self, m, latitude, longitude, proximity_threshold):
