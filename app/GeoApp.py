@@ -1,7 +1,10 @@
 import math
 import os
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 from geopy.geocoders import Nominatim
 from geopy import distance
+import pgeocode
 import pandas as pd
 import numpy as np
 import spacy
@@ -92,14 +95,19 @@ class GeoApp(QMainWindow):
             self.load_spacy_model()
 
             postal_code = self.extract_postal_code(input_address)
-            user_location = self.address_to_lat_long(postal_code)
+            user_location = self.address_to_lat_long(postal_code, 'geopy')
 
             if user_location is not None:
                 user_latitude, user_longitude = user_location.latitude, user_location.longitude
-                
                 location_in_sg = self.check_location_in_sg(user_latitude, user_longitude)
-                
-                if location_in_sg:
+
+                if location_in_sg == False:
+                    # Retry geocoding using pgeocode
+                    user_location = self.address_to_lat_long(postal_code, 'pgeocode')
+                    user_latitude, user_longitude = user_location.latitude, user_location.longitude
+                    location_in_sg = self.check_location_in_sg(user_latitude, user_longitude)
+
+                if location_in_sg == True:
                     # Filter locations based on proximity threshold
                     filtered_locations = self.filter_locations(
                         self.location_data, user_latitude, user_longitude, proximity_threshold
@@ -217,7 +225,7 @@ class GeoApp(QMainWindow):
         return postal_code
     
 
-    def address_to_lat_long(self, address):
+    def address_to_lat_long(self, address, geo_service):
         """
         Convert an address to latitude and longitude coordinates.
 
@@ -228,11 +236,20 @@ class GeoApp(QMainWindow):
             geopy.location.Location: The location object containing latitude and longitude coordinates, 
             or None if the coordinates could not be retrieved.
         """
-        geolocator = Nominatim(user_agent="Geocoder")
-        location = geolocator.geocode(address)
-        if location:
-            print(f"\n[geocode] Postal code: {address}, coordinates: ({location.latitude}, {location.longitude})")
-            return location
+        if geo_service=='geopy':
+            geolocator = Nominatim(user_agent="Geocoder")
+            location = geolocator.geocode(address)
+            if location:
+                print(f"\n[geopy___] Postal code: {address}, coordinates: ({location.latitude}, {location.longitude})")
+                return location
+        
+        elif geo_service=='pgeocode':       
+            geolocator2 = pgeocode.Nominatim('sg')
+            location2 = geolocator2.query_postal_code(address)
+            if location and not location2.empty:
+                print(f"\n[pgeocode] Postal code: {address}, coordinates: ({location2.latitude}, {location2.longitude})")
+                return location2
+            
         else:
             # can introduce fallback in the future (alternative APIs or geocoding services)
             print(f"\nPostal code: {address}, Latitude and Longitude not found")

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_08c6d2a1787bba25cb3cecf69fdb621e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_08c6d2a1787bba25cb3cecf69fdb621e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_08c6d2a1787bba25cb3cecf69fdb621e = L.map(
+                "map_08c6d2a1787bba25cb3cecf69fdb621e",
+                {
+                    center: [1.2837337833333333, 103.85955816666666],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_110868f758851b17cc995322e12975e9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var marker_036abbf6736ff7d373aff4315bd18e6e = L.marker(
+                [1.2841812, 103.8459736],
+                {}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var icon_62c2f79bb0aa3d165580aa596fbecc10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_036abbf6736ff7d373aff4315bd18e6e.setIcon(icon_62c2f79bb0aa3d165580aa596fbecc10);
+        
+    
+        var popup_35f6a2d94db4012c7e816851fb063951 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c4932c0659a33886f774273d093764d2 = $(`<div id="html_c4932c0659a33886f774273d093764d2" style="width: 100.0%; height: 100.0%;">532 #05-35 UPP CROSS STREET SINGAPORE 050532<br><br>Distance from input: 1.513 km</div>`)[0];
+                popup_35f6a2d94db4012c7e816851fb063951.setContent(html_c4932c0659a33886f774273d093764d2);
+            
+        
+
+        marker_036abbf6736ff7d373aff4315bd18e6e.bindPopup(popup_35f6a2d94db4012c7e816851fb063951)
+        ;
+
+        
+    
+    
+            var marker_05bbfd5d9b1e1eb48c72f15fba3905cd = L.marker(
+                [1.2949586333333334, 103.85397338333334],
+                {}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var icon_765bd207a5f72899704f3ee654159094 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_05bbfd5d9b1e1eb48c72f15fba3905cd.setIcon(icon_765bd207a5f72899704f3ee654159094);
+        
+    
+        var popup_cc58eee1a2c129a68dcbd67c8dbbd009 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_13f930dcf9c9589e6d150ca0e9fab51b = $(`<div id="html_13f930dcf9c9589e6d150ca0e9fab51b" style="width: 100.0%; height: 100.0%;">1 RAFFLES HOTEL SINGAPORE BEACH ROAD #12-63 SINGAPORE 189673<br><br>1 #10-31 RAFFLES HOTEL SINGAPORE BEACH ROAD SINGAPORE 189673<br><br>Distance from input: 1.388 km</div>`)[0];
+                popup_cc58eee1a2c129a68dcbd67c8dbbd009.setContent(html_13f930dcf9c9589e6d150ca0e9fab51b);
+            
+        
+
+        marker_05bbfd5d9b1e1eb48c72f15fba3905cd.bindPopup(popup_cc58eee1a2c129a68dcbd67c8dbbd009)
+        ;
+
+        
+    
+    
+            var marker_5b930b42185c34238e5011d3c313de5f = L.marker(
+                [1.2968006, 103.8539024],
+                {}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var icon_2c446945f8323c42d0fa0bb6c7354642 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b930b42185c34238e5011d3c313de5f.setIcon(icon_2c446945f8323c42d0fa0bb6c7354642);
+        
+    
+        var popup_24a02b91e999bdd9e0bad2a4a67ed45e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_432adcfbc29c34a476a706d487498786 = $(`<div id="html_432adcfbc29c34a476a706d487498786" style="width: 100.0%; height: 100.0%;">233 BAIN STREET #05-82 BRAS BASAH COMPLEX SINGAPORE 180233<br><br>Distance from input: 1.576 km</div>`)[0];
+                popup_24a02b91e999bdd9e0bad2a4a67ed45e.setContent(html_432adcfbc29c34a476a706d487498786);
+            
+        
+
+        marker_5b930b42185c34238e5011d3c313de5f.bindPopup(popup_24a02b91e999bdd9e0bad2a4a67ed45e)
+        ;
+
+        
+    
+    
+            var marker_29fc90ad50ea4c1547ae030bccadf9e3 = L.marker(
+                [1.2996117, 103.8593225],
+                {}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var icon_1e11342ce2655cc220d648be86f903d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29fc90ad50ea4c1547ae030bccadf9e3.setIcon(icon_1e11342ce2655cc220d648be86f903d6);
+        
+    
+        var popup_2e906ca13b0b206b382a3059e9b2cb59 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_582bd056fbfc7ce9843b8e40a28af7d3 = $(`<div id="html_582bd056fbfc7ce9843b8e40a28af7d3" style="width: 100.0%; height: 100.0%;">15 BEACH CENTRE #19-02 BEACH ROAD SINGAPORE 189677<br><br>Distance from input: 1.756 km</div>`)[0];
+                popup_2e906ca13b0b206b382a3059e9b2cb59.setContent(html_582bd056fbfc7ce9843b8e40a28af7d3);
+            
+        
+
+        marker_29fc90ad50ea4c1547ae030bccadf9e3.bindPopup(popup_2e906ca13b0b206b382a3059e9b2cb59)
+        ;
+
+        
+    
+    
+            var marker_ad0fd0a9bce746c9a8ec2ef4afb6d5b9 = L.marker(
+                [1.2837337833333333, 103.85955816666666],
+                {}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var icon_c5bf0aac57fdfa49e622028d865564dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ad0fd0a9bce746c9a8ec2ef4afb6d5b9.setIcon(icon_c5bf0aac57fdfa49e622028d865564dd);
+        
+    
+        var popup_b2ebe55b1a43363bcbc80a58cd930caa = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fe26278c5c3482cd1631758a651a051d = $(`<div id="html_fe26278c5c3482cd1631758a651a051d" style="width: 100.0%; height: 100.0%;">10 Bayfront Ave, Singapore 018956</div>`)[0];
+                popup_b2ebe55b1a43363bcbc80a58cd930caa.setContent(html_fe26278c5c3482cd1631758a651a051d);
+            
+        
+
+        marker_ad0fd0a9bce746c9a8ec2ef4afb6d5b9.bindPopup(popup_b2ebe55b1a43363bcbc80a58cd930caa)
+        ;
+
+        
+    
+    
+            var circle_36c73f3b3f42f48eec3d87fd3613f79e = L.circle(
+                [1.2837337833333333, 103.85955816666666],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000.0, "stroke": true, "weight": 3}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var poly_line_c3275da86d8a51e1bd70056c36637bcd = L.polyline(
+                [[1.2837337833333333, 103.85955816666666], [1.2949586333333334, 103.85397338333334]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+    
+            var poly_line_31fa3aba687878b0cd97c96c962e9db5 = L.polyline(
+                [[1.2837337833333333, 103.85955816666666], [1.2949586333333334, 103.85397338333334]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_08c6d2a1787bba25cb3cecf69fdb621e);
+        
+</script>
+</html>
