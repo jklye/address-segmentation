@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c95c1ff3f10c66cb342311b560e5b02 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9c95c1ff3f10c66cb342311b560e5b02" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9c95c1ff3f10c66cb342311b560e5b02 = L.map(
+                "map_9c95c1ff3f10c66cb342311b560e5b02",
+                {
+                    center: [1.2851789599999999, 103.84492919],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f559911748b382a6a784ff49d01b2b2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var marker_8e76cce894f50a0efd1f4d4581391259 = L.marker(
+                [1.2738203, 103.8398831],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_659628b85650a948cac6f49552a59a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_8e76cce894f50a0efd1f4d4581391259.setIcon(icon_659628b85650a948cac6f49552a59a30);
+        
+    
+        var popup_9c97f0230767ab3526b5b3b50f428741 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f17dd813cfcd857587fbfc9698800b8c = $(`<div id="html_f17dd813cfcd857587fbfc9698800b8c" style="width: 100.0%; height: 100.0%;">17 CANTONMENT CLOSE #06-62 CANTONMENT TOWERS SINGAPORE 080017<br><br>17 CANTONMENT CLOSE #14-75 CANTONMENT TOWERS SINGAPORE 080017<br><br>Distance from input: 1.376 km</div>`)[0];
+                popup_9c97f0230767ab3526b5b3b50f428741.setContent(html_f17dd813cfcd857587fbfc9698800b8c);
+            
+        
+
+        marker_8e76cce894f50a0efd1f4d4581391259.bindPopup(popup_9c97f0230767ab3526b5b3b50f428741)
+        ;
+
+        
+    
+    
+            var marker_d97b1581c9683efe92c8297da9411330 = L.marker(
+                [1.273871, 103.8394329],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_9a2b54c07ee60b82b48958f3f5ff5036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d97b1581c9683efe92c8297da9411330.setIcon(icon_9a2b54c07ee60b82b48958f3f5ff5036);
+        
+    
+        var popup_c0b343322c28229b68a507149f50ae51 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_eeec0efd3d73d703a17d5f7459eacf61 = $(`<div id="html_eeec0efd3d73d703a17d5f7459eacf61" style="width: 100.0%; height: 100.0%;">18 CANTONMENT CLOSE #21-28 CANTONMENT TOWERS SINGAPORE 080018<br><br>Distance from input: 1.392 km</div>`)[0];
+                popup_c0b343322c28229b68a507149f50ae51.setContent(html_eeec0efd3d73d703a17d5f7459eacf61);
+            
+        
+
+        marker_d97b1581c9683efe92c8297da9411330.bindPopup(popup_c0b343322c28229b68a507149f50ae51)
+        ;
+
+        
+    
+    
+            var marker_65a606c6ff1e31e7709dff66067fc2d1 = L.marker(
+                [1.2744195, 103.8397292],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_e99960596f74b28e272f6f2185db089b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65a606c6ff1e31e7709dff66067fc2d1.setIcon(icon_e99960596f74b28e272f6f2185db089b);
+        
+    
+        var popup_62209341bcf19c2d79f0bf6693bb9e95 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d1fa6ff711c8b7b7db23970c9923c8e2 = $(`<div id="html_d1fa6ff711c8b7b7db23970c9923c8e2" style="width: 100.0%; height: 100.0%;">11 #14-76 CANTONMENT TOWERS CANTONMENT CLOSE SINGAPORE 080011<br><br>Distance from input: 1.323 km</div>`)[0];
+                popup_62209341bcf19c2d79f0bf6693bb9e95.setContent(html_d1fa6ff711c8b7b7db23970c9923c8e2);
+            
+        
+
+        marker_65a606c6ff1e31e7709dff66067fc2d1.bindPopup(popup_62209341bcf19c2d79f0bf6693bb9e95)
+        ;
+
+        
+    
+    
+            var marker_cec0c2766ffb977c79c6bad354d5eae8 = L.marker(
+                [1.2752138, 103.8425777],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_0bd780c69fea058e9afc65fb4195c175 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_cec0c2766ffb977c79c6bad354d5eae8.setIcon(icon_0bd780c69fea058e9afc65fb4195c175);
+        
+    
+        var popup_1b91c615eef96db583398d2a46840df0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_258783500c2e88995741e8ad17a0046d = $(`<div id="html_258783500c2e88995741e8ad17a0046d" style="width: 100.0%; height: 100.0%;">2 TANJONG PAGAR PLACEAZA #28-53 SINGAPORE 082002<br><br>2 TANJONG PAGAR PLACEAZA #19-67 SINGAPORE 082002<br><br>Distance from input: 1.133 km</div>`)[0];
+                popup_1b91c615eef96db583398d2a46840df0.setContent(html_258783500c2e88995741e8ad17a0046d);
+            
+        
+
+        marker_cec0c2766ffb977c79c6bad354d5eae8.bindPopup(popup_1b91c615eef96db583398d2a46840df0)
+        ;
+
+        
+    
+    
+            var marker_db3da8002ff087e8bd065343968f5634 = L.marker(
+                [1.2756256, 103.8423968],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_a44f3e0790033214b49e692c318feb44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_db3da8002ff087e8bd065343968f5634.setIcon(icon_a44f3e0790033214b49e692c318feb44);
+        
+    
+        var popup_1ea5d36f571aaee51753233a1cc423c6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0f56aebf4f532b48ccce935bb05171c2 = $(`<div id="html_0f56aebf4f532b48ccce935bb05171c2" style="width: 100.0%; height: 100.0%;">3 #27-98 TANJONG PAGAR PLACEAZA SINGAPORE 081003<br><br>3 TANJONG PAGAR PLACEAZA #27-81 SINGAPORE 081003<br><br>Distance from input: 1.093 km</div>`)[0];
+                popup_1ea5d36f571aaee51753233a1cc423c6.setContent(html_0f56aebf4f532b48ccce935bb05171c2);
+            
+        
+
+        marker_db3da8002ff087e8bd065343968f5634.bindPopup(popup_1ea5d36f571aaee51753233a1cc423c6)
+        ;
+
+        
+    
+    
+            var marker_a660ea9234c245314dab2928bc6c8ef6 = L.marker(
+                [1.2759129, 103.8427022],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_6cdd3ea11021459bd4e68065c19fade4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a660ea9234c245314dab2928bc6c8ef6.setIcon(icon_6cdd3ea11021459bd4e68065c19fade4);
+        
+    
+        var popup_b5fcad4a0e848560d3fb38377f50f7aa = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_216cfdbd24b2bd3d4150913e03af523f = $(`<div id="html_216cfdbd24b2bd3d4150913e03af523f" style="width: 100.0%; height: 100.0%;">4 #21-11 TANJONG PAGAR PLACEAZA SINGAPORE 081004<br><br>Distance from input: 1.054 km</div>`)[0];
+                popup_b5fcad4a0e848560d3fb38377f50f7aa.setContent(html_216cfdbd24b2bd3d4150913e03af523f);
+            
+        
+
+        marker_a660ea9234c245314dab2928bc6c8ef6.bindPopup(popup_b5fcad4a0e848560d3fb38377f50f7aa)
+        ;
+
+        
+    
+    
+            var marker_1e29b879c21dee3a0f4d04e39853256c = L.marker(
+                [1.2765473, 103.8409369],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_3be0affeba0f062a97ecb425e8963a3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e29b879c21dee3a0f4d04e39853256c.setIcon(icon_3be0affeba0f062a97ecb425e8963a3f);
+        
+    
+        var popup_e1e5d06441bae0b193cecf12cea763eb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d9a55e087db03d4fcb8f6a3a78ca8874 = $(`<div id="html_d9a55e087db03d4fcb8f6a3a78ca8874" style="width: 100.0%; height: 100.0%;">8 TANJONG PAGAR PLACEAZA #21-23 SINGAPORE 080008<br><br>Distance from input: 1.053 km</div>`)[0];
+                popup_e1e5d06441bae0b193cecf12cea763eb.setContent(html_d9a55e087db03d4fcb8f6a3a78ca8874);
+            
+        
+
+        marker_1e29b879c21dee3a0f4d04e39853256c.bindPopup(popup_e1e5d06441bae0b193cecf12cea763eb)
+        ;
+
+        
+    
+    
+            var marker_3b6c90f2c70896fce14c185d3d9406d9 = L.marker(
+                [1.2766943666666666, 103.8405523],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_17184d4b6068c1c288d4825ce1294fac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b6c90f2c70896fce14c185d3d9406d9.setIcon(icon_17184d4b6068c1c288d4825ce1294fac);
+        
+    
+        var popup_fe2258dc0c4116e991e5088148c996b4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_21509216c8cda5a2c319128603337327 = $(`<div id="html_21509216c8cda5a2c319128603337327" style="width: 100.0%; height: 100.0%;">2 EVERTON PARK EVERTON PARK #03-60 SINGAPORE 081002<br><br>Distance from input: 1.057 km</div>`)[0];
+                popup_fe2258dc0c4116e991e5088148c996b4.setContent(html_21509216c8cda5a2c319128603337327);
+            
+        
+
+        marker_3b6c90f2c70896fce14c185d3d9406d9.bindPopup(popup_fe2258dc0c4116e991e5088148c996b4)
+        ;
+
+        
+    
+    
+            var marker_3e0a921e5d7499d847bb148524ad89df = L.marker(
+                [1.2774392, 103.8416671],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_451656f4db6a976b60469cb85c3e78ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e0a921e5d7499d847bb148524ad89df.setIcon(icon_451656f4db6a976b60469cb85c3e78ba);
+        
+    
+        var popup_98c2f379561be0361945a3082dc961fc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4882361bf71a7e28a924e3665b9ff426 = $(`<div id="html_4882361bf71a7e28a924e3665b9ff426" style="width: 100.0%; height: 100.0%;">1C #29-42 CANTONMENT ROAD THE PINNACLE@DUXTON SINGAPORE 085301<br><br>Distance from input: 0.930 km</div>`)[0];
+                popup_98c2f379561be0361945a3082dc961fc.setContent(html_4882361bf71a7e28a924e3665b9ff426);
+            
+        
+
+        marker_3e0a921e5d7499d847bb148524ad89df.bindPopup(popup_98c2f379561be0361945a3082dc961fc)
+        ;
+
+        
+    
+    
+            var marker_b6be4a07080fccd1503bd53e642948ea = L.marker(
+                [1.2778303, 103.8409528],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_26be0dc3c4ae345c6f0c3929cb445357 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6be4a07080fccd1503bd53e642948ea.setIcon(icon_26be0dc3c4ae345c6f0c3929cb445357);
+        
+    
+        var popup_f39e2d64141797ba9b586477bf274458 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fd2d31bfebdf973c85fcea681a6c4511 = $(`<div id="html_fd2d31bfebdf973c85fcea681a6c4511" style="width: 100.0%; height: 100.0%;">1A THE PINNACLE@DUXTON #06-34 CANTONMENT ROAD SINGAPORE 085101<br><br>Distance from input: 0.925 km</div>`)[0];
+                popup_f39e2d64141797ba9b586477bf274458.setContent(html_fd2d31bfebdf973c85fcea681a6c4511);
+            
+        
+
+        marker_b6be4a07080fccd1503bd53e642948ea.bindPopup(popup_f39e2d64141797ba9b586477bf274458)
+        ;
+
+        
+    
+    
+            var marker_83611bda03782e71a5360afbf0a7903f = L.marker(
+                [1.2841812, 103.8459736],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_8f317a4f1fcf51bcd974bd0d09ab2f45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83611bda03782e71a5360afbf0a7903f.setIcon(icon_8f317a4f1fcf51bcd974bd0d09ab2f45);
+        
+    
+        var popup_aa01377eb68a71ddd5300f70a65b0c4b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_660675835ac9ea7b0dd76da8b021ead4 = $(`<div id="html_660675835ac9ea7b0dd76da8b021ead4" style="width: 100.0%; height: 100.0%;">532 #05-35 UPP CROSS STREET SINGAPORE 050532<br><br>Distance from input: 0.160 km</div>`)[0];
+                popup_aa01377eb68a71ddd5300f70a65b0c4b.setContent(html_660675835ac9ea7b0dd76da8b021ead4);
+            
+        
+
+        marker_83611bda03782e71a5360afbf0a7903f.bindPopup(popup_aa01377eb68a71ddd5300f70a65b0c4b)
+        ;
+
+        
+    
+    
+            var marker_81e6e398e4eec523679a9b0252afc3e6 = L.marker(
+                [1.2876157, 103.841401],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_5a4165bcdad43b58c0092549010f2924 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_81e6e398e4eec523679a9b0252afc3e6.setIcon(icon_5a4165bcdad43b58c0092549010f2924);
+        
+    
+        var popup_55716669b218763c84ee835060e6394f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ef50ed0e3e1972f5e394dcf15123babc = $(`<div id="html_ef50ed0e3e1972f5e394dcf15123babc" style="width: 100.0%; height: 100.0%;">53 CHIN SWEE ROAD #02-31 SINGAPORE 160053<br><br>53 CHIN SWEE ROAD #24-53 SINGAPORE 160053<br><br>Distance from input: 0.476 km</div>`)[0];
+                popup_55716669b218763c84ee835060e6394f.setContent(html_ef50ed0e3e1972f5e394dcf15123babc);
+            
+        
+
+        marker_81e6e398e4eec523679a9b0252afc3e6.bindPopup(popup_55716669b218763c84ee835060e6394f)
+        ;
+
+        
+    
+    
+            var marker_577a378f02a17f92a990bab34ae195af = L.marker(
+                [1.2949586333333334, 103.85397338333334],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_acef4c54e182dafada32397a94d8cd4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_577a378f02a17f92a990bab34ae195af.setIcon(icon_acef4c54e182dafada32397a94d8cd4f);
+        
+    
+        var popup_0317d131719c54cb5d56cb3196142b14 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_621a88f24728054c8ce17d1b9d7be5e7 = $(`<div id="html_621a88f24728054c8ce17d1b9d7be5e7" style="width: 100.0%; height: 100.0%;">1 RAFFLES HOTEL SINGAPORE BEACH ROAD #12-63 SINGAPORE 189673<br><br>1 #10-31 RAFFLES HOTEL SINGAPORE BEACH ROAD SINGAPORE 189673<br><br>Distance from input: 1.477 km</div>`)[0];
+                popup_0317d131719c54cb5d56cb3196142b14.setContent(html_621a88f24728054c8ce17d1b9d7be5e7);
+            
+        
+
+        marker_577a378f02a17f92a990bab34ae195af.bindPopup(popup_0317d131719c54cb5d56cb3196142b14)
+        ;
+
+        
+    
+    
+            var marker_944173f34d78821fdcba14706a14bc98 = L.marker(
+                [1.2851789599999999, 103.84492919],
+                {}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var icon_6ed1eb75ef381901216cfa378a3418e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_944173f34d78821fdcba14706a14bc98.setIcon(icon_6ed1eb75ef381901216cfa378a3418e2);
+        
+    
+        var popup_cac8b4fd58da2a77a1e2db45f63d3402 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8fcf3fe1b634037dcbe1b83ac952fbe1 = $(`<div id="html_8fcf3fe1b634037dcbe1b83ac952fbe1" style="width: 100.0%; height: 100.0%;">133 New Bridge Rd, Singapore 059413</div>`)[0];
+                popup_cac8b4fd58da2a77a1e2db45f63d3402.setContent(html_8fcf3fe1b634037dcbe1b83ac952fbe1);
+            
+        
+
+        marker_944173f34d78821fdcba14706a14bc98.bindPopup(popup_cac8b4fd58da2a77a1e2db45f63d3402)
+        ;
+
+        
+    
+    
+            var circle_41bedab9cd000e7f096d88f2cd6d2d44 = L.circle(
+                [1.2851789599999999, 103.84492919],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var poly_line_654bf510cedefacf735632f8e8cd8f58 = L.polyline(
+                [[1.2851789599999999, 103.84492919], [1.2841812, 103.8459736]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+    
+            var poly_line_ae207870b942e4409b2a127a05d70214 = L.polyline(
+                [[1.2851789599999999, 103.84492919], [1.2841812, 103.8459736]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9c95c1ff3f10c66cb342311b560e5b02);
+        
+</script>
+</html>

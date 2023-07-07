@@ -176,9 +176,7 @@ class GeoApp(QMainWindow):
         
         if (min_lat_sg <= latitude <= max_lat_sg) and (min_lng_sg <= longitude <= max_lng_sg):
             return True
-        return False
-        
-        
+        return False  
 
 
     def display_error_message(self, message):
@@ -192,7 +190,7 @@ class GeoApp(QMainWindow):
         error_box.setIcon(QMessageBox.Critical)
         error_box.setWindowTitle("Error")
         error_box.setText(message)
-        error_box.exec_()
+        error_box.exec_()  
 
 
     def extract_postal_code(self, input_address):
@@ -311,7 +309,6 @@ class GeoApp(QMainWindow):
                 popup=folium.Popup(popup_content, max_width=250),
                 icon=folium.Icon(icon='fa-location-dot', color=marker_colour)
             ).add_to(m)
-
 
 
     def add_input_marker_to_map(self, m, input_address, latitude, longitude):
