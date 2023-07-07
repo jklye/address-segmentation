@@ -1,17 +1,15 @@
 import math
 import os
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
-from geopy.geocoders import Nominatim
-from geopy import distance
-import pgeocode
 import pandas as pd
 import numpy as np
 import spacy
+from geopy.geocoders import Nominatim
+from geopy import distance
+import pgeocode
+import ssl
 
 import folium
 from folium.features import DivIcon
-
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox, QHBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import QUrl
@@ -236,14 +234,16 @@ class GeoApp(QMainWindow):
             geopy.location.Location: The location object containing latitude and longitude coordinates, 
             or None if the coordinates could not be retrieved.
         """
+        # geopy method
         if geo_service=='geopy':
             geolocator = Nominatim(user_agent="Geocoder")
             location = geolocator.geocode(address)
             if location:
                 print(f"\n[geopy___] Postal code: {address}, coordinates: ({location.latitude}, {location.longitude})")
                 return location
-        
-        elif geo_service=='pgeocode':       
+        # pgeocode method
+        elif geo_service=='pgeocode':   
+            ssl._create_default_https_context = ssl._create_unverified_context # workaround to use pgeocode    
             geolocator2 = pgeocode.Nominatim('sg')
             location2 = geolocator2.query_postal_code(address)
             if location and not location2.empty:
