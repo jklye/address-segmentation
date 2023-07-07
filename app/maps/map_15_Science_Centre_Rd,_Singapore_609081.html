@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20498d076295782c8ac5c31ca3a0ed39 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_20498d076295782c8ac5c31ca3a0ed39" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_20498d076295782c8ac5c31ca3a0ed39 = L.map(
+                "map_20498d076295782c8ac5c31ca3a0ed39",
+                {
+                    center: [1.3328377, 103.7360189],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aeac90955d91c20fb364b9925f9c2d57 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var marker_02d2d30f28a49409f77cbca49ea40a69 = L.marker(
+                [1.3286659, 103.7419365],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_37b837a87181214cfd38f3c3f0799383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_02d2d30f28a49409f77cbca49ea40a69.setIcon(icon_37b837a87181214cfd38f3c3f0799383);
+        
+    
+        var popup_4f8bae92faa4c019e1e37072f3aaa0de = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_49145018f963166e87314a649c4225a8 = $(`<div id="html_49145018f963166e87314a649c4225a8" style="width: 100.0%; height: 100.0%;">9 #4-16 HALL ROAD TRADE ASSOCIATION HUBJURONG TOWN HALL SINGAPORE 609431<br><br>9 TRADE ASSOCIATION HUBJURONG TOWN HALL HALL ROAD #4-16 SINGAPORE 609431<br><br>Distance from input: 0.804 km</div>`)[0];
+                popup_4f8bae92faa4c019e1e37072f3aaa0de.setContent(html_49145018f963166e87314a649c4225a8);
+            
+        
+
+        marker_02d2d30f28a49409f77cbca49ea40a69.bindPopup(popup_4f8bae92faa4c019e1e37072f3aaa0de)
+        ;
+
+        
+    
+    
+            var marker_9ee6923a6c97a9dbdf38962e8b2d7d7d = L.marker(
+                [1.3374603, 103.7416346],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_de6a0b3e2f515448e0c92d8d663387c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ee6923a6c97a9dbdf38962e8b2d7d7d.setIcon(icon_de6a0b3e2f515448e0c92d8d663387c5);
+        
+    
+        var popup_993a0cd8dfd4b7d81782ea993c0471e2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5fce3d3e6cfc5f92c1eaecaa70f307c0 = $(`<div id="html_5fce3d3e6cfc5f92c1eaecaa70f307c0" style="width: 100.0%; height: 100.0%;">204 JURONG EAST VIEW JURONG EAST STREET 21 #21-64 SINGAPORE 600204<br><br>Distance from input: 0.807 km</div>`)[0];
+                popup_993a0cd8dfd4b7d81782ea993c0471e2.setContent(html_5fce3d3e6cfc5f92c1eaecaa70f307c0);
+            
+        
+
+        marker_9ee6923a6c97a9dbdf38962e8b2d7d7d.bindPopup(popup_993a0cd8dfd4b7d81782ea993c0471e2)
+        ;
+
+        
+    
+    
+            var marker_256278ef884d73d7b32b91c051765c6a = L.marker(
+                [1.3387726, 103.7356473],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_71768cfe264b92d94871abe8c7a5ae1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_256278ef884d73d7b32b91c051765c6a.setIcon(icon_71768cfe264b92d94871abe8c7a5ae1d);
+        
+    
+        var popup_3b0947bce2e4daaef9fc32f8aaa2fce1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8cc449fb929b94272fd0cc691ad0e82e = $(`<div id="html_8cc449fb929b94272fd0cc691ad0e82e" style="width: 100.0%; height: 100.0%;">111 #15-28 JURONG EAST STREET 13 JURONG EAST VILLE SINGAPORE 600111<br><br>Distance from input: 0.658 km</div>`)[0];
+                popup_3b0947bce2e4daaef9fc32f8aaa2fce1.setContent(html_8cc449fb929b94272fd0cc691ad0e82e);
+            
+        
+
+        marker_256278ef884d73d7b32b91c051765c6a.bindPopup(popup_3b0947bce2e4daaef9fc32f8aaa2fce1)
+        ;
+
+        
+    
+    
+            var marker_b2dda2ccb1c267bd4ba1b306493f3dea = L.marker(
+                [1.3391132, 103.73934],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_8a1cceaa3171c3e509b5d214be9b302e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2dda2ccb1c267bd4ba1b306493f3dea.setIcon(icon_8a1cceaa3171c3e509b5d214be9b302e);
+        
+    
+        var popup_d06584ac42042fc4af3d9bf1ad18cfd2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3df811432caea3f719049a83dea7a140 = $(`<div id="html_3df811432caea3f719049a83dea7a140" style="width: 100.0%; height: 100.0%;">214 #07-67 JURONG EAST STREET 21 SINGAPORE 600214<br><br>Distance from input: 0.786 km</div>`)[0];
+                popup_d06584ac42042fc4af3d9bf1ad18cfd2.setContent(html_3df811432caea3f719049a83dea7a140);
+            
+        
+
+        marker_b2dda2ccb1c267bd4ba1b306493f3dea.bindPopup(popup_d06584ac42042fc4af3d9bf1ad18cfd2)
+        ;
+
+        
+    
+    
+            var marker_b1a12a1bc32ff2376640e669ba1d7c77 = L.marker(
+                [1.3399488, 103.7380698],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_cf0a931f3f0f74568500d0802e1b779e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1a12a1bc32ff2376640e669ba1d7c77.setIcon(icon_cf0a931f3f0f74568500d0802e1b779e);
+        
+    
+        var popup_ee550fa77ca66e235b49e9592d1fdd0f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_13dde17a92de8ac44db17bbd577e1703 = $(`<div id="html_13dde17a92de8ac44db17bbd577e1703" style="width: 100.0%; height: 100.0%;">217 JURONG EAST STREET 21 #24-12 SINGAPORE 600217<br><br>Distance from input: 0.819 km</div>`)[0];
+                popup_ee550fa77ca66e235b49e9592d1fdd0f.setContent(html_13dde17a92de8ac44db17bbd577e1703);
+            
+        
+
+        marker_b1a12a1bc32ff2376640e669ba1d7c77.bindPopup(popup_ee550fa77ca66e235b49e9592d1fdd0f)
+        ;
+
+        
+    
+    
+            var marker_945d2b79618794a6e56d6f4c4f2e6c4e = L.marker(
+                [1.3405954, 103.7374613],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_ea7e0be5f65f0e3c80d0e49fc01e016a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_945d2b79618794a6e56d6f4c4f2e6c4e.setIcon(icon_ea7e0be5f65f0e3c80d0e49fc01e016a);
+        
+    
+        var popup_20e804b9b2421c79ab44ed94b4da06c4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_389232b846454cc421963f5c86b9a094 = $(`<div id="html_389232b846454cc421963f5c86b9a094" style="width: 100.0%; height: 100.0%;">219A #17-31 JURONG EAST STREET 21 SINGAPORE 601219<br><br>219A JURONG EAST STREET 21 #16-86 SINGAPORE 601219<br><br>Distance from input: 0.873 km</div>`)[0];
+                popup_20e804b9b2421c79ab44ed94b4da06c4.setContent(html_389232b846454cc421963f5c86b9a094);
+            
+        
+
+        marker_945d2b79618794a6e56d6f4c4f2e6c4e.bindPopup(popup_20e804b9b2421c79ab44ed94b4da06c4)
+        ;
+
+        
+    
+    
+            var marker_3d7d7cfb0596f86fa94b46434102a6cf = L.marker(
+                [1.3406771, 103.7363512],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_a4d641a4767007f34776f50b61cd0d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d7d7cfb0596f86fa94b46434102a6cf.setIcon(icon_a4d641a4767007f34776f50b61cd0d21);
+        
+    
+        var popup_c5897c90c462449e0ff1b04eea8cc44d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bcc15c853335a3efb25e6489454980b6 = $(`<div id="html_bcc15c853335a3efb25e6489454980b6" style="width: 100.0%; height: 100.0%;">221A JURONG EAST STREET 21 #15-06 SINGAPORE 601221<br><br>Distance from input: 0.868 km</div>`)[0];
+                popup_c5897c90c462449e0ff1b04eea8cc44d.setContent(html_bcc15c853335a3efb25e6489454980b6);
+            
+        
+
+        marker_3d7d7cfb0596f86fa94b46434102a6cf.bindPopup(popup_c5897c90c462449e0ff1b04eea8cc44d)
+        ;
+
+        
+    
+    
+            var marker_eb9ad4b41571a5cd0401fbcb2577df70 = L.marker(
+                [1.3411617, 103.7380417],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_d89cef7421a36106e1f0fb44b4cf00de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_eb9ad4b41571a5cd0401fbcb2577df70.setIcon(icon_d89cef7421a36106e1f0fb44b4cf00de);
+        
+    
+        var popup_38a56ebb8a47b3627099be8e603c671b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6ccc7843fa54f2f23c6b56b48a5dfca0 = $(`<div id="html_6ccc7843fa54f2f23c6b56b48a5dfca0" style="width: 100.0%; height: 100.0%;">231 #12-55 JURONG EAST STREET 21 SINGAPORE 600231<br><br>231 JURONG EAST STREET 21 #23-63 SINGAPORE 600231<br><br>Distance from input: 0.948 km</div>`)[0];
+                popup_38a56ebb8a47b3627099be8e603c671b.setContent(html_6ccc7843fa54f2f23c6b56b48a5dfca0);
+            
+        
+
+        marker_eb9ad4b41571a5cd0401fbcb2577df70.bindPopup(popup_38a56ebb8a47b3627099be8e603c671b)
+        ;
+
+        
+    
+    
+            var marker_afe56a551dc88660569681d43d93d860 = L.marker(
+                [1.3413884, 103.7358632],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_95b0de057eaf9aad1ddd6840aed18445 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_afe56a551dc88660569681d43d93d860.setIcon(icon_95b0de057eaf9aad1ddd6840aed18445);
+        
+    
+        var popup_79d5cf2f0906c1aac7aee5cf21418e08 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d5e0d8dd90c9c842b6fc2e9c1449475c = $(`<div id="html_d5e0d8dd90c9c842b6fc2e9c1449475c" style="width: 100.0%; height: 100.0%;">BLOCK 226 JURONG EAST STREET 21 #03-66 SINGAPORE 600226<br><br>Distance from input: 0.946 km</div>`)[0];
+                popup_79d5cf2f0906c1aac7aee5cf21418e08.setContent(html_d5e0d8dd90c9c842b6fc2e9c1449475c);
+            
+        
+
+        marker_afe56a551dc88660569681d43d93d860.bindPopup(popup_79d5cf2f0906c1aac7aee5cf21418e08)
+        ;
+
+        
+    
+    
+            var marker_503bdeded01b74a24787290272ebef96 = L.marker(
+                [1.3328377, 103.7360189],
+                {}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var icon_5d687736dc1306225d9cc8761242f72a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_503bdeded01b74a24787290272ebef96.setIcon(icon_5d687736dc1306225d9cc8761242f72a);
+        
+    
+        var popup_40a7b9fbed1f4565f007abc89f751202 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_19a7d47e1f5acc2d2759e5ad05b1f939 = $(`<div id="html_19a7d47e1f5acc2d2759e5ad05b1f939" style="width: 100.0%; height: 100.0%;">15 Science Centre Rd, Singapore 609081</div>`)[0];
+                popup_40a7b9fbed1f4565f007abc89f751202.setContent(html_19a7d47e1f5acc2d2759e5ad05b1f939);
+            
+        
+
+        marker_503bdeded01b74a24787290272ebef96.bindPopup(popup_40a7b9fbed1f4565f007abc89f751202)
+        ;
+
+        
+    
+    
+            var circle_464a01bb62771310dd2d473db952da92 = L.circle(
+                [1.3328377, 103.7360189],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var poly_line_315895a432a6adf138957e35405e9846 = L.polyline(
+                [[1.3328377, 103.7360189], [1.3387726, 103.7356473]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+    
+            var poly_line_8dc1d1a4347264508c060f62ee6b267c = L.polyline(
+                [[1.3328377, 103.7360189], [1.3387726, 103.7356473]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_20498d076295782c8ac5c31ca3a0ed39);
+        
+</script>
+</html>

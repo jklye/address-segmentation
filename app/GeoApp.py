@@ -401,10 +401,6 @@ class GeoApp(QMainWindow):
 
         m = self.create_folium_map(df, input_address, latitude, longitude, proximity_threshold)
 
-        # Filtered locations must be non-empty to add nearest location marker and polyline
-        if df is not None and not df.empty:
-            self.add_polyline_to_map(m, df, latitude, longitude)
-
         print("Map generated!\n")
         
         self.save_folium_map(m, map_filepath)
