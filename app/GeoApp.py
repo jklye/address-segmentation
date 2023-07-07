@@ -251,7 +251,7 @@ class GeoApp(QMainWindow):
                 print(f"\n[pgeocode] Postal code: {address}, coordinates: ({location2.latitude}, {location2.longitude})")
                 return location2
             
-        # can introduce fallback in the future (alternative APIs or geocoding services) to improve geocoding service in sg context
+        # can introduce fallback in the future (alternative APIs or geocoding services) to improve geocoding
         else:
             print(f"\nPostal code: {address}, Latitude and Longitude not found")
             return None
@@ -378,7 +378,7 @@ class GeoApp(QMainWindow):
             longitude (float): The longitude of the user location.
         """
         if df is not None and not df.empty:
-            nearest_locations = df[df['proximity'] == df['proximity'].min()]  # Find all locations with the minimum proximity
+            nearest_locations = df[df['proximity'] == df['proximity'].min()]  # may have > 1 locations with closest proximity to input address
             for _, location in nearest_locations.iterrows():
                 nearest_latitude = location['latitude']
                 nearest_longitude = location['longitude']
