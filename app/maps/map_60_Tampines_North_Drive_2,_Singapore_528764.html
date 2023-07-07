@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20720d67bdd9d0e55038882d455c9e7f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_20720d67bdd9d0e55038882d455c9e7f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_20720d67bdd9d0e55038882d455c9e7f = L.map(
+                "map_20720d67bdd9d0e55038882d455c9e7f",
+                {
+                    center: [1.37397215, 103.93237875],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0e279affd955af8c7e06bdf37bb76fa6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var marker_64b11dca875604a4c119b07513b14b71 = L.marker(
+                [1.3733675, 103.9388966],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_b9b6e73607fc9ed177c1dc72c85a76de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64b11dca875604a4c119b07513b14b71.setIcon(icon_b9b6e73607fc9ed177c1dc72c85a76de);
+        
+    
+        var popup_b3497520965d652eba7df6d996c13f9d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7289dd8de36c686d613125aa846836c3 = $(`<div id="html_7289dd8de36c686d613125aa846836c3" style="width: 100.0%; height: 100.0%;">782 PASIR RIS STREET 71 #10-06 SINGAPORE 510782<br><br>Distance from input: 0.728 km</div>`)[0];
+                popup_b3497520965d652eba7df6d996c13f9d.setContent(html_7289dd8de36c686d613125aa846836c3);
+            
+        
+
+        marker_64b11dca875604a4c119b07513b14b71.bindPopup(popup_b3497520965d652eba7df6d996c13f9d)
+        ;
+
+        
+    
+    
+            var marker_73283d755f979ede95109a14b2d7c6c0 = L.marker(
+                [1.3742298, 103.9366986],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_b092c12b1fbb713b77ae9e4190a20095 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73283d755f979ede95109a14b2d7c6c0.setIcon(icon_b092c12b1fbb713b77ae9e4190a20095);
+        
+    
+        var popup_862f544b2ac8278749f178ef570e23e3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_670ac6269463cbbd1c7890c6fca88143 = $(`<div id="html_670ac6269463cbbd1c7890c6fca88143" style="width: 100.0%; height: 100.0%;">774 PASIR RIS STREET 71 #10-15 SINGAPORE 510774<br><br>Distance from input: 0.482 km</div>`)[0];
+                popup_862f544b2ac8278749f178ef570e23e3.setContent(html_670ac6269463cbbd1c7890c6fca88143);
+            
+        
+
+        marker_73283d755f979ede95109a14b2d7c6c0.bindPopup(popup_862f544b2ac8278749f178ef570e23e3)
+        ;
+
+        
+    
+    
+            var marker_98d3ce245ec17fd7837cbbf17c675c72 = L.marker(
+                [1.3753746, 103.9367825],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_3e9816dd794de33eac2a26ad36970c13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98d3ce245ec17fd7837cbbf17c675c72.setIcon(icon_3e9816dd794de33eac2a26ad36970c13);
+        
+    
+        var popup_6ff09b7b34c979bf08876b14dbc27e8f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_30fb3724f7ba4003def8766715b5b377 = $(`<div id="html_30fb3724f7ba4003def8766715b5b377" style="width: 100.0%; height: 100.0%;">772 #02-73 PASIR RIS STREET 71 SINGAPORE 510772<br><br>Distance from input: 0.514 km</div>`)[0];
+                popup_6ff09b7b34c979bf08876b14dbc27e8f.setContent(html_30fb3724f7ba4003def8766715b5b377);
+            
+        
+
+        marker_98d3ce245ec17fd7837cbbf17c675c72.bindPopup(popup_6ff09b7b34c979bf08876b14dbc27e8f)
+        ;
+
+        
+    
+    
+            var marker_d34a8eb1d9c34b5d1226563282049be3 = L.marker(
+                [1.3759729, 103.9360558],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_b57fc2e8212679ce8b2b51954d159c0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d34a8eb1d9c34b5d1226563282049be3.setIcon(icon_b57fc2e8212679ce8b2b51954d159c0a);
+        
+    
+        var popup_b0a4458862ce7d6d0a830554e4006167 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_198fe5b9485f4c91d0e7ab80f078549b = $(`<div id="html_198fe5b9485f4c91d0e7ab80f078549b" style="width: 100.0%; height: 100.0%;">766 #03-01 PASIR RIS STREET 71 HDB PUBLIC SHELTERS SINGAPORE 510766<br><br>Distance from input: 0.465 km</div>`)[0];
+                popup_b0a4458862ce7d6d0a830554e4006167.setContent(html_198fe5b9485f4c91d0e7ab80f078549b);
+            
+        
+
+        marker_d34a8eb1d9c34b5d1226563282049be3.bindPopup(popup_b0a4458862ce7d6d0a830554e4006167)
+        ;
+
+        
+    
+    
+            var marker_5d5198024a0693fc5296e2701671786e = L.marker(
+                [1.3761752, 103.9406449],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_90bdbf9b41e3a83a7b408f0d63c2dfd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d5198024a0693fc5296e2701671786e.setIcon(icon_90bdbf9b41e3a83a7b408f0d63c2dfd3);
+        
+    
+        var popup_d3ca87ea736a5ce33946ebd1f63850f0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_96021ba924ab26da210448cddf5e7308 = $(`<div id="html_96021ba924ab26da210448cddf5e7308" style="width: 100.0%; height: 100.0%;">638 #09-34 PASIR RIS DRIVE 1 SINGAPORE 510638<br><br>Distance from input: 0.952 km</div>`)[0];
+                popup_d3ca87ea736a5ce33946ebd1f63850f0.setContent(html_96021ba924ab26da210448cddf5e7308);
+            
+        
+
+        marker_5d5198024a0693fc5296e2701671786e.bindPopup(popup_d3ca87ea736a5ce33946ebd1f63850f0)
+        ;
+
+        
+    
+    
+            var marker_7d75d71ca6c6d928d3eafb43d75d165e = L.marker(
+                [1.3764352, 103.9396616],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_4eb839be89ddf45311d14613d1aa15a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_7d75d71ca6c6d928d3eafb43d75d165e.setIcon(icon_4eb839be89ddf45311d14613d1aa15a9);
+        
+    
+        var popup_10f933a1664d3e335c3aff17456f09b5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d26fee437b07d487aba637c4055b0790 = $(`<div id="html_d26fee437b07d487aba637c4055b0790" style="width: 100.0%; height: 100.0%;">BLOCK 641 PASIR RIS DRIVE 1 #28-11 SINGAPORE 510641<br><br>641 PASIR RIS DRIVE 1 #10-28 SINGAPORE 510641<br><br>Distance from input: 0.855 km</div>`)[0];
+                popup_10f933a1664d3e335c3aff17456f09b5.setContent(html_d26fee437b07d487aba637c4055b0790);
+            
+        
+
+        marker_7d75d71ca6c6d928d3eafb43d75d165e.bindPopup(popup_10f933a1664d3e335c3aff17456f09b5)
+        ;
+
+        
+    
+    
+            var marker_5c71b5c36d272fde74529023d25c6962 = L.marker(
+                [1.3773436, 103.9342176],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_1085b799e8ccc960c359879b6cc638b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c71b5c36d272fde74529023d25c6962.setIcon(icon_1085b799e8ccc960c359879b6cc638b5);
+        
+    
+        var popup_16fd8fd78321aba77e59f9d21775bc5f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a822575e601b137b150d43cd7b7a15e4 = $(`<div id="html_a822575e601b137b150d43cd7b7a15e4" style="width: 100.0%; height: 100.0%;">754 #08-19 PASIR RIS STREET 71 SINGAPORE 510754<br><br>Distance from input: 0.425 km</div>`)[0];
+                popup_16fd8fd78321aba77e59f9d21775bc5f.setContent(html_a822575e601b137b150d43cd7b7a15e4);
+            
+        
+
+        marker_5c71b5c36d272fde74529023d25c6962.bindPopup(popup_16fd8fd78321aba77e59f9d21775bc5f)
+        ;
+
+        
+    
+    
+            var marker_bb22a081961e8fd4c45d409a988f37c4 = L.marker(
+                [1.3774508, 103.935546],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_3534727267e3f0e218184c8bece6c2b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb22a081961e8fd4c45d409a988f37c4.setIcon(icon_3534727267e3f0e218184c8bece6c2b0);
+        
+    
+        var popup_d2f4e347dbd354c790f2d99fd07dedc2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bbee50c9a20a29183c3eee789adbba97 = $(`<div id="html_bbee50c9a20a29183c3eee789adbba97" style="width: 100.0%; height: 100.0%;">743 #06-62 PASIR RIS STREET 71 SINGAPORE 510743<br><br>Distance from input: 0.522 km</div>`)[0];
+                popup_d2f4e347dbd354c790f2d99fd07dedc2.setContent(html_bbee50c9a20a29183c3eee789adbba97);
+            
+        
+
+        marker_bb22a081961e8fd4c45d409a988f37c4.bindPopup(popup_d2f4e347dbd354c790f2d99fd07dedc2)
+        ;
+
+        
+    
+    
+            var marker_cd31ca8eedf452b971df2a3384b7f674 = L.marker(
+                [1.3776499, 103.9365109],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_6510337e63df15d12dcba501dfd563f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_cd31ca8eedf452b971df2a3384b7f674.setIcon(icon_6510337e63df15d12dcba501dfd563f5);
+        
+    
+        var popup_6631772e171c8a5a8b0b99ebf0ea425e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cd89503dd645364a7b41e6c258cd1c4c = $(`<div id="html_cd89503dd645364a7b41e6c258cd1c4c" style="width: 100.0%; height: 100.0%;">741 #01-97 PASIR RIS STREET 71 SINGAPORE 510741<br><br>741 #07-84 PASIR RIS STREET 71 SINGAPORE 510741<br><br>Distance from input: 0.614 km</div>`)[0];
+                popup_6631772e171c8a5a8b0b99ebf0ea425e.setContent(html_cd89503dd645364a7b41e6c258cd1c4c);
+            
+        
+
+        marker_cd31ca8eedf452b971df2a3384b7f674.bindPopup(popup_6631772e171c8a5a8b0b99ebf0ea425e)
+        ;
+
+        
+    
+    
+            var marker_bca11af8e665c883cf2cc5bc0e125a92 = L.marker(
+                [1.3779237, 103.9358395],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_8eaf498336bd71730f293fb65f351d42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bca11af8e665c883cf2cc5bc0e125a92.setIcon(icon_8eaf498336bd71730f293fb65f351d42);
+        
+    
+        var popup_5785e29eb317d0485e074c6d7f0a3b6b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c1d9256f4d631c4da071f8f7de542d99 = $(`<div id="html_c1d9256f4d631c4da071f8f7de542d99" style="width: 100.0%; height: 100.0%;">740 #21-64 PASIR RIS STREET 71 SINGAPORE 510740<br><br>Distance from input: 0.582 km</div>`)[0];
+                popup_5785e29eb317d0485e074c6d7f0a3b6b.setContent(html_c1d9256f4d631c4da071f8f7de542d99);
+            
+        
+
+        marker_bca11af8e665c883cf2cc5bc0e125a92.bindPopup(popup_5785e29eb317d0485e074c6d7f0a3b6b)
+        ;
+
+        
+    
+    
+            var marker_e1a6d469eb31d46889a791af1b15096f = L.marker(
+                [1.3779303, 103.9336377],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_22e8eabe6bcf688035352c60704ff22a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1a6d469eb31d46889a791af1b15096f.setIcon(icon_22e8eabe6bcf688035352c60704ff22a);
+        
+    
+        var popup_d34ca98fb1f491e06cd398efc07c98ab = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1d3b322833caf4543df3ebdbc09bbb94 = $(`<div id="html_1d3b322833caf4543df3ebdbc09bbb94" style="width: 100.0%; height: 100.0%;">756 #21-75 PASIR RIS STREET 71 SINGAPORE 510756<br><br>Distance from input: 0.460 km</div>`)[0];
+                popup_d34ca98fb1f491e06cd398efc07c98ab.setContent(html_1d3b322833caf4543df3ebdbc09bbb94);
+            
+        
+
+        marker_e1a6d469eb31d46889a791af1b15096f.bindPopup(popup_d34ca98fb1f491e06cd398efc07c98ab)
+        ;
+
+        
+    
+    
+            var marker_a9794b6402f55160a4e006b8f6f20f72 = L.marker(
+                [1.3780709, 103.9375403],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_1975adbf28a217377a1422a27dfb1173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9794b6402f55160a4e006b8f6f20f72.setIcon(icon_1975adbf28a217377a1422a27dfb1173);
+        
+    
+        var popup_18fd68fc8a0289ed9c79d4186e45be28 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9695ab9d58409b15711fead24b9ba293 = $(`<div id="html_9695ab9d58409b15711fead24b9ba293" style="width: 100.0%; height: 100.0%;">644 #13-71 PASIR RIS DRIVE 10 HDB PUBLIC SHELTERS SINGAPORE 510644<br><br>Distance from input: 0.732 km</div>`)[0];
+                popup_18fd68fc8a0289ed9c79d4186e45be28.setContent(html_9695ab9d58409b15711fead24b9ba293);
+            
+        
+
+        marker_a9794b6402f55160a4e006b8f6f20f72.bindPopup(popup_18fd68fc8a0289ed9c79d4186e45be28)
+        ;
+
+        
+    
+    
+            var marker_d91cfaed8d42d12fb692df9a71c65501 = L.marker(
+                [1.3781773, 103.9348208],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_dc7d0f168a8166c6c2de10253e3584b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d91cfaed8d42d12fb692df9a71c65501.setIcon(icon_dc7d0f168a8166c6c2de10253e3584b4);
+        
+    
+        var popup_9df24f47389652ec1830a0cc8c99755d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_522659fd498a7e9c23b7c9cae7dcab3c = $(`<div id="html_522659fd498a7e9c23b7c9cae7dcab3c" style="width: 100.0%; height: 100.0%;">750 PASIR RIS STREET 71 #13-60 SINGAPORE 510750<br><br>Distance from input: 0.539 km</div>`)[0];
+                popup_9df24f47389652ec1830a0cc8c99755d.setContent(html_522659fd498a7e9c23b7c9cae7dcab3c);
+            
+        
+
+        marker_d91cfaed8d42d12fb692df9a71c65501.bindPopup(popup_9df24f47389652ec1830a0cc8c99755d)
+        ;
+
+        
+    
+    
+            var marker_3605577916cacfaf90d47beb6e698f52 = L.marker(
+                [1.3783349, 103.9356792],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_c427bc9b776dc3ff5a0301dbfff90ddf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3605577916cacfaf90d47beb6e698f52.setIcon(icon_c427bc9b776dc3ff5a0301dbfff90ddf);
+        
+    
+        var popup_998b53e0d4a4be4f1daf1cf195611737 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5a29b0d658a8f7de8bb13596481c3286 = $(`<div id="html_5a29b0d658a8f7de8bb13596481c3286" style="width: 100.0%; height: 100.0%;">745 #07-96 PASIR RIS STREET 71 SINGAPORE 510745<br><br>Distance from input: 0.606 km</div>`)[0];
+                popup_998b53e0d4a4be4f1daf1cf195611737.setContent(html_5a29b0d658a8f7de8bb13596481c3286);
+            
+        
+
+        marker_3605577916cacfaf90d47beb6e698f52.bindPopup(popup_998b53e0d4a4be4f1daf1cf195611737)
+        ;
+
+        
+    
+    
+            var marker_5efa1b4f580c38f490b658e17d659deb = L.marker(
+                [1.3784492, 103.9384712],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_5ec30df7b00cf006a1b4277f09ac586c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5efa1b4f580c38f490b658e17d659deb.setIcon(icon_5ec30df7b00cf006a1b4277f09ac586c);
+        
+    
+        var popup_152ed0424a0b876114d8fa933b55a0ee = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1b1ac31934a834198a04f0cc4b0512a3 = $(`<div id="html_1b1ac31934a834198a04f0cc4b0512a3" style="width: 100.0%; height: 100.0%;">649 #09-12 PASIR RIS DRIVE 10 SINGAPORE 510649<br><br>Distance from input: 0.840 km</div>`)[0];
+                popup_152ed0424a0b876114d8fa933b55a0ee.setContent(html_1b1ac31934a834198a04f0cc4b0512a3);
+            
+        
+
+        marker_5efa1b4f580c38f490b658e17d659deb.bindPopup(popup_152ed0424a0b876114d8fa933b55a0ee)
+        ;
+
+        
+    
+    
+            var marker_289b66217c62e463070bc71904b60537 = L.marker(
+                [1.378639, 103.9352247],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_cec25551a51291abe4d0312f168cae15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_289b66217c62e463070bc71904b60537.setIcon(icon_cec25551a51291abe4d0312f168cae15);
+        
+    
+        var popup_3ffa43ab778e52307e37405507a43310 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_64405a8fa9b858bcf9dbbc42210829fd = $(`<div id="html_64405a8fa9b858bcf9dbbc42210829fd" style="width: 100.0%; height: 100.0%;">746 #27-78 PASIR RIS STREET 71 SINGAPORE 510746<br><br>Distance from input: 0.605 km</div>`)[0];
+                popup_3ffa43ab778e52307e37405507a43310.setContent(html_64405a8fa9b858bcf9dbbc42210829fd);
+            
+        
+
+        marker_289b66217c62e463070bc71904b60537.bindPopup(popup_3ffa43ab778e52307e37405507a43310)
+        ;
+
+        
+    
+    
+            var marker_7b7ddc657f71996035ea1d30446cd42b = L.marker(
+                [1.3787956, 103.93868],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_1341d421db4c41ec01d86e090941926a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b7ddc657f71996035ea1d30446cd42b.setIcon(icon_1341d421db4c41ec01d86e090941926a);
+        
+    
+        var popup_175afd179e32c0b5983afdd371abce80 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fe22bf5aa805602d7c4401d3640b8ada = $(`<div id="html_fe22bf5aa805602d7c4401d3640b8ada" style="width: 100.0%; height: 100.0%;">648 PASIR RIS DRIVE 10 #15-19 SINGAPORE 510648<br><br>Distance from input: 0.881 km</div>`)[0];
+                popup_175afd179e32c0b5983afdd371abce80.setContent(html_fe22bf5aa805602d7c4401d3640b8ada);
+            
+        
+
+        marker_7b7ddc657f71996035ea1d30446cd42b.bindPopup(popup_175afd179e32c0b5983afdd371abce80)
+        ;
+
+        
+    
+    
+            var marker_5860c85ecf8aed4738f16d0ee447b42b = L.marker(
+                [1.3790719, 103.9364228],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_c27fa9fb17c2de388213be350042209d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5860c85ecf8aed4738f16d0ee447b42b.setIcon(icon_c27fa9fb17c2de388213be350042209d);
+        
+    
+        var popup_4f11d3b3ea7639a9626df65a80cf3fa9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5f4cd282f34afc7aa63b6b3da6b3491f = $(`<div id="html_5f4cd282f34afc7aa63b6b3da6b3491f" style="width: 100.0%; height: 100.0%;">738 PCF SPARKLETOTS PRESCHOOL @ PASIR RIS WEST BLOCK 738 (KN) #14-13 PASIR RIS DRIVE 10 SINGAPORE 510738<br><br>Distance from input: 0.721 km</div>`)[0];
+                popup_4f11d3b3ea7639a9626df65a80cf3fa9.setContent(html_5f4cd282f34afc7aa63b6b3da6b3491f);
+            
+        
+
+        marker_5860c85ecf8aed4738f16d0ee447b42b.bindPopup(popup_4f11d3b3ea7639a9626df65a80cf3fa9)
+        ;
+
+        
+    
+    
+            var marker_0276a0f253feda9aeeeae7c103d88e6c = L.marker(
+                [1.3792124, 103.9346635],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_95898dc1cc70ff64dc7a9a1d88d61189 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0276a0f253feda9aeeeae7c103d88e6c.setIcon(icon_95898dc1cc70ff64dc7a9a1d88d61189);
+        
+    
+        var popup_14258960dfaa3d15b810218932dae3bf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_100cd236fe0657122ffc0e915db7c427 = $(`<div id="html_100cd236fe0657122ffc0e915db7c427" style="width: 100.0%; height: 100.0%;">747 PASIR RIS STREET 71 #04-13 SINGAPORE 510747<br><br>Distance from input: 0.633 km</div>`)[0];
+                popup_14258960dfaa3d15b810218932dae3bf.setContent(html_100cd236fe0657122ffc0e915db7c427);
+            
+        
+
+        marker_0276a0f253feda9aeeeae7c103d88e6c.bindPopup(popup_14258960dfaa3d15b810218932dae3bf)
+        ;
+
+        
+    
+    
+            var marker_621c19c300a1faf0a7a43d1c8e445e4c = L.marker(
+                [1.3794883, 103.9375948],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_f9ff157f6a4404bded8d58bc27fd638d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_621c19c300a1faf0a7a43d1c8e445e4c.setIcon(icon_f9ff157f6a4404bded8d58bc27fd638d);
+        
+    
+        var popup_401987b754096b9e6468a0d29e175168 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d2646f98040be3c2cb23931b1344efba = $(`<div id="html_d2646f98040be3c2cb23931b1344efba" style="width: 100.0%; height: 100.0%;">736 PASIR RIS DRIVE 10 #16-57 SINGAPORE 510736<br><br>Distance from input: 0.842 km</div>`)[0];
+                popup_401987b754096b9e6468a0d29e175168.setContent(html_d2646f98040be3c2cb23931b1344efba);
+            
+        
+
+        marker_621c19c300a1faf0a7a43d1c8e445e4c.bindPopup(popup_401987b754096b9e6468a0d29e175168)
+        ;
+
+        
+    
+    
+            var marker_7e1bf0d6586116eca9b126aef03d6fed = L.marker(
+                [1.379614, 103.9369005],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_ad8152c695c13ff75f98655ef9ffcb6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e1bf0d6586116eca9b126aef03d6fed.setIcon(icon_ad8152c695c13ff75f98655ef9ffcb6b);
+        
+    
+        var popup_87e81baf3708092367678083a9c15492 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_543e68e3a131ee3c5190e0711cff8165 = $(`<div id="html_543e68e3a131ee3c5190e0711cff8165" style="width: 100.0%; height: 100.0%;">737 #07-53 PASIR RIS DRIVE 10 SINGAPORE 510737<br><br>Distance from input: 0.802 km</div>`)[0];
+                popup_87e81baf3708092367678083a9c15492.setContent(html_543e68e3a131ee3c5190e0711cff8165);
+            
+        
+
+        marker_7e1bf0d6586116eca9b126aef03d6fed.bindPopup(popup_87e81baf3708092367678083a9c15492)
+        ;
+
+        
+    
+    
+            var marker_fd7ea6bdba8a37fee2ce6c36416a7af7 = L.marker(
+                [1.37397215, 103.93237875],
+                {}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var icon_4174d2b7791d3124e512b399412576b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd7ea6bdba8a37fee2ce6c36416a7af7.setIcon(icon_4174d2b7791d3124e512b399412576b6);
+        
+    
+        var popup_478e4325f3fa4b54d636a0e98ec203f3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_59292075899382d43f927bd3e336cb5e = $(`<div id="html_59292075899382d43f927bd3e336cb5e" style="width: 100.0%; height: 100.0%;">60 Tampines North Drive 2, Singapore 528764</div>`)[0];
+                popup_478e4325f3fa4b54d636a0e98ec203f3.setContent(html_59292075899382d43f927bd3e336cb5e);
+            
+        
+
+        marker_fd7ea6bdba8a37fee2ce6c36416a7af7.bindPopup(popup_478e4325f3fa4b54d636a0e98ec203f3)
+        ;
+
+        
+    
+    
+            var circle_332c785b29e9ce102f7780db6d74ea09 = L.circle(
+                [1.37397215, 103.93237875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var poly_line_0f965bc43f0a9ba762a65b976ab508f5 = L.polyline(
+                [[1.37397215, 103.93237875], [1.3773436, 103.9342176]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+    
+            var poly_line_cb9398613eaf5abf1c779231192c16d4 = L.polyline(
+                [[1.37397215, 103.93237875], [1.3773436, 103.9342176]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_20720d67bdd9d0e55038882d455c9e7f);
+        
+</script>
+</html>

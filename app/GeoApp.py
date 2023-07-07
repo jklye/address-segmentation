@@ -43,7 +43,7 @@ class GeoApp(QMainWindow):
         self.label_address.setMaximumHeight(20)
         self.input_address = QLineEdit()
         self.input_address.setMaximumHeight(30)
-        self.input_address.setPlaceholderText("E.g. 123 Main St, City")
+        self.input_address.setPlaceholderText("E.g. 123 ABC Road Singapore 987123")
 
         self.label_proximity = QLabel("Enter the proximity threshold (in km):")
         self.label_proximity.setMaximumHeight(20)
@@ -95,27 +95,31 @@ class GeoApp(QMainWindow):
             user_location = self.address_to_lat_long(postal_code)
 
             if user_location is not None:
-                # Retrieve latitude and longitude of input location
                 user_latitude, user_longitude = user_location.latitude, user_location.longitude
-
-                # Filter locations based on proximity threshold
-                filtered_locations = self.filter_locations(
-                    self.location_data, user_latitude, user_longitude, proximity_threshold
-                )
-
-                if not filtered_locations.empty:
-                    # Print filtered locations in console
-                    self.print_addresses(filtered_locations, proximity_threshold)
-                    # Display map with filtered locations
-                    self.display_map(
-                        filtered_locations, input_address, user_latitude, user_longitude, proximity_threshold
+                
+                location_in_sg = self.check_location_in_sg(user_latitude, user_longitude)
+                
+                if location_in_sg:
+                    # Filter locations based on proximity threshold
+                    filtered_locations = self.filter_locations(
+                        self.location_data, user_latitude, user_longitude, proximity_threshold
                     )
+
+                    if not filtered_locations.empty:
+                        # Print filtered locations in console
+                        self.print_addresses(filtered_locations, proximity_threshold)
+                        # Display map with filtered locations
+                        self.display_map(
+                            filtered_locations, input_address, user_latitude, user_longitude, proximity_threshold
+                        )
+                    else:
+                        # Display map without any filtered locations
+                        self.display_map(
+                            None, input_address, user_latitude, user_longitude, proximity_threshold
+                        )
+                        self.display_error_message("No locations found within the specified proximity.")
                 else:
-                    # Display map without any filtered locations
-                    self.display_map(
-                        None, input_address, user_latitude, user_longitude, proximity_threshold
-                    )
-                    self.display_error_message("No locations found within the specified proximity.")
+                    self.display_error_message("Unable to retrieve valid coordinates in Singapore")
             else:
                 self.display_error_message("Unable to retrieve coordinates for the address")
 
@@ -149,6 +153,32 @@ class GeoApp(QMainWindow):
             return False
 
         return True
+    
+    
+    def check_location_in_sg(self, latitude, longitude):
+        '''
+        Checks if the input latitude and longitude lies within Singapore.
+        
+        Args:
+            latitude (float): The user input latitude.
+            longitude (float): The user input longitude.
+        
+        Returns:
+            bool: True if location lies within Singapore, False if otherwise.
+        '''
+        # latitude [1.15, 1.47]
+        # longitude [103.6, 104.1]
+        
+        min_lat_sg = 1.15
+        max_lat_sg = 1.47
+        min_lng_sg = 103.6
+        max_lng_sg = 104.1
+        
+        if (min_lat_sg <= latitude <= max_lat_sg) and (min_lng_sg <= longitude <= max_lng_sg):
+            return True
+        return False
+        
+        
 
 
     def display_error_message(self, message):
