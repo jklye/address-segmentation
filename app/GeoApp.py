@@ -282,6 +282,7 @@ class GeoApp(QMainWindow):
             latitude (float): The latitude of the user input location.
             longitude (float): The longitude of the user input location.
             proximity_threshold (float): The proximity threshold input by user.
+            map_type (str): The type of map to be generated.
 
         Returns:
             folium.Map: The created Folium map with relevant components.
@@ -322,6 +323,13 @@ class GeoApp(QMainWindow):
 
 
     def add_heat_density_to_map(self, m, df):
+        """
+        Add heat density for filtered locations to the map.
+
+        Args:
+            m (folium.Map): The Folium map to make additions on.
+            df (pandas.DataFrame): The filtered locations DataFrame.
+        """
         heat_data = df[['latitude', 'longitude']].values
         HeatMap(heat_data,
                        radius=15,
@@ -330,6 +338,13 @@ class GeoApp(QMainWindow):
         
     
     def add_clusters_to_map(self, m, df):
+        """
+        Add clusters and markers for filtered locations to the map.
+
+        Args:
+            m (folium.Map): The Folium map to make additions on.
+            df (pandas.DataFrame): The filtered locations DataFrame.
+        """
         # max_cluster_radius is in pixels, consider adjustments to distance
         marker_cluster = MarkerCluster(max_cluster_radius=150).add_to(m)
 
@@ -464,6 +479,7 @@ class GeoApp(QMainWindow):
             latitude (float): The latitude of the user location.
             longitude (float): The longitude of the user location.
             proximity_threshold (float): The proximity threshold input by user.
+            map_type (str): The type of map to be generated.
         """
         print("Generating map...\n")
 
