@@ -410,6 +410,10 @@ class GeoApp(QMainWindow):
             fill_opacity=0.1,
         ).add_to(m)
 
+        # Add the scale control
+        measure_control = MeasureControl(position='topright', active_color='blue', primary_length_unit='kilometers')
+        m.add_child(measure_control)
+
 
     def add_polyline_to_map(self, m, df, latitude, longitude):
         """
