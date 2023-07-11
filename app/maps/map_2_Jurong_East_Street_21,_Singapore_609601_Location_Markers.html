@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c5149a2b9599f5c18f4f4b33d4283814 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c5149a2b9599f5c18f4f4b33d4283814" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c5149a2b9599f5c18f4f4b33d4283814 = L.map(
+                "map_c5149a2b9599f5c18f4f4b33d4283814",
+                {
+                    center: [1.3349, 103.7468],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bce62c2b978ccd65e5cb57ebc57277d3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var marker_4fbe0b50db0ae250eec86f44d8a4f486 = L.marker(
+                [1.3286659, 103.7419365],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_bdacaf1c99d5740a089d42d11f085985 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_4fbe0b50db0ae250eec86f44d8a4f486.setIcon(icon_bdacaf1c99d5740a089d42d11f085985);
+        
+    
+        var popup_456e9b6abb38bffa859914dd84c9fce9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a0563d592ef7f3d153e6fd6baa2fc72b = $(`<div id="html_a0563d592ef7f3d153e6fd6baa2fc72b" style="width: 100.0%; height: 100.0%;">9 #4-16 HALL ROAD TRADE ASSOCIATION HUBJURONG TOWN HALL SINGAPORE 609431<br><br>9 TRADE ASSOCIATION HUBJURONG TOWN HALL HALL ROAD #4-16 SINGAPORE 609431<br><br>Distance from input: 0.876 km</div>`)[0];
+                popup_456e9b6abb38bffa859914dd84c9fce9.setContent(html_a0563d592ef7f3d153e6fd6baa2fc72b);
+            
+        
+
+        marker_4fbe0b50db0ae250eec86f44d8a4f486.bindPopup(popup_456e9b6abb38bffa859914dd84c9fce9)
+        ;
+
+        
+    
+    
+            var marker_123b2c904ecded5c26cf85636ffc32a2 = L.marker(
+                [1.3322777, 103.7482096],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_bc890baccc32b72a9260b60f27ba4e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_123b2c904ecded5c26cf85636ffc32a2.setIcon(icon_bc890baccc32b72a9260b60f27ba4e1f);
+        
+    
+        var popup_5685c7ac130b5e7c5cdab23dcf70d1f3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1b61008bb3ca5ad153db1a92dcdd4342 = $(`<div id="html_1b61008bb3ca5ad153db1a92dcdd4342" style="width: 100.0%; height: 100.0%;">10 TOH GUAN ROAD #8-1 SINGAPORE 608838<br><br>Distance from input: 0.330 km</div>`)[0];
+                popup_5685c7ac130b5e7c5cdab23dcf70d1f3.setContent(html_1b61008bb3ca5ad153db1a92dcdd4342);
+            
+        
+
+        marker_123b2c904ecded5c26cf85636ffc32a2.bindPopup(popup_5685c7ac130b5e7c5cdab23dcf70d1f3)
+        ;
+
+        
+    
+    
+            var marker_bf84b47ad4ea655d0c43b072e148ca6d = L.marker(
+                [1.3337875, 103.748424],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_5edb28a1d72e3fea1a8aedc035233f47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bf84b47ad4ea655d0c43b072e148ca6d.setIcon(icon_5edb28a1d72e3fea1a8aedc035233f47);
+        
+    
+        var popup_0bf2a72bcfc467de300697a90cf72df9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_efe77dbbd04f8749832c037c95a54a03 = $(`<div id="html_efe77dbbd04f8749832c037c95a54a03" style="width: 100.0%; height: 100.0%;">20 TOH GUAN ROAD #04-00 CJ KOREAN EXPRESS BUILDING SINGAPORE 608839<br><br>Distance from input: 0.219 km</div>`)[0];
+                popup_0bf2a72bcfc467de300697a90cf72df9.setContent(html_efe77dbbd04f8749832c037c95a54a03);
+            
+        
+
+        marker_bf84b47ad4ea655d0c43b072e148ca6d.bindPopup(popup_0bf2a72bcfc467de300697a90cf72df9)
+        ;
+
+        
+    
+    
+            var marker_5e47743da7a73b1a08585ecf1677cb43 = L.marker(
+                [1.3374603, 103.7416346],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_f64b2d8fbf86608f03097a5c9f2f808a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e47743da7a73b1a08585ecf1677cb43.setIcon(icon_f64b2d8fbf86608f03097a5c9f2f808a);
+        
+    
+        var popup_7b31aeeb4fc3070d69306a505390ebea = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a1b8ea3bad6d0a8637bf0f328787454b = $(`<div id="html_a1b8ea3bad6d0a8637bf0f328787454b" style="width: 100.0%; height: 100.0%;">204 JURONG EAST VIEW JURONG EAST STREET 21 #21-64 SINGAPORE 600204<br><br>Distance from input: 0.641 km</div>`)[0];
+                popup_7b31aeeb4fc3070d69306a505390ebea.setContent(html_a1b8ea3bad6d0a8637bf0f328787454b);
+            
+        
+
+        marker_5e47743da7a73b1a08585ecf1677cb43.bindPopup(popup_7b31aeeb4fc3070d69306a505390ebea)
+        ;
+
+        
+    
+    
+            var marker_8abf83aa01fe02b8c57da33d6f92d547 = L.marker(
+                [1.3378836, 103.7466202],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_f7e40f047393cd1d0edab6ffd45c82ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_8abf83aa01fe02b8c57da33d6f92d547.setIcon(icon_f7e40f047393cd1d0edab6ffd45c82ff);
+        
+    
+        var popup_f66021092bd3021186ec4fee4b548e39 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_19a03f8b820a20b7df9067cbf36e98fd = $(`<div id="html_19a03f8b820a20b7df9067cbf36e98fd" style="width: 100.0%; height: 100.0%;">285C PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK EAST BLOCK 285C (KN) #23-92 TOH GUAN ROAD SINGAPORE 603285<br><br>285C TOH GUAN ROAD #20-07 PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK EAST BLOCK 285C (KN) SINGAPORE 603285<br><br>Distance from input: 0.331 km</div>`)[0];
+                popup_f66021092bd3021186ec4fee4b548e39.setContent(html_19a03f8b820a20b7df9067cbf36e98fd);
+            
+        
+
+        marker_8abf83aa01fe02b8c57da33d6f92d547.bindPopup(popup_f66021092bd3021186ec4fee4b548e39)
+        ;
+
+        
+    
+    
+            var marker_736205b6b09ec5bb67d6728497e2b605 = L.marker(
+                [1.3383148, 103.7436934],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_e70b55c3f26761ebe981320684b6845a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_736205b6b09ec5bb67d6728497e2b605.setIcon(icon_e70b55c3f26761ebe981320684b6845a);
+        
+    
+        var popup_bfb22a072a62580bc07f4d46db00d5b1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9ac45a9715bec68eb710a37b160c697d = $(`<div id="html_9ac45a9715bec68eb710a37b160c697d" style="width: 100.0%; height: 100.0%;">287A JURONG EAST STREET 21 #06-17 SINGAPORE 601287<br><br>Distance from input: 0.512 km</div>`)[0];
+                popup_bfb22a072a62580bc07f4d46db00d5b1.setContent(html_9ac45a9715bec68eb710a37b160c697d);
+            
+        
+
+        marker_736205b6b09ec5bb67d6728497e2b605.bindPopup(popup_bfb22a072a62580bc07f4d46db00d5b1)
+        ;
+
+        
+    
+    
+            var marker_393c2c2c14e235a1ac73b0362d421f14 = L.marker(
+                [1.3383981, 103.7461525],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_8d24323572cfee538d4e43fc376eac5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_393c2c2c14e235a1ac73b0362d421f14.setIcon(icon_8d24323572cfee538d4e43fc376eac5e);
+        
+    
+        var popup_fd5ca29f292a6657021e86d5f34ca6cd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_60e8dba3d551655fb3aac11760e41723 = $(`<div id="html_60e8dba3d551655fb3aac11760e41723" style="width: 100.0%; height: 100.0%;">285A #07-12 TOH GUAN ROAD SINGAPORE 601285<br><br>Distance from input: 0.393 km</div>`)[0];
+                popup_fd5ca29f292a6657021e86d5f34ca6cd.setContent(html_60e8dba3d551655fb3aac11760e41723);
+            
+        
+
+        marker_393c2c2c14e235a1ac73b0362d421f14.bindPopup(popup_fd5ca29f292a6657021e86d5f34ca6cd)
+        ;
+
+        
+    
+    
+            var marker_4c26733d496cceab0003061534efbd68 = L.marker(
+                [1.3390389, 103.7445335],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_b3ba0ef83fbd13c5da6b49b5e249dee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c26733d496cceab0003061534efbd68.setIcon(icon_b3ba0ef83fbd13c5da6b49b5e249dee6);
+        
+    
+        var popup_c4d420daf61f597e4ae60df8fd9e50b4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_679dc523ef29f1360e887331a5c9a70f = $(`<div id="html_679dc523ef29f1360e887331a5c9a70f" style="width: 100.0%; height: 100.0%;">286C TOH GUAN ROAD #10-94 SINGAPORE 603286<br><br>Distance from input: 0.523 km</div>`)[0];
+                popup_c4d420daf61f597e4ae60df8fd9e50b4.setContent(html_679dc523ef29f1360e887331a5c9a70f);
+            
+        
+
+        marker_4c26733d496cceab0003061534efbd68.bindPopup(popup_c4d420daf61f597e4ae60df8fd9e50b4)
+        ;
+
+        
+    
+    
+            var marker_2bf38a2027926b2a0de0fba3290a7473 = L.marker(
+                [1.3391132, 103.73934],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_962de5bc3ff970ada0fdbc6afa1c9d45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bf38a2027926b2a0de0fba3290a7473.setIcon(icon_962de5bc3ff970ada0fdbc6afa1c9d45);
+        
+    
+        var popup_ef37a29f63199aea5064fed4ad481b5f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_39f4c0a4bf9e1876805ae814d4e4ae45 = $(`<div id="html_39f4c0a4bf9e1876805ae814d4e4ae45" style="width: 100.0%; height: 100.0%;">214 #07-67 JURONG EAST STREET 21 SINGAPORE 600214<br><br>Distance from input: 0.952 km</div>`)[0];
+                popup_ef37a29f63199aea5064fed4ad481b5f.setContent(html_39f4c0a4bf9e1876805ae814d4e4ae45);
+            
+        
+
+        marker_2bf38a2027926b2a0de0fba3290a7473.bindPopup(popup_ef37a29f63199aea5064fed4ad481b5f)
+        ;
+
+        
+    
+    
+            var marker_37b01a9f3754853ccfff9e615e88c8fa = L.marker(
+                [1.3391478, 103.7427461],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_45fe732abcb331bfd7d61829c699a9fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37b01a9f3754853ccfff9e615e88c8fa.setIcon(icon_45fe732abcb331bfd7d61829c699a9fd);
+        
+    
+        var popup_7669ddb9a2af1d93e91769eb8dd345a3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_68cbe0472c3aa6e1c23c3e5e7a27d547 = $(`<div id="html_68cbe0472c3aa6e1c23c3e5e7a27d547" style="width: 100.0%; height: 100.0%;">288B #27-54 JURONG EAST STREET 21 SINGAPORE 602288<br><br>Distance from input: 0.651 km</div>`)[0];
+                popup_7669ddb9a2af1d93e91769eb8dd345a3.setContent(html_68cbe0472c3aa6e1c23c3e5e7a27d547);
+            
+        
+
+        marker_37b01a9f3754853ccfff9e615e88c8fa.bindPopup(popup_7669ddb9a2af1d93e91769eb8dd345a3)
+        ;
+
+        
+    
+    
+            var marker_c9cec6f650ffe7dfb66c305c59937ab3 = L.marker(
+                [1.3395756, 103.7472337],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_83e7fccf4485b02b72ee97570518efb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9cec6f650ffe7dfb66c305c59937ab3.setIcon(icon_83e7fccf4485b02b72ee97570518efb3);
+        
+    
+        var popup_bb475a170b46b29e5033fd042d71d60f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f3413e89bad822f60149bf72d05c44ef = $(`<div id="html_f3413e89bad822f60149bf72d05c44ef" style="width: 100.0%; height: 100.0%;">282 TOH GUAN ROAD TOH GUAN VIEW #15-63 SINGAPORE 600282<br><br>Distance from input: 0.519 km</div>`)[0];
+                popup_bb475a170b46b29e5033fd042d71d60f.setContent(html_f3413e89bad822f60149bf72d05c44ef);
+            
+        
+
+        marker_c9cec6f650ffe7dfb66c305c59937ab3.bindPopup(popup_bb475a170b46b29e5033fd042d71d60f)
+        ;
+
+        
+    
+    
+            var marker_6e806f3c47ea809cca892e6bddb5f400 = L.marker(
+                [1.3404281, 103.7473364],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_304eb53124a6fb5a4c0c35524051b8e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e806f3c47ea809cca892e6bddb5f400.setIcon(icon_304eb53124a6fb5a4c0c35524051b8e3);
+        
+    
+        var popup_a8fb57566675a7aa5e2711439dfa7b2c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_234597ac48306a53ffb951eb73ca98e2 = $(`<div id="html_234597ac48306a53ffb951eb73ca98e2" style="width: 100.0%; height: 100.0%;">280 TOH GUAN ROAD #09-35 TOH GUAN VIEW SINGAPORE 600280<br><br>Distance from input: 0.614 km</div>`)[0];
+                popup_a8fb57566675a7aa5e2711439dfa7b2c.setContent(html_234597ac48306a53ffb951eb73ca98e2);
+            
+        
+
+        marker_6e806f3c47ea809cca892e6bddb5f400.bindPopup(popup_a8fb57566675a7aa5e2711439dfa7b2c)
+        ;
+
+        
+    
+    
+            var marker_e73630591022bfbd6eb1afd9f4e66e3a = L.marker(
+                [1.3406978, 103.7445759],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_14dd3ec1ea9dff8fab058fb115e909b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_e73630591022bfbd6eb1afd9f4e66e3a.setIcon(icon_14dd3ec1ea9dff8fab058fb115e909b7);
+        
+    
+        var popup_0c99d66289859831c0cf77aee707116a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b10a7a1d55ad158718307f114330363b = $(`<div id="html_b10a7a1d55ad158718307f114330363b" style="width: 100.0%; height: 100.0%;">265 #23-07 TOH GUAN ROAD TOH GUAN VIEW SINGAPORE 600265<br><br>265 TOH GUAN ROAD TOH GUAN VIEW #27-09 SINGAPORE 600265<br><br>Distance from input: 0.687 km</div>`)[0];
+                popup_0c99d66289859831c0cf77aee707116a.setContent(html_b10a7a1d55ad158718307f114330363b);
+            
+        
+
+        marker_e73630591022bfbd6eb1afd9f4e66e3a.bindPopup(popup_0c99d66289859831c0cf77aee707116a)
+        ;
+
+        
+    
+    
+            var marker_5e84002a1d1f587e1c111a7ed9add5c8 = L.marker(
+                [1.3407448, 103.7469079],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_d8ed18f45b5c9826df51447ae7800f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e84002a1d1f587e1c111a7ed9add5c8.setIcon(icon_d8ed18f45b5c9826df51447ae7800f8a);
+        
+    
+        var popup_1f725dba937f3d93ef2ba6d5545dd377 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ddf65329c71f6245d1b47147e3fdda12 = $(`<div id="html_ddf65329c71f6245d1b47147e3fdda12" style="width: 100.0%; height: 100.0%;">279 TOH GUAN ROAD #28-67 TOH GUAN VIEW SINGAPORE 600279<br><br>Distance from input: 0.646 km</div>`)[0];
+                popup_1f725dba937f3d93ef2ba6d5545dd377.setContent(html_ddf65329c71f6245d1b47147e3fdda12);
+            
+        
+
+        marker_5e84002a1d1f587e1c111a7ed9add5c8.bindPopup(popup_1f725dba937f3d93ef2ba6d5545dd377)
+        ;
+
+        
+    
+    
+            var marker_ad8279036a006f689d641179d63254a7 = L.marker(
+                [1.3409115, 103.7464222],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_46d5e1b9892d5de2ccca11e46c5bf0b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_ad8279036a006f689d641179d63254a7.setIcon(icon_46d5e1b9892d5de2ccca11e46c5bf0b0);
+        
+    
+        var popup_71f4f97bb957961c9f38b71f45c61dcf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1a66321c4418bff00f96e3da5db8fb19 = $(`<div id="html_1a66321c4418bff00f96e3da5db8fb19" style="width: 100.0%; height: 100.0%;">278 TOH GUAN VIEW TOH GUAN ROAD #25-29 SINGAPORE 600278<br><br>278 TOH GUAN VIEW TOH GUAN ROAD #06-17 SINGAPORE 600278<br><br>Distance from input: 0.666 km</div>`)[0];
+                popup_71f4f97bb957961c9f38b71f45c61dcf.setContent(html_1a66321c4418bff00f96e3da5db8fb19);
+            
+        
+
+        marker_ad8279036a006f689d641179d63254a7.bindPopup(popup_71f4f97bb957961c9f38b71f45c61dcf)
+        ;
+
+        
+    
+    
+            var marker_c785dfb6e08d24893c032653e0f54612 = L.marker(
+                [1.3411099, 103.7448196],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_fa541fedb1c7ab6a6d3fc0c171b12015 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c785dfb6e08d24893c032653e0f54612.setIcon(icon_fa541fedb1c7ab6a6d3fc0c171b12015);
+        
+    
+        var popup_44c3a333af381efbdf5799283569abc6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0ec6f8db13398de37e4b82f42274332e = $(`<div id="html_0ec6f8db13398de37e4b82f42274332e" style="width: 100.0%; height: 100.0%;">267 TOH GUAN ROAD TOH GUAN VIEW #08-24 SINGAPORE 600267<br><br>Distance from input: 0.721 km</div>`)[0];
+                popup_44c3a333af381efbdf5799283569abc6.setContent(html_0ec6f8db13398de37e4b82f42274332e);
+            
+        
+
+        marker_c785dfb6e08d24893c032653e0f54612.bindPopup(popup_44c3a333af381efbdf5799283569abc6)
+        ;
+
+        
+    
+    
+            var marker_8f702b01ae887f99c4f6e1552c1ef5e0 = L.marker(
+                [1.3413305, 103.7468477],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_20cb6ebe895209d54ef17e897b955a00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f702b01ae887f99c4f6e1552c1ef5e0.setIcon(icon_20cb6ebe895209d54ef17e897b955a00);
+        
+    
+        var popup_2c7cd37f74de33de1606e60924256dfe = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_16869a8f5e80f62bfb8d2e490bc61ec4 = $(`<div id="html_16869a8f5e80f62bfb8d2e490bc61ec4" style="width: 100.0%; height: 100.0%;">277 TOH GUAN VIEW TOH GUAN ROAD #12-07 SINGAPORE 600277<br><br>Distance from input: 0.711 km</div>`)[0];
+                popup_2c7cd37f74de33de1606e60924256dfe.setContent(html_16869a8f5e80f62bfb8d2e490bc61ec4);
+            
+        
+
+        marker_8f702b01ae887f99c4f6e1552c1ef5e0.bindPopup(popup_2c7cd37f74de33de1606e60924256dfe)
+        ;
+
+        
+    
+    
+            var marker_483964df4e5c93b99443516cd2b96513 = L.marker(
+                [1.3415963, 103.7433396],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_2e8502bf96daf4b1359b127219e50edc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_483964df4e5c93b99443516cd2b96513.setIcon(icon_2e8502bf96daf4b1359b127219e50edc);
+        
+    
+        var popup_38d33ad5fc3dc40b7a4751205932e53f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a79f2574dfd894da774c91851363f735 = $(`<div id="html_a79f2574dfd894da774c91851363f735" style="width: 100.0%; height: 100.0%;">241 JURONG EAST STREET 24 #20-76 SINGAPORE 600241<br><br>Distance from input: 0.835 km</div>`)[0];
+                popup_38d33ad5fc3dc40b7a4751205932e53f.setContent(html_a79f2574dfd894da774c91851363f735);
+            
+        
+
+        marker_483964df4e5c93b99443516cd2b96513.bindPopup(popup_38d33ad5fc3dc40b7a4751205932e53f)
+        ;
+
+        
+    
+    
+            var marker_161bace57e9860ba6073a73d89c58f8d = L.marker(
+                [1.341679, 103.7462791],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_adfede0182d5eca010b6fc9b8955006e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_161bace57e9860ba6073a73d89c58f8d.setIcon(icon_adfede0182d5eca010b6fc9b8955006e);
+        
+    
+        var popup_16e723bf62353832458b4bd1cfd50fd2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e2e33f6e724eb674198836f860d052b7 = $(`<div id="html_e2e33f6e724eb674198836f860d052b7" style="width: 100.0%; height: 100.0%;">271 PCF SPARKLETOTS PRESCHOOL @ BUKIT BATOK EAST 271 (CC) TOH GUAN ROAD #20-71 SINGAPORE 600271<br><br>Distance from input: 0.752 km</div>`)[0];
+                popup_16e723bf62353832458b4bd1cfd50fd2.setContent(html_e2e33f6e724eb674198836f860d052b7);
+            
+        
+
+        marker_161bace57e9860ba6073a73d89c58f8d.bindPopup(popup_16e723bf62353832458b4bd1cfd50fd2)
+        ;
+
+        
+    
+    
+            var marker_617424370cf289dd36d8119b1815b45e = L.marker(
+                [1.3418723, 103.7428119],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_f8c0425ca0fe60028a8f27068370adea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_617424370cf289dd36d8119b1815b45e.setIcon(icon_f8c0425ca0fe60028a8f27068370adea);
+        
+    
+        var popup_9f8211a2fbb002e1209784e12b23c646 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_62e8afc00e3bfb5f6889cc98049e406b = $(`<div id="html_62e8afc00e3bfb5f6889cc98049e406b" style="width: 100.0%; height: 100.0%;">242 #28-32 JURONG EAST STREET 24 SINGAPORE 600242<br><br>Distance from input: 0.890 km</div>`)[0];
+                popup_9f8211a2fbb002e1209784e12b23c646.setContent(html_62e8afc00e3bfb5f6889cc98049e406b);
+            
+        
+
+        marker_617424370cf289dd36d8119b1815b45e.bindPopup(popup_9f8211a2fbb002e1209784e12b23c646)
+        ;
+
+        
+    
+    
+            var marker_04faae04aa91c22dd6280108c77e6b32 = L.marker(
+                [1.3420682, 103.743364],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_2db1866d9339ec14c12b38106ce7bce6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04faae04aa91c22dd6280108c77e6b32.setIcon(icon_2db1866d9339ec14c12b38106ce7bce6);
+        
+    
+        var popup_7024a36e9e213c15cdadb274bb7d7741 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4b4980be6460f54e485204167b1aa051 = $(`<div id="html_4b4980be6460f54e485204167b1aa051" style="width: 100.0%; height: 100.0%;">243 #12-09 JURONG EAST STREET 24 SINGAPORE 600243<br><br>Distance from input: 0.880 km</div>`)[0];
+                popup_7024a36e9e213c15cdadb274bb7d7741.setContent(html_4b4980be6460f54e485204167b1aa051);
+            
+        
+
+        marker_04faae04aa91c22dd6280108c77e6b32.bindPopup(popup_7024a36e9e213c15cdadb274bb7d7741)
+        ;
+
+        
+    
+    
+            var marker_e8d06224e381c0d12c3fc3344c626078 = L.marker(
+                [1.342245, 103.7418288],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_8a38e52fc09046a5abef09107b8db42a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_e8d06224e381c0d12c3fc3344c626078.setIcon(icon_8a38e52fc09046a5abef09107b8db42a);
+        
+    
+        var popup_cbee7e5274d1eafbf2770404d7944ac4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_16341f0c8cb7b4af1ec59fe14e448f4f = $(`<div id="html_16341f0c8cb7b4af1ec59fe14e448f4f" style="width: 100.0%; height: 100.0%;">244 JURONG EAST STREET 24 IYAD PERDAUS CHILD DEVELOPMENT #12-85 SINGAPORE 600244<br><br>244 IYAD PERDAUS CHILD DEVELOPMENT #23-11 JURONG EAST STREET 24 SINGAPORE 600244<br><br>244 JURONG EAST STREET 24 #16-92 IYAD PERDAUS CHILD DEVELOPMENT SINGAPORE 600244<br><br>Distance from input: 0.983 km</div>`)[0];
+                popup_cbee7e5274d1eafbf2770404d7944ac4.setContent(html_16341f0c8cb7b4af1ec59fe14e448f4f);
+            
+        
+
+        marker_e8d06224e381c0d12c3fc3344c626078.bindPopup(popup_cbee7e5274d1eafbf2770404d7944ac4)
+        ;
+
+        
+    
+    
+            var poly_line_2b2802351c7a524d7c402602ca0fefd8 = L.polyline(
+                [[1.3349, 103.7468], [1.3337875, 103.748424]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var marker_5d12b31f0f880c64886f574dae68649b = L.marker(
+                [1.3349, 103.7468],
+                {}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+    
+            var icon_606ccbaa7daae86e5dc4cebecec4119b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d12b31f0f880c64886f574dae68649b.setIcon(icon_606ccbaa7daae86e5dc4cebecec4119b);
+        
+    
+        var popup_d7214dde0fc1ba06f28b751aa7b5c60f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d8880f9ef4ed87a004a603a4743b9fe1 = $(`<div id="html_d8880f9ef4ed87a004a603a4743b9fe1" style="width: 100.0%; height: 100.0%;">2 Jurong East Street 21, Singapore 609601</div>`)[0];
+                popup_d7214dde0fc1ba06f28b751aa7b5c60f.setContent(html_d8880f9ef4ed87a004a603a4743b9fe1);
+            
+        
+
+        marker_5d12b31f0f880c64886f574dae68649b.bindPopup(popup_d7214dde0fc1ba06f28b751aa7b5c60f)
+        ;
+
+        
+    
+    
+            var circle_7955530324d730700cca4d3febb4662c = L.circle(
+                [1.3349, 103.7468],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.05, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_c5149a2b9599f5c18f4f4b33d4283814);
+        
+</script>
+</html>

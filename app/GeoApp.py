@@ -9,10 +9,12 @@ import pgeocode
 import ssl
 
 import folium
+from folium.plugins import HeatMap
+from folium.plugins import MarkerCluster
 from folium.features import DivIcon
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox, QHBoxLayout
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox, QHBoxLayout, QComboBox
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-from PyQt5.QtCore import QUrl
+from PyQt5.QtCore import QUrl, Qt
 from PyQt5.QtGui import QIcon
 
 
@@ -51,14 +53,27 @@ class GeoApp(QMainWindow):
         self.input_proximity = QLineEdit()
         self.input_proximity.setMaximumHeight(30)
         self.input_proximity.setPlaceholderText("E.g. 2")
-
+        
         self.layout.addWidget(self.label_address)
         self.layout.addWidget(self.input_address)
         self.layout.addWidget(self.label_proximity)
         self.layout.addWidget(self.input_proximity)
+        
+        self.map_type_box = QComboBox()
+        self.map_type_box.addItem("Location Markers")
+        self.map_type_box.addItem("Heat Density")
+        self.map_type_box.addItem("Clusters")
+        self.map_type_box.setFixedWidth(300)
+
+        combo_layout = QHBoxLayout()
+        combo_layout.addStretch()
+        combo_layout.addWidget(self.map_type_box)
+        combo_layout.addStretch()
+
+        self.layout.addLayout(combo_layout)
 
         self.button_ok = QPushButton("Enter")
-        self.button_ok.setFixedSize(100, 30)
+        self.button_ok.setFixedSize(300, 30)
         self.button_ok.clicked.connect(self.process_user_input)
 
         button_layout = QHBoxLayout()
@@ -84,6 +99,7 @@ class GeoApp(QMainWindow):
         '''
         input_address = self.input_address.text()
         proximity_threshold = self.input_proximity.text()
+        map_type = self.map_type_box.currentText()
 
         # Check validity of user input
         if self.check_user_input(input_address, proximity_threshold):
@@ -116,7 +132,7 @@ class GeoApp(QMainWindow):
                         self.print_addresses(filtered_locations, proximity_threshold)
                         # Display map with filtered locations
                         self.display_map(
-                            filtered_locations, input_address, user_latitude, user_longitude, proximity_threshold
+                            filtered_locations, input_address, user_latitude, user_longitude, proximity_threshold, map_type
                         )
                     else:
                         # Display map without any filtered locations
@@ -247,7 +263,7 @@ class GeoApp(QMainWindow):
             ssl._create_default_https_context = ssl._create_unverified_context # workaround to use pgeocode    
             geolocator2 = pgeocode.Nominatim('sg')
             location2 = geolocator2.query_postal_code(address)
-            if location and not location2.empty:
+            if not location2.empty:
                 print(f"\n[pgeocode] Postal code: {address}, coordinates: ({location2.latitude}, {location2.longitude})")
                 return location2
             
@@ -257,7 +273,7 @@ class GeoApp(QMainWindow):
             return None
         
 
-    def create_folium_map(self, df, input_address, latitude, longitude, proximity_threshold):
+    def create_folium_map(self, df, input_address, latitude, longitude, proximity_threshold, map_type):
         """
         Create a Folium map and add the relevant components.
 
@@ -276,12 +292,17 @@ class GeoApp(QMainWindow):
                        zoom_start=custom_zoom)
 
         if df is not None:
-            self.add_markers_to_map(m, df, latitude, longitude)
+            if map_type == "Location Markers":
+                self.add_markers_to_map(m, df, latitude, longitude)
+                self.add_polyline_to_map(m, df, latitude, longitude)
+            elif map_type == "Heat Density":
+                self.add_heat_density_to_map(m, df)
+            elif map_type == "Clusters":
+                self.add_clusters_to_map(m, df)
 
         self.add_input_marker_to_map(m, input_address, latitude, longitude)
         self.add_proximity_circle_to_map(m, latitude, longitude, proximity_threshold)
-        self.add_polyline_to_map(m, df, latitude, longitude)
-
+        
         return m
     
 
@@ -299,6 +320,14 @@ class GeoApp(QMainWindow):
             return 'darkblue'
         else:
             return 'blue'
+
+
+    def add_heat_density_to_map(self, m, df):
+        heat_data = df[['latitude', 'longitude']].values
+        HeatMap(heat_data,
+                       radius=15,
+                       blur=10,
+                       min_opacity=0.4).add_to(m)
 
 
     def add_markers_to_map(self, m, df, latitude, longitude):
@@ -364,7 +393,7 @@ class GeoApp(QMainWindow):
                     radius=radius_meters,
                     color='red',
                     fill_color='orange',
-                    fill_opacity=0.2).add_to(m)
+                    fill_opacity=0.1).add_to(m)
 
 
     def add_polyline_to_map(self, m, df, latitude, longitude):
@@ -406,7 +435,7 @@ class GeoApp(QMainWindow):
         print("Map saved to " + map_filepath)
 
 
-    def display_map(self, df, input_address, latitude, longitude, proximity_threshold):
+    def display_map(self, df, input_address, latitude, longitude, proximity_threshold, map_type):
         """
         Display the map with the relevant components.
 
@@ -419,10 +448,10 @@ class GeoApp(QMainWindow):
         """
         print("Generating map...\n")
 
-        filename = f"map_{input_address.replace(' ', '_')}.html"
+        filename = f"map_{input_address.replace(' ', '_')}_{map_type.replace(' ', '_')}.html"
         map_filepath = os.path.join(self.current_dir, "maps", filename)
 
-        m = self.create_folium_map(df, input_address, latitude, longitude, proximity_threshold)
+        m = self.create_folium_map(df, input_address, latitude, longitude, proximity_threshold, map_type)
 
         print("Map generated!\n")
         
