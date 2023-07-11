@@ -9,8 +9,7 @@ import pgeocode
 import ssl
 
 import folium
-from folium.plugins import HeatMap
-from folium.plugins import MarkerCluster
+from folium.plugins import HeatMap, MarkerCluster, MeasureControl
 from folium.features import DivIcon
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox, QHBoxLayout, QComboBox
 from PyQt5.QtWebEngineWidgets import QWebEngineView
@@ -60,9 +59,9 @@ class GeoApp(QMainWindow):
         self.layout.addWidget(self.input_proximity)
         
         self.map_type_box = QComboBox()
-        self.map_type_box.addItem("Location Markers")
         self.map_type_box.addItem("Heat Density")
         self.map_type_box.addItem("Clusters")
+        self.map_type_box.addItem("Proximity")
         self.map_type_box.setFixedWidth(300)
 
         combo_layout = QHBoxLayout()
@@ -292,13 +291,13 @@ class GeoApp(QMainWindow):
                        zoom_start=custom_zoom)
 
         if df is not None:
-            if map_type == "Location Markers":
-                self.add_markers_to_map(m, df, latitude, longitude)
-                self.add_polyline_to_map(m, df, latitude, longitude)
-            elif map_type == "Heat Density":
+            if map_type == "Heat Density":
                 self.add_heat_density_to_map(m, df)
             elif map_type == "Clusters":
                 self.add_clusters_to_map(m, df)
+            elif map_type == "Proximity":
+                self.add_markers_to_map(m, df, latitude, longitude)
+                self.add_polyline_to_map(m, df, latitude, longitude)
 
         self.add_input_marker_to_map(m, input_address, latitude, longitude)
         self.add_proximity_circle_to_map(m, latitude, longitude, proximity_threshold)
@@ -328,6 +327,19 @@ class GeoApp(QMainWindow):
                        radius=15,
                        blur=10,
                        min_opacity=0.4).add_to(m)
+        
+    
+    def add_clusters_to_map(self, m, df):
+        # max_cluster_radius is in pixels, consider adjustments to distance
+        marker_cluster = MarkerCluster(max_cluster_radius=150).add_to(m)
+
+        for _, row in df.iterrows():
+            lat = row['latitude']
+            lon = row['longitude']
+            popup = folium.Popup(row['address'],
+                                 max_width=250)
+            folium.Marker(location=[lat, lon], 
+                          popup=popup).add_to(marker_cluster)
 
 
     def add_markers_to_map(self, m, df, latitude, longitude):
@@ -389,11 +401,14 @@ class GeoApp(QMainWindow):
             proximity_threshold (float): The proximity threshold in km.
         """
         radius_meters = proximity_threshold * 1000  # Convert proximity threshold from km to meters
-        folium.Circle(location=[latitude, longitude],
-                    radius=radius_meters,
-                    color='red',
-                    fill_color='orange',
-                    fill_opacity=0.1).add_to(m)
+        
+        folium.Circle(
+            location=[latitude, longitude],
+            radius=radius_meters,
+            color='red',
+            fill_color='gray',
+            fill_opacity=0.1,
+        ).add_to(m)
 
 
     def add_polyline_to_map(self, m, df, latitude, longitude):
