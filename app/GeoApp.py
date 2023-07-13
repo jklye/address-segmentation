@@ -11,11 +11,11 @@ import ssl
 import folium
 from folium.plugins import HeatMap, MarkerCluster, MeasureControl
 from folium.features import DivIcon
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox, QHBoxLayout, QComboBox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton, QMessageBox
+from PyQt5.QtWidgets import QVBoxLayout, QComboBox, QFormLayout, QHBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import QUrl, Qt
 from PyQt5.QtGui import QIcon
-
 
 class GeoApp(QMainWindow):
 
@@ -41,46 +41,53 @@ class GeoApp(QMainWindow):
         self.central_widget = QWidget()
         self.layout = QVBoxLayout()
 
-        self.label_address = QLabel("Enter the address:")
-        self.label_address.setMaximumHeight(20)
+        address_layout = QHBoxLayout()
+        self.label_address = QLabel("Enter source address:")
         self.input_address = QLineEdit()
-        self.input_address.setMaximumHeight(30)
         self.input_address.setPlaceholderText("E.g. 123 ABC Road Singapore 987123")
+        self.input_address.setFixedWidth(1500)
+        address_layout.setContentsMargins(20, 0, 20, 0)
 
+        address_layout.addWidget(self.label_address)
+        address_layout.addWidget(self.input_address)
+
+        proximity_layout = QHBoxLayout()
         self.label_proximity = QLabel("Enter the proximity threshold (in km):")
-        self.label_proximity.setMaximumHeight(20)
         self.input_proximity = QLineEdit()
-        self.input_proximity.setMaximumHeight(30)
         self.input_proximity.setPlaceholderText("E.g. 2")
+        self.input_proximity.setFixedWidth(1500)
+        proximity_layout.setContentsMargins(20, 0, 20, 0)
+
+        proximity_layout.addWidget(self.label_proximity)
+        proximity_layout.addWidget(self.input_proximity)
         
-        self.layout.addWidget(self.label_address)
-        self.layout.addWidget(self.input_address)
-        self.layout.addWidget(self.label_proximity)
-        self.layout.addWidget(self.input_proximity)
-        
-        self.map_type_box = QComboBox()
-        self.map_type_box.addItem("Heat Density")
-        self.map_type_box.addItem("Clusters")
-        self.map_type_box.addItem("Proximity")
-        self.map_type_box.setFixedWidth(300)
+        maptype_layout = QHBoxLayout()
+        self.label_maptype = QLabel("Select map type:")
+        self.input_maptype = QComboBox()
+        self.input_maptype.addItem("Heat Density")
+        self.input_maptype.addItem("Clusters")
+        self.input_maptype.addItem("Proximity")
+        self.input_maptype.setFixedWidth(300)
+        maptype_layout.setContentsMargins(20, 0, 1010, 0)
 
-        combo_layout = QHBoxLayout()
-        combo_layout.addStretch()
-        combo_layout.addWidget(self.map_type_box)
-        combo_layout.addStretch()
-
-        self.layout.addLayout(combo_layout)
-
-        self.button_default = QPushButton("Set Singapore Boundary")
+        self.button_default = QPushButton("Set Default Region")
+        self.button_default.setFixedSize(200, 30)
         self.button_default.clicked.connect(self.set_default_user_input)
 
+        maptype_layout.addWidget(self.label_maptype)
+        maptype_layout.addWidget(self.input_maptype)
+        maptype_layout.addWidget(self.button_default)
+
+        self.layout.addLayout(address_layout)
+        self.layout.addLayout(proximity_layout)
+        self.layout.addLayout(maptype_layout)
+
         self.button_ok = QPushButton("Enter")
-        self.button_ok.setFixedSize(300, 30)
+        self.button_ok.setFixedSize(300, 40)
         self.button_ok.clicked.connect(self.process_user_input)
 
         button_layout = QHBoxLayout()
         button_layout.addStretch()
-        button_layout.addWidget(self.button_default)
         button_layout.addWidget(self.button_ok)
         button_layout.addStretch()
 
@@ -125,7 +132,7 @@ class GeoApp(QMainWindow):
         '''
         input_address = self.input_address.text()
         proximity_threshold = self.input_proximity.text()
-        map_type = self.map_type_box.currentText()
+        map_type = self.input_maptype.currentText()
 
         # Check validity of user input
         if self.check_user_input(input_address, proximity_threshold):
@@ -134,7 +141,8 @@ class GeoApp(QMainWindow):
             self.load_location_data()
             self.load_spacy_model()
 
-            user_location = self.address_to_lat_long(input_address, 'pgeocode')
+            postal_code = self.extract_postal_code(input_address)
+            user_location = self.address_to_lat_long(postal_code, 'pgeocode')
 
             if user_location is not None:
                 user_latitude, user_longitude = user_location.latitude, user_location.longitude
@@ -259,7 +267,7 @@ class GeoApp(QMainWindow):
         return postal_code
     
 
-    def address_to_lat_long(self, address, geo_service):
+    def address_to_lat_long(self, postal_code, geo_service):
         """
         Convert an address to latitude and longitude coordinates.
 
@@ -270,26 +278,19 @@ class GeoApp(QMainWindow):
             geopy.location.Location: The location object containing latitude and longitude coordinates, 
             or None if the coordinates could not be retrieved.
         """
-        # geopy method
-        if geo_service=='geopy':
-            geolocator = Nominatim(user_agent="Geocoder")
-            location = geolocator.geocode(address)
-            if location:
-                print(f"\n[geopy___] Postal code: {address}, coordinates: ({location.latitude}, {location.longitude})")
-                return location
             
         # pgeocode method
-        elif geo_service=='pgeocode':   
+        if geo_service=='pgeocode':   
             ssl._create_default_https_context = ssl._create_unverified_context # workaround to use pgeocode    
-            geolocator2 = pgeocode.Nominatim('sg')
-            location2 = geolocator2.query_postal_code(address)
-            if not location2.empty:
-                print(f"\n[pgeocode] Postal code: {address}, coordinates: ({location2.latitude}, {location2.longitude})")
-                return location2
+            geolocator = pgeocode.Nominatim('sg')
+            location = geolocator.query_postal_code(postal_code)
+            if not location.empty:
+                print(f"\n[pgeocode] Postal code: {postal_code}, coordinates: ({location.latitude}, {location.longitude})")
+                return location
             
         # can introduce fallback in the future (alternative APIs or geocoding services) to improve geocoding
         else:
-            print(f"\nPostal code: {address}, Latitude and Longitude not found")
+            print(f"\nPostal code: {postal_code}, Latitude and Longitude not found")
             return None
         
 
