@@ -92,9 +92,23 @@ class GeoApp(QMainWindow):
         self.showMaximized()
 
 
+    def load_location_data(self):
+        """
+        Load the location data from the path.
+        """
+        self.location_data = pd.read_pickle(self.locations_file)[['address', 'postal_code', 'latitude', 'longitude']]
+
+
+    def load_spacy_model(self):
+        '''
+        Load the trained spacy model from the path.
+        '''
+        self.nlp = spacy.load(self.model_path)
+
+
     def process_user_input(self):
         '''
-        Process user input for source address and proximity threshold.
+        Process user input for map type, source address and proximity threshold.
         '''
         input_address = self.input_address.text()
         proximity_threshold = self.input_proximity.text()
@@ -298,7 +312,7 @@ class GeoApp(QMainWindow):
                 self.add_clusters_to_map(m, df)
             elif map_type == "Proximity":
                 self.add_markers_to_map(m, df, latitude, longitude)
-                self.add_polyline_to_map(m, df, latitude, longitude)
+                self.add_polyline_to_map(m, df, latitude, longitude) # draw line from source to location at closest proximity
 
         self.add_input_marker_to_map(m, input_address, latitude, longitude)
         self.add_proximity_circle_to_map(m, latitude, longitude, proximity_threshold)
@@ -425,7 +439,7 @@ class GeoApp(QMainWindow):
             fill_opacity=0.1,
         ).add_to(m)
 
-        # Add the scale control
+        # Add the scale control (optional feature)
         measure_control = MeasureControl(position='topright', active_color='blue', primary_length_unit='kilometers')
         m.add_child(measure_control)
 
@@ -579,20 +593,6 @@ class GeoApp(QMainWindow):
         for address in addresses:
             print(address)
         print("--------------------------------------------------------------------\n")
-
-
-    def load_location_data(self):
-        """
-        Load the location data from the path.
-        """
-        self.location_data = pd.read_pickle(self.locations_file)[['address', 'postal_code', 'latitude', 'longitude']]
-
-
-    def load_spacy_model(self):
-        '''
-        Load the trained spacy model from the path.
-        '''
-        self.nlp = spacy.load(self.model_path)
 
 
 def main():
