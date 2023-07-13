@@ -122,7 +122,7 @@ class GeoApp(QMainWindow):
         Sets default user input address as centre of Singapore and proximity as Singapore boundary
         '''
         # centre of Singapore
-        self.input_address.setText("578775")
+        self.input_address.setText("601 ISLAND CLUB ROAD SINGAPORE 578775")
         self.input_proximity.setText("20")
 
 
