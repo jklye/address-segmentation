@@ -71,12 +71,16 @@ class GeoApp(QMainWindow):
 
         self.layout.addLayout(combo_layout)
 
+        self.button_default = QPushButton("Set Singapore Boundary")
+        self.button_default.clicked.connect(self.set_default_user_input)
+
         self.button_ok = QPushButton("Enter")
         self.button_ok.setFixedSize(300, 30)
         self.button_ok.clicked.connect(self.process_user_input)
 
         button_layout = QHBoxLayout()
         button_layout.addStretch()
+        button_layout.addWidget(self.button_default)
         button_layout.addWidget(self.button_ok)
         button_layout.addStretch()
 
@@ -106,9 +110,18 @@ class GeoApp(QMainWindow):
         self.nlp = spacy.load(self.model_path)
 
 
+    def set_default_user_input(self):
+        '''
+        Sets default user input address as centre of Singapore and proximity as Singapore boundary
+        '''
+        # centre of Singapore
+        self.input_address.setText("578775")
+        self.input_proximity.setText("20")
+
+
     def process_user_input(self):
         '''
-        Process user input for map type, source address and proximity threshold.
+        Process user input for map type, source address, and proximity threshold.
         '''
         input_address = self.input_address.text()
         proximity_threshold = self.input_proximity.text()
@@ -121,18 +134,11 @@ class GeoApp(QMainWindow):
             self.load_location_data()
             self.load_spacy_model()
 
-            postal_code = self.extract_postal_code(input_address)
-            user_location = self.address_to_lat_long(postal_code, 'geopy')
+            user_location = self.address_to_lat_long(input_address, 'pgeocode')
 
             if user_location is not None:
                 user_latitude, user_longitude = user_location.latitude, user_location.longitude
                 location_in_sg = self.check_location_in_sg(user_latitude, user_longitude)
-
-                if location_in_sg == False:
-                    # Retry geocoding using pgeocode
-                    user_location = self.address_to_lat_long(postal_code, 'pgeocode')
-                    user_latitude, user_longitude = user_location.latitude, user_location.longitude
-                    location_in_sg = self.check_location_in_sg(user_latitude, user_longitude)
 
                 if location_in_sg == True:
                     # Filter locations based on proximity threshold
@@ -157,6 +163,7 @@ class GeoApp(QMainWindow):
                     self.display_error_message("Unable to retrieve valid coordinates in Singapore")
             else:
                 self.display_error_message("Unable to retrieve coordinates for the address")
+
 
 
     def check_user_input(self, input_address, proximity_threshold):
