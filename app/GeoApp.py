@@ -68,10 +68,10 @@ class GeoApp(QMainWindow):
         self.input_maptype.addItem("Clusters")
         self.input_maptype.addItem("Proximity")
         self.input_maptype.setFixedWidth(300)
-        maptype_layout.setContentsMargins(20, 0, 1010, 0)
+        maptype_layout.setContentsMargins(20, 0, 1015, 0)
 
         self.button_default = QPushButton("Set Default Region")
-        self.button_default.setFixedSize(200, 30)
+        self.button_default.setFixedWidth(200)
         self.button_default.clicked.connect(self.set_default_user_input)
 
         maptype_layout.addWidget(self.label_maptype)
@@ -90,6 +90,7 @@ class GeoApp(QMainWindow):
         button_layout.addStretch()
         button_layout.addWidget(self.button_ok)
         button_layout.addStretch()
+        button_layout.setContentsMargins(0, 10, 0, 0)
 
         self.layout.addLayout(button_layout)
 

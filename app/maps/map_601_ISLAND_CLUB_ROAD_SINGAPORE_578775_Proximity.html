@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b54e42cfc3a523060fdbb1c8bf2bb851 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b54e42cfc3a523060fdbb1c8bf2bb851" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b54e42cfc3a523060fdbb1c8bf2bb851 = L.map(
+                "map_b54e42cfc3a523060fdbb1c8bf2bb851",
+                {
+                    center: [1.3573, 103.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_136372041a85ac3427de064ff8336637 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var marker_f328dc11c19b98aa6859daa3dc938bbd = L.marker(
+                [1.3509665, 103.8377999],
+                {}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var icon_36b11d9a676c7a44f4839e6976cc65f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_f328dc11c19b98aa6859daa3dc938bbd.setIcon(icon_36b11d9a676c7a44f4839e6976cc65f9);
+        
+    
+        var popup_ef8200e4e697a0165f071e94bcd44f47 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6564946d4b0fc647cf2b0e1fd3548b63 = $(`<div id="html_6564946d4b0fc647cf2b0e1fd3548b63" style="width: 100.0%; height: 100.0%;">309 #12-65 SHUNFU ROAD SHUNFU GARDENS SINGAPORE 570309<br><br>309 SHUNFU ROAD #28-24 SHUNFU GARDENS SINGAPORE 570309<br><br>309 #18-09 SHUNFU ROAD SHUNFU GARDENS SINGAPORE 570309<br><br>309 SHUNFU GARDENS SHUNFU ROAD #27-14 SINGAPORE 570309<br><br>Distance from input: 2.901 km</div>`)[0];
+                popup_ef8200e4e697a0165f071e94bcd44f47.setContent(html_6564946d4b0fc647cf2b0e1fd3548b63);
+            
+        
+
+        marker_f328dc11c19b98aa6859daa3dc938bbd.bindPopup(popup_ef8200e4e697a0165f071e94bcd44f47)
+        ;
+
+        
+    
+    
+            var marker_68abb084b837af40f60f4a2aa3b1bae5 = L.marker(
+                [1.3512243, 103.8386335],
+                {}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var icon_dcb8a5994bcac63db71206fcc8662ab9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_68abb084b837af40f60f4a2aa3b1bae5.setIcon(icon_dcb8a5994bcac63db71206fcc8662ab9);
+        
+    
+        var popup_bd787b416cf8aa62560b3c642503d568 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ba541880439b40aebfa7a9ca3f9bf651 = $(`<div id="html_ba541880439b40aebfa7a9ca3f9bf651" style="width: 100.0%; height: 100.0%;">312 #18-53 SHUNFU GARDENS SHUNFU ROAD SINGAPORE 570312<br><br>312 #24-93 SHUNFU ROAD SHUNFU GARDENS SINGAPORE 570312<br><br>Distance from input: 2.985 km</div>`)[0];
+                popup_bd787b416cf8aa62560b3c642503d568.setContent(html_ba541880439b40aebfa7a9ca3f9bf651);
+            
+        
+
+        marker_68abb084b837af40f60f4a2aa3b1bae5.bindPopup(popup_bd787b416cf8aa62560b3c642503d568)
+        ;
+
+        
+    
+    
+            var marker_07895e4d67f0d44ab072fbe236570f21 = L.marker(
+                [1.3661227, 103.8379821],
+                {}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var icon_1db67f86c0440027d12967480e8f3da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_07895e4d67f0d44ab072fbe236570f21.setIcon(icon_1db67f86c0440027d12967480e8f3da8);
+        
+    
+        var popup_a50dcb1b03aa543c71d9cedbbb0973ab = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9a93ab534be0c8d807886378fe7b951b = $(`<div id="html_9a93ab534be0c8d807886378fe7b951b" style="width: 100.0%; height: 100.0%;">223 ANG MO KIO AVENUE 1 #23-08 SINGAPORE 560223<br><br>Distance from input: 2.999 km</div>`)[0];
+                popup_a50dcb1b03aa543c71d9cedbbb0973ab.setContent(html_9a93ab534be0c8d807886378fe7b951b);
+            
+        
+
+        marker_07895e4d67f0d44ab072fbe236570f21.bindPopup(popup_a50dcb1b03aa543c71d9cedbbb0973ab)
+        ;
+
+        
+    
+    
+            var marker_df3a9636a6080798f5d41253ed7b0c58 = L.marker(
+                [1.3671315, 103.8367575],
+                {}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var icon_b102750620f0bc5d7ef9ed22345bda90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df3a9636a6080798f5d41253ed7b0c58.setIcon(icon_b102750620f0bc5d7ef9ed22345bda90);
+        
+    
+        var popup_b2599b9b878282e702cd4ce28bb19afa = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_28a7764301e3775851b4926ea22502f9 = $(`<div id="html_28a7764301e3775851b4926ea22502f9" style="width: 100.0%; height: 100.0%;">234 ANG MO KIO AVENUE 3 KEBUN BARU PALM VIEW #18-93 SINGAPORE 560234<br><br>Distance from input: 2.910 km</div>`)[0];
+                popup_b2599b9b878282e702cd4ce28bb19afa.setContent(html_28a7764301e3775851b4926ea22502f9);
+            
+        
+
+        marker_df3a9636a6080798f5d41253ed7b0c58.bindPopup(popup_b2599b9b878282e702cd4ce28bb19afa)
+        ;
+
+        
+    
+    
+            var marker_7a23666a8d073732ba98dd12bf74869c = L.marker(
+                [1.36757575, 103.8367468],
+                {}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var icon_03d2096e6df961586fa3903f4004982a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_7a23666a8d073732ba98dd12bf74869c.setIcon(icon_03d2096e6df961586fa3903f4004982a);
+        
+    
+        var popup_66ad4cb36d90514dc05275649e712b9a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c5a47cc4334190622201ae17ce2393d8 = $(`<div id="html_c5a47cc4334190622201ae17ce2393d8" style="width: 100.0%; height: 100.0%;">233 ANG MO KIO AVENUE 3 KEBUN BARU PALM VIEW #10-15 SINGAPORE 560233<br><br>233 #06-88 ANG MO KIO AVENUE 3 KEBUN BARU PALM VIEW SINGAPORE 560233<br><br>Distance from input: 2.928 km</div>`)[0];
+                popup_66ad4cb36d90514dc05275649e712b9a.setContent(html_c5a47cc4334190622201ae17ce2393d8);
+            
+        
+
+        marker_7a23666a8d073732ba98dd12bf74869c.bindPopup(popup_66ad4cb36d90514dc05275649e712b9a)
+        ;
+
+        
+    
+    
+            var marker_9d6e568203261077946bc97ef8411fe9 = L.marker(
+                [1.3689502, 103.8338372],
+                {}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var icon_df63c6f386be384017e7b28854d3ebfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d6e568203261077946bc97ef8411fe9.setIcon(icon_df63c6f386be384017e7b28854d3ebfd);
+        
+    
+        var popup_2ee2ec0a2c87f74f69801999361527f8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fbd3d46b706d3a2d78323bb0c2932896 = $(`<div id="html_fbd3d46b706d3a2d78323bb0c2932896" style="width: 100.0%; height: 100.0%;">260B ANG MO KIO STREET 21 KEBUN BARU COURT #17-49 SINGAPORE 562260<br><br>Distance from input: 2.702 km</div>`)[0];
+                popup_2ee2ec0a2c87f74f69801999361527f8.setContent(html_fbd3d46b706d3a2d78323bb0c2932896);
+            
+        
+
+        marker_9d6e568203261077946bc97ef8411fe9.bindPopup(popup_2ee2ec0a2c87f74f69801999361527f8)
+        ;
+
+        
+    
+    
+            var poly_line_fa6244802483832a8d75b261f6353a1b = L.polyline(
+                [[1.3573, 103.8125], [1.3689502, 103.8338372]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var marker_16412c16003cc25f201b6f341eac8035 = L.marker(
+                [1.3573, 103.8125],
+                {}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var icon_4ad9c959114bcaed47e9ebf35b973aac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16412c16003cc25f201b6f341eac8035.setIcon(icon_4ad9c959114bcaed47e9ebf35b973aac);
+        
+    
+        var popup_6a60f40590aff4a5ec70f03d222d6306 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a54e56313e9e082cace5a76c37a77978 = $(`<div id="html_a54e56313e9e082cace5a76c37a77978" style="width: 100.0%; height: 100.0%;">601 ISLAND CLUB ROAD SINGAPORE 578775</div>`)[0];
+                popup_6a60f40590aff4a5ec70f03d222d6306.setContent(html_a54e56313e9e082cace5a76c37a77978);
+            
+        
+
+        marker_16412c16003cc25f201b6f341eac8035.bindPopup(popup_6a60f40590aff4a5ec70f03d222d6306)
+        ;
+
+        
+    
+    
+            var circle_21253b8f6123c876983d8a27885cbd89 = L.circle(
+                [1.3573, 103.8125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000.0, "stroke": true, "weight": 3}
+            ).addTo(map_b54e42cfc3a523060fdbb1c8bf2bb851);
+        
+    
+            var measure_control_6ec5331bf9048f4d480c2718912869e0 = new L.Control.Measure(
+                {"activeColor": "blue", "position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "kilometers", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_b54e42cfc3a523060fdbb1c8bf2bb851.addControl(measure_control_6ec5331bf9048f4d480c2718912869e0);
+
+        
+</script>
+</html>
