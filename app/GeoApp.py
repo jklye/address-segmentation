@@ -161,6 +161,8 @@ class GeoApp(QMainWindow):
             self.load_spacy_model()
 
             postal_code = self.extract_postal_code(input_address)
+            
+            # Note: Current implementation allows for analysis within Singapore only (use of pgeocode requires country input)
             user_location = self.address_to_lat_long(postal_code, 'pgeocode')
 
             # Postal code is extracted from the input address
@@ -301,7 +303,7 @@ class GeoApp(QMainWindow):
             
         # pgeocode method
         if geo_service=='pgeocode':   
-            ssl._create_default_https_context = ssl._create_unverified_context # workaround to use pgeocode    
+            ssl._create_default_https_context = ssl._create_unverified_context # workaround in order to use pgeocode    
             geolocator = pgeocode.Nominatim('sg')
             location = geolocator.query_postal_code(postal_code)
             if not location.empty:
@@ -457,7 +459,7 @@ class GeoApp(QMainWindow):
             longitude (float): The longitude of the user location.
             proximity_threshold (float): The proximity threshold in km.
         """
-        radius_meters = proximity_threshold * 1000  # Convert proximity threshold from km to meters
+        radius_meters = proximity_threshold * 1000  # Convert proximity threshold from kilometres to metres
         
         folium.Circle(
             location=[latitude, longitude],
