@@ -7,12 +7,11 @@ import os
 import ssl
 
 import folium
-from folium.plugins import HeatMap, MarkerCluster, MeasureControl
-from folium.features import DivIcon
+from folium.plugins import HeatMap, MarkerCluster
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton, QMessageBox
-from PyQt5.QtWidgets import QVBoxLayout, QComboBox, QFormLayout, QHBoxLayout
+from PyQt5.QtWidgets import QVBoxLayout, QComboBox, QHBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-from PyQt5.QtCore import QUrl, Qt
+from PyQt5.QtCore import QUrl
 from PyQt5.QtGui import QIcon
 
 class GeoApp(QMainWindow):
@@ -467,10 +466,6 @@ class GeoApp(QMainWindow):
             fill_color='gray',
             fill_opacity=0.1,
         ).add_to(m)
-
-        # Add the scale control (optional feature)
-        measure_control = MeasureControl(position='topright', active_color='blue', primary_length_unit='kilometers')
-        m.add_child(measure_control)
 
 
     def add_polyline_to_map(self, m, df, latitude, longitude):
