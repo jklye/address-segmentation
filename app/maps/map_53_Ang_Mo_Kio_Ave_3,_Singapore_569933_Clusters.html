@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6a60a1bb1383051e098c81b174c326a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6a60a1bb1383051e098c81b174c326a2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6a60a1bb1383051e098c81b174c326a2 = L.map(
+                "map_6a60a1bb1383051e098c81b174c326a2",
+                {
+                    center: [1.3692, 103.8485],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_710b10a87919870c43b37f10f509e50c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6a60a1bb1383051e098c81b174c326a2);
+        
+    
+            var marker_cluster_31627475ae9d339cca5d65b227a31d75 = L.markerClusterGroup(
+                {"maxClusterRadius": 150}
+            );
+            map_6a60a1bb1383051e098c81b174c326a2.addLayer(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+            var marker_6c379154d91ae8630a54132513a73f3a = L.marker(
+                [1.3684135, 103.8491503],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_f3107364c191b8b42b8a483a2b61b1fd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f1721d142684ed53fdff48ddce03666b = $(`<div id="html_f1721d142684ed53fdff48ddce03666b" style="width: 100.0%; height: 100.0%;">343 #03-01 ANG MO KIO AVENUE 3 TECK GHEE EVERGREEN SINGAPORE 560343</div>`)[0];
+                popup_f3107364c191b8b42b8a483a2b61b1fd.setContent(html_f1721d142684ed53fdff48ddce03666b);
+            
+        
+
+        marker_6c379154d91ae8630a54132513a73f3a.bindPopup(popup_f3107364c191b8b42b8a483a2b61b1fd)
+        ;
+
+        
+    
+    
+            var marker_ebfa1573158aff1fdafb150e224e3c51 = L.marker(
+                [1.3683445, 103.8477441],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_54b3ae72122c30d49909cf8f0c3226f9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5f517bfe6e7e8e0db8d312f6b66307c6 = $(`<div id="html_5f517bfe6e7e8e0db8d312f6b66307c6" style="width: 100.0%; height: 100.0%;">322 ANG MO KIO AVENUE 3 #22-23 ANG MO KIO 31 SINGAPORE 560322</div>`)[0];
+                popup_54b3ae72122c30d49909cf8f0c3226f9.setContent(html_5f517bfe6e7e8e0db8d312f6b66307c6);
+            
+        
+
+        marker_ebfa1573158aff1fdafb150e224e3c51.bindPopup(popup_54b3ae72122c30d49909cf8f0c3226f9)
+        ;
+
+        
+    
+    
+            var marker_e88cd32776a4a6c9290b2fcb986529fb = L.marker(
+                [1.3679809, 103.8492618],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_b69824296ef5c259b0cb5c857fd36fc1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_05dcc360f068a267f65f4b7d4723c52b = $(`<div id="html_05dcc360f068a267f65f4b7d4723c52b" style="width: 100.0%; height: 100.0%;">344 TECK GHEE EVERGREEN #26-11 ANG MO KIO AVENUE 3 SINGAPORE 560344</div>`)[0];
+                popup_b69824296ef5c259b0cb5c857fd36fc1.setContent(html_05dcc360f068a267f65f4b7d4723c52b);
+            
+        
+
+        marker_e88cd32776a4a6c9290b2fcb986529fb.bindPopup(popup_b69824296ef5c259b0cb5c857fd36fc1)
+        ;
+
+        
+    
+    
+            var marker_2c3e4f1134355e90209471a5079c536a = L.marker(
+                [1.3670861, 103.8478967],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_db61ab5e611571fe690dcf875dc2fbcb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_65b6850a4cbf1c53558542e2adf03579 = $(`<div id="html_65b6850a4cbf1c53558542e2adf03579" style="width: 100.0%; height: 100.0%;">326 ANG MO KIO AVENUE 3 ANG MO KIO 31 #13-14 SINGAPORE 560326</div>`)[0];
+                popup_db61ab5e611571fe690dcf875dc2fbcb.setContent(html_65b6850a4cbf1c53558542e2adf03579);
+            
+        
+
+        marker_2c3e4f1134355e90209471a5079c536a.bindPopup(popup_db61ab5e611571fe690dcf875dc2fbcb)
+        ;
+
+        
+    
+    
+            var marker_7f2436f95c9f883080b45b32124b49dd = L.marker(
+                [1.368603, 103.8508202],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_bcd319ffb935e235ed2ac767501942af = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c1644f66d183d07c55947ab368a87f5c = $(`<div id="html_c1644f66d183d07c55947ab368a87f5c" style="width: 100.0%; height: 100.0%;">424 #17-60 ANG MO KIO AVENUE 3 CHONG BOON VIEW SINGAPORE 560424</div>`)[0];
+                popup_bcd319ffb935e235ed2ac767501942af.setContent(html_c1644f66d183d07c55947ab368a87f5c);
+            
+        
+
+        marker_7f2436f95c9f883080b45b32124b49dd.bindPopup(popup_bcd319ffb935e235ed2ac767501942af)
+        ;
+
+        
+    
+    
+            var marker_00fd7cda3173fccf93e06fb2379d8f74 = L.marker(
+                [1.368603, 103.8508202],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_69d5b2d3b2edbea59401567f22f4bf1a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3fc981d50eeb744f0ab3b0cb724fb4b7 = $(`<div id="html_3fc981d50eeb744f0ab3b0cb724fb4b7" style="width: 100.0%; height: 100.0%;">424 #14-79 ANG MO KIO AVENUE 3 CHONG BOON VIEW SINGAPORE 560424</div>`)[0];
+                popup_69d5b2d3b2edbea59401567f22f4bf1a.setContent(html_3fc981d50eeb744f0ab3b0cb724fb4b7);
+            
+        
+
+        marker_00fd7cda3173fccf93e06fb2379d8f74.bindPopup(popup_69d5b2d3b2edbea59401567f22f4bf1a)
+        ;
+
+        
+    
+    
+            var marker_edbb81b72963a578d27da92dea957049 = L.marker(
+                [1.3670769, 103.8496671],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_1ff5a8f65fc5ba4807bd4222f433ad4d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a2fa952879d556ab8bb2a0e87214aa59 = $(`<div id="html_a2fa952879d556ab8bb2a0e87214aa59" style="width: 100.0%; height: 100.0%;">346 TECK GHEE EVERGREEN #22-17 ANG MO KIO AVENUE 3 SINGAPORE 560346</div>`)[0];
+                popup_1ff5a8f65fc5ba4807bd4222f433ad4d.setContent(html_a2fa952879d556ab8bb2a0e87214aa59);
+            
+        
+
+        marker_edbb81b72963a578d27da92dea957049.bindPopup(popup_1ff5a8f65fc5ba4807bd4222f433ad4d)
+        ;
+
+        
+    
+    
+            var marker_751f174f369579ba1b3d0034f423ab70 = L.marker(
+                [1.36970015, 103.84607015],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_c12270ba5a571664e3604af1b8bed22a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_56edd33af7c26f7fcfbb4287c47327a3 = $(`<div id="html_56edd33af7c26f7fcfbb4287c47327a3" style="width: 100.0%; height: 100.0%;">700A AMK CENTRAL HEIGHTS ANG MO KIO AVENUE 6 #16-88 SINGAPORE 561700</div>`)[0];
+                popup_c12270ba5a571664e3604af1b8bed22a.setContent(html_56edd33af7c26f7fcfbb4287c47327a3);
+            
+        
+
+        marker_751f174f369579ba1b3d0034f423ab70.bindPopup(popup_c12270ba5a571664e3604af1b8bed22a)
+        ;
+
+        
+    
+    
+            var marker_8b4ead9caaa38e929218131f8c164168 = L.marker(
+                [1.3670586, 103.8469831],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_99b98f3ba7e554ca4c2fcf62513f031a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_73649745f3bf0b81233788a8dd7da830 = $(`<div id="html_73649745f3bf0b81233788a8dd7da830" style="width: 100.0%; height: 100.0%;">327 ANG MO KIO AVENUE 3 ANG MO KIO 31 #13-12 SINGAPORE 560327</div>`)[0];
+                popup_99b98f3ba7e554ca4c2fcf62513f031a.setContent(html_73649745f3bf0b81233788a8dd7da830);
+            
+        
+
+        marker_8b4ead9caaa38e929218131f8c164168.bindPopup(popup_99b98f3ba7e554ca4c2fcf62513f031a)
+        ;
+
+        
+    
+    
+            var marker_2d048e64d399ed3fe8a69d06e3f583b2 = L.marker(
+                [1.3670586, 103.8469831],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_5ec473966a1b827244989ad07e8ad810 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_99f4cdcc67a6d750580a8871e534ef28 = $(`<div id="html_99f4cdcc67a6d750580a8871e534ef28" style="width: 100.0%; height: 100.0%;">327 ANG MO KIO AVENUE 3 ANG MO KIO 31 #24-45 SINGAPORE 560327</div>`)[0];
+                popup_5ec473966a1b827244989ad07e8ad810.setContent(html_99f4cdcc67a6d750580a8871e534ef28);
+            
+        
+
+        marker_2d048e64d399ed3fe8a69d06e3f583b2.bindPopup(popup_5ec473966a1b827244989ad07e8ad810)
+        ;
+
+        
+    
+    
+            var marker_e0abaab2e6b8afcb619136d176bb261e = L.marker(
+                [1.3666228, 103.8478704],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_6d8b5d10a6811041a7cc807a579d0e18 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_45458727bcfbc6432eb954c201590c64 = $(`<div id="html_45458727bcfbc6432eb954c201590c64" style="width: 100.0%; height: 100.0%;">328 #20-33 ANG MO KIO 31 ANG MO KIO AVENUE 3 SINGAPORE 560328</div>`)[0];
+                popup_6d8b5d10a6811041a7cc807a579d0e18.setContent(html_45458727bcfbc6432eb954c201590c64);
+            
+        
+
+        marker_e0abaab2e6b8afcb619136d176bb261e.bindPopup(popup_6d8b5d10a6811041a7cc807a579d0e18)
+        ;
+
+        
+    
+    
+            var marker_af5346c0bf7838f0d60a7f4b1cd1c315 = L.marker(
+                [1.3666228, 103.8478704],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_79eb4c22dca8ba24216957a5057a3b44 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a839ac01e204c90976509705a300e119 = $(`<div id="html_a839ac01e204c90976509705a300e119" style="width: 100.0%; height: 100.0%;">328 #11-72 ANG MO KIO AVENUE 3 ANG MO KIO 31 SINGAPORE 560328</div>`)[0];
+                popup_79eb4c22dca8ba24216957a5057a3b44.setContent(html_a839ac01e204c90976509705a300e119);
+            
+        
+
+        marker_af5346c0bf7838f0d60a7f4b1cd1c315.bindPopup(popup_79eb4c22dca8ba24216957a5057a3b44)
+        ;
+
+        
+    
+    
+            var marker_5c541e616c1b112be49f909b9a35634e = L.marker(
+                [1.3666228, 103.8478704],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_73cf45f1e9d45d4ca70127225dd29fc1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_81cdf58879172f39fee0b3bf37615270 = $(`<div id="html_81cdf58879172f39fee0b3bf37615270" style="width: 100.0%; height: 100.0%;">328 #03-43 ANG MO KIO AVENUE 3 ANG MO KIO 31 SINGAPORE 560328</div>`)[0];
+                popup_73cf45f1e9d45d4ca70127225dd29fc1.setContent(html_81cdf58879172f39fee0b3bf37615270);
+            
+        
+
+        marker_5c541e616c1b112be49f909b9a35634e.bindPopup(popup_73cf45f1e9d45d4ca70127225dd29fc1)
+        ;
+
+        
+    
+    
+            var marker_259c1e0a2bdcad0bea6fdd892d85e2c3 = L.marker(
+                [1.3662273, 103.8487847],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_d6f5d51d44b770f8b27c944ae52842e2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_345808301dc589899befcf0f3c39530a = $(`<div id="html_345808301dc589899befcf0f3c39530a" style="width: 100.0%; height: 100.0%;">312 TECK GHEE EVERGREEN #22-28 ANG MO KIO AVENUE 3 SINGAPORE 560312</div>`)[0];
+                popup_d6f5d51d44b770f8b27c944ae52842e2.setContent(html_345808301dc589899befcf0f3c39530a);
+            
+        
+
+        marker_259c1e0a2bdcad0bea6fdd892d85e2c3.bindPopup(popup_d6f5d51d44b770f8b27c944ae52842e2)
+        ;
+
+        
+    
+    
+            var marker_f584d461c1c3c68da7a0ad9b4f997065 = L.marker(
+                [1.3691198, 103.8515393],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_ecb2409aeea05c1e861b736918c80e23 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bf4139a83dbcc3ae43e819231658180c = $(`<div id="html_bf4139a83dbcc3ae43e819231658180c" style="width: 100.0%; height: 100.0%;">425 ANG MO KIO AVENUE 3 THONG CHAI MEDICAL INSTITUTION - ANG MO KIO #02-76 SINGAPORE 560425</div>`)[0];
+                popup_ecb2409aeea05c1e861b736918c80e23.setContent(html_bf4139a83dbcc3ae43e819231658180c);
+            
+        
+
+        marker_f584d461c1c3c68da7a0ad9b4f997065.bindPopup(popup_ecb2409aeea05c1e861b736918c80e23)
+        ;
+
+        
+    
+    
+            var marker_7df5a230fdea0f49e704890bf95604f4 = L.marker(
+                [1.3691198, 103.8515393],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_cc5c53a3bec288d5f58c9e22079a5303 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f2008b70760ff6f3046814ac02067360 = $(`<div id="html_f2008b70760ff6f3046814ac02067360" style="width: 100.0%; height: 100.0%;">425 ANG MO KIO AVENUE 3 THONG CHAI MEDICAL INSTITUTION - ANG MO KIO #10-26 SINGAPORE 560425</div>`)[0];
+                popup_cc5c53a3bec288d5f58c9e22079a5303.setContent(html_f2008b70760ff6f3046814ac02067360);
+            
+        
+
+        marker_7df5a230fdea0f49e704890bf95604f4.bindPopup(popup_cc5c53a3bec288d5f58c9e22079a5303)
+        ;
+
+        
+    
+    
+            var marker_d10e6176c06d55e43cf3870596c20645 = L.marker(
+                [1.3691198, 103.8515393],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_7a4daded371fb4b9d433c07a4275e787 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a0ccf89678d44f819768f746707b9eed = $(`<div id="html_a0ccf89678d44f819768f746707b9eed" style="width: 100.0%; height: 100.0%;">425 THONG CHAI MEDICAL INSTITUTION - ANG MO KIO #29-34 ANG MO KIO AVENUE 3 SINGAPORE 560425</div>`)[0];
+                popup_7a4daded371fb4b9d433c07a4275e787.setContent(html_a0ccf89678d44f819768f746707b9eed);
+            
+        
+
+        marker_d10e6176c06d55e43cf3870596c20645.bindPopup(popup_7a4daded371fb4b9d433c07a4275e787)
+        ;
+
+        
+    
+    
+            var marker_5449332d49ef5509bd21d3873f13fc15 = L.marker(
+                [1.3691198, 103.8515393],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_36b798fee4425b0ee9260ace965fd116 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_be3c6c07b1ad3e2b2cbbb64c5ebf2393 = $(`<div id="html_be3c6c07b1ad3e2b2cbbb64c5ebf2393" style="width: 100.0%; height: 100.0%;">425 ANG MO KIO AVENUE 3 THONG CHAI MEDICAL INSTITUTION - ANG MO KIO #11-36 SINGAPORE 560425</div>`)[0];
+                popup_36b798fee4425b0ee9260ace965fd116.setContent(html_be3c6c07b1ad3e2b2cbbb64c5ebf2393);
+            
+        
+
+        marker_5449332d49ef5509bd21d3873f13fc15.bindPopup(popup_36b798fee4425b0ee9260ace965fd116)
+        ;
+
+        
+    
+    
+            var marker_518d680d50d9b4b5e3d85dbc4b315225 = L.marker(
+                [1.3691198, 103.8515393],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_f7338da845837f6f557f20102b3bc580 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_547bb4e695389794d5f2a463d8aca1d1 = $(`<div id="html_547bb4e695389794d5f2a463d8aca1d1" style="width: 100.0%; height: 100.0%;">425 THONG CHAI MEDICAL INSTITUTION - ANG MO KIO ANG MO KIO AVENUE 3 #21-69 SINGAPORE 560425</div>`)[0];
+                popup_f7338da845837f6f557f20102b3bc580.setContent(html_547bb4e695389794d5f2a463d8aca1d1);
+            
+        
+
+        marker_518d680d50d9b4b5e3d85dbc4b315225.bindPopup(popup_f7338da845837f6f557f20102b3bc580)
+        ;
+
+        
+    
+    
+            var marker_b0813203f63d070978304f3200df38dd = L.marker(
+                [1.3661934, 103.8479032],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_5ef0c041d9b97f50e9f8728509817fda = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_065378a59c3a078aebadd2b50f00761d = $(`<div id="html_065378a59c3a078aebadd2b50f00761d" style="width: 100.0%; height: 100.0%;">348 #08-60 SINGAPORE BUDDHIST FREE CLINIC ANG MO KIO BRANCH CLINIC ANG MO KIO AVENUE 3 SINGAPORE 560348</div>`)[0];
+                popup_5ef0c041d9b97f50e9f8728509817fda.setContent(html_065378a59c3a078aebadd2b50f00761d);
+            
+        
+
+        marker_b0813203f63d070978304f3200df38dd.bindPopup(popup_5ef0c041d9b97f50e9f8728509817fda)
+        ;
+
+        
+    
+    
+            var marker_46dbce807c96c560867639fa645f7c01 = L.marker(
+                [1.3661934, 103.8479032],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_e9d16ea8100e47bd43972efd23237e4e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cbc4ed18e7093e083b7caaebb444bda2 = $(`<div id="html_cbc4ed18e7093e083b7caaebb444bda2" style="width: 100.0%; height: 100.0%;">348 #25-59 SINGAPORE BUDDHIST FREE CLINIC ANG MO KIO BRANCH CLINIC ANG MO KIO AVENUE 3 SINGAPORE 560348</div>`)[0];
+                popup_e9d16ea8100e47bd43972efd23237e4e.setContent(html_cbc4ed18e7093e083b7caaebb444bda2);
+            
+        
+
+        marker_46dbce807c96c560867639fa645f7c01.bindPopup(popup_e9d16ea8100e47bd43972efd23237e4e)
+        ;
+
+        
+    
+    
+            var marker_81d81e71c2d5b8532234a565cf9e9adc = L.marker(
+                [1.3665973, 103.8468766],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_db0eb5ee4b9243e7b4445dbfe278ebf1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c650d8202f8b7de18415001456c2f4d9 = $(`<div id="html_c650d8202f8b7de18415001456c2f4d9" style="width: 100.0%; height: 100.0%;">329 MY FIRST SKOOL ANG MO KIO AVENUE 3 #03-42 SINGAPORE 560329</div>`)[0];
+                popup_db0eb5ee4b9243e7b4445dbfe278ebf1.setContent(html_c650d8202f8b7de18415001456c2f4d9);
+            
+        
+
+        marker_81d81e71c2d5b8532234a565cf9e9adc.bindPopup(popup_db0eb5ee4b9243e7b4445dbfe278ebf1)
+        ;
+
+        
+    
+    
+            var marker_cf28cf8ec29a2c9e21779e4f6ea00e3e = L.marker(
+                [1.3687301, 103.8515596],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_03e4a7bbb9db4492e0610207d2eb9c41 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c149bc9df3f0d555a527247edb9307e8 = $(`<div id="html_c149bc9df3f0d555a527247edb9307e8" style="width: 100.0%; height: 100.0%;">423 ANG MO KIO AVENUE 3 #07-55 CHONG BOON VIEW SINGAPORE 560423</div>`)[0];
+                popup_03e4a7bbb9db4492e0610207d2eb9c41.setContent(html_c149bc9df3f0d555a527247edb9307e8);
+            
+        
+
+        marker_cf28cf8ec29a2c9e21779e4f6ea00e3e.bindPopup(popup_03e4a7bbb9db4492e0610207d2eb9c41)
+        ;
+
+        
+    
+    
+            var marker_e2b376602daf2c9dc929cdf3d04795d5 = L.marker(
+                [1.3687301, 103.8515596],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_f3337454b871a7a75e42512f5cce3f99 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8ce766add11fc0cec0ba316fce1bd963 = $(`<div id="html_8ce766add11fc0cec0ba316fce1bd963" style="width: 100.0%; height: 100.0%;">423 ANG MO KIO AVENUE 3 #13-07 CHONG BOON VIEW SINGAPORE 560423</div>`)[0];
+                popup_f3337454b871a7a75e42512f5cce3f99.setContent(html_8ce766add11fc0cec0ba316fce1bd963);
+            
+        
+
+        marker_e2b376602daf2c9dc929cdf3d04795d5.bindPopup(popup_f3337454b871a7a75e42512f5cce3f99)
+        ;
+
+        
+    
+    
+            var marker_abfad432f03729201ad1b143e666c786 = L.marker(
+                [1.3674437, 103.8458913],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_8c880d4f71031b3dfa26b3a35cf0a0b0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_07089ede4b5fd02904e90b4b8c445801 = $(`<div id="html_07089ede4b5fd02904e90b4b8c445801" style="width: 100.0%; height: 100.0%;">301 ANG MO KIO AVENUE 3 #05-13 PCF SPARKLETOTS PRESCHOOL @ TECK GHEE BLOCK 301 (KN) SINGAPORE 560301</div>`)[0];
+                popup_8c880d4f71031b3dfa26b3a35cf0a0b0.setContent(html_07089ede4b5fd02904e90b4b8c445801);
+            
+        
+
+        marker_abfad432f03729201ad1b143e666c786.bindPopup(popup_8c880d4f71031b3dfa26b3a35cf0a0b0)
+        ;
+
+        
+    
+    
+            var marker_d9993faf20e49badbb0d35893ecd75fc = L.marker(
+                [1.3674437, 103.8458913],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_8c84c5a07d8a04b93f13faf17db58130 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7785d1f1d0f6e285d515db0844a0b42d = $(`<div id="html_7785d1f1d0f6e285d515db0844a0b42d" style="width: 100.0%; height: 100.0%;">BLOCK 301 ANG MO KIO AVENUE 3 PCF SPARKLETOTS PRESCHOOL @ TECK GHEE BLOCK 301 (KN) #25-16 SINGAPORE 560301</div>`)[0];
+                popup_8c84c5a07d8a04b93f13faf17db58130.setContent(html_7785d1f1d0f6e285d515db0844a0b42d);
+            
+        
+
+        marker_d9993faf20e49badbb0d35893ecd75fc.bindPopup(popup_8c84c5a07d8a04b93f13faf17db58130)
+        ;
+
+        
+    
+    
+            var marker_f6da934be00f8848cf63dcf1658e0146 = L.marker(
+                [1.3720202, 103.8501883],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_0ae7a4d34a3ebafd3e6ae779d6dd05b5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_621924c09f3e6a90b06e8659eabd1fa6 = $(`<div id="html_621924c09f3e6a90b06e8659eabd1fa6" style="width: 100.0%; height: 100.0%;">596C ANG MO KIO STREET 52 CITY VIEW @ CHENG SAN #20-72 SINGAPORE 563596</div>`)[0];
+                popup_0ae7a4d34a3ebafd3e6ae779d6dd05b5.setContent(html_621924c09f3e6a90b06e8659eabd1fa6);
+            
+        
+
+        marker_f6da934be00f8848cf63dcf1658e0146.bindPopup(popup_0ae7a4d34a3ebafd3e6ae779d6dd05b5)
+        ;
+
+        
+    
+    
+            var marker_da4a244e7aad33fc13c5a393be605b72 = L.marker(
+                [1.36791865, 103.85152895],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_039fae080c6fc44acc6e63f179343c47 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d603f3e233dea98def97bbb8ba30af86 = $(`<div id="html_d603f3e233dea98def97bbb8ba30af86" style="width: 100.0%; height: 100.0%;">422 CHONG BOON VIEW #09-23 ANG MO KIO AVENUE 3 SINGAPORE 560422</div>`)[0];
+                popup_039fae080c6fc44acc6e63f179343c47.setContent(html_d603f3e233dea98def97bbb8ba30af86);
+            
+        
+
+        marker_da4a244e7aad33fc13c5a393be605b72.bindPopup(popup_039fae080c6fc44acc6e63f179343c47)
+        ;
+
+        
+    
+    
+            var marker_6fbe57b8f2c6852adcb53cfab21d8da6 = L.marker(
+                [1.36791865, 103.85152895],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_9d5d024b5677d9a2d8a392c54a46cfd4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_68d34fe9b5223bab7dff5d7a5b0ac188 = $(`<div id="html_68d34fe9b5223bab7dff5d7a5b0ac188" style="width: 100.0%; height: 100.0%;">422 ANG MO KIO AVENUE 3 #11-30 CHONG BOON VIEW SINGAPORE 560422</div>`)[0];
+                popup_9d5d024b5677d9a2d8a392c54a46cfd4.setContent(html_68d34fe9b5223bab7dff5d7a5b0ac188);
+            
+        
+
+        marker_6fbe57b8f2c6852adcb53cfab21d8da6.bindPopup(popup_9d5d024b5677d9a2d8a392c54a46cfd4)
+        ;
+
+        
+    
+    
+            var marker_12ff771b96da1463cb48e60169999896 = L.marker(
+                [1.3662444, 103.8501081],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_01092ac7ea36b5008400e20717ca06f7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ca63fd14ceeaa3375e00db24166cfce7 = $(`<div id="html_ca63fd14ceeaa3375e00db24166cfce7" style="width: 100.0%; height: 100.0%;">314 #03-50 ANG MO KIO AVENUE 3 TECK GHEE EVERGREEN SINGAPORE 560314</div>`)[0];
+                popup_01092ac7ea36b5008400e20717ca06f7.setContent(html_ca63fd14ceeaa3375e00db24166cfce7);
+            
+        
+
+        marker_12ff771b96da1463cb48e60169999896.bindPopup(popup_01092ac7ea36b5008400e20717ca06f7)
+        ;
+
+        
+    
+    
+            var marker_77e97053e0567ff80158e2f7004d3014 = L.marker(
+                [1.3662444, 103.8501081],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_d0701038e7d87a93df5aa25d569ce08b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5b4480dc501729525ba1c6f45b9eb1b1 = $(`<div id="html_5b4480dc501729525ba1c6f45b9eb1b1" style="width: 100.0%; height: 100.0%;">314 ANG MO KIO AVENUE 3 #18-09 TECK GHEE EVERGREEN SINGAPORE 560314</div>`)[0];
+                popup_d0701038e7d87a93df5aa25d569ce08b.setContent(html_5b4480dc501729525ba1c6f45b9eb1b1);
+            
+        
+
+        marker_77e97053e0567ff80158e2f7004d3014.bindPopup(popup_d0701038e7d87a93df5aa25d569ce08b)
+        ;
+
+        
+    
+    
+            var marker_a2307eedc88a474225e8e3e669f6d68f = L.marker(
+                [1.3662444, 103.8501081],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_4874b39806c1b4e8bfc39c82b122c078 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d5f6ea7ca932f91cab3ee618c59cf209 = $(`<div id="html_d5f6ea7ca932f91cab3ee618c59cf209" style="width: 100.0%; height: 100.0%;">314 TECK GHEE EVERGREEN #13-19 ANG MO KIO AVENUE 3 SINGAPORE 560314</div>`)[0];
+                popup_4874b39806c1b4e8bfc39c82b122c078.setContent(html_d5f6ea7ca932f91cab3ee618c59cf209);
+            
+        
+
+        marker_a2307eedc88a474225e8e3e669f6d68f.bindPopup(popup_4874b39806c1b4e8bfc39c82b122c078)
+        ;
+
+        
+    
+    
+            var marker_cdeb45639f4f6da727508b0640d301b0 = L.marker(
+                [1.3662444, 103.8501081],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_9ccb9ec9fd7069ce9077bb51054e03d5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_78ab6b605add22bfa9368452518a7ed7 = $(`<div id="html_78ab6b605add22bfa9368452518a7ed7" style="width: 100.0%; height: 100.0%;">314 #28-09 TECK GHEE EVERGREEN ANG MO KIO AVENUE 3 SINGAPORE 560314</div>`)[0];
+                popup_9ccb9ec9fd7069ce9077bb51054e03d5.setContent(html_78ab6b605add22bfa9368452518a7ed7);
+            
+        
+
+        marker_cdeb45639f4f6da727508b0640d301b0.bindPopup(popup_9ccb9ec9fd7069ce9077bb51054e03d5)
+        ;
+
+        
+    
+    
+            var marker_fd30ef48e90676d6dbbbc89de5ee06aa = L.marker(
+                [1.3662444, 103.8501081],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_623b8dfa153c6821c51a5a67c78859a6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e4672ea06a6d7e584e798f5c2dd8f05e = $(`<div id="html_e4672ea06a6d7e584e798f5c2dd8f05e" style="width: 100.0%; height: 100.0%;">314 TECK GHEE EVERGREEN ANG MO KIO AVENUE 3 #16-26 SINGAPORE 560314</div>`)[0];
+                popup_623b8dfa153c6821c51a5a67c78859a6.setContent(html_e4672ea06a6d7e584e798f5c2dd8f05e);
+            
+        
+
+        marker_fd30ef48e90676d6dbbbc89de5ee06aa.bindPopup(popup_623b8dfa153c6821c51a5a67c78859a6)
+        ;
+
+        
+    
+    
+            var marker_22ada866739e2632eb82a626ca915cf4 = L.marker(
+                [1.3662444, 103.8501081],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_26a5d1102d0bda2bbcd3c5730f904d5b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_29aec80589f1280bd422b36a4a55d1d4 = $(`<div id="html_29aec80589f1280bd422b36a4a55d1d4" style="width: 100.0%; height: 100.0%;">314 #29-88 ANG MO KIO AVENUE 3 TECK GHEE EVERGREEN SINGAPORE 560314</div>`)[0];
+                popup_26a5d1102d0bda2bbcd3c5730f904d5b.setContent(html_29aec80589f1280bd422b36a4a55d1d4);
+            
+        
+
+        marker_22ada866739e2632eb82a626ca915cf4.bindPopup(popup_26a5d1102d0bda2bbcd3c5730f904d5b)
+        ;
+
+        
+    
+    
+            var marker_d3b657505c823a975d67e7e885218677 = L.marker(
+                [1.3726308, 103.8491682],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_5ef4a6c61321281e4ed39bc4aaa6a28a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f0c14ae66441c6197d714468ac0539cb = $(`<div id="html_f0c14ae66441c6197d714468ac0539cb" style="width: 100.0%; height: 100.0%;">512 CHENG SAN CREST ANG MO KIO AVENUE 8 #08-40 SINGAPORE 560512</div>`)[0];
+                popup_5ef4a6c61321281e4ed39bc4aaa6a28a.setContent(html_f0c14ae66441c6197d714468ac0539cb);
+            
+        
+
+        marker_d3b657505c823a975d67e7e885218677.bindPopup(popup_5ef4a6c61321281e4ed39bc4aaa6a28a)
+        ;
+
+        
+    
+    
+            var marker_d33863f30bba51ef6adf0157e0d79e0b = L.marker(
+                [1.3726308, 103.8491682],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_afe98a0045b3a9c0e07f709cec934d56 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bc0a916d5193bc99f6eedf5f9f71b36e = $(`<div id="html_bc0a916d5193bc99f6eedf5f9f71b36e" style="width: 100.0%; height: 100.0%;">512 #17-03 ANG MO KIO AVENUE 8 CHENG SAN CREST SINGAPORE 560512</div>`)[0];
+                popup_afe98a0045b3a9c0e07f709cec934d56.setContent(html_bc0a916d5193bc99f6eedf5f9f71b36e);
+            
+        
+
+        marker_d33863f30bba51ef6adf0157e0d79e0b.bindPopup(popup_afe98a0045b3a9c0e07f709cec934d56)
+        ;
+
+        
+    
+    
+            var marker_6d2b09157cb96891a28db39d783490c1 = L.marker(
+                [1.3714876, 103.8458657],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_917edad32395a52cb97dd5cd118b8a1f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9c69ed0e2cb900a95396c7a5f6e09821 = $(`<div id="html_9c69ed0e2cb900a95396c7a5f6e09821" style="width: 100.0%; height: 100.0%;">716 #18-73 ANG MO KIO AVENUE 6 SINGAPORE 560716</div>`)[0];
+                popup_917edad32395a52cb97dd5cd118b8a1f.setContent(html_9c69ed0e2cb900a95396c7a5f6e09821);
+            
+        
+
+        marker_6d2b09157cb96891a28db39d783490c1.bindPopup(popup_917edad32395a52cb97dd5cd118b8a1f)
+        ;
+
+        
+    
+    
+            var marker_a8cebef30569bc8891d23a715c985436 = L.marker(
+                [1.3714876, 103.8458657],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_5745f4f41c54c5ad9c96d552fdf718a0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4ae17b1bf61b0c248d58573db3243f1b = $(`<div id="html_4ae17b1bf61b0c248d58573db3243f1b" style="width: 100.0%; height: 100.0%;">716 ANG MO KIO AVENUE 6 #12-42 SINGAPORE 560716</div>`)[0];
+                popup_5745f4f41c54c5ad9c96d552fdf718a0.setContent(html_4ae17b1bf61b0c248d58573db3243f1b);
+            
+        
+
+        marker_a8cebef30569bc8891d23a715c985436.bindPopup(popup_5745f4f41c54c5ad9c96d552fdf718a0)
+        ;
+
+        
+    
+    
+            var marker_f8ac154314d2b50f979440ecfdb3e956 = L.marker(
+                [1.3714876, 103.8458657],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_edfd7b428a6c5cc773deb75aa7131038 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_15c84b19fbca939a61302188fd9cef37 = $(`<div id="html_15c84b19fbca939a61302188fd9cef37" style="width: 100.0%; height: 100.0%;">716 ANG MO KIO AVENUE 6 #05-09 SINGAPORE 560716</div>`)[0];
+                popup_edfd7b428a6c5cc773deb75aa7131038.setContent(html_15c84b19fbca939a61302188fd9cef37);
+            
+        
+
+        marker_f8ac154314d2b50f979440ecfdb3e956.bindPopup(popup_edfd7b428a6c5cc773deb75aa7131038)
+        ;
+
+        
+    
+    
+            var marker_d406b85816fd693fa6d670d5504ed462 = L.marker(
+                [1.3670882, 103.8456827],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_552e7be0cfadfe94d1e9bae388faa933 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4da25a79b00ea385a46ae02cb3fa0f94 = $(`<div id="html_4da25a79b00ea385a46ae02cb3fa0f94" style="width: 100.0%; height: 100.0%;">302 #15-03 ANG MO KIO 31 ANG MO KIO AVENUE 3 SINGAPORE 560302</div>`)[0];
+                popup_552e7be0cfadfe94d1e9bae388faa933.setContent(html_4da25a79b00ea385a46ae02cb3fa0f94);
+            
+        
+
+        marker_d406b85816fd693fa6d670d5504ed462.bindPopup(popup_552e7be0cfadfe94d1e9bae388faa933)
+        ;
+
+        
+    
+    
+            var marker_6015042d0776f235da7d87618c00e218 = L.marker(
+                [1.368838, 103.8445652],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_c4ace6223e5ac23364d52013b9e3abbc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_64f6ea25bc4d4d73c46acab0bb41063d = $(`<div id="html_64f6ea25bc4d4d73c46acab0bb41063d" style="width: 100.0%; height: 100.0%;">201 ANG MO KIO AVENUE 3 #14-80 ANG MO KIO VIEW SINGAPORE 560201</div>`)[0];
+                popup_c4ace6223e5ac23364d52013b9e3abbc.setContent(html_64f6ea25bc4d4d73c46acab0bb41063d);
+            
+        
+
+        marker_6015042d0776f235da7d87618c00e218.bindPopup(popup_c4ace6223e5ac23364d52013b9e3abbc)
+        ;
+
+        
+    
+    
+            var marker_d41048b7826875bd9c30b939c151e30c = L.marker(
+                [1.368838, 103.8445652],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_086c92f3fa15a2998d76c76ffaac4fbd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cdb88f7e430135d87cbe66bb8f9addb6 = $(`<div id="html_cdb88f7e430135d87cbe66bb8f9addb6" style="width: 100.0%; height: 100.0%;">201 ANG MO KIO AVENUE 3 ANG MO KIO VIEW #08-23 SINGAPORE 560201</div>`)[0];
+                popup_086c92f3fa15a2998d76c76ffaac4fbd.setContent(html_cdb88f7e430135d87cbe66bb8f9addb6);
+            
+        
+
+        marker_d41048b7826875bd9c30b939c151e30c.bindPopup(popup_086c92f3fa15a2998d76c76ffaac4fbd)
+        ;
+
+        
+    
+    
+            var marker_2ea2620ccf4916dd7aab6cecca877a21 = L.marker(
+                [1.368838, 103.8445652],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_c1a93641c757c701b6aa00591f09bad2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_988dea97436f058947d00d68e5af5392 = $(`<div id="html_988dea97436f058947d00d68e5af5392" style="width: 100.0%; height: 100.0%;">201 #18-40 ANG MO KIO AVENUE 3 ANG MO KIO VIEW SINGAPORE 560201</div>`)[0];
+                popup_c1a93641c757c701b6aa00591f09bad2.setContent(html_988dea97436f058947d00d68e5af5392);
+            
+        
+
+        marker_2ea2620ccf4916dd7aab6cecca877a21.bindPopup(popup_c1a93641c757c701b6aa00591f09bad2)
+        ;
+
+        
+    
+    
+            var marker_dca531be12587dc5bef64204913ecde0 = L.marker(
+                [1.366079, 103.846009],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_9492fb37ff92ed8833fddb5785ce9310 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6aa3fc20fa926d41e52e903350c3668b = $(`<div id="html_6aa3fc20fa926d41e52e903350c3668b" style="width: 100.0%; height: 100.0%;">305 ANG MO KIO AVENUE 1 TECK GHEE VISTA #05-65 SINGAPORE 560305</div>`)[0];
+                popup_9492fb37ff92ed8833fddb5785ce9310.setContent(html_6aa3fc20fa926d41e52e903350c3668b);
+            
+        
+
+        marker_dca531be12587dc5bef64204913ecde0.bindPopup(popup_9492fb37ff92ed8833fddb5785ce9310)
+        ;
+
+        
+    
+    
+            var marker_197b1ed58630698289345bd0b56c6b5f = L.marker(
+                [1.366079, 103.846009],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_be4ea7560c3db2f7182a423942378b99 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3650a6edbfd53004ef455af941021e62 = $(`<div id="html_3650a6edbfd53004ef455af941021e62" style="width: 100.0%; height: 100.0%;">305 ANG MO KIO AVENUE 1 TECK GHEE VISTA #23-65 SINGAPORE 560305</div>`)[0];
+                popup_be4ea7560c3db2f7182a423942378b99.setContent(html_3650a6edbfd53004ef455af941021e62);
+            
+        
+
+        marker_197b1ed58630698289345bd0b56c6b5f.bindPopup(popup_be4ea7560c3db2f7182a423942378b99)
+        ;
+
+        
+    
+    
+            var marker_dafcc06c4d23ffc9402f4ddca2a5c23f = L.marker(
+                [1.3701834, 103.8523813],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_be96528b2c530a9a242c4e1acab67462 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_eae33cfcbb6990867c5d6c2fa42ff290 = $(`<div id="html_eae33cfcbb6990867c5d6c2fa42ff290" style="width: 100.0%; height: 100.0%;">587 CHENG SAN COURT #02-52 ANG MO KIO AVENUE 3 SINGAPORE 560587</div>`)[0];
+                popup_be96528b2c530a9a242c4e1acab67462.setContent(html_eae33cfcbb6990867c5d6c2fa42ff290);
+            
+        
+
+        marker_dafcc06c4d23ffc9402f4ddca2a5c23f.bindPopup(popup_be96528b2c530a9a242c4e1acab67462)
+        ;
+
+        
+    
+    
+            var marker_04609b180d9d7e405c9b51c07dfb8d90 = L.marker(
+                [1.3701834, 103.8523813],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_47b4cafa0824dcac7da754c1e94c9a11 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b4f2e5711c9547adfb265a095f1de910 = $(`<div id="html_b4f2e5711c9547adfb265a095f1de910" style="width: 100.0%; height: 100.0%;">BLOCK 587 ANG MO KIO AVENUE 3 CHENG SAN COURT #14-37 SINGAPORE 560587</div>`)[0];
+                popup_47b4cafa0824dcac7da754c1e94c9a11.setContent(html_b4f2e5711c9547adfb265a095f1de910);
+            
+        
+
+        marker_04609b180d9d7e405c9b51c07dfb8d90.bindPopup(popup_47b4cafa0824dcac7da754c1e94c9a11)
+        ;
+
+        
+    
+    
+            var marker_8089ba32aa61ca3abe63edb344863770 = L.marker(
+                [1.36511245, 103.8483918],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_24d7fb657e081c1916bef8983a9b08e9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d6efc622cad4c3310c95028e99f42dbc = $(`<div id="html_d6efc622cad4c3310c95028e99f42dbc" style="width: 100.0%; height: 100.0%;">321 ANG MO KIO AVENUE 1 TECK GHEE NEIGHBOURHOOD POLICE POST #06-83 SINGAPORE 560321</div>`)[0];
+                popup_24d7fb657e081c1916bef8983a9b08e9.setContent(html_d6efc622cad4c3310c95028e99f42dbc);
+            
+        
+
+        marker_8089ba32aa61ca3abe63edb344863770.bindPopup(popup_24d7fb657e081c1916bef8983a9b08e9)
+        ;
+
+        
+    
+    
+            var marker_c51010cd8a097e25de90cf38d3c2110a = L.marker(
+                [1.3706047, 103.8523315],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_fbf3fcb0bdb1652789f21a8735660aa4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_21ddbcddfec9c1405e54e70a5a128bfe = $(`<div id="html_21ddbcddfec9c1405e54e70a5a128bfe" style="width: 100.0%; height: 100.0%;">585 #13-77 ANG MO KIO AVENUE 3 CHENG SAN COURT SINGAPORE 560585</div>`)[0];
+                popup_fbf3fcb0bdb1652789f21a8735660aa4.setContent(html_21ddbcddfec9c1405e54e70a5a128bfe);
+            
+        
+
+        marker_c51010cd8a097e25de90cf38d3c2110a.bindPopup(popup_fbf3fcb0bdb1652789f21a8735660aa4)
+        ;
+
+        
+    
+    
+            var marker_18633369f61ca6f0e765528406a644fb = L.marker(
+                [1.3725204, 103.8509927],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_446a6d6c7e61085d83146dbab837a527 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a5a0cfa2fd8ea8eee3ba6a0e20ab5ab7 = $(`<div id="html_a5a0cfa2fd8ea8eee3ba6a0e20ab5ab7" style="width: 100.0%; height: 100.0%;">596A #09-30 CITY VIEW @ CHENG SAN ANG MO KIO STREET 52 SINGAPORE 561596</div>`)[0];
+                popup_446a6d6c7e61085d83146dbab837a527.setContent(html_a5a0cfa2fd8ea8eee3ba6a0e20ab5ab7);
+            
+        
+
+        marker_18633369f61ca6f0e765528406a644fb.bindPopup(popup_446a6d6c7e61085d83146dbab837a527)
+        ;
+
+        
+    
+    
+            var marker_3eb112fc091ffeecb63b07fafa8ad1f9 = L.marker(
+                [1.372937, 103.8503704],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_a05c32bee30d6a9e2f7c21269a323bd3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b9febeb436f3387113d3fe4b4f3f378a = $(`<div id="html_b9febeb436f3387113d3fe4b4f3f378a" style="width: 100.0%; height: 100.0%;">BLOCK 513 ANG MO KIO AVENUE 8 CHENG SAN CREST #14-37 SINGAPORE 560513</div>`)[0];
+                popup_a05c32bee30d6a9e2f7c21269a323bd3.setContent(html_b9febeb436f3387113d3fe4b4f3f378a);
+            
+        
+
+        marker_3eb112fc091ffeecb63b07fafa8ad1f9.bindPopup(popup_a05c32bee30d6a9e2f7c21269a323bd3)
+        ;
+
+        
+    
+    
+            var marker_3b19be03f67f1fab8abfe4ddb0c28f75 = L.marker(
+                [1.372937, 103.8503704],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_03432b34692bd4edb06b1a981b154d9c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0cd8de2f063bee666820f9641a0de50d = $(`<div id="html_0cd8de2f063bee666820f9641a0de50d" style="width: 100.0%; height: 100.0%;">513 ANG MO KIO AVENUE 8 CHENG SAN CREST #11-65 SINGAPORE 560513</div>`)[0];
+                popup_03432b34692bd4edb06b1a981b154d9c.setContent(html_0cd8de2f063bee666820f9641a0de50d);
+            
+        
+
+        marker_3b19be03f67f1fab8abfe4ddb0c28f75.bindPopup(popup_03432b34692bd4edb06b1a981b154d9c)
+        ;
+
+        
+    
+    
+            var marker_8ee120ca616cf60bb8352fc613c6a4b6 = L.marker(
+                [1.3684685333333333, 103.8444],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_a391e927075140162a1a5c276ed49b05 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c6cd3e6a01b45c1ab6cafca13b586975 = $(`<div id="html_c6cd3e6a01b45c1ab6cafca13b586975" style="width: 100.0%; height: 100.0%;">202 ANG MO KIO AVENUE 3 #13-07 ANG MO KIO VIEW SINGAPORE 560202</div>`)[0];
+                popup_a391e927075140162a1a5c276ed49b05.setContent(html_c6cd3e6a01b45c1ab6cafca13b586975);
+            
+        
+
+        marker_8ee120ca616cf60bb8352fc613c6a4b6.bindPopup(popup_a391e927075140162a1a5c276ed49b05)
+        ;
+
+        
+    
+    
+            var marker_a2a3bacb42c66dd8c9243d85767c3e77 = L.marker(
+                [1.3651181, 103.8473767],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_3c4c0c22111d8254bb1557dad890b23f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_003c56faf6f40943589ffa463f5d0f84 = $(`<div id="html_003c56faf6f40943589ffa463f5d0f84" style="width: 100.0%; height: 100.0%;">319 ANG MO KIO AVENUE 1 #02-65 TECK GHEE VISTA SINGAPORE 560319</div>`)[0];
+                popup_3c4c0c22111d8254bb1557dad890b23f.setContent(html_003c56faf6f40943589ffa463f5d0f84);
+            
+        
+
+        marker_a2a3bacb42c66dd8c9243d85767c3e77.bindPopup(popup_3c4c0c22111d8254bb1557dad890b23f)
+        ;
+
+        
+    
+    
+            var marker_0700d25a7875bc901bdf9fb290cca637 = L.marker(
+                [1.3651181, 103.8473767],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_0934425baa27e9bcd341efe9e4413a94 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a129d3d61656a09b8e8d5a0e2a3bfa2d = $(`<div id="html_a129d3d61656a09b8e8d5a0e2a3bfa2d" style="width: 100.0%; height: 100.0%;">319 TECK GHEE VISTA #19-33 ANG MO KIO AVENUE 1 SINGAPORE 560319</div>`)[0];
+                popup_0934425baa27e9bcd341efe9e4413a94.setContent(html_a129d3d61656a09b8e8d5a0e2a3bfa2d);
+            
+        
+
+        marker_0700d25a7875bc901bdf9fb290cca637.bindPopup(popup_0934425baa27e9bcd341efe9e4413a94)
+        ;
+
+        
+    
+    
+            var marker_9fff94fa4a0f6685cbaab9ff27012465 = L.marker(
+                [1.3657221, 103.8457798],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_6a82cd20f5193b1084318f45ee92f956 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e16c6f5a432a3b76694b6f634a8b43e6 = $(`<div id="html_e16c6f5a432a3b76694b6f634a8b43e6" style="width: 100.0%; height: 100.0%;">306 #25-63 ANG MO KIO AVENUE 1 TECK GHEE VISTA SINGAPORE 560306</div>`)[0];
+                popup_6a82cd20f5193b1084318f45ee92f956.setContent(html_e16c6f5a432a3b76694b6f634a8b43e6);
+            
+        
+
+        marker_9fff94fa4a0f6685cbaab9ff27012465.bindPopup(popup_6a82cd20f5193b1084318f45ee92f956)
+        ;
+
+        
+    
+    
+            var marker_bc0dec953ec716ee411c62dfc9e1b08b = L.marker(
+                [1.3657221, 103.8457798],
+                {}
+            ).addTo(marker_cluster_31627475ae9d339cca5d65b227a31d75);
+        
+    
+        var popup_04ebaab1f19f19fd373f7b9faa376727 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_650c90f247b5645ca99b9e5d35483a1a = $(`<div id="html_650c90f247b5645ca99b9e5d35483a1a" style="width: 100.0%; height: 100.0%;">306 #12-16 ANG MO KIO AVENUE 1 TECK GHEE VISTA SINGAPORE 560306</div>`)[0];
+                popup_04ebaab1f19f19fd373f7b9faa376727.setContent(html_650c90f247b5645ca99b9e5d35483a1a);
+            
+        
+
+        marker_bc0dec953ec716ee411c62dfc9e1b08b.bindPopup(popup_04ebaab1f19f19fd373f7b9faa376727)
+        ;
+
+        
+    
+    
+            var marker_d06a34ad6c80a1f5c426936c31b0a162 = L.marker(
+                [1.3692, 103.8485],
+                {}
+            ).addTo(map_6a60a1bb1383051e098c81b174c326a2);
+        
+    
+            var icon_ecaa8c210c71245d706f9367be313f33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d06a34ad6c80a1f5c426936c31b0a162.setIcon(icon_ecaa8c210c71245d706f9367be313f33);
+        
+    
+        var popup_e29a86cf173266eea56bf0ed8e8f6bb6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_586f01e49425c43e9f17c2322f54a178 = $(`<div id="html_586f01e49425c43e9f17c2322f54a178" style="width: 100.0%; height: 100.0%;">53 Ang Mo Kio Ave 3, Singapore 569933</div>`)[0];
+                popup_e29a86cf173266eea56bf0ed8e8f6bb6.setContent(html_586f01e49425c43e9f17c2322f54a178);
+            
+        
+
+        marker_d06a34ad6c80a1f5c426936c31b0a162.bindPopup(popup_e29a86cf173266eea56bf0ed8e8f6bb6)
+        ;
+
+        
+    
+    
+            var circle_1712ad9339d6f9c4c1fd81da215af90d = L.circle(
+                [1.3692, 103.8485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500.0, "stroke": true, "weight": 3}
+            ).addTo(map_6a60a1bb1383051e098c81b174c326a2);
+        
+</script>
+</html>

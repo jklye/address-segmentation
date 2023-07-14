@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import spacy
 from geopy import distance
+from geopy.geocoders import Nominatim
 import pgeocode
 import os
 import ssl
@@ -13,6 +14,7 @@ from PyQt5.QtWidgets import QVBoxLayout, QComboBox, QHBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import QUrl
 from PyQt5.QtGui import QIcon
+
 
 class GeoApp(QMainWindow):
 
@@ -26,14 +28,13 @@ class GeoApp(QMainWindow):
         # TODO: Edit path to database and model accordingly
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
         self.locations_file = os.path.join(self.current_dir, "data", "locations.pkl")
-        self.model_path = os.path.join(self.current_dir, "models", "model-best")
+        self.model_path = os.path.join(self.current_dir, "models", "model-best-sg")
         self.location_data = None
         self.nlp = None
 
         # Initialize GUI
         self.setWindowTitle("GeoApp")
         self.setWindowIcon(QIcon("misc/map_icon.png"))
-        self.setGeometry(100, 100, 800, 600)
 
         self.central_widget = QWidget()
         self.layout = QVBoxLayout()
@@ -160,9 +161,8 @@ class GeoApp(QMainWindow):
             self.load_location_data()
             self.load_spacy_model()
 
+            # Current implementation allows for analysis within Singapore only (use of pgeocode requires country input 'sg')
             postal_code = self.extract_postal_code(input_address)
-            
-            # Note: Current implementation allows for analysis within Singapore only (use of pgeocode requires country input)
             user_location = self.address_to_lat_long(postal_code, 'pgeocode')
 
             # Postal code is extracted from the input address
@@ -301,7 +301,7 @@ class GeoApp(QMainWindow):
             or None if the coordinates could not be retrieved.
         """
             
-        # pgeocode method
+        # pgeocode method for local
         if geo_service=='pgeocode':   
             ssl._create_default_https_context = ssl._create_unverified_context # workaround in order to use pgeocode    
             geolocator = pgeocode.Nominatim('sg')
@@ -309,6 +309,14 @@ class GeoApp(QMainWindow):
             if not location.empty:
                 print(f"\n[pgeocode] Postal code: {postal_code}, coordinates: ({location.latitude}, {location.longitude})")
                 return location
+        
+        # # geopy method for foreign
+        # elif geo_service=='geopy':
+        #     geolocator = Nominatim(user_agent="myGeocoder")
+        #     location = geolocator.geocode(postal_code)
+        #     if location is not None:
+        #         print("[geopy___] Postal code: " + str(postal_code) + ", Result: (" + str(location.latitude) + ", " + str(location.longitude) + ")")
+        #         return location
             
         # can introduce fallback in the future (alternative APIs or geocoding services) to improve geocoding
         else:
