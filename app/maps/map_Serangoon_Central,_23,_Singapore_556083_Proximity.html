@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_137220a508ec47647355fcf73fa66fd1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_137220a508ec47647355fcf73fa66fd1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_137220a508ec47647355fcf73fa66fd1 = L.map(
+                "map_137220a508ec47647355fcf73fa66fd1",
+                {
+                    center: [1.3507, 103.87215],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef640f56ecb272ef0310d9942829ff70 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var marker_62dbc767118efc101f329ac7e6b91296 = L.marker(
+                [1.3478027, 103.8759581],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_f0ba267e5ca1d3f0981aa3ed485b559c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62dbc767118efc101f329ac7e6b91296.setIcon(icon_f0ba267e5ca1d3f0981aa3ed485b559c);
+        
+    
+        var popup_89c1e0f2f0800884fa4bebfa6bed16bd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_09ddb7876c996e4319df44af5f95a133 = $(`<div id="html_09ddb7876c996e4319df44af5f95a133" style="width: 100.0%; height: 100.0%;">426 #08-85 SERANGOON AVENUE 1 SINGAPORE 550426<br><br>Distance from input: 0.531 km</div>`)[0];
+                popup_89c1e0f2f0800884fa4bebfa6bed16bd.setContent(html_09ddb7876c996e4319df44af5f95a133);
+            
+        
+
+        marker_62dbc767118efc101f329ac7e6b91296.bindPopup(popup_89c1e0f2f0800884fa4bebfa6bed16bd)
+        ;
+
+        
+    
+    
+            var marker_79a7fa7a6a0c334b64c2edf633d84aa7 = L.marker(
+                [1.3485081, 103.8755842],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_1312967ed9f32aed5c25ec016c604eb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_79a7fa7a6a0c334b64c2edf633d84aa7.setIcon(icon_1312967ed9f32aed5c25ec016c604eb5);
+        
+    
+        var popup_01ea3e08b8abb03b62c0946a04bd96b0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2a316d7ea14445e7098d808789aa1793 = $(`<div id="html_2a316d7ea14445e7098d808789aa1793" style="width: 100.0%; height: 100.0%;">423 SERANGOON CENTRAL #16-10 SINGAPORE 550423<br><br>423 SERANGOON CENTRAL #01-24 SINGAPORE 550423<br><br>Distance from input: 0.453 km</div>`)[0];
+                popup_01ea3e08b8abb03b62c0946a04bd96b0.setContent(html_2a316d7ea14445e7098d808789aa1793);
+            
+        
+
+        marker_79a7fa7a6a0c334b64c2edf633d84aa7.bindPopup(popup_01ea3e08b8abb03b62c0946a04bd96b0)
+        ;
+
+        
+    
+    
+            var marker_18e458c2614d6b40a302d6560cf622dd = L.marker(
+                [1.3485719, 103.8750609],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_582bc46a9f60d31bc887a0ce3049e1ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18e458c2614d6b40a302d6560cf622dd.setIcon(icon_582bc46a9f60d31bc887a0ce3049e1ae);
+        
+    
+        var popup_a30a4d5da4fce3139121ff75956504d5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_aeb1ac0fe8ae9e33bea3157e61e61222 = $(`<div id="html_aeb1ac0fe8ae9e33bea3157e61e61222" style="width: 100.0%; height: 100.0%;">421 SERANGOON CENTRAL #05-85 SINGAPORE 550421<br><br>Distance from input: 0.400 km</div>`)[0];
+                popup_a30a4d5da4fce3139121ff75956504d5.setContent(html_aeb1ac0fe8ae9e33bea3157e61e61222);
+            
+        
+
+        marker_18e458c2614d6b40a302d6560cf622dd.bindPopup(popup_a30a4d5da4fce3139121ff75956504d5)
+        ;
+
+        
+    
+    
+            var marker_018718800746c3731bf50daf73a7c7c1 = L.marker(
+                [1.3486068, 103.8738537],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_067486def5152d3449079071514afef1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_018718800746c3731bf50daf73a7c7c1.setIcon(icon_067486def5152d3449079071514afef1);
+        
+    
+        var popup_818f4a75fe6e9ed1014e45261d94f517 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c09a42a524c78e207cecacecbc1f1fee = $(`<div id="html_c09a42a524c78e207cecacecbc1f1fee" style="width: 100.0%; height: 100.0%;">411 #05-85 SERANGOON CENTRAL SINGAPORE 550411<br><br>Distance from input: 0.299 km</div>`)[0];
+                popup_818f4a75fe6e9ed1014e45261d94f517.setContent(html_c09a42a524c78e207cecacecbc1f1fee);
+            
+        
+
+        marker_018718800746c3731bf50daf73a7c7c1.bindPopup(popup_818f4a75fe6e9ed1014e45261d94f517)
+        ;
+
+        
+    
+    
+            var marker_85f70a760a69e098e1eb83020ead1ba6 = L.marker(
+                [1.3489849, 103.8736713],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_7b93ec0978a01894c3ecb5a70e20f126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85f70a760a69e098e1eb83020ead1ba6.setIcon(icon_7b93ec0978a01894c3ecb5a70e20f126);
+        
+    
+        var popup_fd5126add82ba45033b2a0a0f47b81df = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_caebae3292a70f4ff4195346ac8b2bc7 = $(`<div id="html_caebae3292a70f4ff4195346ac8b2bc7" style="width: 100.0%; height: 100.0%;">413 SERANGOON CENTRAL #07-77 SINGAPORE 550413<br><br>Distance from input: 0.254 km</div>`)[0];
+                popup_fd5126add82ba45033b2a0a0f47b81df.setContent(html_caebae3292a70f4ff4195346ac8b2bc7);
+            
+        
+
+        marker_85f70a760a69e098e1eb83020ead1ba6.bindPopup(popup_fd5126add82ba45033b2a0a0f47b81df)
+        ;
+
+        
+    
+    
+            var marker_ab4f0a84c162c515a3bc5a0a1a2a319b = L.marker(
+                [1.3526188, 103.8731309],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_b0ead1ce35fbe568d81505488fd21bde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_ab4f0a84c162c515a3bc5a0a1a2a319b.setIcon(icon_b0ead1ce35fbe568d81505488fd21bde);
+        
+    
+        var popup_3a820e505b13a5bb69901a6ace62fffe = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_733d34a3c7e30156d3f8413df83f9023 = $(`<div id="html_733d34a3c7e30156d3f8413df83f9023" style="width: 100.0%; height: 100.0%;">204 #14-03 SERANGOON CENTRAL ARCHERS STUDENT CARE CENTRE SINGAPORE 550204<br><br>204 ARCHERS STUDENT CARE CENTRE #12-81 SERANGOON CENTRAL SINGAPORE 550204<br><br>Distance from input: 0.239 km</div>`)[0];
+                popup_3a820e505b13a5bb69901a6ace62fffe.setContent(html_733d34a3c7e30156d3f8413df83f9023);
+            
+        
+
+        marker_ab4f0a84c162c515a3bc5a0a1a2a319b.bindPopup(popup_3a820e505b13a5bb69901a6ace62fffe)
+        ;
+
+        
+    
+    
+            var marker_9822bc8f705e7404f5a91226bd542fc3 = L.marker(
+                [1.3540174, 103.872475],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_44f238d518380c9c24f0eeac02968c59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_9822bc8f705e7404f5a91226bd542fc3.setIcon(icon_44f238d518380c9c24f0eeac02968c59);
+        
+    
+        var popup_773f04d65a009b3688ed8ef14ce174ac = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a19c03c6a25cbd9574898157b32a90f1 = $(`<div id="html_a19c03c6a25cbd9574898157b32a90f1" style="width: 100.0%; height: 100.0%;">261 SERANGOON CENTRAL DRIVE #06-73 SINGAPORE 550261<br><br>261 SERANGOON CENTRAL DRIVE #02-65 SINGAPORE 550261<br><br>Distance from input: 0.369 km</div>`)[0];
+                popup_773f04d65a009b3688ed8ef14ce174ac.setContent(html_a19c03c6a25cbd9574898157b32a90f1);
+            
+        
+
+        marker_9822bc8f705e7404f5a91226bd542fc3.bindPopup(popup_773f04d65a009b3688ed8ef14ce174ac)
+        ;
+
+        
+    
+    
+            var poly_line_2b93e87096c669b41d1a6817bcd6c156 = L.polyline(
+                [[1.3507, 103.87215], [1.3526188, 103.8731309]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var poly_line_ab28255dc217bdadc8b1b7fabb6c17cd = L.polyline(
+                [[1.3507, 103.87215], [1.3526188, 103.8731309]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var marker_f8e5c7a9f266d6e6b7a2b4ea34cb1085 = L.marker(
+                [1.3507, 103.87215],
+                {}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var icon_e06a6f30f1c530399169471823b1d519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8e5c7a9f266d6e6b7a2b4ea34cb1085.setIcon(icon_e06a6f30f1c530399169471823b1d519);
+        
+    
+        var popup_648c8af995cedbec56868a00239c1821 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8d7e8bc5c8ebf2f2b12b0855b7aac2bd = $(`<div id="html_8d7e8bc5c8ebf2f2b12b0855b7aac2bd" style="width: 100.0%; height: 100.0%;">Serangoon Central, 23, Singapore 556083</div>`)[0];
+                popup_648c8af995cedbec56868a00239c1821.setContent(html_8d7e8bc5c8ebf2f2b12b0855b7aac2bd);
+            
+        
+
+        marker_f8e5c7a9f266d6e6b7a2b4ea34cb1085.bindPopup(popup_648c8af995cedbec56868a00239c1821)
+        ;
+
+        
+    
+    
+            var circle_e1093ff6fc9e17e8f7747f432182bdd1 = L.circle(
+                [1.3507, 103.87215],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_137220a508ec47647355fcf73fa66fd1);
+        
+    
+            var measure_control_17d99885f2043c766ffebbbeab6ca8bc = new L.Control.Measure(
+                {"activeColor": "blue", "position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "kilometers", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_137220a508ec47647355fcf73fa66fd1.addControl(measure_control_17d99885f2043c766ffebbbeab6ca8bc);
+
+        
+</script>
+</html>

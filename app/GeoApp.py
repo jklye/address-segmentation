@@ -1,11 +1,9 @@
-import math
-import os
 import pandas as pd
 import numpy as np
 import spacy
-from geopy.geocoders import Nominatim
 from geopy import distance
 import pgeocode
+import os
 import ssl
 
 import folium
@@ -41,46 +39,9 @@ class GeoApp(QMainWindow):
         self.central_widget = QWidget()
         self.layout = QVBoxLayout()
 
-        address_layout = QHBoxLayout()
-        self.label_address = QLabel("Enter source address:")
-        self.input_address = QLineEdit()
-        self.input_address.setPlaceholderText("E.g. 123 ABC Road Singapore 987123")
-        self.input_address.setFixedWidth(1500)
-        address_layout.setContentsMargins(20, 0, 20, 0)
-
-        address_layout.addWidget(self.label_address)
-        address_layout.addWidget(self.input_address)
-
-        proximity_layout = QHBoxLayout()
-        self.label_proximity = QLabel("Enter the proximity threshold (in km):")
-        self.input_proximity = QLineEdit()
-        self.input_proximity.setPlaceholderText("E.g. 2")
-        self.input_proximity.setFixedWidth(1500)
-        proximity_layout.setContentsMargins(20, 0, 20, 0)
-
-        proximity_layout.addWidget(self.label_proximity)
-        proximity_layout.addWidget(self.input_proximity)
-        
-        maptype_layout = QHBoxLayout()
-        self.label_maptype = QLabel("Select map type:")
-        self.input_maptype = QComboBox()
-        self.input_maptype.addItem("Heat Density")
-        self.input_maptype.addItem("Clusters")
-        self.input_maptype.addItem("Proximity")
-        self.input_maptype.setFixedWidth(300)
-        maptype_layout.setContentsMargins(20, 0, 1015, 0)
-
-        self.button_default = QPushButton("Set Default Region")
-        self.button_default.setFixedWidth(200)
-        self.button_default.clicked.connect(self.set_default_user_input)
-
-        maptype_layout.addWidget(self.label_maptype)
-        maptype_layout.addWidget(self.input_maptype)
-        maptype_layout.addWidget(self.button_default)
-
-        self.layout.addLayout(address_layout)
-        self.layout.addLayout(proximity_layout)
-        self.layout.addLayout(maptype_layout)
+        self.setup_address_input_layout()
+        self.setup_proximity_input_layout()
+        self.setup_maptype_input_layout()
 
         self.button_ok = QPushButton("Enter")
         self.button_ok.setFixedSize(300, 40)
@@ -104,6 +65,62 @@ class GeoApp(QMainWindow):
         self.showMaximized()
 
 
+    def setup_address_input_layout(self):
+        '''
+        Set up the address input section in the GUI.
+        '''
+        address_layout = QHBoxLayout()
+        self.label_address = QLabel("Enter source address:")
+        self.input_address = QLineEdit()
+        self.input_address.setPlaceholderText("E.g. 123 ABC Road Singapore 987123")
+        self.input_address.setFixedWidth(1500)
+        address_layout.setContentsMargins(20, 0, 20, 0)
+
+        address_layout.addWidget(self.label_address)
+        address_layout.addWidget(self.input_address)
+
+        self.layout.addLayout(address_layout)
+
+    def setup_proximity_input_layout(self):
+        '''
+        Set up the proximity input section in the GUI.
+        '''
+        proximity_layout = QHBoxLayout()
+        self.label_proximity = QLabel("Enter the proximity threshold (in km):")
+        self.input_proximity = QLineEdit()
+        self.input_proximity.setPlaceholderText("E.g. 2")
+        self.input_proximity.setFixedWidth(1500)
+        proximity_layout.setContentsMargins(20, 0, 20, 0)
+
+        proximity_layout.addWidget(self.label_proximity)
+        proximity_layout.addWidget(self.input_proximity)
+
+        self.layout.addLayout(proximity_layout)
+
+    def setup_maptype_input_layout(self):
+        '''
+        Set up the analysis type input dropdown and set default region button in the GUI.
+        '''
+        maptype_layout = QHBoxLayout()
+        self.label_maptype = QLabel("Select type of analysis:")
+        self.input_maptype = QComboBox()
+        self.input_maptype.addItem("Heat Density")
+        self.input_maptype.addItem("Clusters")
+        self.input_maptype.addItem("Proximity")
+        self.input_maptype.setFixedWidth(300)
+        maptype_layout.setContentsMargins(20, 0, 1015, 0)
+
+        self.button_default = QPushButton("Set Default Region")
+        self.button_default.setFixedWidth(200)
+        self.button_default.clicked.connect(self.set_default_user_input)
+
+        maptype_layout.addWidget(self.label_maptype)
+        maptype_layout.addWidget(self.input_maptype)
+        maptype_layout.addWidget(self.button_default)
+
+        self.layout.addLayout(maptype_layout)
+
+
     def load_location_data(self):
         """
         Load the location data from the path.
@@ -124,6 +141,7 @@ class GeoApp(QMainWindow):
         '''
         # centre of Singapore
         self.input_address.setText("601 ISLAND CLUB ROAD SINGAPORE 578775")
+        # set radius to cover Singapore region
         self.input_proximity.setText("20")
 
 
@@ -131,6 +149,7 @@ class GeoApp(QMainWindow):
         '''
         Process user input for map type, source address, and proximity threshold.
         '''
+        # Take in user input
         input_address = self.input_address.text()
         proximity_threshold = self.input_proximity.text()
         map_type = self.input_maptype.currentText()
@@ -145,6 +164,7 @@ class GeoApp(QMainWindow):
             postal_code = self.extract_postal_code(input_address)
             user_location = self.address_to_lat_long(postal_code, 'pgeocode')
 
+            # Postal code is extracted from the input address
             if user_location is not None:
                 user_latitude, user_longitude = user_location.latitude, user_location.longitude
                 location_in_sg = self.check_location_in_sg(user_latitude, user_longitude)
