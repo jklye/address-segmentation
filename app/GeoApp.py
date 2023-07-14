@@ -140,7 +140,7 @@ class GeoApp(QMainWindow):
 
     def set_default_user_input(self):
         '''
-        Sets default user input address as centre of Singapore and proximity as Singapore boundary
+        Sets default user input address as centre of Singapore and proximity as Singapore boundary.
         '''
         # centre of Singapore
         self.input_address.setText("601 ISLAND CLUB ROAD SINGAPORE 578775")
@@ -256,7 +256,7 @@ class GeoApp(QMainWindow):
 
     def display_error_message(self, message):
         """
-        Display an error message.
+        Display a pop up error message.
 
         Args:
             message (str): The error message to display.
@@ -397,9 +397,9 @@ class GeoApp(QMainWindow):
         """
         heat_data = df[['latitude', 'longitude']].values
         HeatMap(heat_data,
-                       radius=15,
-                       blur=10,
-                       min_opacity=0.4).add_to(m)
+                radius=15,
+                blur=10,
+                min_opacity=0.4).add_to(m)
         
     
     def add_clusters_to_map(self, m, df):
