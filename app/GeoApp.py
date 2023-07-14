@@ -29,8 +29,10 @@ class GeoApp(QMainWindow):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
         self.locations_file = os.path.join(self.current_dir, "data", "locations.pkl")
         self.model_path = os.path.join(self.current_dir, "models", "model-best-sg")
+        # self.model_foreign_path = os.path.join(self.current_dir, "models", "model-best-foreign")
         self.location_data = None
         self.nlp = None
+        # self.nlp_foreign = None
 
         # Initialize GUI
         self.setWindowTitle("GeoApp")
@@ -133,6 +135,7 @@ class GeoApp(QMainWindow):
         Load the trained spacy model from the path.
         '''
         self.nlp = spacy.load(self.model_path)
+        # self.nlp_foreign = spacy.load(self.model_foreign_path)
 
 
     def set_default_user_input(self):
@@ -186,7 +189,7 @@ class GeoApp(QMainWindow):
                     else:
                         # Display map without any filtered locations
                         self.display_map(
-                            None, input_address, user_latitude, user_longitude, proximity_threshold
+                            None, input_address, user_latitude, user_longitude, proximity_threshold, map_type
                         )
                         self.display_error_message("No locations found within the specified proximity.")
                 else:
@@ -285,6 +288,16 @@ class GeoApp(QMainWindow):
             if ent_label == "POSTAL_CODE":
                 postal_code = ent_text
                 break
+        
+        # # Unable to extract postal code using sg model - check using foreign model
+        # if postal_code is None:
+        #     doc_foreign = self.nlp_foreign(input_address)
+        #     ent_list = [(ent.text, ent.label_) for ent in doc_foreign.ents]
+        #     postal_code = None
+        #     for ent_text, ent_label in ent_list:
+        #         if ent_label == "ZIPCODE":
+        #             postal_code = ent_text
+        #             break
 
         return postal_code
     
@@ -302,7 +315,7 @@ class GeoApp(QMainWindow):
         """
             
         # pgeocode method for local
-        if geo_service=='pgeocode':   
+        if geo_service=='pgeocode':
             ssl._create_default_https_context = ssl._create_unverified_context # workaround in order to use pgeocode    
             geolocator = pgeocode.Nominatim('sg')
             location = geolocator.query_postal_code(postal_code)
@@ -310,7 +323,7 @@ class GeoApp(QMainWindow):
                 print(f"\n[pgeocode] Postal code: {postal_code}, coordinates: ({location.latitude}, {location.longitude})")
                 return location
         
-        # # geopy method for foreign
+        # geopy method for foreign
         # elif geo_service=='geopy':
         #     geolocator = Nominatim(user_agent="myGeocoder")
         #     location = geolocator.geocode(postal_code)
