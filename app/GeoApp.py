@@ -190,7 +190,7 @@ class GeoApp(QMainWindow):
                 else:
                     self.display_error_message("Unable to retrieve valid coordinates in Singapore")
             else:
-                self.display_error_message("Unable to retrieve coordinates for the address")
+                self.display_error_message("Unable to retrieve coordinates for the address in Singapore")
 
 
 
@@ -585,7 +585,7 @@ class GeoApp(QMainWindow):
                 ).km <= proximity_threshold,
                 axis=1
             )
-        ]
+        ].copy()
 
         if not filtered_locations.empty:
             # Sort the filtered locations by proximity
