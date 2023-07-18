@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5d4746b13d175a54b341a003041147f2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5d4746b13d175a54b341a003041147f2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5d4746b13d175a54b341a003041147f2 = L.map(
+                "map_5d4746b13d175a54b341a003041147f2",
+                {
+                    center: [1.4296, 103.836],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e46fe110b9f06f3dd4d4be0222d143c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var marker_f5682ea4c01c60a29a29f3c3e6f52d90 = L.marker(
+                [1.4253108, 103.8367868],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_70d205989dc62f4f1366a065f0bb4f16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5682ea4c01c60a29a29f3c3e6f52d90.setIcon(icon_70d205989dc62f4f1366a065f0bb4f16);
+        
+    
+        var popup_9b81e05cd78b3ffeef81f412ff65ac3f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e7128863864dbbda7d255710620dc021 = $(`<div id="html_e7128863864dbbda7d255710620dc021" style="width: 100.0%; height: 100.0%;">935 #11-92 YISHUN CENTRAL 1 SINGAPORE 760935<br><br>Distance from input: 0.482 km</div>`)[0];
+                popup_9b81e05cd78b3ffeef81f412ff65ac3f.setContent(html_e7128863864dbbda7d255710620dc021);
+            
+        
+
+        marker_f5682ea4c01c60a29a29f3c3e6f52d90.bindPopup(popup_9b81e05cd78b3ffeef81f412ff65ac3f)
+        ;
+
+        
+    
+    
+            var marker_cbcad67545d837987f1bb4c8f164e2ac = L.marker(
+                [1.425847, 103.8317385],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_ad4c338962672d9b671bcc12fabe8bce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cbcad67545d837987f1bb4c8f164e2ac.setIcon(icon_ad4c338962672d9b671bcc12fabe8bce);
+        
+    
+        var popup_44d7e6af68a5f3bd9869726fc4200e10 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5c57ef1d6b86442082e43e18fdd7d8a7 = $(`<div id="html_5c57ef1d6b86442082e43e18fdd7d8a7" style="width: 100.0%; height: 100.0%;">729 #09-02 YISHUN STREET 71 ACE ACHIEVERS OUR LEARNING HUB PTE LTD SINGAPORE 760729<br><br>Distance from input: 0.630 km</div>`)[0];
+                popup_44d7e6af68a5f3bd9869726fc4200e10.setContent(html_5c57ef1d6b86442082e43e18fdd7d8a7);
+            
+        
+
+        marker_cbcad67545d837987f1bb4c8f164e2ac.bindPopup(popup_44d7e6af68a5f3bd9869726fc4200e10)
+        ;
+
+        
+    
+    
+            var marker_02088bb9e460d303a92b702226927c10 = L.marker(
+                [1.426656, 103.8372816],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_fdb670905c091dc06b0560d56c4496d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02088bb9e460d303a92b702226927c10.setIcon(icon_fdb670905c091dc06b0560d56c4496d3);
+        
+    
+        var popup_0613c82f37df536c1c8cfed4ecd93f6b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_192d9d67b8c4655de9e2f9eeaa4551d5 = $(`<div id="html_192d9d67b8c4655de9e2f9eeaa4551d5" style="width: 100.0%; height: 100.0%;">931 #04-86 YISHUN CENTRAL 1 SINGAPORE 760931<br><br>Distance from input: 0.355 km</div>`)[0];
+                popup_0613c82f37df536c1c8cfed4ecd93f6b.setContent(html_192d9d67b8c4655de9e2f9eeaa4551d5);
+            
+        
+
+        marker_02088bb9e460d303a92b702226927c10.bindPopup(popup_0613c82f37df536c1c8cfed4ecd93f6b)
+        ;
+
+        
+    
+    
+            var marker_bc1c9ea0ab9c8821564ba9003880c145 = L.marker(
+                [1.4273101, 103.8417206],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_487b2967817af511175c8cd850d98881 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc1c9ea0ab9c8821564ba9003880c145.setIcon(icon_487b2967817af511175c8cd850d98881);
+        
+    
+        var popup_ff590bad24bc2b187281fc89cc9a2eca = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_647c5fc70d9523efca7d81c51559e2b8 = $(`<div id="html_647c5fc70d9523efca7d81c51559e2b8" style="width: 100.0%; height: 100.0%;">348B #09-27 ADORA GREEN YISHUN AVENUE 11 SINGAPORE 762348<br><br>Distance from input: 0.685 km</div>`)[0];
+                popup_ff590bad24bc2b187281fc89cc9a2eca.setContent(html_647c5fc70d9523efca7d81c51559e2b8);
+            
+        
+
+        marker_bc1c9ea0ab9c8821564ba9003880c145.bindPopup(popup_ff590bad24bc2b187281fc89cc9a2eca)
+        ;
+
+        
+    
+    
+            var marker_559e32bde130b59b69f638461d337aeb = L.marker(
+                [1.4274512, 103.8413555],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_c9f449b93024178491d3a8be877fb281 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_559e32bde130b59b69f638461d337aeb.setIcon(icon_c9f449b93024178491d3a8be877fb281);
+        
+    
+        var popup_f67b517843172aebb705b360fd06949a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8ff12156e6021a9a52aa14562a0520a6 = $(`<div id="html_8ff12156e6021a9a52aa14562a0520a6" style="width: 100.0%; height: 100.0%;">348A YISHUN AVENUE 11 ADORA GREEN #26-29 SINGAPORE 761348<br><br>348A #20-62 ADORA GREEN YISHUN AVENUE 11 SINGAPORE 761348<br><br>348A YISHUN AVENUE 11 #28-78 ADORA GREEN SINGAPORE 761348<br><br>Distance from input: 0.642 km</div>`)[0];
+                popup_f67b517843172aebb705b360fd06949a.setContent(html_8ff12156e6021a9a52aa14562a0520a6);
+            
+        
+
+        marker_559e32bde130b59b69f638461d337aeb.bindPopup(popup_f67b517843172aebb705b360fd06949a)
+        ;
+
+        
+    
+    
+            var marker_b633bf87f0151f31035fbb8bbcbbdd50 = L.marker(
+                [1.4285625, 103.8419441],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_a0679289768d10a9b3bedaedc383b5f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b633bf87f0151f31035fbb8bbcbbdd50.setIcon(icon_a0679289768d10a9b3bedaedc383b5f0);
+        
+    
+        var popup_9e7ba3ddd9a520be109fd3eeb55ddf36 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1db8ae3d8ed22b3c751b74d38a33789b = $(`<div id="html_1db8ae3d8ed22b3c751b74d38a33789b" style="width: 100.0%; height: 100.0%;">324 YISHUN RIVERGREEN #01-35 YISHUN CENTRAL SINGAPORE 760324<br><br>Distance from input: 0.671 km</div>`)[0];
+                popup_9e7ba3ddd9a520be109fd3eeb55ddf36.setContent(html_1db8ae3d8ed22b3c751b74d38a33789b);
+            
+        
+
+        marker_b633bf87f0151f31035fbb8bbcbbdd50.bindPopup(popup_9e7ba3ddd9a520be109fd3eeb55ddf36)
+        ;
+
+        
+    
+    
+            var marker_857abf6b362dcd452d6fdc750fe1225f = L.marker(
+                [1.4287464, 103.8408678],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_f892e545984fe3d83021b04cb0e5bbbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_857abf6b362dcd452d6fdc750fe1225f.setIcon(icon_f892e545984fe3d83021b04cb0e5bbbd);
+        
+    
+        var popup_42091c01e7ae58a0c037ead818ce24ed = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9934971116a0dd510eba9efb04cfd27e = $(`<div id="html_9934971116a0dd510eba9efb04cfd27e" style="width: 100.0%; height: 100.0%;">322 YISHUN RIVERGREEN YISHUN CENTRAL #07-37 SINGAPORE 760322<br><br>Distance from input: 0.550 km</div>`)[0];
+                popup_42091c01e7ae58a0c037ead818ce24ed.setContent(html_9934971116a0dd510eba9efb04cfd27e);
+            
+        
+
+        marker_857abf6b362dcd452d6fdc750fe1225f.bindPopup(popup_42091c01e7ae58a0c037ead818ce24ed)
+        ;
+
+        
+    
+    
+            var marker_cc8c8ed843217bfa7ec9d97bd843b692 = L.marker(
+                [1.4290289, 103.8413856],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_29ba967703998d64c31bec4a1f5bb94b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc8c8ed843217bfa7ec9d97bd843b692.setIcon(icon_29ba967703998d64c31bec4a1f5bb94b);
+        
+    
+        var popup_54890c6a1937ed531c78dd358e498c69 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8ff80d715fe1942e6b40b04982831716 = $(`<div id="html_8ff80d715fe1942e6b40b04982831716" style="width: 100.0%; height: 100.0%;">321 #09-82 YISHUN CENTRAL YISHUN RIVERGREEN SINGAPORE 760321<br><br>Distance from input: 0.603 km</div>`)[0];
+                popup_54890c6a1937ed531c78dd358e498c69.setContent(html_8ff80d715fe1942e6b40b04982831716);
+            
+        
+
+        marker_cc8c8ed843217bfa7ec9d97bd843b692.bindPopup(popup_54890c6a1937ed531c78dd358e498c69)
+        ;
+
+        
+    
+    
+            var marker_f6f6c8ecf1160cdcea72aa2f167b3e9f = L.marker(
+                [1.4295994, 103.8424343],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_3299bafad9d24ef5476f798ae9c3b14b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_f6f6c8ecf1160cdcea72aa2f167b3e9f.setIcon(icon_3299bafad9d24ef5476f798ae9c3b14b);
+        
+    
+        var popup_c33b4eef055ea0d13820c9c2cf994016 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fef4255ab5869ba00b520810ae34446b = $(`<div id="html_fef4255ab5869ba00b520810ae34446b" style="width: 100.0%; height: 100.0%;">326 YISHUN RING ROAD YISHUN RIVERGREEN #08-12 SINGAPORE 760326<br><br>326 #13-97 YISHUN RIVERGREEN YISHUN RING ROAD SINGAPORE 760326<br><br>Distance from input: 0.716 km</div>`)[0];
+                popup_c33b4eef055ea0d13820c9c2cf994016.setContent(html_fef4255ab5869ba00b520810ae34446b);
+            
+        
+
+        marker_f6f6c8ecf1160cdcea72aa2f167b3e9f.bindPopup(popup_c33b4eef055ea0d13820c9c2cf994016)
+        ;
+
+        
+    
+    
+            var marker_9f8959953fa9edd211d70c5411fc4fdc = L.marker(
+                [1.4306411, 103.8443476],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_1c8f779b40e1c3ed395ad3b40a515a8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_9f8959953fa9edd211d70c5411fc4fdc.setIcon(icon_1c8f779b40e1c3ed395ad3b40a515a8f);
+        
+    
+        var popup_d4c91efc091bfe09c6b26b5fcf7b29d3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_26a7fe7811a9722f7675f1f063fbf29e = $(`<div id="html_26a7fe7811a9722f7675f1f063fbf29e" style="width: 100.0%; height: 100.0%;">342A YISHUN RING ROAD YISHUN NATURA #24-79 SINGAPORE 761342<br><br>342A YISHUN RING ROAD YISHUN NATURA #02-46 SINGAPORE 761342<br><br>Distance from input: 0.936 km</div>`)[0];
+                popup_d4c91efc091bfe09c6b26b5fcf7b29d3.setContent(html_26a7fe7811a9722f7675f1f063fbf29e);
+            
+        
+
+        marker_9f8959953fa9edd211d70c5411fc4fdc.bindPopup(popup_d4c91efc091bfe09c6b26b5fcf7b29d3)
+        ;
+
+        
+    
+    
+            var marker_1168d58a730225765fe5141dd9908850 = L.marker(
+                [1.4320344, 103.8424348],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_2ab938b341a1a62d67c3e250bece411c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1168d58a730225765fe5141dd9908850.setIcon(icon_2ab938b341a1a62d67c3e250bece411c);
+        
+    
+        var popup_8795b9298b49aec630d75f5501a9f428 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_185547ad3dba7e725370c58906d4b319 = $(`<div id="html_185547ad3dba7e725370c58906d4b319" style="width: 100.0%; height: 100.0%;">315B YISHUN GREENWALK #27-26 YISHUN AVENUE 9 SINGAPORE 762315<br><br>Distance from input: 0.765 km</div>`)[0];
+                popup_8795b9298b49aec630d75f5501a9f428.setContent(html_185547ad3dba7e725370c58906d4b319);
+            
+        
+
+        marker_1168d58a730225765fe5141dd9908850.bindPopup(popup_8795b9298b49aec630d75f5501a9f428)
+        ;
+
+        
+    
+    
+            var marker_cb34320bf5e57562394cb22affb26567 = L.marker(
+                [1.4324648, 103.8426743],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_2510fc7a4cafab2a584e9e3845ed98d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_cb34320bf5e57562394cb22affb26567.setIcon(icon_2510fc7a4cafab2a584e9e3845ed98d3);
+        
+    
+        var popup_e76f486b5b6986f07c992221abc92742 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d145f499a8964aaae873678c95ebe937 = $(`<div id="html_d145f499a8964aaae873678c95ebe937" style="width: 100.0%; height: 100.0%;">315A #16-52 YISHUN GREENWALK YISHUN AVENUE 9 SINGAPORE 761315<br><br>315A #29-59 YISHUN AVENUE 9 YISHUN GREENWALK SINGAPORE 761315<br><br>Distance from input: 0.807 km</div>`)[0];
+                popup_e76f486b5b6986f07c992221abc92742.setContent(html_d145f499a8964aaae873678c95ebe937);
+            
+        
+
+        marker_cb34320bf5e57562394cb22affb26567.bindPopup(popup_e76f486b5b6986f07c992221abc92742)
+        ;
+
+        
+    
+    
+            var marker_c5427d9a34eae89cda19ec54bca78bab = L.marker(
+                [1.4333336, 103.8427328],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_a8ee27318bdd724738d5bcdaa438b8b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5427d9a34eae89cda19ec54bca78bab.setIcon(icon_a8ee27318bdd724738d5bcdaa438b8b5);
+        
+    
+        var popup_95f3e9ef5e6373a28218e4dbfcd4a033 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a28a2ccc692104db85bdedac8140df48 = $(`<div id="html_a28a2ccc692104db85bdedac8140df48" style="width: 100.0%; height: 100.0%;">BLOCK 316A YISHUN AVENUE 9 YISHUN GREENWALK #10-33 SINGAPORE 761316<br><br>Distance from input: 0.855 km</div>`)[0];
+                popup_95f3e9ef5e6373a28218e4dbfcd4a033.setContent(html_a28a2ccc692104db85bdedac8140df48);
+            
+        
+
+        marker_c5427d9a34eae89cda19ec54bca78bab.bindPopup(popup_95f3e9ef5e6373a28218e4dbfcd4a033)
+        ;
+
+        
+    
+    
+            var marker_4fc5dbf9267c8ed4623ff4790723f55c = L.marker(
+                [1.434102, 103.840005],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_8c626a182da7473febb6be8afb4d95ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fc5dbf9267c8ed4623ff4790723f55c.setIcon(icon_8c626a182da7473febb6be8afb4d95ed);
+        
+    
+        var popup_2688ff0c8d729864079ebf2fb60d7392 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_27ab62361c55e6d5339e2d0615dc38b6 = $(`<div id="html_27ab62361c55e6d5339e2d0615dc38b6" style="width: 100.0%; height: 100.0%;">256 YISHUN SUNSHINE YISHUN RING ROAD #26-31 SINGAPORE 760256<br><br>Distance from input: 0.668 km</div>`)[0];
+                popup_2688ff0c8d729864079ebf2fb60d7392.setContent(html_27ab62361c55e6d5339e2d0615dc38b6);
+            
+        
+
+        marker_4fc5dbf9267c8ed4623ff4790723f55c.bindPopup(popup_2688ff0c8d729864079ebf2fb60d7392)
+        ;
+
+        
+    
+    
+            var marker_891e1e889e3295ee261a6e201a466617 = L.marker(
+                [1.4341347, 103.8371933],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_452afd7b20e6f35c23ac71acf6ecde73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_891e1e889e3295ee261a6e201a466617.setIcon(icon_452afd7b20e6f35c23ac71acf6ecde73);
+        
+    
+        var popup_8414838c290d5f15ed14a071e480e8b9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_477bf60cd1404a68b18f0112dc427af6 = $(`<div id="html_477bf60cd1404a68b18f0112dc427af6" style="width: 100.0%; height: 100.0%;">231 #06-93 YISHUN STREET 21 SINGAPORE 760231<br><br>Distance from input: 0.519 km</div>`)[0];
+                popup_8414838c290d5f15ed14a071e480e8b9.setContent(html_477bf60cd1404a68b18f0112dc427af6);
+            
+        
+
+        marker_891e1e889e3295ee261a6e201a466617.bindPopup(popup_8414838c290d5f15ed14a071e480e8b9)
+        ;
+
+        
+    
+    
+            var marker_19b33b37b53bef0ce877e111e44291a2 = L.marker(
+                [1.4345938, 103.8430013],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_23de4dabe50e45e043d982ea95910acc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19b33b37b53bef0ce877e111e44291a2.setIcon(icon_23de4dabe50e45e043d982ea95910acc);
+        
+    
+        var popup_de5898bc08264c716f940ddd1ee6834e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9a2a6d4909728328f50afbb0d41082cb = $(`<div id="html_9a2a6d4909728328f50afbb0d41082cb" style="width: 100.0%; height: 100.0%;">317A YISHUN GREENWALK #09-86 YISHUN AVENUE 9 SINGAPORE 761317<br><br>Distance from input: 0.955 km</div>`)[0];
+                popup_de5898bc08264c716f940ddd1ee6834e.setContent(html_9a2a6d4909728328f50afbb0d41082cb);
+            
+        
+
+        marker_19b33b37b53bef0ce877e111e44291a2.bindPopup(popup_de5898bc08264c716f940ddd1ee6834e)
+        ;
+
+        
+    
+    
+            var marker_c64448b5410b8d5e54ac8bb9874e0794 = L.marker(
+                [1.4358399, 103.8384081],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_9628e3957f0ec6935506c8531eccad8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c64448b5410b8d5e54ac8bb9874e0794.setIcon(icon_9628e3957f0ec6935506c8531eccad8f);
+        
+    
+        var popup_6015f9870d68852b4a027bc030db5614 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f2c888414593b1783d91ed3ec4095cd6 = $(`<div id="html_f2c888414593b1783d91ed3ec4095cd6" style="width: 100.0%; height: 100.0%;">264 #02-38 YISHUN STREET 22 SINGAPORE 760264<br><br>Distance from input: 0.740 km</div>`)[0];
+                popup_6015f9870d68852b4a027bc030db5614.setContent(html_f2c888414593b1783d91ed3ec4095cd6);
+            
+        
+
+        marker_c64448b5410b8d5e54ac8bb9874e0794.bindPopup(popup_6015f9870d68852b4a027bc030db5614)
+        ;
+
+        
+    
+    
+            var poly_line_6bf077e3bd0ea5f6db5546c8988905b1 = L.polyline(
+                [[1.4296, 103.836], [1.426656, 103.8372816]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var marker_8f97a6574ced0bc8e59065d84a70b2d2 = L.marker(
+                [1.4296, 103.836],
+                {}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var icon_a3d4814983d00a40e3765b31cc3d1cc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f97a6574ced0bc8e59065d84a70b2d2.setIcon(icon_a3d4814983d00a40e3765b31cc3d1cc1);
+        
+    
+        var popup_d96bc905e1c14adda18be1c5679e18cc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ac10a797deef50ac24b33dc638f5bc17 = $(`<div id="html_ac10a797deef50ac24b33dc638f5bc17" style="width: 100.0%; height: 100.0%;">930 Yishun Ave 2, Singapore 769098</div>`)[0];
+                popup_d96bc905e1c14adda18be1c5679e18cc.setContent(html_ac10a797deef50ac24b33dc638f5bc17);
+            
+        
+
+        marker_8f97a6574ced0bc8e59065d84a70b2d2.bindPopup(popup_d96bc905e1c14adda18be1c5679e18cc)
+        ;
+
+        
+    
+    
+            var circle_3103bf700672789a0c14216a7842bc5c = L.circle(
+                [1.4296, 103.836],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d4746b13d175a54b341a003041147f2);
+        
+    
+            var measure_control_4f40bce9ec1c18e33ffafcadbfff134f = new L.Control.Measure(
+                {"activeColor": "blue", "position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "kilometers", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_5d4746b13d175a54b341a003041147f2.addControl(measure_control_4f40bce9ec1c18e33ffafcadbfff134f);
+
+        
+</script>
+</html>

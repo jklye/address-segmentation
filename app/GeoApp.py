@@ -272,7 +272,8 @@ class GeoApp(QMainWindow):
         Convert an address to latitude and longitude coordinates.
 
         Args:
-            address (str): The address to convert.
+            postal_code (str): The address to convert.
+            geo_service (str): The library to use.
 
         Returns:
             geopy.location.Location: The location object containing latitude and longitude coordinates, 

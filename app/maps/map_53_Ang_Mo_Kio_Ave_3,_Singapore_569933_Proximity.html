@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9680874ea872fb939d2a702f73dcf9c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9680874ea872fb939d2a702f73dcf9c9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9680874ea872fb939d2a702f73dcf9c9 = L.map(
+                "map_9680874ea872fb939d2a702f73dcf9c9",
+                {
+                    center: [1.3692, 103.8485],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d68204f07d7d9df107a065090e538f54 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var marker_05d4d16c56f8ef8bb4869914e08df21c = L.marker(
+                [1.3666228, 103.8478704],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_202cea60173f7811dd36232adc5e989d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_05d4d16c56f8ef8bb4869914e08df21c.setIcon(icon_202cea60173f7811dd36232adc5e989d);
+        
+    
+        var popup_5dbc8734726b020d638f65a25dcedd44 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6da97c8a343f368972053f57d43bdf0b = $(`<div id="html_6da97c8a343f368972053f57d43bdf0b" style="width: 100.0%; height: 100.0%;">328 #11-72 ANG MO KIO AVENUE 3 ANG MO KIO 31 SINGAPORE 560328<br><br>328 #20-33 ANG MO KIO 31 ANG MO KIO AVENUE 3 SINGAPORE 560328<br><br>328 #03-43 ANG MO KIO AVENUE 3 ANG MO KIO 31 SINGAPORE 560328<br><br>Distance from input: 0.293 km</div>`)[0];
+                popup_5dbc8734726b020d638f65a25dcedd44.setContent(html_6da97c8a343f368972053f57d43bdf0b);
+            
+        
+
+        marker_05d4d16c56f8ef8bb4869914e08df21c.bindPopup(popup_5dbc8734726b020d638f65a25dcedd44)
+        ;
+
+        
+    
+    
+            var marker_6b18d14170e80566ef1364dc4fbf1e7c = L.marker(
+                [1.3670586, 103.8469831],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_81fbf81181c8210a05d16b877ef24b3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_6b18d14170e80566ef1364dc4fbf1e7c.setIcon(icon_81fbf81181c8210a05d16b877ef24b3d);
+        
+    
+        var popup_5fedb6a257594eba82f2c23412365492 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3d3156668d61ca6e0ffab63f1836efe6 = $(`<div id="html_3d3156668d61ca6e0ffab63f1836efe6" style="width: 100.0%; height: 100.0%;">327 ANG MO KIO AVENUE 3 ANG MO KIO 31 #13-12 SINGAPORE 560327<br><br>327 ANG MO KIO AVENUE 3 ANG MO KIO 31 #24-45 SINGAPORE 560327<br><br>Distance from input: 0.291 km</div>`)[0];
+                popup_5fedb6a257594eba82f2c23412365492.setContent(html_3d3156668d61ca6e0ffab63f1836efe6);
+            
+        
+
+        marker_6b18d14170e80566ef1364dc4fbf1e7c.bindPopup(popup_5fedb6a257594eba82f2c23412365492)
+        ;
+
+        
+    
+    
+            var marker_4ce845379eeee53a67a7b80603f69820 = L.marker(
+                [1.3670769, 103.8496671],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_38bca771779bc8e0a92a69c32064b512 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ce845379eeee53a67a7b80603f69820.setIcon(icon_38bca771779bc8e0a92a69c32064b512);
+        
+    
+        var popup_e62d70a8ca005148166ec2024e141045 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6515fb96b2132b52e0dc8c5b0e4d8286 = $(`<div id="html_6515fb96b2132b52e0dc8c5b0e4d8286" style="width: 100.0%; height: 100.0%;">346 TECK GHEE EVERGREEN #22-17 ANG MO KIO AVENUE 3 SINGAPORE 560346<br><br>Distance from input: 0.268 km</div>`)[0];
+                popup_e62d70a8ca005148166ec2024e141045.setContent(html_6515fb96b2132b52e0dc8c5b0e4d8286);
+            
+        
+
+        marker_4ce845379eeee53a67a7b80603f69820.bindPopup(popup_e62d70a8ca005148166ec2024e141045)
+        ;
+
+        
+    
+    
+            var marker_0aef65e88a6ba77a67becce26f4e4f17 = L.marker(
+                [1.3670861, 103.8478967],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_d04c666d583a569d6c5e5d3c6aedb72d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0aef65e88a6ba77a67becce26f4e4f17.setIcon(icon_d04c666d583a569d6c5e5d3c6aedb72d);
+        
+    
+        var popup_e562c4eb20c608644014c7470028030e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_14f18da9dd67022f7b03148e241d6ec9 = $(`<div id="html_14f18da9dd67022f7b03148e241d6ec9" style="width: 100.0%; height: 100.0%;">326 ANG MO KIO AVENUE 3 ANG MO KIO 31 #13-14 SINGAPORE 560326<br><br>Distance from input: 0.243 km</div>`)[0];
+                popup_e562c4eb20c608644014c7470028030e.setContent(html_14f18da9dd67022f7b03148e241d6ec9);
+            
+        
+
+        marker_0aef65e88a6ba77a67becce26f4e4f17.bindPopup(popup_e562c4eb20c608644014c7470028030e)
+        ;
+
+        
+    
+    
+            var marker_4967304b3bf2f462c4a897c8629a53eb = L.marker(
+                [1.3679809, 103.8492618],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_c1bd1f9076f671f127e399406dad8766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4967304b3bf2f462c4a897c8629a53eb.setIcon(icon_c1bd1f9076f671f127e399406dad8766);
+        
+    
+        var popup_eee4b7f9b53269c14b70b1691da95482 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9fc2251ea20f07db26612d92ba48b75c = $(`<div id="html_9fc2251ea20f07db26612d92ba48b75c" style="width: 100.0%; height: 100.0%;">344 TECK GHEE EVERGREEN #26-11 ANG MO KIO AVENUE 3 SINGAPORE 560344<br><br>Distance from input: 0.159 km</div>`)[0];
+                popup_eee4b7f9b53269c14b70b1691da95482.setContent(html_9fc2251ea20f07db26612d92ba48b75c);
+            
+        
+
+        marker_4967304b3bf2f462c4a897c8629a53eb.bindPopup(popup_eee4b7f9b53269c14b70b1691da95482)
+        ;
+
+        
+    
+    
+            var marker_acdf49c4ba3a5d7e3f9243fd45ee5e06 = L.marker(
+                [1.3683445, 103.8477441],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_741878c1de47b0adf7667dc85577839b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_acdf49c4ba3a5d7e3f9243fd45ee5e06.setIcon(icon_741878c1de47b0adf7667dc85577839b);
+        
+    
+        var popup_88b5fea7a9c086896f645af5ba194a9a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c86680c25f29b50fb9a328d033191043 = $(`<div id="html_c86680c25f29b50fb9a328d033191043" style="width: 100.0%; height: 100.0%;">322 ANG MO KIO AVENUE 3 #22-23 ANG MO KIO 31 SINGAPORE 560322<br><br>Distance from input: 0.127 km</div>`)[0];
+                popup_88b5fea7a9c086896f645af5ba194a9a.setContent(html_c86680c25f29b50fb9a328d033191043);
+            
+        
+
+        marker_acdf49c4ba3a5d7e3f9243fd45ee5e06.bindPopup(popup_88b5fea7a9c086896f645af5ba194a9a)
+        ;
+
+        
+    
+    
+            var marker_9838d510a78a57171ca56efc0e21b230 = L.marker(
+                [1.3684135, 103.8491503],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_ee3f47578a575d63aaad9c7d231ac093 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9838d510a78a57171ca56efc0e21b230.setIcon(icon_ee3f47578a575d63aaad9c7d231ac093);
+        
+    
+        var popup_419e783907618029b78ca1821c78b79b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_abb68ebb1c02e440c73093bb4d6f929b = $(`<div id="html_abb68ebb1c02e440c73093bb4d6f929b" style="width: 100.0%; height: 100.0%;">343 #03-01 ANG MO KIO AVENUE 3 TECK GHEE EVERGREEN SINGAPORE 560343<br><br>Distance from input: 0.113 km</div>`)[0];
+                popup_419e783907618029b78ca1821c78b79b.setContent(html_abb68ebb1c02e440c73093bb4d6f929b);
+            
+        
+
+        marker_9838d510a78a57171ca56efc0e21b230.bindPopup(popup_419e783907618029b78ca1821c78b79b)
+        ;
+
+        
+    
+    
+            var marker_347d464ed2eda6a9d100a6829d90842f = L.marker(
+                [1.368603, 103.8508202],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_ff670ff88a874c890c0a22d153e969c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_347d464ed2eda6a9d100a6829d90842f.setIcon(icon_ff670ff88a874c890c0a22d153e969c7);
+        
+    
+        var popup_5dbfffdaefa30cf4cfd586b36a4b9c8a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_16d87119a910dcd6b531c019707354ca = $(`<div id="html_16d87119a910dcd6b531c019707354ca" style="width: 100.0%; height: 100.0%;">424 #17-60 ANG MO KIO AVENUE 3 CHONG BOON VIEW SINGAPORE 560424<br><br>424 #14-79 ANG MO KIO AVENUE 3 CHONG BOON VIEW SINGAPORE 560424<br><br>Distance from input: 0.267 km</div>`)[0];
+                popup_5dbfffdaefa30cf4cfd586b36a4b9c8a.setContent(html_16d87119a910dcd6b531c019707354ca);
+            
+        
+
+        marker_347d464ed2eda6a9d100a6829d90842f.bindPopup(popup_5dbfffdaefa30cf4cfd586b36a4b9c8a)
+        ;
+
+        
+    
+    
+            var marker_ec91b065163751315c9fb005f20a71d3 = L.marker(
+                [1.36970015, 103.84607015],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_e5241bf922ddc7715b4cb6b9e4970e58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec91b065163751315c9fb005f20a71d3.setIcon(icon_e5241bf922ddc7715b4cb6b9e4970e58);
+        
+    
+        var popup_4b171cb72f764420b93b32eb010418df = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_29480da46620f6d55d6b143df7249268 = $(`<div id="html_29480da46620f6d55d6b143df7249268" style="width: 100.0%; height: 100.0%;">700A AMK CENTRAL HEIGHTS ANG MO KIO AVENUE 6 #16-88 SINGAPORE 561700<br><br>Distance from input: 0.276 km</div>`)[0];
+                popup_4b171cb72f764420b93b32eb010418df.setContent(html_29480da46620f6d55d6b143df7249268);
+            
+        
+
+        marker_ec91b065163751315c9fb005f20a71d3.bindPopup(popup_4b171cb72f764420b93b32eb010418df)
+        ;
+
+        
+    
+    
+            var poly_line_601b9e6e5863009d6f1e30cb1da40ad6 = L.polyline(
+                [[1.3692, 103.8485], [1.3684135, 103.8491503]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var marker_d8ebacaf4208316d9b2024519b81e43c = L.marker(
+                [1.3692, 103.8485],
+                {}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var icon_e416c6326504c2d3e495299b47902c0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-location-dot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8ebacaf4208316d9b2024519b81e43c.setIcon(icon_e416c6326504c2d3e495299b47902c0b);
+        
+    
+        var popup_f5485b45586a8d183c88906b4ce05bde = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7716c001ef569034c677021b27300d80 = $(`<div id="html_7716c001ef569034c677021b27300d80" style="width: 100.0%; height: 100.0%;">53 Ang Mo Kio Ave 3, Singapore 569933</div>`)[0];
+                popup_f5485b45586a8d183c88906b4ce05bde.setContent(html_7716c001ef569034c677021b27300d80);
+            
+        
+
+        marker_d8ebacaf4208316d9b2024519b81e43c.bindPopup(popup_f5485b45586a8d183c88906b4ce05bde)
+        ;
+
+        
+    
+    
+            var circle_99cd0fa82319bb91601b6889ca2afa8d = L.circle(
+                [1.3692, 103.8485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300.0, "stroke": true, "weight": 3}
+            ).addTo(map_9680874ea872fb939d2a702f73dcf9c9);
+        
+    
+            var measure_control_c5c094c869defe0d83104997c8e8bbca = new L.Control.Measure(
+                {"activeColor": "blue", "position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "kilometers", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_9680874ea872fb939d2a702f73dcf9c9.addControl(measure_control_c5c094c869defe0d83104997c8e8bbca);
+
+        
+</script>
+</html>
