@@ -324,7 +324,7 @@ class GeoApp(QMainWindow):
                 print(f"\n[pgeocode] Postal code: {postal_code}, coordinates: ({location.latitude}, {location.longitude})")
                 return location
         
-        # geopy method for foreign
+        # geopy method
         # elif geo_service=='geopy':
         #     geolocator = Nominatim(user_agent="myGeocoder")
         #     location = geolocator.geocode(postal_code)
