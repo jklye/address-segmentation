@@ -1,21 +1,20 @@
-import math
-import os
 import pandas as pd
 import numpy as np
 import spacy
-from geopy.geocoders import Nominatim
 from geopy import distance
+from geopy.geocoders import Nominatim
 import pgeocode
+import os
 import ssl
 
 import folium
-from folium.plugins import HeatMap, MarkerCluster, MeasureControl
-from folium.features import DivIcon
+from folium.plugins import HeatMap, MarkerCluster
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton, QMessageBox
-from PyQt5.QtWidgets import QVBoxLayout, QComboBox, QFormLayout, QHBoxLayout
+from PyQt5.QtWidgets import QVBoxLayout, QComboBox, QHBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-from PyQt5.QtCore import QUrl, Qt
+from PyQt5.QtCore import QUrl
 from PyQt5.QtGui import QIcon
+
 
 class GeoApp(QMainWindow):
 
@@ -29,58 +28,22 @@ class GeoApp(QMainWindow):
         # TODO: Edit path to database and model accordingly
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
         self.locations_file = os.path.join(self.current_dir, "data", "locations.pkl")
-        self.model_path = os.path.join(self.current_dir, "models", "model-best")
+        self.model_path = os.path.join(self.current_dir, "models", "model-best-sg")
+        # self.model_foreign_path = os.path.join(self.current_dir, "models", "model-best-foreign")
         self.location_data = None
         self.nlp = None
+        # self.nlp_foreign = None
 
         # Initialize GUI
         self.setWindowTitle("GeoApp")
         self.setWindowIcon(QIcon("misc/map_icon.png"))
-        self.setGeometry(100, 100, 800, 600)
 
         self.central_widget = QWidget()
         self.layout = QVBoxLayout()
 
-        address_layout = QHBoxLayout()
-        self.label_address = QLabel("Enter source address:")
-        self.input_address = QLineEdit()
-        self.input_address.setPlaceholderText("E.g. 123 ABC Road Singapore 987123")
-        self.input_address.setFixedWidth(1500)
-        address_layout.setContentsMargins(20, 0, 20, 0)
-
-        address_layout.addWidget(self.label_address)
-        address_layout.addWidget(self.input_address)
-
-        proximity_layout = QHBoxLayout()
-        self.label_proximity = QLabel("Enter the proximity threshold (in km):")
-        self.input_proximity = QLineEdit()
-        self.input_proximity.setPlaceholderText("E.g. 2")
-        self.input_proximity.setFixedWidth(1500)
-        proximity_layout.setContentsMargins(20, 0, 20, 0)
-
-        proximity_layout.addWidget(self.label_proximity)
-        proximity_layout.addWidget(self.input_proximity)
-        
-        maptype_layout = QHBoxLayout()
-        self.label_maptype = QLabel("Select map type:")
-        self.input_maptype = QComboBox()
-        self.input_maptype.addItem("Heat Density")
-        self.input_maptype.addItem("Clusters")
-        self.input_maptype.addItem("Proximity")
-        self.input_maptype.setFixedWidth(300)
-        maptype_layout.setContentsMargins(20, 0, 1010, 0)
-
-        self.button_default = QPushButton("Set Default Region")
-        self.button_default.setFixedSize(200, 30)
-        self.button_default.clicked.connect(self.set_default_user_input)
-
-        maptype_layout.addWidget(self.label_maptype)
-        maptype_layout.addWidget(self.input_maptype)
-        maptype_layout.addWidget(self.button_default)
-
-        self.layout.addLayout(address_layout)
-        self.layout.addLayout(proximity_layout)
-        self.layout.addLayout(maptype_layout)
+        self.setup_address_input_layout()
+        self.setup_proximity_input_layout()
+        self.setup_maptype_input_layout()
 
         self.button_ok = QPushButton("Enter")
         self.button_ok.setFixedSize(300, 40)
@@ -90,6 +53,7 @@ class GeoApp(QMainWindow):
         button_layout.addStretch()
         button_layout.addWidget(self.button_ok)
         button_layout.addStretch()
+        button_layout.setContentsMargins(0, 10, 0, 0)
 
         self.layout.addLayout(button_layout)
 
@@ -101,6 +65,62 @@ class GeoApp(QMainWindow):
 
         # Display GUI in full screen
         self.showMaximized()
+
+
+    def setup_address_input_layout(self):
+        '''
+        Set up the address input section in the GUI.
+        '''
+        address_layout = QHBoxLayout()
+        self.label_address = QLabel("Enter source address:")
+        self.input_address = QLineEdit()
+        self.input_address.setPlaceholderText("E.g. 123 ABC Road Singapore 987123")
+        self.input_address.setFixedWidth(1500)
+        address_layout.setContentsMargins(20, 0, 20, 0)
+
+        address_layout.addWidget(self.label_address)
+        address_layout.addWidget(self.input_address)
+
+        self.layout.addLayout(address_layout)
+
+    def setup_proximity_input_layout(self):
+        '''
+        Set up the proximity input section in the GUI.
+        '''
+        proximity_layout = QHBoxLayout()
+        self.label_proximity = QLabel("Enter the proximity threshold (in km):")
+        self.input_proximity = QLineEdit()
+        self.input_proximity.setPlaceholderText("E.g. 2")
+        self.input_proximity.setFixedWidth(1500)
+        proximity_layout.setContentsMargins(20, 0, 20, 0)
+
+        proximity_layout.addWidget(self.label_proximity)
+        proximity_layout.addWidget(self.input_proximity)
+
+        self.layout.addLayout(proximity_layout)
+
+    def setup_maptype_input_layout(self):
+        '''
+        Set up the analysis type input dropdown and set default region button in the GUI.
+        '''
+        maptype_layout = QHBoxLayout()
+        self.label_maptype = QLabel("Select type of analysis:")
+        self.input_maptype = QComboBox()
+        self.input_maptype.addItem("Heat Density")
+        self.input_maptype.addItem("Clusters")
+        self.input_maptype.addItem("Proximity")
+        self.input_maptype.setFixedWidth(300)
+        maptype_layout.setContentsMargins(20, 0, 1015, 0)
+
+        self.button_default = QPushButton("Set Default Region")
+        self.button_default.setFixedWidth(200)
+        self.button_default.clicked.connect(self.set_default_user_input)
+
+        maptype_layout.addWidget(self.label_maptype)
+        maptype_layout.addWidget(self.input_maptype)
+        maptype_layout.addWidget(self.button_default)
+
+        self.layout.addLayout(maptype_layout)
 
 
     def load_location_data(self):
@@ -115,14 +135,16 @@ class GeoApp(QMainWindow):
         Load the trained spacy model from the path.
         '''
         self.nlp = spacy.load(self.model_path)
+        # self.nlp_foreign = spacy.load(self.model_foreign_path)
 
 
     def set_default_user_input(self):
         '''
-        Sets default user input address as centre of Singapore and proximity as Singapore boundary
+        Sets default user input address as centre of Singapore and proximity as Singapore boundary.
         '''
         # centre of Singapore
         self.input_address.setText("601 ISLAND CLUB ROAD SINGAPORE 578775")
+        # set radius to cover Singapore region
         self.input_proximity.setText("20")
 
 
@@ -130,6 +152,7 @@ class GeoApp(QMainWindow):
         '''
         Process user input for map type, source address, and proximity threshold.
         '''
+        # Take in user input
         input_address = self.input_address.text()
         proximity_threshold = self.input_proximity.text()
         map_type = self.input_maptype.currentText()
@@ -141,9 +164,11 @@ class GeoApp(QMainWindow):
             self.load_location_data()
             self.load_spacy_model()
 
+            # Current implementation allows for analysis within Singapore only (use of pgeocode requires country input 'sg')
             postal_code = self.extract_postal_code(input_address)
             user_location = self.address_to_lat_long(postal_code, 'pgeocode')
 
+            # Postal code is extracted from the input address
             if user_location is not None:
                 user_latitude, user_longitude = user_location.latitude, user_location.longitude
                 location_in_sg = self.check_location_in_sg(user_latitude, user_longitude)
@@ -164,13 +189,13 @@ class GeoApp(QMainWindow):
                     else:
                         # Display map without any filtered locations
                         self.display_map(
-                            None, input_address, user_latitude, user_longitude, proximity_threshold
+                            None, input_address, user_latitude, user_longitude, proximity_threshold, map_type
                         )
                         self.display_error_message("No locations found within the specified proximity.")
                 else:
                     self.display_error_message("Unable to retrieve valid coordinates in Singapore")
             else:
-                self.display_error_message("Unable to retrieve coordinates for the address")
+                self.display_error_message("Unable to retrieve coordinates for the address in Singapore")
 
 
 
@@ -231,7 +256,7 @@ class GeoApp(QMainWindow):
 
     def display_error_message(self, message):
         """
-        Display an error message.
+        Display a pop up error message.
 
         Args:
             message (str): The error message to display.
@@ -263,6 +288,16 @@ class GeoApp(QMainWindow):
             if ent_label == "POSTAL_CODE":
                 postal_code = ent_text
                 break
+        
+        # # Unable to extract postal code using sg model - check using foreign model
+        # if postal_code is None:
+        #     doc_foreign = self.nlp_foreign(input_address)
+        #     ent_list = [(ent.text, ent.label_) for ent in doc_foreign.ents]
+        #     postal_code = None
+        #     for ent_text, ent_label in ent_list:
+        #         if ent_label == "ZIPCODE":
+        #             postal_code = ent_text
+        #             break
 
         return postal_code
     
@@ -280,14 +315,22 @@ class GeoApp(QMainWindow):
             or None if the coordinates could not be retrieved.
         """
             
-        # pgeocode method
-        if geo_service=='pgeocode':   
-            ssl._create_default_https_context = ssl._create_unverified_context # workaround to use pgeocode    
+        # pgeocode method for local
+        if geo_service=='pgeocode':
+            ssl._create_default_https_context = ssl._create_unverified_context # workaround in order to use pgeocode    
             geolocator = pgeocode.Nominatim('sg')
             location = geolocator.query_postal_code(postal_code)
             if not location.empty:
                 print(f"\n[pgeocode] Postal code: {postal_code}, coordinates: ({location.latitude}, {location.longitude})")
                 return location
+        
+        # geopy method for foreign
+        # elif geo_service=='geopy':
+        #     geolocator = Nominatim(user_agent="myGeocoder")
+        #     location = geolocator.geocode(postal_code)
+        #     if location is not None:
+        #         print("[geopy___] Postal code: " + str(postal_code) + ", Result: (" + str(location.latitude) + ", " + str(location.longitude) + ")")
+        #         return location
             
         # can introduce fallback in the future (alternative APIs or geocoding services) to improve geocoding
         else:
@@ -355,9 +398,9 @@ class GeoApp(QMainWindow):
         """
         heat_data = df[['latitude', 'longitude']].values
         HeatMap(heat_data,
-                       radius=15,
-                       blur=10,
-                       min_opacity=0.4).add_to(m)
+                radius=15,
+                blur=10,
+                min_opacity=0.4).add_to(m)
         
     
     def add_clusters_to_map(self, m, df):
@@ -438,7 +481,7 @@ class GeoApp(QMainWindow):
             longitude (float): The longitude of the user location.
             proximity_threshold (float): The proximity threshold in km.
         """
-        radius_meters = proximity_threshold * 1000  # Convert proximity threshold from km to meters
+        radius_meters = proximity_threshold * 1000  # Convert proximity threshold from kilometres to metres
         
         folium.Circle(
             location=[latitude, longitude],
@@ -447,10 +490,6 @@ class GeoApp(QMainWindow):
             fill_color='gray',
             fill_opacity=0.1,
         ).add_to(m)
-
-        # Add the scale control (optional feature)
-        measure_control = MeasureControl(position='topright', active_color='blue', primary_length_unit='kilometers')
-        m.add_child(measure_control)
 
 
     def add_polyline_to_map(self, m, df, latitude, longitude):
@@ -570,7 +609,7 @@ class GeoApp(QMainWindow):
                 ).km <= proximity_threshold,
                 axis=1
             )
-        ]
+        ].copy()
 
         if not filtered_locations.empty:
             # Sort the filtered locations by proximity
